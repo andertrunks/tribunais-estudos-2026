@@ -1,0 +1,93 @@
+export type Status =
+  | "nao_iniciado"
+  | "em_producao"
+  | "revisado"
+  | "questoes_adicionadas"
+  | "concluido";
+export type Vinculo =
+  "oficial" | "compartilhado" | "especifico" | "suplementar";
+export interface Conteudo {
+  id: string;
+  titulo: string;
+  materiaId: string;
+  cargoIds: string[];
+  editalRefs: string[];
+  sourceRefs: string[];
+  status: Status;
+}
+export interface Cargo {
+  id: string;
+  tribunal: string;
+  titulo: string;
+  especialidade: string;
+  editalRefs: string[];
+}
+export interface Materia {
+  id: string;
+  titulo: string;
+  descricao: string;
+  grupo: "Fundamentos" | "Direito" | "Tecnologia";
+  suplementar?: boolean;
+}
+export interface Topico extends Conteudo {
+  tipo: Vinculo;
+  aulaIds: string[];
+}
+export interface Aula extends Conteudo {
+  topicoId: string;
+  tipo: Vinculo;
+  demonstracao: boolean;
+  secoes: { titulo: string; texto: string }[];
+  extensoes: { cargoId: string; texto: string }[];
+}
+export interface EditalReferencia {
+  id: string;
+  cargoId: string;
+  url: string;
+  data?: string;
+  versao?: string;
+  banca?: string;
+  retificacoes: string[];
+  confirmado: boolean;
+}
+export interface FonteReferencia {
+  id: string;
+  titulo: string;
+  url?: string;
+  categoria: string;
+  confirmada: boolean;
+}
+export interface Questao {
+  id: string;
+  materiaId: string;
+  topicoId: string;
+  tipo: "real" | "inedita";
+  enunciado: string;
+  alternativas: string[];
+  correta: number;
+  explicacao: string;
+  cargoIds: string[];
+  banca?: string;
+  ano?: number;
+  orgao?: string;
+  cargo?: string;
+  prova?: string;
+  fonte?: string;
+}
+export interface CadernoErro {
+  id: string;
+  materiaId: string;
+  topicoId: string;
+  questaoId: string;
+  erro: string;
+  correta: string;
+  explicacao: string;
+  observacao: string;
+  revisar: boolean;
+}
+export interface Progresso {
+  aulas: string[];
+  respostas: Record<string, number>;
+  erros: CadernoErro[];
+  revisoes: { aulaId: string; data: string; revisadaEm?: string }[];
+}
