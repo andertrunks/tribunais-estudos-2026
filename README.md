@@ -16,6 +16,39 @@ Node 22. Execute `npm ci`, `npm run dev`. Validações: `npm run typecheck`, `np
 
 Uma aula é vinculada a vários cargos pelo mesmo ID. Extensões específicas pertencem à aula. Os vínculos iniciais são demonstrativos. Nenhum edital foi confirmado. A trilha suplementar não entra em cobertura oficial. O progresso mede aulas disponíveis e últimas respostas, não cobertura de edital.
 
+## Como adicionar uma nova aula
+
+1. Crie um arquivo TypeScript em `src/content/aulas/<materia>/`.
+2. Exporte uma aula compatível com `Aula` como export default.
+3. Preencha `materiaId`, `topicoId`, `cargoIds`, `editalRefs`, `sourceRefs`, `status` e o conteúdo de `secoes` usando IDs existentes.
+4. Execute `npm.cmd run typecheck`, `npm.cmd run lint`, `npm.cmd test` e `npm.cmd run build`.
+5. Faça commit e push depois das validações.
+
+Exemplo mínimo:
+
+```ts
+import type { Aula } from "../../../types";
+
+const aula: Aula = {
+  id: "portugues-002-tipologia",
+  titulo: "Tipologia textual",
+  materiaId: "portugues",
+  topicoId: "portugues-2",
+  cargoIds: [],
+  editalRefs: [],
+  sourceRefs: [],
+  status: "nao_iniciado",
+  tipo: "compartilhado",
+  demonstracao: false,
+  extensoes: [],
+  secoes: [],
+};
+
+export default aula;
+```
+
+O carregador em `src/data/aulas.ts` usa `import.meta.glob` para descobrir os arquivos durante o build. Não é necessário editar `catalogo.ts`, componentes React, `aulaIds` ou um índice manual.
+
 ## Publicação
 
 GitHub Pages por Actions, branch main. Base `/tribunais-estudos-2026/`. Rotas hash permitem refresh e links diretos sem regras de servidor. Manifest e service worker usam a mesma base. O primeiro acesso deve ocorrer online para o cache ser preenchido.

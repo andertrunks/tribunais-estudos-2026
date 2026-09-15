@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { ArrowUpRight, BookOpen } from "lucide-react";
-import { materias, topicos, aulas } from "../data/catalogo";
+import { materias, topicos } from "../data/catalogo";
+import { aulas } from "../data/aulas";
 import type { Materia, Progresso } from "../types";
 export function Badge({
   children,

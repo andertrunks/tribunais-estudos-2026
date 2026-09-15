@@ -1,40 +1,107 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import path from "node:path";
 import ts from "typescript";
-const src = fs.readFileSync("src/data/catalogo.ts", "utf8");
-const js = ts.transpileModule(src, {
-  compilerOptions: {
-    module: ts.ModuleKind.ESNext,
-    target: ts.ScriptTarget.ES2022,
-  },
-}).outputText;
-const { aulas, topicos, cargos, materias, questoes, editais } = await import(
-  "data:text/javascript;base64," + Buffer.from(js).toString("base64")
+
+const root = process.cwd();
+function loadTypeScript(filePath) {
+  const source = fs.readFileSync(filePath, "utf8");
+  const js = ts.transpileModule(source, {
+    compilerOptions: {
+      module: ts.ModuleKind.ESNext,
+      target: ts.ScriptTarget.ES2022,
+    },
+  }).outputText;
+  return import(
+    "data:text/javascript;base64," + Buffer.from(js).toString("base64")
+  );
+}
+function filesIn(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const filePath = path.join(directory, entry.name);
+    return entry.isDirectory() ? filesIn(filePath) : [filePath];
+  });
+}
+
+const catalog = await loadTypeScript(path.join(root, "src/data/catalogo.ts"));
+const aulaDirectory = path.join(root, "src/content/aulas");
+const aulaFiles = filesIn(aulaDirectory).filter((filePath) =>
+  filePath.endsWith(".ts"),
 );
-test("shared lessons reference valid entities without duplication", () => {
-  assert.equal(new Set(aulas.map((a) => a.id)).size, aulas.length);
+const aulas = (await Promise.all(aulaFiles.map(loadTypeScript))).map(
+  (module) => module.default,
+);
+const { topicos, cargos, materias, questoes, editais, fontes } = catalog;
+
+test("loader discovers TypeScript lessons without a manual index", () => {
+  const loader = fs.readFileSync(path.join(root, "src/data/aulas.ts"), "utf8");
+  assert.match(
+    loader,
+    /import\.meta\.glob\("\.\.\/content\/aulas\/\*\*\/\*\.ts"/,
+  );
+  assert.ok(
+    aulaFiles.some((filePath) =>
+      filePath.endsWith("portugues-001-interpretacao.ts"),
+    ),
+  );
+  assert.equal(aulas.length, aulaFiles.length);
+  assert.equal(aulas[0].id, "interpretacao");
+});
+
+test("lessons reference valid entities without duplication", () => {
+  assert.equal(new Set(aulas.map((aula) => aula.id)).size, aulas.length);
   assert.equal(cargos.length, 8);
-  for (const a of aulas) {
-    assert.ok(materias.some((m) => m.id === a.materiaId));
-    assert.ok(topicos.some((t) => t.id === a.topicoId));
-    assert.ok(a.cargoIds.every((id) => cargos.some((c) => c.id === id)));
+  for (const aula of aulas) {
+    const materia = materias.find((item) => item.id === aula.materiaId);
+    const topico = topicos.find((item) => item.id === aula.topicoId);
+    assert.ok(materia);
+    assert.ok(topico);
+    assert.equal(topico.materiaId, aula.materiaId);
+    assert.ok(
+      aula.cargoIds.every((id) => cargos.some((cargo) => cargo.id === id)),
+    );
+    assert.ok(
+      aula.sourceRefs.every((id) => fontes.some((fonte) => fonte.id === id)),
+    );
+    assert.ok(
+      aula.editalRefs.every((id) => editais.some((edital) => edital.id === id)),
+    );
   }
   assert.ok(aulas[0].cargoIds.length > 1);
 });
+
+test("materias and topicos derive their lessons by IDs", () => {
+  const materiaAulas = aulas.filter((aula) => aula.materiaId === "portugues");
+  const topicoAulas = aulas.filter((aula) => aula.topicoId === "portugues-1");
+  assert.deepEqual(materiaAulas, topicoAulas);
+  assert.equal(materiaAulas.length, 1);
+  assert.equal(topicoAulas[0].id, "interpretacao");
+});
+
 test("supplementary track is explicit and has no asserted edital coverage", () => {
-  const ts = topicos.filter((t) => t.materiaId === "matematica-basica");
-  assert.equal(ts.length, 19);
+  const supplementaryTopics = topicos.filter(
+    (topico) => topico.materiaId === "matematica-basica",
+  );
+  assert.equal(supplementaryTopics.length, 19);
   assert.ok(
-    ts.every((t) => t.tipo === "suplementar" && t.editalRefs.length === 0),
+    supplementaryTopics.every(
+      (topico) =>
+        topico.tipo === "suplementar" && topico.editalRefs.length === 0,
+    ),
   );
   assert.equal(editais.length, 0);
 });
-test("questions have valid keys and real questions require provenance", () => {
-  for (const q of questoes) {
-    assert.ok(q.correta >= 0 && q.correta < q.alternativas.length);
-    if (q.tipo === "real")
+
+test("questions have valid keys and optional lesson links", () => {
+  for (const question of questoes) {
+    assert.ok(
+      question.correta >= 0 && question.correta < question.alternativas.length,
+    );
+    if (question.aulaId)
+      assert.ok(aulas.some((aula) => aula.id === question.aulaId));
+    if (question.tipo === "real")
       for (const field of ["banca", "ano", "orgao", "cargo", "prova", "fonte"])
-        assert.ok(q[field]);
+        assert.ok(question[field]);
   }
 });

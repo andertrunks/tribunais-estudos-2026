@@ -15,7 +15,7 @@ import {
   Download,
   ChevronRight,
 } from "lucide-react";
-import { aulas } from "./data/catalogo";
+import { aulas } from "./data/aulas";
 import { useProgresso } from "./hooks/useProgresso";
 import { Empty } from "./components/ui";
 import {
