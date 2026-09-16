@@ -4,8 +4,18 @@ export type Status =
   | "revisado"
   | "questoes_adicionadas"
   | "concluido";
+export const statusLabels: Record<Status, string> = {
+  nao_iniciado: "Não iniciado",
+  em_producao: "Em produção",
+  revisado: "Revisado",
+  questoes_adicionadas: "Questões adicionadas",
+  concluido: "Concluído",
+};
 export type Vinculo =
-  "oficial" | "compartilhado" | "especifico" | "suplementar";
+  | "oficial"
+  | "compartilhado"
+  | "especifico"
+  | "suplementar";
 export interface Conteudo {
   id: string;
   titulo: string;
@@ -31,7 +41,6 @@ export interface Materia {
 }
 export interface Topico extends Conteudo {
   tipo: Vinculo;
-  aulaIds: string[];
 }
 export interface Aula extends Conteudo {
   topicoId: string;
@@ -59,6 +68,7 @@ export interface FonteReferencia {
 }
 export interface Questao {
   id: string;
+  aulaId?: string;
   materiaId: string;
   topicoId: string;
   tipo: "real" | "inedita";

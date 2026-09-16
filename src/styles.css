@@ -225,6 +225,195 @@ nav a.active {
   background: #edf2f0;
   color: #466157;
 }
+.account-button {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 13px;
+  border: 1px solid #d5dfdc;
+  border-radius: 7px;
+  background: #fff;
+  color: #315a50;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.account-button:hover {
+  background: #f0f5f2;
+}
+.auth-loading {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #d8e2df;
+  border-top-color: #315f50;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+.storage-note {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  margin: 0 0 18px;
+  border: 1px solid #dce5e2;
+  border-radius: 8px;
+  background: #f5f8f7;
+  color: #48635d;
+  text-align: left;
+}
+.storage-note:hover {
+  background: #edf4f1;
+}
+.storage-note > span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.storage-note strong {
+  font-size: 0.72rem;
+}
+.storage-note small {
+  color: #71817d;
+  font-size: 0.66rem;
+  line-height: 1.4;
+}
+.storage-note.synced {
+  color: #27634f;
+  background: #edf6f1;
+}
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: #0a2527a8;
+  backdrop-filter: blur(4px);
+}
+.auth-modal {
+  max-height: calc(100dvh - 40px);
+  overflow-y: auto;
+  position: relative;
+  width: min(100%, 480px);
+  padding: 34px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 24px 70px #0a25275c;
+}
+.auth-modal h2 {
+  margin: 9px 38px 12px 0;
+  font-size: 1.55rem;
+}
+.auth-modal > p {
+  line-height: 1.75;
+}
+.auth-modal > small {
+  display: block;
+  margin-top: 19px;
+  color: #718188;
+  line-height: 1.55;
+}
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f1f5f3;
+  color: #36584f;
+}
+.auth-icon {
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  background: #173f3f;
+  color: #e2c681;
+}
+.auth-options {
+  display: grid;
+  gap: 10px;
+  margin-top: 25px;
+}
+.auth-options button,
+.account-actions button {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 11px 15px;
+  border-radius: 7px;
+  background: #20584d;
+  color: #fff;
+  font-weight: 600;
+}
+.auth-options button:nth-child(2),
+.account-actions button:nth-child(2) {
+  border: 1px solid #ccd9d5;
+  background: #fff;
+  color: #315b50;
+}
+.continue-guest {
+  width: 100%;
+  padding: 13px;
+  margin-top: 10px;
+  background: transparent;
+  color: #60747a;
+}
+.account-email {
+  margin-top: -5px;
+  word-break: break-word;
+}
+.account-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+.cloud-status {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 16px;
+  margin: 22px 0;
+  border-radius: 8px;
+  background: #f2f5f5;
+  color: #617378;
+}
+.cloud-status.synced {
+  background: #edf6f1;
+  color: #27634f;
+}
+.cloud-status.error {
+  background: #fbf1e4;
+  color: #805d2d;
+}
+.cloud-status > span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.cloud-status small {
+  font-size: 0.75rem;
+}
+.account-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
 main {
   max-width: 1480px;
   margin: auto;
@@ -1329,6 +1518,22 @@ footer span {
   .avatar {
     width: 28px;
     height: 28px;
+  }
+  .account-button span {
+    display: none;
+  }
+  .account-button {
+    width: 40px;
+    padding: 9px;
+  }
+  .auth-modal {
+    padding: 27px 21px;
+  }
+  .auth-modal h2 {
+    font-size: 1.35rem;
+  }
+  .account-actions {
+    grid-template-columns: 1fr;
   }
   main {
     padding: 22px 17px 35px;

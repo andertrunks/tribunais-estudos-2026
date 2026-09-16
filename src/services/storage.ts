@@ -6,9 +6,12 @@ export const vazio: Progresso = {
   erros: [],
   revisoes: [],
 };
-export function ler(): Progresso {
+export function progressKey(userId?: string | null) {
+  return userId ? `${key}:user:${userId}` : key;
+}
+export function ler(storageKey = key): Progresso {
   try {
-    const p = JSON.parse(localStorage.getItem(key) || "null");
+    const p = JSON.parse(localStorage.getItem(storageKey) || "null");
     if (
       !p ||
       !Array.isArray(p.aulas) ||
@@ -23,9 +26,9 @@ export function ler(): Progresso {
     return vazio;
   }
 }
-export function salvar(p: Progresso): boolean {
+export function salvar(p: Progresso, storageKey = key): boolean {
   try {
-    localStorage.setItem(key, JSON.stringify(p));
+    localStorage.setItem(storageKey, JSON.stringify(p));
     return true;
   } catch {
     return false;

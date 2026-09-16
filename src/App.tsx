@@ -14,10 +14,17 @@ import {
   X,
   Download,
   ChevronRight,
+  Cloud,
+  CloudOff,
+  LogIn,
+  UserRound,
 } from "lucide-react";
-import { aulas } from "./data/catalogo";
+import { aulas } from "./data/aulas";
 import { useProgresso } from "./hooks/useProgresso";
 import { Empty } from "./components/ui";
+import { AuthModal } from "./auth/AuthModal";
+import { AccountModal } from "./auth/AccountModal";
+import { useAuth } from "./auth/useAuth";
 import {
   Home,
   Subjects,
@@ -47,13 +54,20 @@ interface InstallPrompt extends Event {
   userChoice: Promise<{ outcome: string }>;
 }
 export default function App() {
-  const [route, setRoute] = useState(location.hash.slice(2) || "");
+  const [route, setRoute] = useState(location.hash.startsWith("#/") ? location.hash.slice(2) : "");
   const [menu, setMenu] = useState(false);
   const [install, setInstall] = useState<InstallPrompt | null>(null);
+  const [authOpen, setAuthOpen] = useState(false);
+  const [accountOpen, setAccountOpen] = useState(false);
+  const { user, loading: authLoading, authError } = useAuth();
   const store = useProgresso();
   useEffect(() => {
+    if (user) setAuthOpen(false);
+    else setAccountOpen(false);
+  }, [user]);
+  useEffect(() => {
     function change() {
-      setRoute(location.hash.slice(2) || "");
+      setRoute(location.hash.startsWith("#/") ? location.hash.slice(2) : "");
       setMenu(false);
       window.scrollTo(0, 0);
       document.getElementById("conteudo")?.focus();
@@ -129,6 +143,34 @@ export default function App() {
             <br />
             Muitos caminhos possíveis.
           </p>
+          {user ? (
+            <button
+              className={`storage-note ${store.syncStatus}`}
+              onClick={() => setAccountOpen(true)}
+            >
+              {store.syncStatus === "synced" ? (
+                <Cloud size={17} />
+              ) : (
+                <CloudOff size={17} />
+              )}
+              <span>
+                <strong>
+                  {store.syncStatus === "synced"
+                    ? "Sincronizado"
+                    : "Salvo no dispositivo"}
+                </strong>
+                <small>{store.syncMessage}</small>
+              </span>
+            </button>
+          ) : (
+            <button className="storage-note" onClick={() => setAuthOpen(true)}>
+              <CloudOff size={17} />
+              <span>
+                <strong>Salvo neste dispositivo</strong>
+                <small>Criar conta grátis e sincronizar</small>
+              </span>
+            </button>
+          )}
           <span className="version">CONTEÚDO MESTRE · V1.0</span>
         </div>
       </aside>
@@ -167,12 +209,34 @@ export default function App() {
                 <Download size={15} /> Instalar
               </button>
             )}
-            <span className="avatar" aria-label="Perfil local">
-              EU
-            </span>
+            {authLoading ? (
+              <span
+                className="auth-loading"
+                aria-label="Verificando sua conta"
+              />
+            ) : user ? (
+              <button
+                className="account-button"
+                onClick={() => setAccountOpen(true)}
+                aria-label="Minha conta"
+              >
+                <UserRound size={17} />
+                <span>Minha conta</span>
+              </button>
+            ) : (
+              <button
+                className="account-button"
+                onClick={() => setAuthOpen(true)}
+                aria-label="Entrar"
+              >
+                <LogIn size={17} />
+                <span>Entrar</span>
+              </button>
+            )}
           </div>
         </header>
         <main id="conteudo" tabIndex={-1}>
+          {authError && <div className="notice" role="alert">{authError}</div>}
           {store.erroStorage && (
             <div role="alert" className="notice">
               Não foi possível salvar neste navegador. Mantenha esta página
@@ -216,6 +280,15 @@ export default function App() {
           </span>
         </footer>
       </div>
+      <AuthModal open={authOpen} onClose={() => setAuthOpen(false)} />
+      <AccountModal
+        onImport={store.importGuest}
+        open={accountOpen}
+        onClose={() => setAccountOpen(false)}
+        syncStatus={store.syncStatus}
+        syncMessage={store.syncMessage}
+        onSync={store.syncNow}
+      />
     </>
   );
 }

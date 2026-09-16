@@ -15,12 +15,12 @@ import {
 import {
   materias,
   topicos,
-  aulas,
   cargos,
   questoes,
   categoriasFontes,
   fontes,
 } from "../data/catalogo";
+import { aulas } from "../data/aulas";
 import { useProgresso } from "../hooks/useProgresso";
 import {
   Badge,
@@ -31,10 +31,10 @@ import {
   Meter,
   nomeMateria,
 } from "../components/ui";
-import type { Questao } from "../types";
+import { statusLabels, type Questao } from "../types";
 type Store = ReturnType<typeof useProgresso>;
 export function Home({ s }: { s: Store }) {
-  const done = s.p.aulas.length;
+  const done = aulas.filter(a => s.p.aulas.includes(a.id)).length;
   return (
     <>
       <div className="welcome-line">
@@ -267,36 +267,45 @@ export function Subject({ id, s }: { id: string; s: Store }) {
       </div>
       <h2>Seu roteiro de estudo</h2>
       <div className="topic-list">
-        {ts.map((t, i) => (
-          <div className="topic-row" key={t.id}>
-            <span className="topic-number">
-              {String(i + 1).padStart(2, "0")}
-            </span>
-            <div>
-              <h3>{t.titulo}</h3>
-              <div className="badge-list">
-                <Badge tone={t.tipo === "suplementar" ? "gold" : ""}>
-                  {t.tipo === "compartilhado"
-                    ? "Compartilhado · demonstração"
-                    : "Suplementar"}
-                </Badge>
-                <span className="muted">
-                  {t.status === "em_producao" ? "Em produção" : "Não iniciado"}
-                </span>
-                {t.aulaIds.some((a) => s.p.aulas.includes(a)) && (
-                  <Badge>Estudado por você</Badge>
-                )}
+        {ts.map((t, i) => {
+          const topicAulas = aulas.filter((a) => a.topicoId === t.id);
+          return (
+            <div className="topic-row" key={t.id}>
+              <span className="topic-number">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <div>
+                <h3>{t.titulo}</h3>
+                <div className="badge-list">
+                  <Badge tone={t.tipo === "suplementar" ? "gold" : ""}>
+                    {t.tipo === "compartilhado"
+                      ? "Compartilhado · demonstração"
+                      : "Suplementar"}
+                  </Badge>
+                  <span className="muted">{statusLabels[t.status]}</span>
+                  {topicAulas.some((a) => s.p.aulas.includes(a.id)) && (
+                    <Badge>Estudado por você</Badge>
+                  )}
+                </div>
               </div>
+              {topicAulas.length ? (
+                <div className="badge-list">
+                  {topicAulas.map((aula) => (
+                    <a
+                      className="small-button"
+                      href={`#/aulas/${aula.id}`}
+                      key={aula.id}
+                    >
+                      Abrir aula <ArrowRight size={16} />
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <span className="muted">Em construção</span>
+              )}
             </div>
-            {t.aulaIds.length ? (
-              <a className="small-button" href={`#/aulas/${t.aulaIds[0]}`}>
-                Abrir aula <ArrowRight size={16} />
-              </a>
-            ) : (
-              <span className="muted">Em construção</span>
-            )}
-          </div>
-        ))}
+          );
+        })}
       </div>
       {!ts.length && (
         <Empty title="O roteiro está sendo preparado">
@@ -357,6 +366,7 @@ function Question({ q, s }: { q: Questao; s: Store }) {
 }
 export function Lesson({ id, s }: { id: string; s: Store }) {
   const a = aulas.find((a) => a.id === id);
+  const lessonQuestions = questoes.filter((q) => q.aulaId === id);
   const [flipped, setFlipped] = useState(false);
   const [size, setSize] = useState(18);
   if (!a)
@@ -431,7 +441,10 @@ export function Lesson({ id, s }: { id: string; s: Store }) {
                   </span>
                 </button>
               )}
-              {i === 13 && <Question q={questoes[0]} s={s} />}
+              {i === 13 &&
+                lessonQuestions.map((question) => (
+                  <Question key={question.id} q={question} s={s} />
+                ))}
             </section>
           ))}
           <div className="lesson-actions">
@@ -560,16 +573,20 @@ function ArrowUpIcon() {
   return <ArrowRight size={18} />;
 }
 export function Progress({ s }: { s: Store }) {
+  const done = aulas.filter(a => s.p.aulas.includes(a.id)).length;
   const answered = Object.entries(s.p.respostas).filter(([id]) =>
     questoes.some((q) => q.id === id),
   );
   const hits = answered.filter(
     ([id, n]) => questoes.find((q) => q.id === id)?.correta === n,
   ).length;
-  const doneTopics = topicos.filter(
-    (t) =>
-      t.aulaIds.length > 0 && t.aulaIds.every((a) => s.p.aulas.includes(a)),
-  ).length;
+  const doneTopics = topicos.filter((t) => {
+    const topicAulas = aulas.filter((aula) => aula.topicoId === t.id);
+    return (
+      topicAulas.length > 0 &&
+      topicAulas.every((aula) => s.p.aulas.includes(aula.id))
+    );
+  }).length;
   return (
     <>
       <Heading eyebrow="CADA ETAPA CONTA" title="Meu Progresso">
@@ -578,10 +595,10 @@ export function Progress({ s }: { s: Store }) {
       </Heading>
       <section className="stats">
         <div>
-          <strong>{(s.p.aulas.length / aulas.length) * 100}%</strong>
+          <strong>{aulas.length ? Math.round((done / aulas.length) * 100) : 0}%</strong>
           <span>das aulas disponíveis</span>
           <small>
-            {s.p.aulas.length} de {aulas.length} concluída
+            {done} de {aulas.length} concluída
           </small>
         </div>
         <div>
@@ -948,8 +965,10 @@ export function About() {
         <h2>Seu progresso, no seu dispositivo</h2>
         <p>
           Aulas concluídas, respostas, erros e revisões ficam armazenados neste
-          navegador, sem conta ou servidor. Limpar os dados do navegador remove
-          esse histórico. Não há sincronização entre dispositivos nesta versão.
+          navegador. O login com Google é opcional e permite sincronizar com sua
+          conta. O progresso de visitante é preservado e cada conta tem um
+          armazenamento separado. Limpar os dados do navegador remove as cópias
+          locais; somente dados já sincronizados podem ser recuperados da nuvem.
         </p>
         <h2>Estudar também sem conexão</h2>
         <p>
