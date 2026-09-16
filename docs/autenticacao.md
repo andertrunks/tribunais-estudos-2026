@@ -56,6 +56,8 @@ conexão ou o botão da conta permite tentar novamente.
 
 Validar OAuth real com uma conta Google e a lista de URLs de retorno no painel.
 Não confundir testes com provedor simulado com autenticação real. OAuth real
-local validado em 16/09/2026: retorno à aula, sessão/reload, importação,
-sincronização, isolamento de visitante/conta e logout. Produção deve ser
-conferida após deploy. Publicação depende da autorização vigente da sessão.
+local e no GitHub Pages validado em 16/09/2026: retorno à aula, sessão/reload,
+nome/email/foto, importação, sincronização, isolamento de visitante/conta e
+logout. Retorno público permitido confirmado pelo fluxo real. Base auth publicada
+no commit 870bc7d, Actions 35144115486 com sucesso. Publicações futuras dependem
+da autorização vigente da sessão.
