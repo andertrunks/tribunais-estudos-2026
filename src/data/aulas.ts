@@ -7,4 +7,6 @@ const modules = import.meta.glob("../content/aulas/**/*.ts", {
   import: "default",
 }) as Record<string, Aula>;
 
-export const aulas: Aula[] = Object.values(modules);
+export const aulas: Aula[] = Object.values(modules).sort((a, b) =>
+  a.id.localeCompare(b.id, "pt-BR", { numeric: true }),
+);

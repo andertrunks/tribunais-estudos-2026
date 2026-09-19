@@ -43,11 +43,28 @@ export interface Topico extends Conteudo {
   tipo: Vinculo;
 }
 export interface Aula extends Conteudo {
+  documentoArquivo?: string;
+  documentoUrl?: string;
+  materiaEditorial?: string;
+  classificacaoEditorial?: string;
   topicoId: string;
   tipo: Vinculo;
   demonstracao: boolean;
   secoes: { titulo: string; texto: string }[];
   extensoes: { cargoId: string; texto: string }[];
+}
+export type BlocoDocumento = {
+  tipo: "paragrafo";
+  runs: { texto: string; separador?: boolean; negrito?: boolean; italico?: boolean; codigo?: boolean; url?: string }[];
+  estilo: string;
+  lista?: number;
+} | {
+  tipo: "tabela";
+  linhas: { blocos: BlocoDocumento[]; colSpan: number; rowSpan: number }[][];
+};
+export interface DocumentoAula {
+  blocos: BlocoDocumento[];
+  versoes?: { titulo: string; url: string; blocos: BlocoDocumento[] }[];
 }
 export interface EditalReferencia {
   id: string;

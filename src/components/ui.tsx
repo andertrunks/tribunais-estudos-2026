@@ -15,8 +15,8 @@ export function Badge({
 export function Notice() {
   return (
     <div className="notice">
-      <span className="dot" /> Estrutura inicial — sujeita à auditoria
-      documental. Vínculos com cargos são demonstrativos.
+      <span className="dot" /> Consulte o status e os vínculos documentais de cada aula.
+      Demonstrações e trilhas suplementares não representam cobertura formal do edital.
     </div>
   );
 }

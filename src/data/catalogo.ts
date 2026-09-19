@@ -1,3 +1,4 @@
+import { aulas } from "./aulas";
 import type {
   Cargo,
   Materia,
@@ -124,6 +125,18 @@ export const materias: Materia[] = nomes.map((titulo, i) => ({
         ? "Reconstrua sua base, dos números naturais à resolução de problemas."
         : "Estrutura inicial para organizar conteúdos compartilhados. Exigência nos editais ainda não confirmada.",
 }));
+// Discover subject/topic navigation from the lesson metadata, without manual lesson arrays.
+for (const aula of aulas) {
+  if (!materias.some(m => m.id === aula.materiaId)) {
+    materias.push({
+      id: aula.materiaId,
+      titulo: aula.materiaEditorial || aula.materiaId,
+      grupo: /Direito|Normas|Servidores|Contratações|Judiciária/i.test(aula.materiaEditorial || "") ? "Direito" : /TI|Software|Programação|Dados|Redes|Cloud|Segurança|DevOps/i.test(aula.materiaEditorial || "") ? "Tecnologia" : "Fundamentos",
+      descricao: "Aulas do acervo editorial. Consulte os vínculos e limites documentais em cada aula.",
+      suplementar: aula.materiaId === "matematica-basica",
+    });
+  }
+}
 const base = [
   "Números naturais",
   "Quatro operações",
@@ -171,6 +184,11 @@ export const topicos: Topico[] = [
     tipo: "suplementar" as const,
   })),
 ];
+for (const aula of aulas) {
+  if (!topicos.some(t => t.id === aula.topicoId)) {
+    topicos.push({id:aula.topicoId, titulo:aula.titulo, materiaId:aula.materiaId, cargoIds:aula.cargoIds, editalRefs:aula.editalRefs, sourceRefs:aula.sourceRefs, status:aula.status, tipo:aula.tipo});
+  }
+}
 export const questoes: Questao[] = [
   {
     id: "q1",

@@ -1795,3 +1795,12 @@ footer {
     display: none;
   }
 }
+
+/* Full canonical documents retain line breaks and horizontal table access. */
+.document-content { overflow-wrap: anywhere; }
+.document-content p { white-space: pre-wrap; margin: .65em 0; }
+.document-space { height: .35em; }
+.document-table { max-width: 100%; overflow-x: auto; margin: 1em 0; }
+.document-table table { border-collapse: collapse; width: 100%; }
+.document-table td { border: 1px solid #c6d1d0; padding: .7em; vertical-align: top; min-width: 8em; }
+.document-question { border-left: 3px solid #426e70; padding-left: .8em; font-weight: 600; }

@@ -21,6 +21,8 @@ import {
   fontes,
 } from "../data/catalogo";
 import { aulas } from "../data/aulas";
+import { DocumentoAula } from "../components/DocumentoAula";
+import { cargoDaInterface } from "../utils/cargos";
 import { useProgresso } from "../hooks/useProgresso";
 import {
   Badge,
@@ -221,10 +223,12 @@ export function Subject({ id, s }: { id: string; s: Store }) {
         <a href="#/materias">Ver matérias</a>
       </Empty>
     );
-  const ts = topicos.filter((t) => t.materiaId === id);
+  const ts = topicos.filter((t) => t.materiaId === id).sort((a, b) =>
+    Number(aulas.some(x => x.topicoId === b.id)) - Number(aulas.some(x => x.topicoId === a.id)) || a.id.localeCompare(b.id, "pt-BR", {numeric:true}),
+  );
   const available = aulas.filter((a) => a.materiaId === id);
   const done = available.filter((a) => s.p.aulas.includes(a.id)).length;
-  const cs = [...new Set(ts.flatMap((t) => t.cargoIds))];
+  const cs = [...new Set(ts.flatMap((t) => t.cargoIds).map(cargoDaInterface))];
   return (
     <>
       <a className="back" href="#/materias">
@@ -252,11 +256,11 @@ export function Subject({ id, s }: { id: string; s: Store }) {
           <strong>{done}</strong> aulas concluídas
         </span>
         <Badge tone={m.suplementar ? "gold" : ""}>
-          {m.suplementar ? "Suplementar" : "Estrutura demonstrativa"}
+          {m.suplementar ? "Suplementar" : available.some(a => !a.demonstracao) ? "Acervo editorial" : "Estrutura demonstrativa"}
         </Badge>
       </div>
       <div className="badge-list">
-        {cs.map((c) => (
+        {cs.filter(c => cargos.some(x => x.id === c)).map((c) => (
           <a href={`#/cargos/${c}`} key={c}>
             <Badge>
               {cargos.find((x) => x.id === c)?.tribunal} ·{" "}
@@ -278,9 +282,7 @@ export function Subject({ id, s }: { id: string; s: Store }) {
                 <h3>{t.titulo}</h3>
                 <div className="badge-list">
                   <Badge tone={t.tipo === "suplementar" ? "gold" : ""}>
-                    {t.tipo === "compartilhado"
-                      ? "Compartilhado · demonstração"
-                      : "Suplementar"}
+                    {t.tipo === "suplementar" ? "Trilha suplementar" : t.tipo === "oficial" ? "Vínculo documental" : t.tipo === "especifico" ? "Extensão específica" : "Conteúdo compartilhado"}
                   </Badge>
                   <span className="muted">{statusLabels[t.status]}</span>
                   {topicAulas.some((a) => s.p.aulas.includes(a.id)) && (
@@ -378,13 +380,13 @@ export function Lesson({ id, s }: { id: string; s: Store }) {
   return (
     <>
       <a href={`#/materias/${a.materiaId}`} className="back">
-        ← Língua Portuguesa / Tópico 1
+        ← {nomeMateria(a.materiaId)} / {a.id}
       </a>
       <div className="lesson-layout">
         <article className="lesson" style={{ fontSize: size }}>
-          <Badge tone="gold">DEMONSTRAÇÃO · REVISÃO PENDENTE</Badge>
-          <Heading eyebrow="AULA 01 · CONTEÚDO COMPARTILHADO" title={a.titulo}>
-            Leia as palavras. Entenda as relações. Encontre a evidência.
+          <Badge tone="gold">{a.demonstracao ? "DEMONSTRAÇÃO · REVISÃO PENDENTE" : statusLabels[a.status]}</Badge>
+          <Heading eyebrow={a.demonstracao ? "AULA 01 · CONTEÚDO COMPARTILHADO" : a.id} title={a.titulo}>
+            {a.demonstracao ? "Leia as palavras. Entenda as relações. Encontre a evidência." : a.classificacaoEditorial}
           </Heading>
           <div className="reading-toolbar">
             <span>Leitura no seu ritmo</span>
@@ -408,6 +410,7 @@ export function Lesson({ id, s }: { id: string; s: Store }) {
             </div>
           </div>
           <Notice />
+          {a.documentoArquivo && <DocumentoAula key={a.id} arquivo={a.documentoArquivo} />}
           {a.secoes.map((sec, i) => (
             <section id={`sec-${i}`} key={sec.titulo}>
               <span className="section-number">
@@ -415,13 +418,13 @@ export function Lesson({ id, s }: { id: string; s: Store }) {
               </span>
               <h2>{sec.titulo}</h2>
               <p>{sec.texto}</p>
-              {i === 7 && (
+              {a.demonstracao && i === 7 && (
                 <blockquote>
                   Uma boa interpretação consegue mostrar de onde veio a
                   conclusão.
                 </blockquote>
               )}
-              {i === 12 && (
+              {a.demonstracao && i === 12 && (
                 <button
                   className="flashcard"
                   onClick={() => setFlipped(!flipped)}
@@ -464,6 +467,8 @@ export function Lesson({ id, s }: { id: string; s: Store }) {
         </article>
         <aside className="lesson-index">
           <span className="eyebrow">NESTA AULA</span>
+          {a.documentoUrl && <a href={a.documentoUrl} target="_blank" rel="noreferrer">Documento canônico no Drive</a>}
+          {!a.demonstracao && <p>{a.classificacaoEditorial}</p>}
           {a.secoes.map((sec, i) => (
             <button
               key={sec.titulo}
@@ -526,23 +531,22 @@ export function Careers({ id }: { id?: string }) {
               ))}
             </dl>
           </div>
-          <h2>Conteúdo compartilhado · demonstração</h2>
+          <h2>Conteúdo compartilhado</h2>
           {aulas
-            .filter((a) => a.cargoIds.includes(c.id))
+            .filter((a) => a.cargoIds.some(id => cargoDaInterface(id) === c.id))
             .map((a) => (
               <a key={a.id} className="topic-row" href={`#/aulas/${a.id}`}>
                 <BookOpen />
                 <div>
                   <h3>{a.titulo}</h3>
                   <p>
-                    Língua Portuguesa · 1 tópico · Uma única aula para vários
-                    cargos
+                    {nomeMateria(a.materiaId)} · Uma única aula para vários cargos
                   </p>
                 </div>
                 <ArrowRight />
               </a>
             ))}
-          {!aulas.some((a) => a.cargoIds.includes(c.id)) && (
+          {!aulas.some((a) => a.cargoIds.some(id => cargoDaInterface(id) === c.id)) && (
             <Empty title="Vínculos em preparação">
               Matérias, tópicos e extensões específicas serão associados após a
               auditoria.
