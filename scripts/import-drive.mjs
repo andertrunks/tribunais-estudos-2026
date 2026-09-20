@@ -7,6 +7,8 @@ if (!cache) throw new Error('Provide the local Drive snapshot directory');
 const inventory = JSON.parse(fs.readFileSync(path.join(cache, 'inventory.json'), 'utf8'));
 const aliases = {'lingua-portuguesa':'portugues','matematica-concurso':'matematica','raciocinio-logico-matematico':'raciocinio-logico','direito-constitucional':'constitucional','direito-administrativo-administracao-publica':'administrativo','direito-civil':'civil','direito-processual-civil':'processual-civil','direito-penal':'penal','direito-processual-penal':'processual-penal','informatica-escritorio-colaboracao':'informatica','bancos-dados-sql':'bancos-dados','dados-bi-ia':'dados-bi','seguranca-informacao-cibernetica':'seguranca','devops-devsecops-git-cicd-automacao':'devops'};
 const report = [];
+const incremental = process.argv.includes('--incremental');
+const previous = incremental ? JSON.parse(fs.readFileSync('docs/DRIVE_IMPORT_INVENTORY.json', 'utf8')).aulas : [];
 function blocks(content = []) {
   return content.flatMap(e => {
     if (e.paragraph) {
@@ -68,5 +70,6 @@ for(const f of inventory) {
   report.push({...aula,caracteres:text.length,sha256Texto:crypto.createHash('sha256').update(text).digest('hex'),sha256Documento:crypto.createHash('sha256').update(body).digest('hex')});
 }
 fs.mkdirSync('docs',{recursive:true});
-fs.writeFileSync('docs/DRIVE_IMPORT_INVENTORY.json',JSON.stringify({origem:'01_Materias_Consolidadas',data:'2026-09-19',total:report.length,materias:new Set(report.map(x=>x.materiaId)).size,aulas:report},null,2)+'\n');
-console.log(JSON.stringify({aulas:report.length,materias:new Set(report.map(x=>x.materiaId)).size,semMateria:report.filter(x=>!x.materiaEditorial).map(x=>x.id)}));
+const combined = [...previous.filter(a => !ids.has(a.id)), ...report];
+fs.writeFileSync('docs/DRIVE_IMPORT_INVENTORY.json',JSON.stringify({origem:'01_Materias_Consolidadas',data:new Date().toISOString().slice(0,10),total:combined.length,materias:new Set(combined.map(x=>x.materiaId)).size,aulas:combined},null,2)+'\n');
+console.log(JSON.stringify({processadas:report.length,aulas:combined.length,materias:new Set(combined.map(x=>x.materiaId)).size,semMateria:report.filter(x=>!x.materiaEditorial).map(x=>x.id)}));

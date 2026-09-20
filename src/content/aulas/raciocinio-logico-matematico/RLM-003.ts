@@ -5,15 +5,13 @@ export default {
   "id": "RLM-003",
   "titulo": "RLM-003 — Proposições, conectivos e valores lógicos",
   "materiaId": "raciocinio-logico",
-  "cargoIds": [
-    "tjsp_escrevente"
-  ],
-  "editalRefs": [
-    "TJ-SP / VUNESP — Edital de Abertura nº 02/2025 — TJSP2503 — Escrevente Técnico Judiciário — Anexo VI, Bloco I, Raciocínio Lógico-Matemático, item 1.2: “Proposições: operações lógicas, valores lógicos e equivalências”",
-    "item 1.3: “Tabelas-verdade e diagramas lógicos”."
-  ],
+  "cargoIds": [],
+  "editalRefs": [],
   "sourceRefs": [
-    "TJ-SP — Edital nº 02/2025 — conteúdo programático oficial.",
+    "TJ-SP — Edital de Abertura nº 02/2025 — TJSP2503 — Escrevente Técnico Judiciário — Raciocínio Lógico: estruturas lógicas, lógicas de argumentação, diagramas lógicos e sequências",
+    "usado como fonte primária de escopo, sem vínculo granular de proposições/conectivos.",
+    "TJ-SP / VUNESP — Edital de Abertura nº 03/2025 — Contador Judiciário — fonte de auditoria comparativa que contém a redação específica de proposições, equivalências e tabelas-verdade",
+    "cargo fora do escopo atual.",
     "TRF3 — Edital nº 01/2024 — auditado como fonte de comparação: cobra estrutura lógica e processo lógico, mas não lista proposições/conectivos de modo suficientemente específico para ampliar cargoIds nesta aula.",
     "RLM-001 — Estruturas lógicas e relações entre elementos.",
     "RLM-002 — Lógica de argumentação e conclusões válidas.",
@@ -21,7 +19,7 @@ export default {
   ],
   "status": "em_producao",
   "topicoId": "RLM-003",
-  "tipo": "oficial",
+  "tipo": "compartilhado",
   "demonstracao": false,
   "secoes": [],
   "extensoes": [],

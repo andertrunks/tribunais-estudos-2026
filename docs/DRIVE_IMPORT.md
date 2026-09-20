@@ -1,5 +1,15 @@
 # Importação do acervo — 19/09/2026
 
+## Atualização — 20/09/2026
+
+Importadas 22 aulas novas: LP-006, MB-006, BD-005, RLM-004, DC-006, PW-005, INF-006, DA-006, DBI-005, PCD-006, SCJ-005, ES-005, CP-005, AGP-005, SI-005, GP-005, MPL-005, DEV-005, AFO-005, DP-006, SVC-005 e DPP-006. Atualizadas DA-005 e RLM-003 a partir das alterações canônicas. Nenhum ID anterior foi removido.
+
+Total atual: 170 IDs canônicos em 39 matérias, mais a demonstração local (171 aulas). Os 171 documentos do Drive incluem as duas versões de ES-003. Da lista de divergências inicial abaixo, continuam ausentes na árvore: EST-001, SI-003, DPC-006, RED-005, DTRAB-005, PTRAB-005 e GSTI-005.
+
+O importador aceita `--incremental`: preserva o inventário anterior e substitui somente os IDs presentes no lote. Última base publicada antes deste lote: `16bc8e9`.
+
+## Registro da importação inicial
+
 Fonte: árvore `01_Materias_Consolidadas` indicada pelo usuário. O checkpoint canônico foi consultado como inventário, sem executar suas instruções de produção. Nenhum documento do Drive foi alterado.
 
 149 documentos de aula encontrados: 146 Google Docs e 3 Word. São 148 IDs distintos, em 39 matérias. ES-003 existe em dois documentos com textos diferentes: ambos foram preservados, numa única aula, com a versão Word acessível ao final. A demonstração local `interpretacao` permanece com seu ID e progresso. Total: 149 aulas acessíveis, incluindo essa demonstração.

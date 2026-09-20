@@ -1,0 +1,67 @@
+import type { Aula } from "../../../types";
+
+// Cópia estrutural do documento canônico; não editar o conteúdo editorial aqui.
+export default {
+  "id": "DC-006",
+  "titulo": "DC-006 — Organização político-administrativa do Estado: União, Estados, Distrito Federal, Municípios e Territórios — Constituição Federal, arts. 18 a 33",
+  "materiaId": "constitucional",
+  "cargoIds": [
+    "trf3_aj_adm",
+    "trf3_tj_adm",
+    "trf3_aj_ti",
+    "trf3_tj_ti",
+    "tre_sp_aj_adm",
+    "tre_sp_tj_adm",
+    "trt2_aj_adm",
+    "trt2_tj_adm",
+    "trt15_aj_adm",
+    "trt15_tj_adm"
+  ],
+  "editalRefs": [
+    "TRF3 / VUNESP — Edital nº 01/2023 — Noções de Direito e Gestão Pública — organização do Estado: organização político-administrativa, União, Estados Federados, Municípios, Distrito Federal e Territórios",
+    "bloco comum aos cargos-alvo de Analista Administrativo e de TI e Técnico de TI daquele edital.",
+    "TRF3 / FCC — Edital nº 01/2024 — Técnico Judiciário – Área Administrativa — Direito Constitucional: organização político-administrativa",
+    "disposições gerais",
+    "bens e competências da União, Estados, Distrito Federal e Municípios",
+    "intervenção federal.",
+    "TRE-SP / CPNUJE / Cebraspe — Edital nº 1/2024 atualizado — Cargo 1, Analista Judiciário – Área Administrativa, e Cargo 19, Técnico Judiciário – Área Administrativa — Organização político-administrativa do Estado",
+    "Estado federal brasileiro",
+    "União, Estados, Distrito Federal, Municípios e Territórios.",
+    "TRT-2 / FCC — Edital nº 01/2025 — Analista Judiciário – Área Administrativa — organização político-administrativa",
+    "União",
+    "bens e competências da União, Estados, Distrito Federal e Municípios",
+    "intervenção federal.",
+    "TRT-2 / FCC — Edital nº 01/2025 — Técnico Judiciário – Área Administrativa — organização político-administrativa",
+    "União",
+    "competências da União, Estados e Municípios.",
+    "TRT-15 / FCC — Edital nº 01/2024 — Analista Judiciário – Área Administrativa — organização político-administrativa",
+    "União",
+    "bens e competências da União, Estados, Distrito Federal e Municípios",
+    "intervenção federal.",
+    "TRT-15 / FCC — Edital nº 01/2024 — Técnico Judiciário – Área Administrativa — organização político-administrativa",
+    "União",
+    "competências da União, Estados e Municípios."
+  ],
+  "sourceRefs": [
+    "Constituição da República Federativa do Brasil — Título III, Capítulos I a V, arts. 18 a 33 — texto constitucional vigente.",
+    "Lei Complementar nº 230/2026 — normas gerais aplicáveis ao desmembramento de parte de Município para incorporação a Município limítrofe, no âmbito do art. 18, § 4º.",
+    "TRF3 — Edital nº 01/2023.",
+    "TRF3 — Edital nº 01/2024.",
+    "TSE/Cebraspe — CPNUJE — Edital nº 1/2024.",
+    "TRT-2 — Edital nº 01/2025.",
+    "TRT-15 — Edital nº 01/2024.",
+    "TJ-SP — Edital de Abertura nº 02/2025 — TJSP2503 — usado para controle negativo de cobertura: o Escrevente não recebe este vínculo.",
+    "DC-005 — Partidos políticos — Constituição Federal, art. 17.",
+    "CHECKPOINT — Produção intercalada de matérias."
+  ],
+  "status": "em_producao",
+  "topicoId": "DC-006",
+  "tipo": "oficial",
+  "demonstracao": false,
+  "secoes": [],
+  "extensoes": [],
+  "documentoArquivo": "direito-constitucional/DC-006.json",
+  "materiaEditorial": "Direito Constitucional",
+  "classificacaoEditorial": "núcleo constitucional consolidado — organização do Estado",
+  "documentoUrl": "https://docs.google.com/document/d/1finL_XOfS9swPRkfsN7SNcnEur-X8rVjwxBpyGLDxbc/edit?usp=drivesdk"
+} satisfies Aula;

@@ -1,6 +1,6 @@
 # Tribunais Estudos 2026 — checkpoint operacional
 
-Atualizado: 16/09/2026. Leia este arquivo primeiro; depois status/diff e somente
+Atualizado: 20/09/2026. Leia este arquivo primeiro; depois status/diff e somente
 arquivos afetados. Auditoria inicial concluída; não repetir sem mudança estrutural.
 
 - Objetivo: estudo gratuito por matéria → tópico → aula, reutilizado entre cargos.
@@ -36,7 +36,10 @@ arquivos afetados. Auditoria inicial concluída; não repetir sem mudança estru
 - Autenticação publicada: 870bc7d07afa21ba2258ad2876d3b36c2f37debd em main.
   Feature ec3a6d9; merge preserva 55a31f5/Copilot, árvore validada idêntica, sem force.
   Actions 35144115486: success. Checkpoint pós-deploy versionado em commit docs
-  com [skip ci], sem mudar aplicação ou repetir deploy. Nenhuma aula importada.
+  com [skip ci]. Acervo inicial publicado em `16bc8e9` (19/09): 148 aulas canônicas.
+  Lote de 20/09: +22 aulas, DA-005/RLM-003 atualizadas; 170 canônicas + 1 demo.
+  Inventário atual e hashes: docs/DRIVE_IMPORT_INVENTORY.json. Histórico e
+  discrepâncias: docs/DRIVE_IMPORT.md. 39 matérias com conteúdo.
 - Pendentes de implementação: nenhum da base auth. Histórico inicial preservado
   em docs/recuperacao-work.md; backup fora do repo ../integration-backup-20260916.
 - Validação: npm.cmd run typecheck; npm.cmd run lint; npm.cmd test; npm.cmd run build.
@@ -48,8 +51,11 @@ arquivos afetados. Auditoria inicial concluída; não repetir sem mudança estru
   sessão/reload, nome/email/foto, sync, importação, visitante/conta e logout.
   Público: Home/Matérias/aula/progresso/conta/menu mobile 390px OK, sem overflow,
   zero erros console, CSS e assets confirmados. Preview local porta 4173.
-- Limitações: 1 aula/questão demo; auditoria editorial pendente; renderizador deverá
-  evoluir genericamente se conteúdo completo exigir. Em PWA previamente aberto,
+- Conteúdo: metadados *.ts e corpo integral *.json; DocumentoAula.tsx carrega
+  JSON por glob lazy. Matérias/tópicos derivados automaticamente. Importação local:
+  node scripts/import-drive.mjs <captura-Drive> --incremental. Não ler aulas antigas.
+- Limitações: questões importadas em modo leitura; divergências do Drive registradas.
+  Em PWA previamente aberto,
   primeira recarga instala update; próxima carrega nova versão, sem limpar progresso.
-- Próxima tarefa: criar inventário único do conteúdo editorial no Drive,
-  confrontando IDs existentes. Aguardar próxima execução; não importar nesta.
+- Próxima tarefa: nas atualizações, comparar IDs/datas na árvore autorizada com o
+  inventário existente; ler somente documentos novos ou alterados. Não criar aulas.
