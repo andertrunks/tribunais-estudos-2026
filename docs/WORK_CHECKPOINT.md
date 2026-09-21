@@ -59,3 +59,13 @@ arquivos afetados. Auditoria inicial concluída; não repetir sem mudança estru
   primeira recarga instala update; próxima carrega nova versão, sem limpar progresso.
 - Próxima tarefa: nas atualizações, comparar IDs/datas na árvore autorizada com o
   inventário existente; ler somente documentos novos ou alterados. Não criar aulas.
+
+- Ajuste local de Matérias (20/09, ainda não publicado): 39 cartões derivados de
+  aulas canônicas com materiaEditorial; única exceção vazia deliberada: MB.
+  catalogo.ts centraliza materiaCanonica/aulasDaMateria/topicosDaMateria.
+  Aliases preservam SQL, subdivisões de Dados, desenvolvimento, cloud/infraestrutura;
+  TI/Legislação/Python abrem biblioteca. Demo Português acessível separadamente.
+  IDs/metadados/progresso e conteúdo Drive intactos; Civil sem cobertura confirmada.
+  Typecheck/lint/build OK, 18 testes OK; e2e/materias.mjs: 39 rotas, 8 aulas,
+  progresso/reload, aliases e mobile OK, zero erros console/assets.
+  Próxima ação deste ajuste: revisar/versionar/publicar; último deploy: 73a1331.

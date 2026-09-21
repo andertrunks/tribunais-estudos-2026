@@ -106,3 +106,40 @@ test("questions have valid keys and optional lesson links", () => {
         assert.ok(question[field]);
   }
 });
+
+
+test("visible subjects contain canonical lessons, with no technical placeholders", () => {
+  assert.equal(materias.length, new Set(materias.map(m => m.id)).size);
+  assert.equal(materias.length, new Set(materias.map(m => m.titulo)).size);
+  for (const m of materias) {
+    assert.ok(m.suplementar || catalog.aulasDaMateria(m.id).length > 0);
+    const expected = new Set(catalog.aulasDaMateria(m.id).map(a => a.topicoId));
+    assert.deepEqual(new Set(catalog.topicosDaMateria(m.id).map(t => t.id)), expected);
+  }
+  for (const id of [...Object.keys(catalog.materiaAliases), ...catalog.categoriasLegadas]) {
+    assert.ok(!materias.some(m => m.id === id), id);
+  }
+  assert.ok(materias.some(m => m.id === "redacao-oficial"));
+  assert.ok(materias.some(m => m.id === "redacao-discursivas-estudos-caso"));
+  assert.match(materias.find(m => m.id === "civil").descricao, /não confirmada/);
+  assert.ok(!catalog.aulasDaMateria("portugues").some(a => a.demonstracao));
+  assert.equal(catalog.aulasDaMateria("portugues").length, aulas.filter(a => a.id.startsWith("LP-")).length);
+  assert.equal(materias.flatMap(m => catalog.aulasDaMateria(m.id)).length, aulas.filter(a => !a.demonstracao).length);
+});
+
+test("aliases reuse lessons and stable progress IDs without copying metadata", () => {
+  for (const [oldId, canonical] of Object.entries(catalog.materiaAliases)) {
+    assert.ok(materias.some(m => m.id === canonical));
+    assert.deepEqual(catalog.aulasDaMateria(oldId), catalog.aulasDaMateria(canonical));
+  }
+  const saved = ["BD-001", "LP-001", "interpretacao"];
+  assert.equal(catalog.aulasDaMateria("sql").filter(a => saved.includes(a.id)).length, 1);
+  assert.ok(aulas.some(a => a.id === "interpretacao"));
+});
+
+test("only the deliberate supplementary track exists without canonical content", async () => {
+  const empty = await loadTypeScript(path.join(root, "src/data/catalogo.ts"), []);
+  assert.deepEqual(empty.materias.map(m => m.id), ["matematica-basica"]);
+  const demoOnly = await loadTypeScript(path.join(root, "src/data/catalogo.ts"), aulas.filter(a => a.demonstracao));
+  assert.deepEqual(demoOnly.materias.map(m => m.id), ["matematica-basica"]);
+});

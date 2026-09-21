@@ -53,90 +53,57 @@ export const cargos: Cargo[] = [
   especialidade,
   editalRefs: [],
 }));
-const nomes = [
-  "Língua Portuguesa",
-  "Matemática Básica",
-  "Matemática",
-  "Raciocínio Lógico",
-  "Direito Constitucional",
-  "Direito Administrativo",
-  "Direito Civil",
-  "Direito Processual Civil",
-  "Direito Penal",
-  "Direito Processual Penal",
-  "Legislação",
-  "Informática",
-  "Tecnologia da Informação",
-  "Bancos de Dados",
-  "SQL",
-  "Dados e BI",
-  "Engenharia de Dados",
-  "Data Warehouse",
-  "ETL/ELT",
-  "Python",
-  "Ciência de Dados",
-  "Inteligência Artificial e Machine Learning",
-  "Desenvolvimento de Sistemas",
-  "Segurança da Informação",
-  "Redes",
-  "Cloud",
-  "DevOps",
-  "Infraestrutura",
-];
-const ids = [
-  "portugues",
-  "matematica-basica",
-  "matematica",
-  "raciocinio-logico",
-  "constitucional",
-  "administrativo",
-  "civil",
-  "processual-civil",
-  "penal",
-  "processual-penal",
-  "legislacao",
-  "informatica",
-  "ti",
-  "bancos-dados",
-  "sql",
-  "dados-bi",
-  "engenharia-dados",
-  "data-warehouse",
-  "etl",
-  "python",
-  "ciencia-dados",
-  "ia",
-  "desenvolvimento",
-  "seguranca",
-  "redes",
-  "cloud",
-  "devops",
-  "infraestrutura",
-];
-export const materias: Materia[] = nomes.map((titulo, i) => ({
-  id: ids[i],
-  titulo,
-  grupo: i < 4 ? "Fundamentos" : i < 11 ? "Direito" : "Tecnologia",
-  suplementar: i === 1,
-  descricao:
-    i === 0
-      ? "Leia com atenção, reconheça ideias e construa interpretações apoiadas no texto."
-      : i === 1
+// Aliases de navegação não modificam IDs ou vínculos editoriais das aulas.
+export const materiaAliases: Record<string, string> = {
+  sql: "bancos-dados",
+  "engenharia-dados": "dados-bi",
+  "data-warehouse": "dados-bi",
+  etl: "dados-bi",
+  "ciencia-dados": "dados-bi",
+  ia: "dados-bi",
+  desenvolvimento: "programacao-web",
+  cloud: "sistemas-operacionais-virtualizacao-cloud",
+  infraestrutura: "sistemas-operacionais-virtualizacao-cloud",
+  "lingua-portuguesa": "portugues",
+};
+// Categorias amplas/ambíguas voltam à biblioteca, sem atribuir conteúdo por inferência.
+export const categoriasLegadas = ["ti", "legislacao", "python"];
+export const materiaCanonica = (id: string) => materiaAliases[id] ?? id;
+const titulosEditoriais: Record<string, string> = {
+  portugues: "Língua Portuguesa",
+  "matematica-basica": "Matemática Básica",
+  "bancos-dados": "Bancos de Dados e SQL",
+  "dados-bi": "Dados, BI e IA",
+  "programacao-web": "Programação e Web",
+  seguranca: "Segurança da Informação e Cibernética",
+  "sistemas-operacionais-virtualizacao-cloud": "Sistemas Operacionais, Virtualização e Cloud",
+  devops: "DevOps / DevSecOps / Git / CI/CD / Automação",
+  administrativo: "Direito Administrativo",
+};
+export const aulasDaMateria = (id: string) => aulas.filter(a =>
+  !a.demonstracao && materiaCanonica(a.materiaId) === materiaCanonica(id));
+// Só o acervo editorial cria cartões; a única trilha vazia deliberada é a base matemática.
+export const materias: Materia[] = [];
+for (const aula of aulas.filter(a => !a.demonstracao && a.materiaEditorial)) {
+  const id = materiaCanonica(aula.materiaId);
+  if (categoriasLegadas.includes(id) || materias.some(m => m.id === id)) continue;
+  const titulo = titulosEditoriais[id] || aula.materiaEditorial!;
+  materias.push({
+    id, titulo,
+    grupo: /Direito|Normas|Servidores|Contratações/i.test(titulo) ? "Direito" : /TI|Software|Programação|Dados|Redes|Cloud|Segurança|DevOps|Judiciária.*PDPJ|Informática/i.test(titulo) ? "Tecnologia" : "Fundamentos",
+    descricao: id === "civil"
+      ? "Acervo de Direito Civil. Cobertura formal dos cargos atuais não confirmada."
+      : id === "matematica-basica"
         ? "Reconstrua sua base, dos números naturais à resolução de problemas."
-        : "Estrutura inicial para organizar conteúdos compartilhados. Exigência nos editais ainda não confirmada.",
-}));
-// Discover subject/topic navigation from the lesson metadata, without manual lesson arrays.
-for (const aula of aulas) {
-  if (!materias.some(m => m.id === aula.materiaId)) {
-    materias.push({
-      id: aula.materiaId,
-      titulo: aula.materiaEditorial || aula.materiaId,
-      grupo: /Direito|Normas|Servidores|Contratações|Judiciária/i.test(aula.materiaEditorial || "") ? "Direito" : /TI|Software|Programação|Dados|Redes|Cloud|Segurança|DevOps/i.test(aula.materiaEditorial || "") ? "Tecnologia" : "Fundamentos",
-      descricao: "Aulas do acervo editorial. Consulte os vínculos e limites documentais em cada aula.",
-      suplementar: aula.materiaId === "matematica-basica",
-    });
-  }
+        : "Aulas do acervo editorial. Consulte os vínculos e limites documentais em cada aula.",
+    suplementar: id === "matematica-basica",
+  });
 }
+if (!materias.some(m => m.id === "matematica-basica")) materias.push({
+  id: "matematica-basica", titulo: "Matemática Básica", grupo: "Fundamentos",
+  descricao: "Reconstrua sua base, dos números naturais à resolução de problemas.", suplementar: true,
+});
+materias.sort((a, b) => a.titulo.localeCompare(b.titulo, "pt-BR"));
 const base = [
   "Números naturais",
   "Quatro operações",
@@ -189,6 +156,12 @@ for (const aula of aulas) {
     topicos.push({id:aula.topicoId, titulo:aula.titulo, materiaId:aula.materiaId, cargoIds:aula.cargoIds, editalRefs:aula.editalRefs, sourceRefs:aula.sourceRefs, status:aula.status, tipo:aula.tipo});
   }
 }
+// Tópicos antigos continuam resolvíveis, mas não inflam os roteiros publicados.
+export const topicosDaMateria = (id: string) => {
+  const ids = new Set(aulasDaMateria(id).map(a => a.topicoId));
+  return topicos.filter(t => ids.has(t.id)).sort((a, b) =>
+    a.id.localeCompare(b.id, "pt-BR", { numeric: true }));
+};
 export const questoes: Questao[] = [
   {
     id: "q1",

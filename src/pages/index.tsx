@@ -14,6 +14,10 @@ import {
 } from "lucide-react";
 import {
   materias,
+  aulasDaMateria,
+  topicosDaMateria,
+  materiaCanonica,
+  categoriasLegadas,
   topicos,
   cargos,
   questoes,
@@ -81,7 +85,7 @@ export function Home({ s }: { s: Store }) {
           <Library size={20} />
           <strong>{materias.length}</strong>
           <span>matérias no catálogo</span>
-          <small>1 com aula disponível</small>
+          <small>{materias.filter(m => aulasDaMateria(m.id).length > 0).length} com aulas disponíveis</small>
         </div>
         <div>
           <BriefcaseBusiness size={20} />
@@ -114,7 +118,7 @@ export function Home({ s }: { s: Store }) {
             </a>
           </div>
           <div className="subject-grid home-subjects">
-            {[materias[0], materias[4], materias[12], materias[1]].map((m) => (
+            {materias.filter(m => ["portugues", "constitucional", "bancos-dados", "matematica-basica"].includes(m.id)).map((m) => (
               <MateriaCard key={m.id} m={m} p={s.p} />
             ))}
           </div>
@@ -216,19 +220,20 @@ export function Subjects({ s }: { s: Store }) {
   );
 }
 export function Subject({ id, s }: { id: string; s: Store }) {
-  const m = materias.find((m) => m.id === id);
+  if (categoriasLegadas.includes(id)) return <><div className="notice">Esta categoria antiga foi substituída pelas trilhas editoriais abaixo.</div><Subjects s={s} /></>;
+  const canonicalId = materiaCanonica(id);
+  const m = materias.find((m) => m.id === canonicalId);
   if (!m)
     return (
       <Empty title="Matéria não encontrada">
         <a href="#/materias">Ver matérias</a>
       </Empty>
     );
-  const ts = topicos.filter((t) => t.materiaId === id).sort((a, b) =>
-    Number(aulas.some(x => x.topicoId === b.id)) - Number(aulas.some(x => x.topicoId === a.id)) || a.id.localeCompare(b.id, "pt-BR", {numeric:true}),
-  );
-  const available = aulas.filter((a) => a.materiaId === id);
+  const ts = topicosDaMateria(canonicalId);
+  const available = aulasDaMateria(canonicalId);
+  const demonstrations = aulas.filter(a => a.demonstracao && materiaCanonica(a.materiaId) === canonicalId);
   const done = available.filter((a) => s.p.aulas.includes(a.id)).length;
-  const cs = [...new Set(ts.flatMap((t) => t.cargoIds).map(cargoDaInterface))];
+  const cs = canonicalId === "civil" ? [] : [...new Set(ts.flatMap((t) => t.cargoIds).map(cargoDaInterface))];
   return (
     <>
       <a className="back" href="#/materias">
@@ -282,7 +287,7 @@ export function Subject({ id, s }: { id: string; s: Store }) {
                 <h3>{t.titulo}</h3>
                 <div className="badge-list">
                   <Badge tone={t.tipo === "suplementar" ? "gold" : ""}>
-                    {t.tipo === "suplementar" ? "Trilha suplementar" : t.tipo === "oficial" ? "Vínculo documental" : t.tipo === "especifico" ? "Extensão específica" : "Conteúdo compartilhado"}
+                    {canonicalId === "civil" ? "Vínculo formal a confirmar" : t.tipo === "suplementar" ? "Trilha suplementar" : t.tipo === "oficial" ? "Vínculo documental" : t.tipo === "especifico" ? "Extensão específica" : "Conteúdo compartilhado"}
                   </Badge>
                   <span className="muted">{statusLabels[t.status]}</span>
                   {topicAulas.some((a) => s.p.aulas.includes(a.id)) && (
@@ -309,6 +314,10 @@ export function Subject({ id, s }: { id: string; s: Store }) {
           );
         })}
       </div>
+      {demonstrations.length > 0 && <aside className="notice">
+        Demonstração antiga, fora da trilha editorial: {demonstrations.map(a =>
+          <a key={a.id} href={`#/aulas/${a.id}`}>{a.titulo}</a>)}
+      </aside>}
       {!ts.length && (
         <Empty title="O roteiro está sendo preparado">
           Os tópicos serão cadastrados após a auditoria documental. Explore a
@@ -630,7 +639,7 @@ export function Progress({ s }: { s: Store }) {
       <div className="panel">
         <h2>Progresso por matéria</h2>
         {materias.map((m) => {
-          const list = aulas.filter((a) => a.materiaId === m.id);
+          const list = aulasDaMateria(m.id);
           const n = list.filter((a) => s.p.aulas.includes(a.id)).length;
           return (
             <div className="progress-row" key={m.id}>
@@ -678,7 +687,7 @@ export function Errors({ s }: { s: Store }) {
         </select>
       </div>
       {s.p.erros
-        .filter((e) => !filter || e.materiaId === filter)
+        .filter((e) => !filter || materiaCanonica(e.materiaId) === filter)
         .map((e) => (
           <div key={e.id} className="panel">
             <Badge>{nomeMateria(e.materiaId)}</Badge>
@@ -728,7 +737,7 @@ export function Errors({ s }: { s: Store }) {
             <a href="#/aulas/interpretacao">Retomar a aula →</a>
           </div>
         ))}
-      {!s.p.erros.filter((e) => !filter || e.materiaId === filter).length && (
+      {!s.p.erros.filter((e) => !filter || materiaCanonica(e.materiaId) === filter).length && (
         <Empty title="Nenhum erro registrado por aqui">
           Ao errar uma questão, você poderá revisar a explicação e anotar o que
           aprendeu. <a href="#/aulas/interpretacao">Experimentar a aula</a>.
@@ -814,7 +823,7 @@ export function Simulados({ s }: { s: Store }) {
       : mode === "Erros anteriores"
         ? s.p.erros.some((e) => e.questaoId === q.id)
         : mode === "Por matéria"
-          ? q.materiaId === subject
+          ? materiaCanonica(q.materiaId) === subject
           : mode === "Por cargo"
             ? q.cargoIds.includes(career)
             : q.tipo === "inedita",

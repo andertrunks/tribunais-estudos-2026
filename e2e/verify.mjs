@@ -40,7 +40,7 @@ try {
   await page.getByRole("textbox", { name: "Buscar matéria" }).fill("SQL");
   assert.equal(await page.locator(".subject-card").count(), 1);
   await route("materias/portugues", "Língua Portuguesa");
-  await page.getByRole("link", { name: "Abrir aula" }).click();
+  await page.locator('a[href="#/aulas/interpretacao"]').click();
   await page
     .getByRole("heading", {
       name: "Compreensão e interpretação de textos",

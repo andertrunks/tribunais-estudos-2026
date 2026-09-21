@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import { ArrowUpRight, BookOpen } from "lucide-react";
-import { materias, topicos } from "../data/catalogo";
-import { aulas } from "../data/aulas";
+import { materias, aulasDaMateria, topicosDaMateria, materiaCanonica } from "../data/catalogo";
 import type { Materia, Progresso } from "../types";
 export function Badge({
   children,
@@ -67,8 +66,8 @@ export function Meter({ value, label }: { value: number; label: string }) {
   );
 }
 export function MateriaCard({ m, p }: { m: Materia; p: Progresso }) {
-  const ts = topicos.filter((t) => t.materiaId === m.id);
-  const as = aulas.filter((a) => a.materiaId === m.id);
+  const ts = topicosDaMateria(m.id);
+  const as = aulasDaMateria(m.id);
   const done = as.filter((a) => p.aulas.includes(a.id)).length;
   return (
     <a className="subject-card" href={`#/materias/${m.id}`}>
@@ -91,7 +90,7 @@ export function MateriaCard({ m, p }: { m: Materia; p: Progresso }) {
           {m.suplementar
             ? "Suplementar"
             : as.length
-              ? "Conteúdo inicial"
+              ? "Acervo editorial"
               : "Em construção"}
         </Badge>
       </div>
@@ -105,4 +104,4 @@ export function MateriaCard({ m, p }: { m: Materia; p: Progresso }) {
   );
 }
 export const nomeMateria = (id: string) =>
-  materias.find((m) => m.id === id)?.titulo || id;
+  materias.find((m) => m.id === materiaCanonica(id))?.titulo || id;
