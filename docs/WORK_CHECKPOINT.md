@@ -73,8 +73,10 @@ arquivos afetados. Auditoria inicial concluída; não repetir sem mudança estru
   Quatro assets principais idênticos ao build local por SHA-256.
   Próxima ação: atualizações editoriais incrementais, quando solicitadas.
 
-- Lote 21/09 preparado: 11 aulas novas (DA-007–014, DPC-006, RED-005, DTRAB-005),
+- Lote 21/09 publicado: 11 aulas novas (DA-007–014, DPC-006, RED-005, DTRAB-005),
   6 revisadas (DA-001–006). 181 canônicas + demo, 39 matérias. Captura incremental
   em output/drive-update-20260921 (fora do repo); inventário/hashes atualizados.
   Validação do lote: 18 testes OK, build/TypeScript/PWA OK; 17 textos completos
   conferidos no navegador local, 4 matérias, desktop/mobile e zero erros.
+  Deploy b5105c804257d39629da7c2087f3aea63b2bf06c; Actions 35587494736 OK.
+  Público: 17 textos integrais/4 matérias/39 cartões, desktop/mobile OK, zero erros.
