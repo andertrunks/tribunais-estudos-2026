@@ -6,20 +6,26 @@ export default {
   "titulo": "DA-001 — Improbidade Administrativa: fundamentos e disposições gerais — Lei nº 8.429/1992, arts. 1º a 8º-A",
   "materiaId": "administrativo",
   "cargoIds": [
-    "tjsp-escrevente",
-    "trf3-tecnico-adm",
-    "trf3-analista-adm"
+    "tjsp_escrevente",
+    "trf3_aj_adm",
+    "trf3_tj_adm",
+    "trt2_aj_adm",
+    "trt2_tj_adm",
+    "trt15_aj_adm",
+    "trt15_tj_adm"
   ],
   "editalRefs": [
-    "TJ-SP Escrevente — Direito Administrativo — Lei Federal nº 8.429/1992",
-    "TRF3 Técnico Administrativo — improbidade administrativa",
-    "TRF3 Analista Administrativo — improbidade administrativa"
+    "TJ-SP — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992",
+    "TRF3 — Analista Judiciário – Área Administrativa — Improbidade Administrativa",
+    "TRF3 — Técnico Judiciário – Área Administrativa — Improbidade Administrativa",
+    "TRT-2 — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa",
+    "TRT-15 — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
   ],
   "sourceRefs": [
-    "Editais-base-fornecidos-pelo-usuario.txt",
-    "Lei nº 8.429/1992 — texto compilado oficial do Planalto",
-    "Lei nº 8.429/1992 — texto atualizado da Câmara dos Deputados",
-    "STF — ADIs 7156 e 7236, julgamentos de 2026 sobre alterações promovidas pela Lei nº 14.230/2021"
+    "Câmara dos Deputados — Lei número 8.429/1992, texto atualizado",
+    "Lei número 14.230/2021",
+    "Supremo Tribunal Federal — ADIs 7156 e 7236",
+    "editais e retificações oficiais auditados no projeto."
   ],
   "status": "em_producao",
   "topicoId": "DA-001",
@@ -28,7 +34,7 @@ export default {
   "secoes": [],
   "extensoes": [],
   "documentoArquivo": "direito-administrativo-administracao-publica/DA-001.json",
-  "materiaEditorial": "Direito Administrativo e Administração Pública",
-  "classificacaoEditorial": "edital",
+  "materiaEditorial": "Direito Administrativo",
+  "classificacaoEditorial": "legislação — Improbidade Administrativa — disposições gerais",
   "documentoUrl": "https://docs.google.com/document/d/1rezi0Y8bXjy4jTzSFQIWz7fts6maJwbtclFSDdd5Cgg/edit?usp=drivesdk"
 } satisfies Aula;

@@ -30,3 +30,9 @@ Diferenças: o checkpoint menciona EST-001, RLM-004, DC-006, INF-006, DA-006, PC
 Para os documentos Word, foi extraído o XML de conteúdo e tabelas, sem alterar os arquivos originais. Os arquivos brutos e a conversão intermediária estão fora do repositório, em `output/drive-acervo` do workspace.
 
 Validação: lint e 15 testes passaram; build inclui TypeScript. Verificação local confirmou 39 matérias, leitura integral de LP-001/CP-003/RDE-001/ES-003/MB-005, ambas as versões de ES-003, progresso após reload e tabela em 390px sem overflow. Nenhum erro de execução ou carregamento nessas páginas.
+
+## Atualização de 21/09/2026
+
+182 documentos de aula na árvore autorizada, 181 IDs distintos em 39 matérias; ES-003 mantém as duas versões. Importadas 11 aulas novas (DTRAB-005, RED-005, DPC-006, DA-014, DA-013, DA-012, DA-011, DA-010, DA-009, DA-008, DA-007), atualizadas 6 (DA-006, DA-005, DA-003, DA-002, DA-001, DA-004). DPP-006 conferida: texto inalterado. Corpo integral e metadados copiados dos documentos canônicos, inclusive os vínculos revisados de DA-001 a DA-006, sem inferência local. Nenhuma escrita no Drive. Total: 181 aulas canônicas + demonstração legada.
+
+EST-001, SI-003, PTRAB-005 e GSTI-005 continuam ausentes da árvore consultada; nenhum substituto foi criado. DA-014 foi importada pelo documento real, embora o checkpoint ainda a indique como próximo item.

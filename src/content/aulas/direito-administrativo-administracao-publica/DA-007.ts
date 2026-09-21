@@ -2,8 +2,8 @@ import type { Aula } from "../../../types";
 
 // Cópia estrutural do documento canônico; não editar o conteúdo editorial aqui.
 export default {
-  "id": "DA-006",
-  "titulo": "DA-006 — Declaração de bens do agente público — Lei nº 8.429/1992, art. 13",
+  "id": "DA-007",
+  "titulo": "DA-007 — Representação para apuração de ato de improbidade — Lei número 8.429/1992, artigo 14",
   "materiaId": "administrativo",
   "cargoIds": [
     "tjsp_escrevente",
@@ -22,20 +22,19 @@ export default {
     "Tribunal Regional do Trabalho da 15ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
   ],
   "sourceRefs": [
-    "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada.",
+    "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada — artigo 14.",
     "Presidência da República — Lei número 8.429/1992 — texto compilado.",
-    "Superior Tribunal de Justiça — Informativo de Jurisprudência número 747 — AgInt nos EDcl no RMS 55.819/MG.",
-    "Superior Tribunal de Justiça — Enunciado Científico número 40 do 2º Congresso STJ da Primeira Instância Federal e Estadual, utilizado apenas como orientação interpretativa não vinculante.",
+    "Lei número 14.230/2021 — redação atual do parágrafo 3º.",
     "editais e retificações oficiais auditados no projeto."
   ],
   "status": "concluido",
-  "topicoId": "DA-006",
+  "topicoId": "DA-007",
   "tipo": "oficial",
   "demonstracao": false,
   "secoes": [],
   "extensoes": [],
-  "documentoArquivo": "direito-administrativo-administracao-publica/DA-006.json",
+  "documentoArquivo": "direito-administrativo-administracao-publica/DA-007.json",
   "materiaEditorial": "Direito Administrativo",
-  "classificacaoEditorial": "legislação — Improbidade Administrativa — declaração de bens",
-  "documentoUrl": "https://docs.google.com/document/d/1DzBI-fD2cV1i5fWwYoc3r-y5ZGRouMrS2ILZkTJst2w/edit?usp=drivesdk"
+  "classificacaoEditorial": "legislação — Improbidade Administrativa — representação e apuração administrativa",
+  "documentoUrl": "https://docs.google.com/document/d/1URKDMjIgNHvSjeVckp3R5Sz8yr69X2ftcfCQKXAeUbA/edit?usp=drivesdk"
 } satisfies Aula;

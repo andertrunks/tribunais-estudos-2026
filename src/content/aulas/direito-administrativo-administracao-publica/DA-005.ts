@@ -15,25 +15,17 @@ export default {
     "trt15_tj_adm"
   ],
   "editalRefs": [
-    "TJ-SP — TJSP2503 — Escrevente Técnico Judiciário — Lei Federal nº 8.429/1992",
-    "TRF3 — Edital nº 01/2023 — Analista Judiciário – Área Administrativa — Improbidade administrativa: Lei nº 8.429/1992 com redação da Lei nº 14.230/2021",
-    "TRF3 — Edital nº 01/2024 — Técnico Judiciário – Área Administrativa — Improbidade Administrativa: Lei nº 8.429/1992",
-    "TRT-2 — Edital nº 01/2025 — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa com redação da Lei nº 14.230/2021",
-    "TRT-15 — Edital nº 01/2024 — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa com redação da Lei nº 14.230/2021."
+    "TJ-SP — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992",
+    "TRF3 — Analista Judiciário – Área Administrativa — Improbidade Administrativa",
+    "TRF3 — Técnico Judiciário – Área Administrativa — Improbidade Administrativa",
+    "TRT-2 — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa",
+    "TRT-15 — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
   ],
   "sourceRefs": [
-    "Câmara dos Deputados — Lei nº 8.429/1992 — norma atualizada",
-    "Lei nº 14.230/2021",
-    "TJ-SP/VUNESP — TJSP2503",
-    "TRF3 — Editais nº 01/2023 e nº 01/2024",
-    "TRT-2 — Edital nº 01/2025",
-    "TRT-15 — Edital nº 01/2024",
-    "Cebraspe — CPNUJE — Edital nº 1/2024 atualizado — auditoria negativa para os cargos administrativos do TRE-SP",
-    "DA-001",
-    "DA-002",
-    "DA-003",
-    "DA-004",
-    "CHECKPOINT — Produção intercalada de matérias."
+    "Câmara dos Deputados — Lei número 8.429/1992, norma atualizada",
+    "Presidência da República — Lei número 8.429/1992, texto compilado",
+    "Supremo Tribunal Federal — ADIs 7156 e 7236, julgamento concluído em 2026",
+    "editais e retificações oficiais auditados no projeto."
   ],
   "status": "em_producao",
   "topicoId": "DA-005",
