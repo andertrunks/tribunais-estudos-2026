@@ -26,7 +26,7 @@ export default {
     "Presidência da República — Lei número 8.429/1992, texto compilado",
     "editais e retificações oficiais auditados no projeto."
   ],
-  "status": "em_producao",
+  "status": "concluido",
   "topicoId": "DA-004",
   "tipo": "oficial",
   "demonstracao": false,

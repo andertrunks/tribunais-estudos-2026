@@ -21,7 +21,7 @@ export default {
     "DT-004",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "concluido",
   "topicoId": "DT-005",
   "tipo": "oficial",
   "demonstracao": false,

@@ -36,3 +36,13 @@ Validação: lint e 15 testes passaram; build inclui TypeScript. Verificação l
 182 documentos de aula na árvore autorizada, 181 IDs distintos em 39 matérias; ES-003 mantém as duas versões. Importadas 11 aulas novas (DTRAB-005, RED-005, DPC-006, DA-014, DA-013, DA-012, DA-011, DA-010, DA-009, DA-008, DA-007), atualizadas 6 (DA-006, DA-005, DA-003, DA-002, DA-001, DA-004). DPP-006 conferida: texto inalterado. Corpo integral e metadados copiados dos documentos canônicos, inclusive os vínculos revisados de DA-001 a DA-006, sem inferência local. Nenhuma escrita no Drive. Total: 181 aulas canônicas + demonstração legada.
 
 EST-001, SI-003, PTRAB-005 e GSTI-005 continuam ausentes da árvore consultada; nenhum substituto foi criado. DA-014 foi importada pelo documento real, embora o checkpoint ainda a indique como próximo item.
+
+## Auditoria completa — 21/09/2026
+
+186 documentos canônicos lidos (183 Google Docs e 3 Word), correspondentes a 185 IDs em 39 matérias. Comparação integral de texto, estrutura e metadados: 180 aulas sem alteração; DA-014 substituída pela revisão canônica; DA-015, DA-016, DA-017 e DA-018 criadas. Todas as cinco estão concluídas no documento. Nenhuma omitida por incompletude; aulas em produção mantêm seu status explícito. ES-003 preserva as duas versões. Textos Word conferidos integralmente, normalizando somente espaços e a apresentação das tabelas ao final pelo conector.
+
+Matriz: DRIVE_SYNC_AUDIT.json. O checkpoint cita DA-019 como próximo item, sem documento correspondente na árvore atual; não foi fabricado conteúdo. EST-001, SI-003, PTRAB-005 e GSTI-005 permanecem sem documento. Nenhuma aula do site perdeu correspondência no Drive. A ordem por ID editorial e todos os aliases permanecem. Não houve pesquisa jurídica externa nem alteração do Drive.
+
+## Publicação de 22/09/2026
+
+210 documentos encontrados, 209 IDs em 39 matérias. Em relação ao último deploy: 28 aulas novas (incluindo DA-015–018 já preparadas) e 17 revisadas, em 20 matérias. Os documentos modificados foram lidos integralmente; a identificação foi por ID e data de revisão comparada à captura completa anterior. Conteúdo e status canônicos preservados; nenhuma produção editorial local. ES-003 segue com ambas as versões.

@@ -5,31 +5,22 @@ export default {
   "id": "DCIV-001",
   "titulo": "DCIV-001 — Lei, eficácia e aplicação da lei no tempo e no espaço — LINDB, arts. 1º a 19",
   "materiaId": "civil",
-  "cargoIds": [
-    "trf3-analista-adm"
-  ],
-  "editalRefs": [
-    "TRF3 Analista Administrativo — Direito Civil: Lei",
-    "eficácia da lei",
-    "aplicação da lei no tempo e no espaço",
-    "interpretação da lei",
-    "Lei de Introdução às Normas do Direito Brasileiro."
-  ],
+  "cargoIds": [],
+  "editalRefs": [],
   "sourceRefs": [
-    "Editais-base-fornecidos-pelo-usuario.txt",
-    "Mapa Mestre Concatenado",
-    "Decreto-Lei nº 4.657/1942 — LINDB, texto oficial compilado do Planalto",
-    "Câmara dos Deputados — texto atualizado da LINDB",
-    "Constituição Federal, art. 105, I, i, para a competência atual do STJ na homologação de decisões estrangeiras."
+    "TRF3 — Edital de Abertura de Inscrições nº 01/2023 — conteúdo programático oficial, com Direito Civil no bloco destinado à Área Judiciária sem especialidade e ao Oficial de Justiça Avaliador Federal",
+    "TRF3 — Edital de Abertura de Inscrições nº 01/2024 — Anexo VI, com Direito Civil no Cargo 01 — Analista Judiciário — Área Judiciária",
+    "Decreto-Lei nº 4.657/1942 — LINDB, texto oficial compilado",
+    "Constituição Federal, artigo 105, inciso I, alínea i, para a competência atual do Superior Tribunal de Justiça na homologação de decisões estrangeiras."
   ],
   "status": "em_producao",
   "topicoId": "DCIV-001",
-  "tipo": "oficial",
+  "tipo": "suplementar",
   "demonstracao": false,
   "secoes": [],
   "extensoes": [],
   "documentoArquivo": "direito-civil/DCIV-001.json",
   "materiaEditorial": "Direito Civil",
-  "classificacaoEditorial": "edital",
+  "classificacaoEditorial": "núcleo suplementar — LINDB / conteúdo histórico do acervo, sem vínculo formal atual",
   "documentoUrl": "https://docs.google.com/document/d/1e1VmG21sEqy9nopr5Lcn7Hf4mXHUXjTOGN3dYXfmbd8/edit?usp=drivesdk"
 } satisfies Aula;

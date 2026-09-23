@@ -3,7 +3,7 @@ import type { Aula } from "../../../types";
 // Cópia estrutural do documento canônico; não editar o conteúdo editorial aqui.
 export default {
   "id": "ATF-001",
-  "titulo": "ATF-001 — Atualidades em Foco — últimos 6 meses: fatos políticos, econômicos, sociais e culturais, nacionais e internacionais — atualização de 18/09/2026",
+  "titulo": "ATF-001 — Atualidades em Foco — últimos 6 meses: fatos políticos, econômicos, sociais e culturais, nacionais e internacionais — atualização de 22/09/2026",
   "materiaId": "atualidades",
   "cargoIds": [],
   "editalRefs": [],

@@ -27,7 +27,7 @@ export default {
     "Supremo Tribunal Federal — ADIs 7156 e 7236, julgamento concluído em 2026",
     "editais e retificações oficiais auditados no projeto."
   ],
-  "status": "em_producao",
+  "status": "concluido",
   "topicoId": "DA-005",
   "tipo": "oficial",
   "demonstracao": false,

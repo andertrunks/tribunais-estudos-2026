@@ -26,7 +26,7 @@ export default {
     "Câmara dos Deputados — Lei número 8.429/1992, norma atualizada",
     "editais e retificações oficiais auditados no projeto."
   ],
-  "status": "em_producao",
+  "status": "concluido",
   "topicoId": "DA-003",
   "tipo": "oficial",
   "demonstracao": false,

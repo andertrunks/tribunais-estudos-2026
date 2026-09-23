@@ -25,7 +25,7 @@ export default {
     "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada.",
     "Presidência da República — Lei número 8.429/1992 — texto compilado.",
     "Superior Tribunal de Justiça — Informativo de Jurisprudência número 747 — AgInt nos EDcl no RMS 55.819/MG.",
-    "Superior Tribunal de Justiça — Enunciado Científico número 40 do 2º Congresso STJ da Primeira Instância Federal e Estadual, utilizado apenas como orientação interpretativa não vinculante.",
+    "Superior Tribunal de Justiça — Enunciado Científico número 40 do 2º Congresso Superior Tribunal de Justiça da Primeira Instância Federal e Estadual, utilizado apenas como orientação interpretativa não vinculante.",
     "editais e retificações oficiais auditados no projeto."
   ],
   "status": "concluido",

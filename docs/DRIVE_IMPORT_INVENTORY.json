@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
-  "data": "2026-09-21",
-  "total": 181,
+  "data": "2026-09-22",
+  "total": 209,
   "materias": 39,
   "aulas": [
     {
@@ -169,19 +169,21 @@
         "trt15_tj_ti"
       ],
       "editalRefs": [
-        "TRT-15 — Edital nº 01/2024 — cargos 1 (Analista Judiciário – Área Administrativa), 24 (Analista Judiciário – Apoio Especializado – Tecnologia da Informação), 25 (Técnico Judiciário – Área Administrativa) e 28 (Técnico Judiciário – Apoio Especializado – Tecnologia da Informação) — Conhecimentos Gerais — Regimento Interno do TRT da 15ª Região — bloco “Órgão Especial”."
+        "TRT-15 — Edital número 01/2024 e Retificação Edital número 02/2024 — cargos 1 (Analista Judiciário – Área Administrativa), 24 (Analista Judiciário – Apoio Especializado – Tecnologia da Informação), 25 (Técnico Judiciário – Área Administrativa) e 28 (Técnico Judiciário – Apoio Especializado – Tecnologia da Informação) — Conhecimentos Gerais — Regimento Interno do TRT da 15ª Região — bloco “Órgão Especial”. A Retificação 02/2024 determinou expressamente o novo Regimento vigente a partir de 2/1/2025, versão publicada em 6/12/2024."
       ],
       "sourceRefs": [
-        "TRT-15 — Edital nº 01/2024",
-        "TRT-15 — Regimento Interno, edição compilada vigente a partir de 2/1/2025 e atualizada em 19/05/2026",
-        "TRT-15 — Regimento Interno vigente até 1º/1/2025, atualizado até 24/06/2024",
-        "TRT-15 — Resolução Administrativa nº 028/2024",
+        "TRT-15 — Edital número 01/2024",
+        "TRT-15 — Retificação Edital número 02/2024, de 10/12/2024",
+        "TRT-15 — Regimento Interno, versão publicada em 6/12/2024 e vigente a partir de 2/1/2025",
+        "TRT-15 — Regimento Interno compilado atual, atualizado em 19/05/2026",
+        "TRT-15 — edição revogada vigente até 1º/1/2025, apenas para contexto histórico",
+        "TRT-15 — Resolução Administrativa número 028/2024",
         "NTRT15-001",
         "prova oficial FCC/TRT-15/2025 — Cargo 24 — Analista Judiciário – TI — caderno 24, tipo 001",
         "gabarito oficial correspondente",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
       "topicoId": "NTRT15-002",
       "tipo": "oficial",
       "demonstracao": false,
@@ -191,9 +193,9 @@
       "materiaEditorial": "Normas Institucionais — TRT da 15ª Região",
       "classificacaoEditorial": "Regimento Interno — Órgão Especial",
       "documentoUrl": "https://docs.google.com/document/d/1hN6OjjevKCsXaenV0BuaTjcWBsr-TQpEUsj47uGfi80/edit?usp=drivesdk",
-      "caracteres": 40641,
-      "sha256Texto": "d692b5f991cc0288f9856f44340e16ddc4773be49583656f69abb979382eece1",
-      "sha256Documento": "e4b15645e61bbfdec5a1b98ecd67e7bfece5fc17dba02e584f51641ca6d1ded7"
+      "caracteres": 43260,
+      "sha256Texto": "9f14370936a8c4b9faba557feda43c9ea0721ebd30d42044db118b4ce465c8ac",
+      "sha256Documento": "91a29669377b1ed22864f74a85b00999b64a7ca754d105845f6271c7a97b0d7a"
     },
     {
       "id": "NTRT15-001",
@@ -206,20 +208,22 @@
         "trt15_tj_ti"
       ],
       "editalRefs": [
-        "TRT-15 — Edital nº 01/2024 — cargos 1 (Analista Judiciário – Área Administrativa), 24 (Analista Judiciário – Apoio Especializado – Tecnologia da Informação), 25 (Técnico Judiciário – Área Administrativa) e 28 (Técnico Judiciário – Apoio Especializado – Tecnologia da Informação). O Regimento Interno do TRT-15 aparece nos Conhecimentos Gerais desses quatro cargos. O Anexo III delimita o Regimento, entre outros blocos, a “Do Tribunal: Disposições Preliminares",
+        "TRT-15 — Edital número 01/2024 e Retificação Edital número 02/2024 — cargos 1 (Analista Judiciário – Área Administrativa), 24 (Analista Judiciário – Apoio Especializado – Tecnologia da Informação), 25 (Técnico Judiciário – Área Administrativa) e 28 (Técnico Judiciário – Apoio Especializado – Tecnologia da Informação). A Retificação 02/2024 confirmou o Regimento Interno nos Conhecimentos Gerais e determinou expressamente a versão vigente a partir de 2/1/2025, publicada em 6/12/2024. O recorte inclui “Do Tribunal: Disposições Preliminares",
         "Organização do Tribunal",
         "Tribunal Pleno”."
       ],
       "sourceRefs": [
-        "Edital nº 01/2024 do TRT-15",
+        "TRT-15 — Edital número 01/2024",
+        "TRT-15 — Retificação Edital número 02/2024, de 10/12/2024",
         "Regimento Interno compilado vigente do TRT-15, atualizado em 19/05/2026",
-        "edição do Regimento vigente até 1º/1/2025, atualizada até 24/06/2024",
-        "Resolução Administrativa TRT-15 nº 028/2024",
+        "versão publicada em 6/12/2024 e vigente a partir de 2/1/2025",
+        "edição revogada vigente até 1º/1/2025, apenas como contexto histórico",
+        "Resolução Administrativa TRT-15 número 028/2024",
         "prova oficial FCC/TRT-15/2025 — Analista Judiciário – TI — caderno 24, tipo 001",
         "gabarito oficial FCC correspondente",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
       "topicoId": "NTRT15-001",
       "tipo": "oficial",
       "demonstracao": false,
@@ -229,9 +233,9 @@
       "materiaEditorial": "Normas Institucionais — TRT da 15ª Região",
       "classificacaoEditorial": "núcleo institucional consolidado",
       "documentoUrl": "https://docs.google.com/document/d/1LvJXU0dRQSf3ipDRvwOlMfaFNIpLzc0stnkf5vs53W0/edit?usp=drivesdk",
-      "caracteres": 32825,
-      "sha256Texto": "298ff4622fc7215489df1be3bbf488817a9a7a0b6a8716ce2dcd92d48be14851",
-      "sha256Documento": "b3b1cc870eb75cfbcf178ced48af169203056f4e608b9320f73c1d50bf6225ba"
+      "caracteres": 34410,
+      "sha256Texto": "f2df367c9bc29180d290e8c3aced4604dd0621de88f7c285ebc11d937c68f6cf",
+      "sha256Documento": "dc1259d54ef2a1b4896d49665a56bbb528d9df948355d1d579dd3233e5cd0f6d"
     },
     {
       "id": "ARQ-004",
@@ -2623,7 +2627,7 @@
     },
     {
       "id": "ATF-001",
-      "titulo": "ATF-001 — Atualidades em Foco — últimos 6 meses: fatos políticos, econômicos, sociais e culturais, nacionais e internacionais — atualização de 18/09/2026",
+      "titulo": "ATF-001 — Atualidades em Foco — últimos 6 meses: fatos políticos, econômicos, sociais e culturais, nacionais e internacionais — atualização de 22/09/2026",
       "materiaId": "atualidades",
       "cargoIds": [],
       "editalRefs": [],
@@ -2638,9 +2642,9 @@
       "materiaEditorial": "Atualidades",
       "classificacaoEditorial": "camada viva — atualização móvel de seis meses",
       "documentoUrl": "https://docs.google.com/document/d/1woLx9x_GDk4IBBkjCYw3a3gkRYurkRSGwcoMwxEtqP8/edit?usp=drivesdk",
-      "caracteres": 41766,
-      "sha256Texto": "1905d827522210daf0923e7adf9b7f578309860f0b0d31c386c8fc7f993e03ac",
-      "sha256Documento": "d389b65d03b7151573666f7b2ef7bdf4937169b6fca11d24744933289240371a"
+      "caracteres": 53326,
+      "sha256Texto": "6eefcd30b85588a2b32bb441614c3793f8af487b79094dfd68f2947d53522206",
+      "sha256Documento": "1360631d22f696a3ed2b7b65e72ef15d539a8226029b280550a9729532cabcbb"
     },
     {
       "id": "AT-001",
@@ -2968,7 +2972,7 @@
         "DT-004",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
       "topicoId": "DT-005",
       "tipo": "oficial",
       "demonstracao": false,
@@ -2978,9 +2982,9 @@
       "materiaEditorial": "Direito Tributário",
       "classificacaoEditorial": "legislação — Código Tributário Nacional — obrigação tributária",
       "documentoUrl": "https://docs.google.com/document/d/1wR9kM98mAmPdF76MKSH6JGMfy8RgP7C0z_G-0SWxhec/edit?usp=drivesdk",
-      "caracteres": 31568,
-      "sha256Texto": "e6459700743aef1865a78585909b182dd9ef491fad617b84be78cc2c2ad6375a",
-      "sha256Documento": "7a917e44aa10a40c9b1ca4b39005e758a7e439c5a89f0e9b6999b6f7df079ecf"
+      "caracteres": 31620,
+      "sha256Texto": "186df1672252088818436111d5f4286b0d3c3fddf6a4d28b74788a9a81dd8da2",
+      "sha256Documento": "c195d54e0a3b75349071ee1b14e6e944ba29bf59438a92e4eed0a7933f989d28"
     },
     {
       "id": "DT-004",
@@ -3299,36 +3303,27 @@
       "id": "DCIV-001",
       "titulo": "DCIV-001 — Lei, eficácia e aplicação da lei no tempo e no espaço — LINDB, arts. 1º a 19",
       "materiaId": "civil",
-      "cargoIds": [
-        "trf3-analista-adm"
-      ],
-      "editalRefs": [
-        "TRF3 Analista Administrativo — Direito Civil: Lei",
-        "eficácia da lei",
-        "aplicação da lei no tempo e no espaço",
-        "interpretação da lei",
-        "Lei de Introdução às Normas do Direito Brasileiro."
-      ],
+      "cargoIds": [],
+      "editalRefs": [],
       "sourceRefs": [
-        "Editais-base-fornecidos-pelo-usuario.txt",
-        "Mapa Mestre Concatenado",
-        "Decreto-Lei nº 4.657/1942 — LINDB, texto oficial compilado do Planalto",
-        "Câmara dos Deputados — texto atualizado da LINDB",
-        "Constituição Federal, art. 105, I, i, para a competência atual do STJ na homologação de decisões estrangeiras."
+        "TRF3 — Edital de Abertura de Inscrições nº 01/2023 — conteúdo programático oficial, com Direito Civil no bloco destinado à Área Judiciária sem especialidade e ao Oficial de Justiça Avaliador Federal",
+        "TRF3 — Edital de Abertura de Inscrições nº 01/2024 — Anexo VI, com Direito Civil no Cargo 01 — Analista Judiciário — Área Judiciária",
+        "Decreto-Lei nº 4.657/1942 — LINDB, texto oficial compilado",
+        "Constituição Federal, artigo 105, inciso I, alínea i, para a competência atual do Superior Tribunal de Justiça na homologação de decisões estrangeiras."
       ],
       "status": "em_producao",
       "topicoId": "DCIV-001",
-      "tipo": "oficial",
+      "tipo": "suplementar",
       "demonstracao": false,
       "secoes": [],
       "extensoes": [],
       "documentoArquivo": "direito-civil/DCIV-001.json",
       "materiaEditorial": "Direito Civil",
-      "classificacaoEditorial": "edital",
+      "classificacaoEditorial": "núcleo suplementar — LINDB / conteúdo histórico do acervo, sem vínculo formal atual",
       "documentoUrl": "https://docs.google.com/document/d/1e1VmG21sEqy9nopr5Lcn7Hf4mXHUXjTOGN3dYXfmbd8/edit?usp=drivesdk",
-      "caracteres": 28297,
-      "sha256Texto": "87af7335e4194db2bcdda93b43e9137dd18d4836c448a045ffc20698c5f4b964",
-      "sha256Documento": "8d805199e41e2254d351cfaccfd0b17f823109c6bb5780bf56ad66e67969eed9"
+      "caracteres": 29656,
+      "sha256Texto": "309a932480c20040b7299808e3d384b21bbbf4cb61db1e9cd92b5c7f4d651d69",
+      "sha256Documento": "84a38d1299680b362e9a821f1ad583812889f1b85f34814596dbad79eefedb02"
     },
     {
       "id": "DPP-005",
@@ -5759,9 +5754,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — independência e comunicação entre instâncias",
       "documentoUrl": "https://docs.google.com/document/d/1ucmE7XdyjAsZl3AKgBkyJzigDTFpSylpkdlQE_HeWv0/edit?usp=drivesdk",
-      "caracteres": 30073,
-      "sha256Texto": "7f6b0c2534eb7f539da6ac659c92e87a4e0e68ac639e2d7d04ea5e0ffff5daa1",
-      "sha256Documento": "714d8952b2251a0558ff888a52329ef20b29f2e585796cfb092c78c8386a9f96"
+      "caracteres": 30283,
+      "sha256Texto": "987ca4934937923b05d86b227cbae0de79dcb1be494560d0cc5f72a09dd3781c",
+      "sha256Documento": "4b7b4ac3368cf4ba604d60144b2205807e4c0dccd553db0e98a6ea7b17f583cb"
     },
     {
       "id": "DA-013",
@@ -5800,9 +5795,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — natureza da ação e relação com ação civil pública",
       "documentoUrl": "https://docs.google.com/document/d/1yVn-fTxFXlACN86hJTn3hlgAKqon-yFScYWAQHyKrTk/edit?usp=drivesdk",
-      "caracteres": 29953,
-      "sha256Texto": "edd9814153b64f6e5ed5935f7633a7f89bac31900a8769da8d97b2150fbdbab6",
-      "sha256Documento": "b4ee2e280080a74debc655e4e2e83aab1cbd291b259a6615ed64f881f29eb72d"
+      "caracteres": 30268,
+      "sha256Texto": "ab6bdddb4b04a7a9e7b57d9b54e097e390e51d9f84eb825c7ec1d1eef9bc0c8c",
+      "sha256Documento": "933e79bfb85b6a8e7dc383b307953869f9125c44001b3a2b1fc196cc57497bb1"
     },
     {
       "id": "DA-012",
@@ -5844,9 +5839,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — sentença, fundamentação e dosimetria",
       "documentoUrl": "https://docs.google.com/document/d/1jZnyNSss_QDhHQBdBF0eBvxhAGg1qWyo77R_TszaRZc/edit?usp=drivesdk",
-      "caracteres": 28831,
-      "sha256Texto": "f9df2591f945c37a828fcd41653c7692bea301db460823d79a6c6287e07b4cad",
-      "sha256Documento": "272a9c0d1ddb1e2cc1514c907f19aa59799cc533a6f72401ee78d43870d00e74"
+      "caracteres": 29061,
+      "sha256Texto": "fe332a3ebad93c7337b961bc34f5e6230fbdf0653d1f3ff845f68d93d2da5965",
+      "sha256Documento": "8c7e453a728c6d3f3bd2881f95ccebd9ef1a351f8cbcfd40e313f6bb47a1c9f5"
     },
     {
       "id": "DA-011",
@@ -5885,9 +5880,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — acordo de não persecução civil",
       "documentoUrl": "https://docs.google.com/document/d/1HuMpaVKeIZOIZZ3ldoj92iOcdK2qVbRX6neNtO83d9w/edit?usp=drivesdk",
-      "caracteres": 31311,
-      "sha256Texto": "88b2f85e39c8643a82bb90905b0048671667fba6183f91c9469ce842e0b1b181",
-      "sha256Documento": "3c3016e63bff1c5e458b1582b8840ab7c683d4ee782776d05304db46392692ce"
+      "caracteres": 31374,
+      "sha256Texto": "872f52ec011e0ea8b3fa366ef091c674fca5ebf035b0e3feb20b28b3cda17475",
+      "sha256Documento": "8bd1642e04b48d47974d640c12e1dac06550f85e575e543bf1a5ce03f46195bb"
     },
     {
       "id": "DA-010",
@@ -5927,9 +5922,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — ação judicial e procedimento",
       "documentoUrl": "https://docs.google.com/document/d/1OllqZmhfVhZfNDhSBGz-33uiI2nPrv0VfeUTWwfcmWc/edit?usp=drivesdk",
-      "caracteres": 41354,
-      "sha256Texto": "e0920cd4282e47e56cab632698dc70aebdd34ccbc5cf341612c4ec0d84ca57d1",
-      "sha256Documento": "fa7aae308c3747e83b30b38f18724a45b04f3a8e41dffef3678168a2e348d8c4"
+      "caracteres": 41543,
+      "sha256Texto": "f5ec7157037aa3a41428d24e5a39d82cd7c2f3b64c8669ac5aa9d1de1c684451",
+      "sha256Documento": "92d47599a721dd9560eb5b44237529a5927a4008b0b3df4a157bdc1ba6791b9c"
     },
     {
       "id": "DA-009",
@@ -5970,9 +5965,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — indisponibilidade de bens",
       "documentoUrl": "https://docs.google.com/document/d/1KDmvtgH4jABN_r5vaOmC3fAm7wlBsGIm5U-95c6NdgQ/edit?usp=drivesdk",
-      "caracteres": 40321,
-      "sha256Texto": "22d2c64beac98bfa646a7e91680d816ab67d991caba33a8bdcb10c0c30f4058f",
-      "sha256Documento": "500c5d93b1bd726859f10db4988ee1d696196ef11cd77c49030be1883ae6d643"
+      "caracteres": 40984,
+      "sha256Texto": "ae45990e13a71f9a371475c847203ca7214b8289fd57b50c805f3f25d3d327bd",
+      "sha256Documento": "d613d222e3919afb4dae1eb358bcd7b8c20742efb12477ac2c5e8eea2be44737"
     },
     {
       "id": "DA-008",
@@ -6077,7 +6072,7 @@
         "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada.",
         "Presidência da República — Lei número 8.429/1992 — texto compilado.",
         "Superior Tribunal de Justiça — Informativo de Jurisprudência número 747 — AgInt nos EDcl no RMS 55.819/MG.",
-        "Superior Tribunal de Justiça — Enunciado Científico número 40 do 2º Congresso STJ da Primeira Instância Federal e Estadual, utilizado apenas como orientação interpretativa não vinculante.",
+        "Superior Tribunal de Justiça — Enunciado Científico número 40 do 2º Congresso Superior Tribunal de Justiça da Primeira Instância Federal e Estadual, utilizado apenas como orientação interpretativa não vinculante.",
         "editais e retificações oficiais auditados no projeto."
       ],
       "status": "concluido",
@@ -6090,9 +6085,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — declaração de bens",
       "documentoUrl": "https://docs.google.com/document/d/1DzBI-fD2cV1i5fWwYoc3r-y5ZGRouMrS2ILZkTJst2w/edit?usp=drivesdk",
-      "caracteres": 29958,
-      "sha256Texto": "92e5b07d9081080a98b7c147fa7252a498b41d659b10ec306e55de68353f4d31",
-      "sha256Documento": "79093fe2306286af00fcadb9952a4f184afa91c1c1d9af0a3a77d8716df65fb2"
+      "caracteres": 30083,
+      "sha256Texto": "0fc62c948fb75c0bd097611a34ebb956bf15ba2e0ddd4f9eeaa78b9fe0e74441",
+      "sha256Documento": "a9d4df81d40cbf56e80dcf45940c2b027e4782c88cb6973988114395ebe1329b"
     },
     {
       "id": "DA-005",
@@ -6120,7 +6115,7 @@
         "Supremo Tribunal Federal — ADIs 7156 e 7236, julgamento concluído em 2026",
         "editais e retificações oficiais auditados no projeto."
       ],
-      "status": "em_producao",
+      "status": "concluido",
       "topicoId": "DA-005",
       "tipo": "oficial",
       "demonstracao": false,
@@ -6130,9 +6125,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — sanções",
       "documentoUrl": "https://docs.google.com/document/d/1PKHnp4LjeVmlyDufjoWRvNy7I6cOecJVRO9SdI7o7eg/edit?usp=drivesdk",
-      "caracteres": 30191,
-      "sha256Texto": "67cea71afb25954c77e410667459679f5816617f07fcea6abcc2f6373ab85376",
-      "sha256Documento": "4ddfe5f689142809bad9a9d8ac539c741874bd63415ea52f24ad6585a6119975"
+      "caracteres": 30763,
+      "sha256Texto": "8f69e8f50e239544e75d53f32753232714e1d4763f9844787b1e5f1b835a3399",
+      "sha256Documento": "c9e245a92a50d0bc5146bf96f4f206108be4cdcd399a1514ecb2021204292de7"
     },
     {
       "id": "DA-003",
@@ -6159,7 +6154,7 @@
         "Câmara dos Deputados — Lei número 8.429/1992, norma atualizada",
         "editais e retificações oficiais auditados no projeto."
       ],
-      "status": "em_producao",
+      "status": "concluido",
       "topicoId": "DA-003",
       "tipo": "oficial",
       "demonstracao": false,
@@ -6170,8 +6165,8 @@
       "classificacaoEditorial": "legislação — Improbidade Administrativa — prejuízo ao erário",
       "documentoUrl": "https://docs.google.com/document/d/1lQ-gC0R8BgsRlwn0m97qrrmRcD7nq6ZBUmKY74kLgX4/edit?usp=drivesdk",
       "caracteres": 36140,
-      "sha256Texto": "b654ec15de75f15cc2c8d934117e51d3c985f7f21327910b52f7968a65a2c0cb",
-      "sha256Documento": "64d0c2344a24e2da1d22090111e1f2944497ea6058cad9f5837e98c2374ad89b"
+      "sha256Texto": "23c26e93aad3afe4b3381b55fcad65324f6de7b28ec3953ae26e43a91265507b",
+      "sha256Documento": "bfb9116c23e28b36a44a49b8c7329bd1fb157072da72fbd8c48e8bf7e6a45d20"
     },
     {
       "id": "DA-002",
@@ -6198,7 +6193,7 @@
         "Presidência da República — Lei número 8.429/1992, texto compilado",
         "editais e retificações oficiais auditados no projeto."
       ],
-      "status": "em_producao",
+      "status": "concluido",
       "topicoId": "DA-002",
       "tipo": "oficial",
       "demonstracao": false,
@@ -6208,9 +6203,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — enriquecimento ilícito",
       "documentoUrl": "https://docs.google.com/document/d/1Nula6mfa-jLp07QuN7nMaiskh-RHLfILNpDJGOt8OXw/edit?usp=drivesdk",
-      "caracteres": 28063,
-      "sha256Texto": "97a8617c1363d991dffb9ddf729f2b973ffcb287c0254668e3193134045dfd39",
-      "sha256Documento": "0214b3ea43d9d40eb4d41f319926dcab7de1eada9ecc686603007d81e0388c14"
+      "caracteres": 28061,
+      "sha256Texto": "e75f3913a70375abbb7d5ddc0311200f61afe71ed8f9ceed46414ec2745e67af",
+      "sha256Documento": "eb7176831357fc96188fdee90ab8a0988f58d23f440d3ea0596c6794a2ded080"
     },
     {
       "id": "DA-001",
@@ -6238,7 +6233,7 @@
         "Supremo Tribunal Federal — ADIs 7156 e 7236",
         "editais e retificações oficiais auditados no projeto."
       ],
-      "status": "em_producao",
+      "status": "concluido",
       "topicoId": "DA-001",
       "tipo": "oficial",
       "demonstracao": false,
@@ -6248,9 +6243,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — disposições gerais",
       "documentoUrl": "https://docs.google.com/document/d/1rezi0Y8bXjy4jTzSFQIWz7fts6maJwbtclFSDdd5Cgg/edit?usp=drivesdk",
-      "caracteres": 28974,
-      "sha256Texto": "e3a48ccbdb5b233b186f5ba1fd0e866fb5a0fee7d0c50ef670c2794c74b648fd",
-      "sha256Documento": "fbc46d2b3cdba5604e547ed6ed5fbfec949d8fabb036cc4662b9ea31aade35ac"
+      "caracteres": 29171,
+      "sha256Texto": "ff856161f269162217ca6c0e2de36f81b921bc06647d23c750fb713a477a91ba",
+      "sha256Documento": "1e4788c824aca204a1d9878d292693e3aeb1f480a65606ec15d9cf9f8dc3ff8b"
     },
     {
       "id": "DA-004",
@@ -6277,7 +6272,7 @@
         "Presidência da República — Lei número 8.429/1992, texto compilado",
         "editais e retificações oficiais auditados no projeto."
       ],
-      "status": "em_producao",
+      "status": "concluido",
       "topicoId": "DA-004",
       "tipo": "oficial",
       "demonstracao": false,
@@ -6287,9 +6282,9 @@
       "materiaEditorial": "Direito Administrativo",
       "classificacaoEditorial": "legislação — Improbidade Administrativa — princípios da Administração Pública",
       "documentoUrl": "https://docs.google.com/document/d/10CbBcfVejgJHDds1IlmykK9iAtPXON3nhtKrzCgkbOc/edit?usp=drivesdk",
-      "caracteres": 31689,
-      "sha256Texto": "8382c6ce979d3897c1829a49ca49e53f67b4f2b0344a7ed28b4249bc483d49f4",
-      "sha256Documento": "95e02ec3d7fe5a311b140239e89352f4d2191d77c771190b20c4805d50ce37ca"
+      "caracteres": 31692,
+      "sha256Texto": "afbc6cc03a2ccc814970c02fa177a67caf805db830ff7d1836f26cdfeba6ca1f",
+      "sha256Documento": "668fea300fac55ae96d6b746cd0b539abecc0f3540b8d87d02b065a518631615"
     },
     {
       "id": "DPP-006",
@@ -6324,6 +6319,1159 @@
       "caracteres": 35520,
       "sha256Texto": "d4eaa5dacf378604d79538935553b6446be6d401e3048a6bdde3ed8117cbc96f",
       "sha256Documento": "d3bf6b389a5dc3de9adea2f417d85035796111bb5e80ea34baf1b901ee2b3e72"
+    },
+    {
+      "id": "ARQ-005",
+      "titulo": "ARQ-005 — MoReq-Jus em profundidade: GestãoDoc, requisitos obrigatórios e desejáveis, metadados, classificação, tramitação, temporalidade, preservação e interoperabilidade",
+      "materiaId": "arquitetura-judiciaria-pdpj-br",
+      "cargoIds": [
+        "tresp_aj_ti"
+      ],
+      "editalRefs": [
+        "CPNUJE/TRE-SP — Edital número 1/2024, versão atualizada até a Retificação número 15 — Cargo 17 — Analista Judiciário — Área Apoio Especializado — Especialidade Tecnologia da Informação — Normativos da PDPJ-Br — Resolução CNJ número 522/2023."
+      ],
+      "sourceRefs": [
+        "Conselho Nacional de Justiça — Resolução número 522/2023 — texto compilado vigente.",
+        "Conselho Nacional de Justiça — MoReq-Jus — 2ª edição.",
+        "Conselho Nacional de Justiça — página institucional MoReq-Jus.",
+        "Conselho Nacional de Justiça — Manual de Gestão Documental do Poder Judiciário — 3ª edição.",
+        "Conselho Nacional de Justiça — Resolução número 324/2020 — Proname.",
+        "Conselho Nacional de Justiça — Consulta 01/2026 — alcance da Resolução número 522/2023.",
+        "ARQ-004 — MoReq-Jus — Resolução CNJ número 522/2023.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "ARQ-005",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-005.json",
+      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
+      "classificacaoEditorial": "aprofundamento técnico — MoReq-Jus 2ª edição",
+      "documentoUrl": "https://docs.google.com/document/d/1sAcpmgOOz8unyWfa_Mc6Sf-091FMk3TVFULg_mOW0Vc/edit?usp=drivesdk",
+      "caracteres": 32721,
+      "sha256Texto": "f6c48ccc1f5bcd430777a188d689bff43fa3a49dd9c15bf45eaa2228bba5e1d9",
+      "sha256Documento": "ac11a6e04631db0346ca972e0b08688c4992b0af934e4f11dc5735c060362509"
+    },
+    {
+      "id": "BD-006",
+      "titulo": "BD-006 — SQL DDL e definição do esquema: CREATE TABLE, tipos, PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, ALTER TABLE e DROP TABLE",
+      "materiaId": "bancos-dados",
+      "cargoIds": [
+        "trf3_aj_ti",
+        "trf3_tj_ti",
+        "tresp_aj_ti",
+        "tresp_tj_programacao",
+        "trt2_aj_ti",
+        "trt15_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital número 01/2023 — Analista Judiciário, Área Apoio Especializado, Especialidade Informática — Banco de Dados: Comandos SQL",
+        "DDL — Linguagem de Definição de Dados.",
+        "TRF3 — Edital número 01/2023 — Técnico Judiciário, Área Apoio Especializado, Especialidade Informática — Banco de Dados: Comandos SQL",
+        "DDL — Linguagem de Definição de Dados.",
+        "CPNUJE/TSE — Edital número 1/2024, atualizado até a Retificação número 15 — Cargo 17, Analista Judiciário, Tecnologia da Informação — Bancos de Dados: Linguagem de definição de dados, DDL.",
+        "CPNUJE/TSE — Edital número 1/2024, atualizado até a Retificação número 15 — Cargo 21, Técnico Judiciário, Programação de Sistemas — Bancos de Dados: SQL ANSI",
+        "Linguagem de definição de dados, DDL.",
+        "TRT-2 — Edital número 01/2025 — M13, Analista Judiciário, Tecnologia da Informação — Banco de Dados: SQL padrão ANSI, PL/SQL, PL/pgSQL e Transact-SQL.",
+        "TRT-15 — Edital número 01/2024 — Cargo 24, Analista Judiciário, Tecnologia da Informação — Banco de Dados: SQL padrão ANSI, PL/SQL, PL/pgSQL e Transact-SQL."
+      ],
+      "sourceRefs": [
+        "TRF3 — Edital de Abertura número 01/2023 e alterações posteriores.",
+        "CPNUJE/TSE — Edital número 1/2024 atualizado até a Retificação número 15.",
+        "TRT-2 — Edital número 01/2025 e Retificação número 04/2025.",
+        "TRT-15 — Edital número 01/2024, versão final.",
+        "Cebraspe — CPNUJE 2024 — prova do Cargo 21, Técnico Judiciário, Programação de Sistemas.",
+        "BD-003 — Modelo Entidade-Relacionamento.",
+        "BD-004 — Modelo relacional e mapeamento.",
+        "BD-005 — Normalização de dados."
+      ],
+      "status": "concluido",
+      "topicoId": "BD-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "bancos-dados-sql/BD-006.json",
+      "materiaEditorial": "Bancos de Dados e SQL",
+      "classificacaoEditorial": "núcleo técnico consolidado — SQL DDL e definição de esquema",
+      "documentoUrl": "https://docs.google.com/document/d/1o90GkDjt3Kt4rNq9fR7AlenueAnaqeTpUM5V24quJng/edit?usp=drivesdk",
+      "caracteres": 52968,
+      "sha256Texto": "f1e5c91c4c142d147844f6c123a0fde97ba515f91a1c8ca1e3221b19271961a9",
+      "sha256Documento": "09bb8cf2f935fb1ce8bb04cf801f898d1d1388f3c409c8a0c46a578097af9940"
+    },
+    {
+      "id": "DA-015",
+      "titulo": "DA-015 — Investigação dos ilícitos de improbidade — Lei número 8.429/1992, artigo 22",
+      "materiaId": "administrativo",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "Tribunal de Justiça de São Paulo — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Analista Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Técnico Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional do Trabalho da 2ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa.",
+        "Tribunal Regional do Trabalho da 15ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
+      ],
+      "sourceRefs": [
+        "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada — artigo 22.",
+        "Presidência da República — Lei número 8.429/1992 — texto compilado.",
+        "Lei número 14.230/2021.",
+        "Superior Tribunal de Justiça — Recurso Especial número 2.181.090, Distrito Federal.",
+        "Superior Tribunal de Justiça — Informativo de Jurisprudência número 875.",
+        "Superior Tribunal de Justiça — Informativo de Jurisprudência número 522 — precedente sobre notícia anônima e investigação.",
+        "editais e retificações oficiais auditados no projeto."
+      ],
+      "status": "concluido",
+      "topicoId": "DA-015",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-administrativo-administracao-publica/DA-015.json",
+      "materiaEditorial": "Direito Administrativo",
+      "classificacaoEditorial": "legislação — Improbidade Administrativa — investigação ministerial",
+      "documentoUrl": "https://docs.google.com/document/d/1kz6gaLpPJMHVcRk0EQKQa7WuzsSEVYGTeS7-4glExzU/edit?usp=drivesdk",
+      "caracteres": 28816,
+      "sha256Texto": "08d0455e76bba83e49e7fd5f89d52fef0df3d33dab0a93347acd7a945f7f864d",
+      "sha256Documento": "198f54638eca398f6207bb7daaa8242e4ae588dcc736b813e72d5da6d7b7b6d3"
+    },
+    {
+      "id": "DA-016",
+      "titulo": "DA-016 — Prescrição da pretensão sancionadora e prescrição intercorrente — Lei número 8.429/1992, artigo 23",
+      "materiaId": "administrativo",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "Tribunal de Justiça de São Paulo — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Analista Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Técnico Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional do Trabalho da 2ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa.",
+        "Tribunal Regional do Trabalho da 15ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
+      ],
+      "sourceRefs": [
+        "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada — artigo 23.",
+        "Presidência da República — Lei número 8.429/1992 — texto compilado.",
+        "Lei número 14.230/2021.",
+        "Supremo Tribunal Federal — Tema número 1.199 da repercussão geral — Agravo em Recurso Extraordinário número 843.989.",
+        "Supremo Tribunal Federal — Tema número 897 da repercussão geral — Recurso Extraordinário número 852.475.",
+        "Supremo Tribunal Federal — Ações Diretas de Inconstitucionalidade 7156 e 7236.",
+        "Superior Tribunal de Justiça — Recurso Especial número 2.181.090, Distrito Federal — Informativo de Jurisprudência número 875.",
+        "Superior Tribunal de Justiça — Informativos de Jurisprudência números 880 e 899 — regime anterior da prescrição.",
+        "Superior Tribunal de Justiça — jurisprudência de 2026 sobre aplicação temporal do Tema número 1.199.",
+        "editais e retificações oficiais auditados no projeto."
+      ],
+      "status": "concluido",
+      "topicoId": "DA-016",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-administrativo-administracao-publica/DA-016.json",
+      "materiaEditorial": "Direito Administrativo",
+      "classificacaoEditorial": "legislação — Improbidade Administrativa — prescrição",
+      "documentoUrl": "https://docs.google.com/document/d/1M05is08DaFSfPkMLxHI00bmKD5-cdi18rzMdlwFc5vE/edit?usp=drivesdk",
+      "caracteres": 55795,
+      "sha256Texto": "1564b6384099b788697e00bae6dc80583bbaacf28250c45e24b95322d79b061d",
+      "sha256Documento": "f2d78c6b36225bccec4c3b4b682b8a5fee2da45a70202634d3a52cf9bb9ddaf4"
+    },
+    {
+      "id": "DA-017",
+      "titulo": "DA-017 — Capacitação contínua para prevenção e repressão da improbidade — Lei número 8.429/1992, artigo 23-A",
+      "materiaId": "administrativo",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "Tribunal de Justiça de São Paulo — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Analista Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Técnico Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional do Trabalho da 2ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa.",
+        "Tribunal Regional do Trabalho da 15ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
+      ],
+      "sourceRefs": [
+        "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada — artigo 23-A.",
+        "Presidência da República — Lei número 8.429/1992 — texto compilado.",
+        "Lei número 14.230/2021.",
+        "editais e retificações oficiais auditados no projeto."
+      ],
+      "status": "concluido",
+      "topicoId": "DA-017",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-administrativo-administracao-publica/DA-017.json",
+      "materiaEditorial": "Direito Administrativo",
+      "classificacaoEditorial": "legislação — Improbidade Administrativa — capacitação institucional",
+      "documentoUrl": "https://docs.google.com/document/d/1AW11Q_c6gzmUSFJNwYkD7x9Bm-OlkcU1yR7ljse0Q1s/edit?usp=drivesdk",
+      "caracteres": 21791,
+      "sha256Texto": "a7888a9a0791d9083b0675870f787a4dd2e347bf0a67de5a86e2282babab9854",
+      "sha256Documento": "249bef6d2bc6df3ad70723ee099b353375e2911ab870e55eb441840c3dc9de40"
+    },
+    {
+      "id": "DA-018",
+      "titulo": "DA-018 — Custas, despesas processuais e honorários na Lei de Improbidade — Lei número 8.429/1992, artigo 23-B",
+      "materiaId": "administrativo",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "Tribunal de Justiça de São Paulo — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Analista Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Técnico Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional do Trabalho da 2ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa.",
+        "Tribunal Regional do Trabalho da 15ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
+      ],
+      "sourceRefs": [
+        "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada — artigo 23-B.",
+        "Presidência da República — Lei número 8.429/1992 — texto compilado.",
+        "Superior Tribunal de Justiça — Agravo Interno no Agravo em Recurso Especial número 2.795.183, Minas Gerais.",
+        "Superior Tribunal de Justiça — Agravo Interno nos Embargos de Declaração no Agravo Interno nos Embargos de Divergência em Agravo em Recurso Especial número 1.996.724, São Paulo.",
+        "Superior Tribunal de Justiça — Agravo Interno no Agravo em Recurso Especial número 2.567.294, Paraná.",
+        "Superior Tribunal de Justiça — Embargos de Declaração no Recurso Especial número 1.708.238, São Paulo.",
+        "Supremo Tribunal Federal — Agravo em Recurso Extraordinário número 803.568 — aplicação do artigo 23-B no julgamento.",
+        "editais e retificações oficiais auditados no projeto."
+      ],
+      "status": "concluido",
+      "topicoId": "DA-018",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-administrativo-administracao-publica/DA-018.json",
+      "materiaEditorial": "Direito Administrativo",
+      "classificacaoEditorial": "legislação — Improbidade Administrativa — custas, despesas e honorários",
+      "documentoUrl": "https://docs.google.com/document/d/1Mx014JLiUQx6Oxnq3XAMUfJUVQJyYCCG4rUle-odojQ/edit?usp=drivesdk",
+      "caracteres": 29485,
+      "sha256Texto": "53be773d1fed9642c0c7e86025ddb6418177bb88413facbe7b0c2f142c84f288",
+      "sha256Documento": "877df66dadb9bb8259a0e0e1993fd9b184617dc57bf4ef72cbc03e5ad62dc85d"
+    },
+    {
+      "id": "DA-019",
+      "titulo": "DA-019 — Responsabilização de atos envolvendo recursos públicos de partidos políticos e suas fundações — Lei número 8.429/1992, artigo 23-C",
+      "materiaId": "administrativo",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "Tribunal de Justiça de São Paulo — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Analista Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Técnico Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional do Trabalho da 2ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa.",
+        "Tribunal Regional do Trabalho da 15ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
+      ],
+      "sourceRefs": [
+        "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada — artigo 23-C.",
+        "Tribunal Superior Eleitoral — Lei número 8.429/1992 anotada — artigo 23-C.",
+        "Tribunal Superior Eleitoral — Lei número 9.096/1995 — Lei dos Partidos Políticos.",
+        "Supremo Tribunal Federal — Ações Diretas de Inconstitucionalidade 7156 e 7236.",
+        "editais e retificações oficiais auditados no projeto."
+      ],
+      "status": "concluido",
+      "topicoId": "DA-019",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-administrativo-administracao-publica/DA-019.json",
+      "materiaEditorial": "Direito Administrativo",
+      "classificacaoEditorial": "legislação — Improbidade Administrativa — recursos públicos de partidos políticos e fundações partidárias",
+      "documentoUrl": "https://docs.google.com/document/d/1PYcEkD5rAuaNtrWkIy4lHriklvUtswAhe4eLzA9Atec/edit?usp=drivesdk",
+      "caracteres": 26195,
+      "sha256Texto": "c696abf14b281c7ff26e92d46c76df2d4bd20333e0e003b0f7f65a37ec49052d",
+      "sha256Documento": "76d27ffe7686fce28a52dbf13603306d60731617e8d1184a3d88d3d1bb5d152a"
+    },
+    {
+      "id": "DA-020",
+      "titulo": "DA-020 — Disposições finais da Lei de Improbidade — Lei número 8.429/1992, artigos 24 e 25",
+      "materiaId": "administrativo",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "Tribunal de Justiça de São Paulo — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Analista Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Técnico Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional do Trabalho da 2ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa.",
+        "Tribunal Regional do Trabalho da 15ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
+      ],
+      "sourceRefs": [
+        "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada — artigos 24 e 25.",
+        "Presidência da República — Lei número 8.429/1992 — texto compilado.",
+        "Presidência da República — Lei número 3.164/1957 — revogada.",
+        "Câmara dos Deputados — Lei número 3.502/1958 — Lei Bilac Pinto — revogada.",
+        "editais e retificações oficiais auditados no projeto."
+      ],
+      "status": "concluido",
+      "topicoId": "DA-020",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-administrativo-administracao-publica/DA-020.json",
+      "materiaEditorial": "Direito Administrativo",
+      "classificacaoEditorial": "legislação — Improbidade Administrativa — vigência e revogações finais",
+      "documentoUrl": "https://docs.google.com/document/d/1sMs30AK0N-EbsTfh7UBJH9FHHIvMK9gAO0LlBBJD6rg/edit?usp=drivesdk",
+      "caracteres": 19869,
+      "sha256Texto": "04f748f719e2045a134c10292cbece57cf464d9dbc0d2c5c385a488545387e32",
+      "sha256Documento": "f7588932964c85633a8b76375aa1e14f57074de7d0e8a7223f346c14f4305b65"
+    },
+    {
+      "id": "DA-021",
+      "titulo": "DA-021 — Cumprimento da sentença, ressarcimento, perda ou reversão de bens e unificação de sanções — Lei número 8.429/1992, artigos 18 e 18-A",
+      "materiaId": "administrativo",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "Tribunal de Justiça de São Paulo — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Analista Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Técnico Judiciário – Área Administrativa — Improbidade Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional do Trabalho da 2ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa.",
+        "Tribunal Regional do Trabalho da 15ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade Administrativa."
+      ],
+      "sourceRefs": [
+        "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada — artigos 18 e 18-A.",
+        "Presidência da República — Lei número 8.429/1992 — texto compilado.",
+        "Lei número 14.230/2021.",
+        "Superior Tribunal de Justiça — jurisprudência sobre serviços efetivamente prestados e vedação ao enriquecimento sem causa da Administração.",
+        "Superior Tribunal de Justiça — Recurso Especial número 1.925.304, Santa Catarina, sobre destinação da multa civil à entidade diretamente prejudicada.",
+        "Supremo Tribunal Federal — Ação Direta de Inconstitucionalidade 7236 — controle concentrado sobre a reforma da Lei de Improbidade.",
+        "editais e retificações oficiais auditados no projeto."
+      ],
+      "status": "concluido",
+      "topicoId": "DA-021",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-administrativo-administracao-publica/DA-021.json",
+      "materiaEditorial": "Direito Administrativo",
+      "classificacaoEditorial": "legislação — Improbidade Administrativa — cumprimento da sentença e unificação de sanções",
+      "documentoUrl": "https://docs.google.com/document/d/14Y7Yiv1q8US-YCyRuGMHd8tNEXN111HeVaUXr512chc/edit?usp=drivesdk",
+      "caracteres": 31622,
+      "sha256Texto": "af395524ace0d3dfd0a3c8d38348ec8e86a307c9352ddd45c1b60794c994896f",
+      "sha256Documento": "238dbd1d48a9bd08fa87532a8e85871dd031d63e10fbd29d3301c3df96b07227"
+    },
+    {
+      "id": "DA-022",
+      "titulo": "DA-022 — Representação criminosa por improbidade e efeitos da condenação — Lei número 8.429/1992, artigos 19 e 20",
+      "materiaId": "administrativo",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "Tribunal de Justiça de São Paulo — Escrevente Técnico Judiciário — Lei Federal número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Analista Judiciário – Área Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional Federal da 3ª Região — Técnico Judiciário – Área Administrativa — Lei número 8.429/1992.",
+        "Tribunal Regional do Trabalho da 2ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade.",
+        "Tribunal Regional do Trabalho da 15ª Região — Analista e Técnico Judiciário – Área Administrativa — Lei de Improbidade."
+      ],
+      "sourceRefs": [
+        "Câmara dos Deputados — Lei número 8.429/1992 — norma atualizada — artigos 19 e 20.",
+        "Presidência da República — Lei número 8.429/1992 — texto compilado.",
+        "Lei número 14.230/2021.",
+        "Superior Tribunal de Justiça — jurisprudência sobre excepcionalidade do afastamento cautelar.",
+        "editais e retificações oficiais auditados no projeto."
+      ],
+      "status": "concluido",
+      "topicoId": "DA-022",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-administrativo-administracao-publica/DA-022.json",
+      "materiaEditorial": "Direito Administrativo",
+      "classificacaoEditorial": "legislação — Improbidade Administrativa — disposições penais e efeitos da condenação",
+      "documentoUrl": "https://docs.google.com/document/d/1TFQMQiVZmG_hJDbz5l8rDZlmg9nbnFoRxxL4zx6dis4/edit?usp=drivesdk",
+      "caracteres": 25671,
+      "sha256Texto": "9f003afcfb5304cf7838f7482f9e9a295c664821fab914dcd4010ef6e1b50888",
+      "sha256Documento": "b8dc10bcaadee32b31e9c7d7a618398219846ee6fdcb3d23c839a319f75f6530"
+    },
+    {
+      "id": "DA-023",
+      "titulo": "DA-023 — Ato administrativo: conceito, elementos e requisitos, atributos, classificação e espécies",
+      "materiaId": "administrativo",
+      "cargoIds": [
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "tresp_aj_adm",
+        "tresp_tj_adm",
+        "tresp_aj_ti",
+        "tresp_tj_programacao",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital número 01/2023 — Analista Judiciário – Área Administrativa — Noções de Direito Administrativo: ato administrativo, requisitos, atributos, classificação, espécies, revogação, invalidação e convalidação.",
+        "TRF3 — Edital número 01/2024 — Técnico Judiciário – Área Administrativa — Noções de Direito Administrativo: ato administrativo, conceito, requisitos e atributos",
+        "anulação, revogação e convalidação",
+        "discricionariedade e vinculação.",
+        "CPNUJE / Cebraspe — Edital número 1/2024 — Noções de Direito Administrativo, exceto Cargo 18 – Analista Judiciário – Área Judiciária: ato administrativo, conceito, requisitos, atributos, classificação e espécies. No universo do projeto, o bloco alcança os cargos-alvo do TRE-SP vinculados nesta aula.",
+        "TRT-2 — Edital número 01/2025 — Analista e Técnico Judiciário – Área Administrativa — ato administrativo: conceito, características e atributos",
+        "elementos e requisitos de validade",
+        "classificação",
+        "formação e efeitos",
+        "extinção e formas de desfazimento.",
+        "TRT-15 — Edital número 01/2024 — Analista e Técnico Judiciário – Área Administrativa — ato administrativo: conceito, características e atributos",
+        "elementos e requisitos de validade",
+        "classificação",
+        "formação e efeitos",
+        "extinção e formas de desfazimento."
+      ],
+      "sourceRefs": [
+        "Constituição da República Federativa do Brasil — artigo 37, caput.",
+        "Lei número 9.784/1999 — princípios do processo administrativo federal",
+        "competência, delegação e avocação",
+        "motivação",
+        "autotutela e convalidação, quando necessárias para conexão sistemática.",
+        "TRF3 — Editais números 01/2023 e 01/2024 — conteúdo programático oficial auditado no projeto.",
+        "Cebraspe — CPNUJE — Edital número 1/2024 atualizado — conteúdo programático oficial.",
+        "TRT-2 — Edital número 01/2025 — conteúdo programático auditado no projeto.",
+        "TRT-15 — Edital número 01/2024 — conteúdo programático auditado no projeto.",
+        "Consolidação doutrinária de Direito Administrativo utilizada apenas para conceitos não definidos de forma completa em lei, com divergências terminológicas explicitadas quando relevantes.",
+        "DA-001 a DA-022 — Lei número 8.429/1992 — bloco anterior de Direito Administrativo.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "DA-023",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-administrativo-administracao-publica/DA-023.json",
+      "materiaEditorial": "Direito Administrativo",
+      "classificacaoEditorial": "núcleo jurídico-administrativo consolidado — teoria geral do ato administrativo",
+      "documentoUrl": "https://docs.google.com/document/d/1tchAooJhcEGef9xHuAvqIOcTg_dHY9y6_2zQ3HJx12A/edit?usp=drivesdk",
+      "caracteres": 61715,
+      "sha256Texto": "2a85676bca7315619744207fce528a5709eb6e6f322a6ac25404f176ff18e019",
+      "sha256Documento": "68942deb5ea38ef83fb1824fcfded24e15ff65c78283fab5f9127e7cf6497beb"
+    },
+    {
+      "id": "DBI-006",
+      "titulo": "DBI-006 — Governança de dados: princípios, papéis, políticas, metadados, catálogo, dados mestres, dados de referência e ciclo de vida",
+      "materiaId": "dados-bi",
+      "cargoIds": [
+        "tresp_aj_ti",
+        "tresp_tj_programacao"
+      ],
+      "editalRefs": [
+        "CPNUJE — Edital número 1, de 27 de maio de 2024 — Cargo 17 — Analista Judiciário — Área Apoio Especializado — Especialidade Tecnologia da Informação — Bancos de Dados — item 3: Metadados.",
+        "CPNUJE — Edital número 1, de 27 de maio de 2024 — Cargo 21 — Técnico Judiciário — Área Apoio Especializado — Especialidade Programação de Sistemas — Bancos de Dados — item 6: Metadados."
+      ],
+      "sourceRefs": [
+        "Tribunal Superior Eleitoral — Edital número 1 do Concurso Público Nacional Unificado da Justiça Eleitoral, de 27 de maio de 2024.",
+        "Microsoft Learn — Microsoft Purview Data Governance Glossary.",
+        "Microsoft Learn — Plan for data governance with Microsoft Purview.",
+        "Microsoft Learn — Get started with data governance in Microsoft Purview.",
+        "AWS — Enterprise Data Governance Catalog.",
+        "IBM — Master Data Management — Reference Data Management.",
+        "IBM — Managing reference data with code tables.",
+        "Oracle — Enterprise Data Management — master data, reference data e metadata.",
+        "DBI-003 — ETL x ELT.",
+        "DBI-004 — Slowly Changing Dimensions.",
+        "DBI-005 — Qualidade de dados.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "DBI-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "dados-bi-ia/DBI-006.json",
+      "materiaEditorial": "Dados, BI, Data Warehouse, ETL/ELT e IA/ML",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI — governança e administração de dados",
+      "documentoUrl": "https://docs.google.com/document/d/1Hg9W2ioWers4ayb5Oqi4GzN0Vztp5y6jchKKc1TTOC0/edit?usp=drivesdk",
+      "caracteres": 51548,
+      "sha256Texto": "8af5a5cc276f1dab8ef7208c69e8361590450eb993e3a417a927ca7b37f2544d",
+      "sha256Documento": "1dc313fb4ec81437b91a7b2bb00c4398804824786670bd37cba28f78655a5915"
+    },
+    {
+      "id": "DBI-007",
+      "titulo": "DBI-007 — Big Data: conceitos, volume, velocidade, variedade, veracidade, valor, processamento distribuído, batch x streaming, data lake, lakehouse e ecossistemas — fundamentos",
+      "materiaId": "dados-bi",
+      "cargoIds": [
+        "tresp_aj_ti",
+        "tresp_tj_programacao",
+        "trt15_aj_ti",
+        "trt15_tj_ti"
+      ],
+      "editalRefs": [
+        "CPNUJE — Edital número 1, de 27 de maio de 2024, atualizado — Cargo 17 — Analista Judiciário — Área Apoio Especializado — Especialidade Tecnologia da Informação — Bancos de Dados: data lakes e soluções para big data",
+        "dados estruturados e não estruturados",
+        "técnicas de integração e ingestão",
+        "conceitos de Inteligência Artificial, Análise de Dados e Big Data.",
+        "CPNUJE — Edital número 1, de 27 de maio de 2024, atualizado — Cargo 21 — Técnico Judiciário — Área Apoio Especializado — Especialidade Programação de Sistemas — Bancos de Dados: engenharia de dados, ingestão e armazenamento de grande quantidade de dados, Big Data",
+        "data lakes e soluções para big data",
+        "dados estruturados e não estruturados",
+        "técnicas de integração e ingestão",
+        "conceitos de Inteligência Artificial, Análise de Dados e Big Data.",
+        "TRT-15 — Edital número 01/2024 — Analista Judiciário — Apoio Especializado — Tecnologia da Informação — Ciência de dados: conceitos de Big Data e Analytics.",
+        "TRT-15 — Edital número 01/2024 — Técnico Judiciário — Apoio Especializado — Tecnologia da Informação — Ciência de dados: noções de conceitos de Big Data e Analytics."
+      ],
+      "sourceRefs": [
+        "Tribunal Superior Eleitoral / Cebraspe — Edital número 1 do Concurso Público Nacional Unificado da Justiça Eleitoral, atualizado.",
+        "Tribunal Regional do Trabalho da 15ª Região — Edital número 01/2024 — conteúdo programático de Tecnologia da Informação.",
+        "TRF3 / Fundação VUNESP — Edital número 01/2023 — fonte primária comparativa",
+        "nesta auditoria não foram localizados Big Data, data lake ou Hadoop no conteúdo de Informática.",
+        "Apache Hadoop — HDFS Architecture.",
+        "Apache Spark — Structured Streaming Programming Guide.",
+        "Apache Kafka — documentação de arquitetura e event streaming.",
+        "Microsoft Learn — Data lakehouse e opções de armazenamento analítico.",
+        "DBI-001 — Fundamentos de BI e Data Warehouse.",
+        "DBI-003 — ETL x ELT.",
+        "DBI-005 — Qualidade de dados.",
+        "DBI-006 — Governança de dados.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "DBI-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "dados-bi-ia/DBI-007.json",
+      "materiaEditorial": "Dados, BI, Data Warehouse, ETL/ELT e IA/ML",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI — Big Data e arquiteturas analíticas em escala",
+      "documentoUrl": "https://docs.google.com/document/d/1E8BE5tAvS7xwlFwnVuMPWe6cAyqpTYA7HKn_A-PeZS8/edit?usp=drivesdk",
+      "caracteres": 56170,
+      "sha256Texto": "b7bc99defae5e0828d04213a540a6be9b892101f3e60d06bd62c8a7b9b14bb01",
+      "sha256Documento": "ebd6c27fa9d596091d26317e0ef3d30a58215adff5fad7e50461b239f0603a66"
+    },
+    {
+      "id": "DC-007",
+      "titulo": "DC-007 — Intervenção federal e intervenção nos Municípios — Constituição Federal, artigos 34 a 36",
+      "materiaId": "constitucional",
+      "cargoIds": [
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trf3_aj_ti",
+        "trf3_tj_ti",
+        "trt2_aj_adm",
+        "trt15_aj_adm"
+      ],
+      "editalRefs": [
+        "TRF3 / VUNESP — Edital número 01/2023 — Noções de Direito e Gestão Pública — Organização do Estado: intervenção federal e intervenção estadual nos Municípios",
+        "bloco comum aos cargos-alvo de Analista Judiciário – Área Administrativa, Analista Judiciário – Apoio Especializado – Informática e Técnico Judiciário – Apoio Especializado – Informática daquele edital.",
+        "TRF3 / FCC — Edital número 01/2024 — Técnico Judiciário – Área Administrativa — Direito Constitucional: organização político-administrativa e intervenção federal.",
+        "TRT-2 / FCC — Edital número 01/2025 — Analista Judiciário – Área Administrativa — Direito Constitucional: intervenção federal.",
+        "TRT-15 / FCC — Edital número 01/2024 — Analista Judiciário – Área Administrativa — Direito Constitucional: intervenção federal."
+      ],
+      "sourceRefs": [
+        "Constituição da República Federativa do Brasil de 1988 — texto constitucional vigente — artigos 34 a 36 e artigo 84, inciso X.",
+        "Supremo Tribunal Federal — A Constituição e o Supremo — artigo 34 — jurisprudência correlata.",
+        "TRF3 — Editais números 01/2023 e 01/2024.",
+        "TRT-2 — Edital número 01/2025.",
+        "TRT-15 — Edital número 01/2024.",
+        "TSE / Cebraspe — Edital número 1/2024 do CPNUJE — usado para controle negativo de vínculo granular nesta aula.",
+        "DC-006 — Organização político-administrativa do Estado — artigos 18 a 33.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "DC-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-constitucional/DC-007.json",
+      "materiaEditorial": "Direito Constitucional",
+      "classificacaoEditorial": "núcleo constitucional consolidado — intervenção",
+      "documentoUrl": "https://docs.google.com/document/d/1l3-O4hdF2Fw3SLYobCtzEEnqgndf1C5s9w2aLT25Mms/edit?usp=drivesdk",
+      "caracteres": 54893,
+      "sha256Texto": "a7b664b8721e26b10f49e9ba5f94b6438a5cf46ba61a05b581f6ffc90c49379b",
+      "sha256Documento": "733c0f0cfcf672f41bb03fbebd0e3b40a7ad4ba1875f868fbe74dca82eb2c84e"
+    },
+    {
+      "id": "DE-005",
+      "titulo": "DE-005 — Convenções partidárias, coligações e registro de candidaturas — Lei número 9.504/1997 e Resolução TSE número 23.609/2019",
+      "materiaId": "direito-eleitoral",
+      "cargoIds": [
+        "tre_sp_aj_adm",
+        "tre_sp_tj_adm"
+      ],
+      "editalRefs": [
+        "CPNUJE — Edital número 1/2024 — cargos administrativos 1 e 19 — Noções de Direito Eleitoral — item formal “registro de candidatos”."
+      ],
+      "sourceRefs": [
+        "Constituição Federal de 1988 — artigos 14 e 17.",
+        "Lei número 9.504/1997 — artigos 4º a 16-A, especialmente artigos 6º a 13.",
+        "Lei Complementar número 64/1990 — artigos 3º a 7º e disposições correlatas.",
+        "Lei número 9.096/1995 — federações e disciplina partidária.",
+        "Tribunal Superior Eleitoral — Resolução número 23.609/2019 — texto consolidado vigente em setembro de 2026.",
+        "Tribunal Superior Eleitoral — Resolução número 23.754/2026.",
+        "Tribunal Superior Eleitoral — Resolução número 23.768/2026.",
+        "Tribunal Superior Eleitoral — página oficial “Normas e documentações — Eleições 2026”.",
+        "DE-004 — Elegibilidade, condições constitucionais e inelegibilidades.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "DE-005",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-eleitoral/DE-005.json",
+      "materiaEditorial": "Direito Eleitoral",
+      "classificacaoEditorial": "núcleo formal — escolha e registro de candidaturas",
+      "documentoUrl": "https://docs.google.com/document/d/1khtkRaBgUZ9ul3vfFJTV4JSDqX12yFlI8O6VGhRzzWQ/edit?usp=drivesdk",
+      "caracteres": 43021,
+      "sha256Texto": "844aa44143d421745ef58f3dc7452170f8e12d862767daaec90b11ed45e8c919",
+      "sha256Documento": "48b19dedff9d1ed7c29b6000abc3487eb47680a2a5d88ec30806dcda853297f0"
+    },
+    {
+      "id": "DPREV-006",
+      "titulo": "DPREV-006 — Segurados do RGPS: segurados obrigatórios, facultativo, categorias, segurado especial e vínculo com RPPS — Leis números 8.212/1991 e 8.213/1991",
+      "materiaId": "direito-previdenciario",
+      "cargoIds": [
+        "trf3_tj_adm"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital de Abertura número 01/2024 — Técnico Judiciário – Área Administrativa — Noções de Direito Previdenciário: Lei número 8.212/1991 e Lei número 8.213/1991."
+      ],
+      "sourceRefs": [
+        "TRF3 — Edital de Abertura número 01/2024 — Anexo VI.",
+        "Presidência da República — Lei número 8.212/1991 — texto compilado vigente.",
+        "Presidência da República — Lei número 8.213/1991 — texto compilado vigente.",
+        "Presidência da República — Decreto número 3.048/1999 — texto compilado vigente, utilizado apenas para interpretação administrativa complementar.",
+        "Instituto Nacional do Seguro Social — orientações atuais sobre inscrição e contribuição do segurado facultativo.",
+        "Lei número 15.072/2024 — atualização do regime do segurado especial.",
+        "DPREV-001 a DPREV-005.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "DPREV-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-previdenciario/DPREV-006.json",
+      "materiaEditorial": "Direito Previdenciário",
+      "classificacaoEditorial": "legislação — Regime Geral de Previdência Social — segurados",
+      "documentoUrl": "https://docs.google.com/document/d/1WvRrgsDkPjGivge_M_tZWyplTmbFpuDPsGimIlvNVHM/edit?usp=drivesdk",
+      "caracteres": 47433,
+      "sha256Texto": "645bbd1873072858a9a627247081f9974c40b533052064bf22c6db7744598e72",
+      "sha256Documento": "b903ba52efcf1e68bc1ad552b8054939c23c703a60578b499e9d25288e7f940a"
+    },
+    {
+      "id": "DPREV-007",
+      "titulo": "DPREV-007 — Dependentes do RGPS: classes, dependência econômica, cônjuge, companheiro, filhos, pais, irmãos e equiparados — Lei número 8.213/1991, artigo 16",
+      "materiaId": "direito-previdenciario",
+      "cargoIds": [
+        "trf3_tj_adm"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital de Abertura número 01/2024 — Técnico Judiciário – Área Administrativa — Noções de Direito Previdenciário: Lei número 8.212/1991 e Lei número 8.213/1991."
+      ],
+      "sourceRefs": [
+        "Presidência da República — Lei número 8.213/1991 — texto compilado vigente — artigo 16.",
+        "Presidência da República — Decreto número 3.048/1999 — texto compilado vigente — dependentes do RGPS.",
+        "Lei número 13.846/2019.",
+        "Lei número 13.146/2015.",
+        "Lei número 15.108/2025.",
+        "Supremo Tribunal Federal — Ações Diretas de Inconstitucionalidade 4878 e 5083 — menor sob guarda.",
+        "Supremo Tribunal Federal — Tema número 1271 — menor sob guarda após Emenda Constitucional número 103/2019 — controvérsia com repercussão geral reconhecida.",
+        "DPREV-006 — Segurados do RGPS.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "DPREV-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-previdenciario/DPREV-007.json",
+      "materiaEditorial": "Direito Previdenciário",
+      "classificacaoEditorial": "legislação — Regime Geral de Previdência Social — dependentes",
+      "documentoUrl": "https://docs.google.com/document/d/1diLEtAcSJqXxI-yEO5bwvMBW6a-zzwolLzAAxKk4oFA/edit?usp=drivesdk",
+      "caracteres": 30610,
+      "sha256Texto": "40eb1db9e88d60f5b7b334dd1dd2eeaee8b56e54ed2fbff5fbb24ddbcb647fbc",
+      "sha256Documento": "12e9f8721beea45414efe328c7faa77a8ec03e7376a6f8514603b19862a78902"
+    },
+    {
+      "id": "DT-006",
+      "titulo": "DT-006 — Penalidades tributárias, razoabilidade, proporcionalidade e limites — CTN, artigo 113-A",
+      "materiaId": "direito-tributario",
+      "cargoIds": [
+        "trf3_tj_adm"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital de Abertura número 01/2024 — Técnico Judiciário – Área Administrativa — Noções de Direito Tributário: Obrigação Tributária e Crédito Tributário — artigos 113 a 193 do Código Tributário Nacional."
+      ],
+      "sourceRefs": [
+        "Código Tributário Nacional — Lei número 5.172/1966 — texto oficial compilado vigente — artigo 113-A.",
+        "Lei Complementar número 236, de 4 de setembro de 2026.",
+        "Código Tributário Nacional — artigos 106, 112 e 142, apenas nas conexões necessárias.",
+        "Supremo Tribunal Federal — Tema número 487 da repercussão geral — multas isoladas por descumprimento de obrigação acessória.",
+        "DT-005 — Obrigação tributária — artigo 113.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "DT-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-tributario/DT-006.json",
+      "materiaEditorial": "Direito Tributário",
+      "classificacaoEditorial": "legislação — Código Tributário Nacional — penalidades tributárias",
+      "documentoUrl": "https://docs.google.com/document/d/186Xhs8Fun9gE7gkBDq70CjovLxcuSZqRIgHS1XGWr1M/edit?usp=drivesdk",
+      "caracteres": 34315,
+      "sha256Texto": "c095db85919e5cd3c12fb08d925455a5bcb473d8a8d6abb05b77e395b3b5607c",
+      "sha256Documento": "f6c8618ef1a7706ec4134375507dd4de49ac92ad82596ed1852c45ad4d37bc7f"
+    },
+    {
+      "id": "GSTI-005",
+      "titulo": "GSTI-005 — Práticas de gerenciamento de serviços no ITIL 4: incidentes, problemas, requisições, service desk, eventos, mudanças, configuração, níveis, disponibilidade, capacidade e continuidade",
+      "materiaId": "governanca-servicos-projetos-ti",
+      "cargoIds": [
+        "trf3_aj_ti",
+        "trf3_tj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital número 01/2023 — Analista Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão e Governança de TI — ITIL v4.",
+        "TRF3 — Edital número 01/2023 — Técnico Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão de Projetos, Gerenciamento de Serviços e Governança — Noções de ITIL V4."
+      ],
+      "sourceRefs": [
+        "TRF3 — Edital número 01/2023 e página oficial de editais e retificações do concurso.",
+        "PeopleCert — ITIL 4 Foundation.",
+        "PeopleCert — ITIL 4 Practice Guides.",
+        "PeopleCert — ITIL 4 Specialist: Monitor, Support and Fulfil.",
+        "PeopleCert — ITIL 4 Specialist: Plan, Implement and Control.",
+        "PeopleCert — ITIL 4 Specialist: Collaborate, Assure and Improve.",
+        "PeopleCert — páginas oficiais das práticas Incident Management, Service Desk, Problem Management, Service Request Management, Monitoring and Event Management, Change Enablement, Service Configuration Management e Service Level Management.",
+        "PeopleCert — ITIL Tool Vendor Accreditation — lista atual de práticas.",
+        "GSTI-003 — ITIL 4 — fundamentos.",
+        "GSTI-004 — Gerenciamento de projetos.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "GSTI-005",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-005.json",
+      "materiaEditorial": "Governança, Serviços e Projetos de TI",
+      "classificacaoEditorial": "núcleo técnico consolidado — gerenciamento de serviços — ITIL 4 — aprofundamento em práticas",
+      "documentoUrl": "https://docs.google.com/document/d/1xT8q1WNEtDfujantka1M3P0YbFLgVYqk_n-1MjzR50U/edit?usp=drivesdk",
+      "caracteres": 49894,
+      "sha256Texto": "8b487ae2eb8ae15f7529e765008a85bd03137cd945787ca91aee1b9d5d6e4475",
+      "sha256Documento": "f67cd7e2d6296f6d76d972136128e7105cf667aa0f338345e046225bb4f253cc"
+    },
+    {
+      "id": "INF-007",
+      "titulo": "INF-007 — Microsoft Excel: fórmulas, operadores, referências relativas, absolutas e mistas, precedência, AutoPreenchimento e erros de fórmula — fundamentos",
+      "materiaId": "informatica",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — conteúdo programático de Informática: MS-Excel — uso de fórmulas, funções e macros, dentro do bloco formal de Microsoft Excel."
+      ],
+      "sourceRefs": [
+        "Editais-base canônicos do projeto — TJ-SP — Escrevente Técnico Judiciário.",
+        "Fundação VUNESP — TJSP2503 — concurso de Escrevente Técnico Judiciário.",
+        "Microsoft Support — Visão geral de fórmulas no Excel.",
+        "Microsoft Support — Operadores de cálculo e precedência no Excel.",
+        "Microsoft Support — Alternar entre referências relativas, absolutas e mistas.",
+        "Microsoft Support — Preencher uma fórmula nas células adjacentes.",
+        "Microsoft Support — Como corrigir os erros #DIV/0!, #REF!, #VALOR! e #NOME?.",
+        "INF-006 — Microsoft Excel: fundamentos e organização da planilha.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "INF-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "informatica-escritorio-colaboracao/INF-007.json",
+      "materiaEditorial": "Informática Básica / Escritório / Colaboração",
+      "classificacaoEditorial": "núcleo formal de Microsoft Excel — fórmulas e referências",
+      "documentoUrl": "https://docs.google.com/document/d/1ENg3o3IJwjYtjdM6819ZF8iUmmy8x1jSfzuM_dXTSJE/edit?usp=drivesdk",
+      "caracteres": 44986,
+      "sha256Texto": "a38f89518a129f28c3b0e7996ceda1eba5c48f2e4c0efd3b34e09d67a3273dae",
+      "sha256Documento": "09c0b9de6f09e78c309025e748672e8e4360efddf5dde732c810e84c293c7788"
+    },
+    {
+      "id": "LP-007",
+      "titulo": "LP-007 — Classes de palavras: substantivo, adjetivo, artigo e numeral — emprego, sentido e efeitos nas relações do texto",
+      "materiaId": "portugues",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm",
+        "trf3_aj_ti",
+        "trf3_tj_ti",
+        "tresp_aj_adm",
+        "tresp_tj_adm",
+        "tresp_aj_ti",
+        "tresp_tj_programacao",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt2_aj_ti",
+        "trt2_tj_ti",
+        "trt15_aj_adm",
+        "trt15_tj_adm",
+        "trt15_aj_ti",
+        "trt15_tj_ti"
+      ],
+      "editalRefs": [
+        "TJ-SP / VUNESP — TJSP2503 — Língua Portuguesa, item 6: “Classes de palavras: emprego e sentido que imprimem às relações que estabelecem: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição e conjunção”.",
+        "TRF3 / VUNESP — Edital número 01/2023 — Língua Portuguesa, item 5, para os blocos que abrangem os cargos-alvo do certame: “Classes de palavras: substantivo, adjetivo, numeral, artigo, pronome, verbo, advérbio, preposição e conjunção: emprego e sentido que imprimem às relações que estabelecem”.",
+        "TRF3 / Fundação Carlos Chagas — Edital número 01/2024 — Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Morfossintaxe” e “Flexão nominal e flexão verbal”. Para o Técnico Judiciário – Área Administrativa, LP-007 é decomposição editorial do item amplo, e não transcrição literal de quatro classes enumeradas.",
+        "TSE / Cebraspe — Edital número 1 do CPNUJE/2024, atualizado até a Retificação número 15 — Conhecimentos Básicos, Língua Portuguesa, item 5.1: “Emprego das classes de palavras”. LP-007 cobre quatro classes dentro desse item amplo.",
+        "TRT-2 / Fundação Carlos Chagas — Edital número 01/2025 — Anexo II — Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Morfossintaxe” e “Flexão nominal e flexão verbal”. LP-007 é decomposição pedagógica do item amplo.",
+        "TRT-15 / Fundação Carlos Chagas — Edital número 01/2024 — Anexo III — Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Morfossintaxe” e “Flexão nominal e flexão verbal”. LP-007 é decomposição pedagógica do item amplo."
+      ],
+      "sourceRefs": [
+        "TJ-SP — TJSP2503 — edital oficial.",
+        "Fundação VUNESP / TRF3 — Edital número 01/2023 — documento oficial fornecido e revalidado.",
+        "TRF3 / Fundação Carlos Chagas — Edital número 01/2024.",
+        "Tribunal Superior Eleitoral / Cebraspe — CPNUJE/2024 — Edital número 1 atualizado até a Retificação número 15.",
+        "TRT-2 / Fundação Carlos Chagas — Edital número 01/2025 e retificações.",
+        "TRT-15 / Fundação Carlos Chagas — Edital número 01/2024.",
+        "LP-006 — Sentido próprio e figurado das palavras.",
+        "Materiais pedagógicos internos auditados: medio-portugues-substantivo-001, medio-portugues-adjetivo-001, medio-portugues-artigo-001 e medio-portugues-numeral-001.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "LP-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "lingua-portuguesa/LP-007.json",
+      "materiaEditorial": "Língua Portuguesa",
+      "classificacaoEditorial": "edital — morfologia e morfossintaxe — substantivo, adjetivo, artigo e numeral",
+      "documentoUrl": "https://docs.google.com/document/d/1-jFF7Uqlvpd_WlUEURXpE1tAxOUvraNe3S-DxSjhzKQ/edit?usp=drivesdk",
+      "caracteres": 47949,
+      "sha256Texto": "ebba7aae292c77445cfcec73ee15d1cc5bb1a436bff1378c64c1777b425e10b6",
+      "sha256Documento": "f504be69de6e70df3a44e57e5923a3e67d3d5653bdcd6bc44bc4fa7d745582c3"
+    },
+    {
+      "id": "MB-007",
+      "titulo": "MB-007 — Números inteiros: positivos, negativos, reta numérica e operações",
+      "materiaId": "matematica-basica",
+      "cargoIds": [],
+      "editalRefs": [],
+      "sourceRefs": [
+        "00_TRILHA_MATEMATICA_BASICA.md — ordem pedagógica canônica.",
+        "MB-001 — Números naturais e sistema de numeração.",
+        "MB-002 — Adição: significado, propriedades, cálculo mental e problemas.",
+        "MB-003 — Subtração: significado, cálculo e problemas.",
+        "MB-004 — Multiplicação: tabuada, propriedades, cálculo e problemas.",
+        "MB-005 — Divisão: divisão exata, resto, relação com multiplicação e problemas.",
+        "MB-006 — Ordem das operações: parênteses, multiplicação/divisão e adição/subtração.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "MB-007",
+      "tipo": "suplementar",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-basica/MB-007.json",
+      "materiaEditorial": "Matemática Básica",
+      "classificacaoEditorial": "trilha pedagógica suplementar",
+      "documentoUrl": "https://docs.google.com/document/d/1ZZJ_Gy0YzJ-byKIaRHDa-CXJqjkZoor0OI6-4vtXbrk/edit?usp=drivesdk",
+      "caracteres": 32501,
+      "sha256Texto": "8c4464ca6b1f8ecfe53f9f8b3327d923d7dee7a1b2d73560b60deb4d2036804f",
+      "sha256Documento": "ab07cf537efc556186bd615c5665e8ca86e566c63131ee6f3a4cfc2bb701fd3d"
+    },
+    {
+      "id": "NTRT15-003",
+      "titulo": "NTRT15-003 — Presidência do Tribunal: competências, substituições e atribuições administrativas e judiciárias — Regimento Interno do TRT-15",
+      "materiaId": "normas-institucionais-trt15",
+      "cargoIds": [
+        "trt15_aj_adm",
+        "trt15_tj_adm",
+        "trt15_aj_ti",
+        "trt15_tj_ti"
+      ],
+      "editalRefs": [
+        "TRT-15 — Edital número 01/2024 e Retificação Edital número 02/2024 — cargos 1, 24, 25 e 28 — Conhecimentos Gerais — Regimento Interno do TRT da 15ª Região — bloco “Presidência do Tribunal”. A Retificação 02/2024 determinou expressamente o novo Regimento vigente a partir de 2/1/2025, versão publicada em 6/12/2024."
+      ],
+      "sourceRefs": [
+        "TRT-15 — Edital número 01/2024",
+        "TRT-15 — Retificação Edital número 02/2024",
+        "TRT-15 — Resolução Administrativa número 028/2024",
+        "TRT-15 — Regimento Interno compilado vigente a partir de 2/1/2025, atualizado em 19/05/2026",
+        "TRT-15 — Assento Regimental número 001/2026",
+        "TRT-15 — Assento Regimental número 002/2026",
+        "NTRT15-001",
+        "NTRT15-002",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "NTRT15-003",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "normas-institucionais-trt15/NTRT15-003.json",
+      "materiaEditorial": "Normas Institucionais — TRT da 15ª Região",
+      "classificacaoEditorial": "Regimento Interno — Presidência do Tribunal",
+      "documentoUrl": "https://docs.google.com/document/d/11n5Lr7Vgo6X6kffw1L5NJ8Zcgzfvydb6Ny9wHe5RStA/edit?usp=drivesdk",
+      "caracteres": 55456,
+      "sha256Texto": "3b63043cc32db32b81074e0bc268ed37b21118dc37358be58ec889a8c7bbc783",
+      "sha256Documento": "c306927f8b3e5719f5573ba8577d00d2b583794f481138eef49460547a213062"
+    },
+    {
+      "id": "PCD-007",
+      "titulo": "PCD-007 — Direito à assistência social e à previdência social — Lei número 13.146/2015, artigos 39 a 41",
+      "materiaId": "direitos-pessoa-deficiencia-acessibilidade",
+      "cargoIds": [
+        "trf3_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm",
+        "trt15_aj_ti",
+        "trt15_tj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital de Abertura número 01/2024 — Técnico Judiciário – Área Administrativa — Conhecimentos Gerais: Noções sobre o Direito das Pessoas com Deficiência — Lei número 13.146/2015.",
+        "TRT-15 — Edital número 01/2024 — Conhecimentos Gerais para todos os cargos — Noções sobre Direitos das Pessoas com Deficiência — Lei número 13.146/2015 — vínculos deste material: Analista Judiciário – Área Administrativa",
+        "Técnico Judiciário – Área Administrativa",
+        "Analista Judiciário – Apoio Especializado – Tecnologia da Informação",
+        "Técnico Judiciário – Apoio Especializado – Tecnologia da Informação."
+      ],
+      "sourceRefs": [
+        "Presidência da República — Lei número 13.146/2015 — texto oficial compilado vigente — artigos 39 a 41.",
+        "Presidência da República — Lei número 8.742/1993 — Lei Orgânica da Assistência Social — utilizada somente para compreender a remissão do artigo 40.",
+        "Presidência da República — Lei Complementar número 142/2013 — utilizada somente para compreender a remissão do artigo 41.",
+        "TRT-15 — Edital número 01/2024 — Anexo III — conteúdo programático oficial.",
+        "TRF3 — Edital de Abertura número 01/2024 — Anexo VI — conteúdo programático oficial já auditado na trilha PCD.",
+        "PCD-005 — Direito à moradia.",
+        "PCD-006 — Direito ao trabalho.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "PCD-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direitos-pessoa-deficiencia-acessibilidade/PCD-007.json",
+      "materiaEditorial": "PCD, Acessibilidade, Ética, Integridade, LAI e LGPD",
+      "classificacaoEditorial": "legislação — Lei Brasileira de Inclusão da Pessoa com Deficiência — assistência social e previdência social",
+      "documentoUrl": "https://docs.google.com/document/d/1qi_EI6Ncc5fmqZckQoFIF2t38sZBisx0lB_P7s0w9ho/edit?usp=drivesdk",
+      "caracteres": 47713,
+      "sha256Texto": "c98c25de6db4f5de657d98e221d7d9378080ff8a60580014dff02bb6c7ae9d3f",
+      "sha256Documento": "d6d17a0a794360801fcc07a5ab6d89bdcad412692ceffbbf730f5d6dcc738c3c"
+    },
+    {
+      "id": "PTRAB-005",
+      "titulo": "PTRAB-005 — Provas no Processo do Trabalho: ônus da prova, distribuição dinâmica, depoimento pessoal, confissão, prova testemunhal, documental, pericial e inspeção",
+      "materiaId": "processo-trabalho",
+      "cargoIds": [
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "Tribunal Regional do Trabalho da 2ª Região — Edital número 01/2025 — cargos administrativos auditados — Processo do Trabalho: “Das provas. Da distribuição dinâmica do ônus da prova. Honorários periciais.”",
+        "Tribunal Regional do Trabalho da 15ª Região — Edital número 01/2024 — cargos administrativos auditados — Processo do Trabalho: “Das provas. Da distribuição dinâmica do ônus da prova. Honorários periciais.”"
+      ],
+      "sourceRefs": [
+        "Brasil — Consolidação das Leis do Trabalho — Decreto-Lei número 5.452/1943 — texto compilado vigente — artigos 765, 769, 790-B, 818 a 830, 848, 852-D e 852-H, e artigo 195.",
+        "Brasil — Código de Processo Civil — Lei número 13.105/2015 — artigos 369 a 375, 385 a 392, 464 a 480 e 481 a 484, em aplicação subsidiária ou supletiva quando juridicamente cabível.",
+        "Supremo Tribunal Federal — Ação Direta de Inconstitucionalidade 5766.",
+        "Tribunal Superior do Trabalho — Súmula número 74 — confissão.",
+        "Tribunal Superior do Trabalho — Súmula número 457 — honorários periciais e beneficiário da justiça gratuita.",
+        "Tribunal Superior do Trabalho — Tema Repetitivo 72 — testemunha que litiga contra o mesmo empregador.",
+        "Tribunal Superior do Trabalho — Tema Repetitivo 135 — confissão ficta do preposto e indeferimento de prova testemunhal.",
+        "Tribunal Superior do Trabalho — Tema Repetitivo 140 — prova pericial emprestada em insalubridade e periculosidade.",
+        "Tribunal Regional do Trabalho da 2ª Região — Edital número 01/2025.",
+        "Tribunal Regional do Trabalho da 15ª Região — Edital número 01/2024.",
+        "PTRAB-004 — Audiência trabalhista.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "PTRAB-005",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "processo-trabalho/PTRAB-005.json",
+      "materiaEditorial": "Processo do Trabalho",
+      "classificacaoEditorial": "núcleo trabalhista processual consolidado — teoria e meios de prova",
+      "documentoUrl": "https://docs.google.com/document/d/1rVlrCh8Hakhssf8CZRi8ezid5esfBnyakL6XUUW8lck/edit?usp=drivesdk",
+      "caracteres": 50118,
+      "sha256Texto": "c67e8bcc4fdb3dd0ec5377d9cc29e4a398ae02b8442da7baf0e1e77ae3acdbf4",
+      "sha256Documento": "a3ba54b36bc42f348cd3bcf546f206fe1bbf6bb28be9d5d09d82194c42812004"
+    },
+    {
+      "id": "PW-006",
+      "titulo": "PW-006 — JavaScript assíncrono no navegador: event loop, callbacks, Promises, async/await, Fetch API e tratamento de erros",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "tresp_aj_ti",
+        "tresp_tj_programacao"
+      ],
+      "editalRefs": [
+        "CPNUJE / Cebraspe — Edital número 1/2024, consolidado pelas retificações aplicáveis — Cargo 17, Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Desenvolvimento de Sistemas: JavaScript, HTML5, CSS3, WebSocket, SPA, frameworks JavaScript, DHTML, AJAX e tecnologias Web.",
+        "CPNUJE / Cebraspe — Edital número 1/2024, consolidado pelas retificações aplicáveis — Cargo 21, Técnico Judiciário – Apoio Especializado – Programação de Sistemas — tecnologias Web e JavaScript."
+      ],
+      "sourceRefs": [
+        "ECMA-262 — ECMAScript Language Specification — Promise, async functions e operações da linguagem.",
+        "WHATWG — HTML Living Standard — event loops, tasks e microtasks no ambiente Web.",
+        "WHATWG — Fetch Standard — modelo da Fetch API.",
+        "MDN Web Docs — JavaScript execution model",
+        "Promise",
+        "async function",
+        "await",
+        "Promise combinators",
+        "Fetch API",
+        "Window.fetch()",
+        "Response",
+        "Response.ok",
+        "AbortController.",
+        "CPNUJE / Cebraspe — Edital número 1/2024 atualizado — Cargos 17 e 21.",
+        "PW-004 — JavaScript: tipos, variáveis, operadores, controle de fluxo, funções e escopo.",
+        "PW-005 — DOM e eventos.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "topicoId": "PW-006",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-006.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "núcleo técnico consolidado — JavaScript assíncrono + extensão da plataforma Web",
+      "documentoUrl": "https://docs.google.com/document/d/1LKRPnw1f9GfPuigJZROXILJbPb3E6-9TBc6sYdDwPU0/edit?usp=drivesdk",
+      "caracteres": 69856,
+      "sha256Texto": "d4b53a92c03b99ed693c49e96842790b9d007874aae6fb17286b942df9c5187e",
+      "sha256Documento": "22872a1a6c63b9c2f754344e928feab2aad60553891d79da92f45bc3a8f18755"
+    },
+    {
+      "id": "RDE-004",
+      "titulo": "RDE-004 — Discursiva de conhecimentos específicos: decomposição do comando, resposta técnica, precisão terminológica, cobertura de quesitos e gestão de linhas — foco Cebraspe/Analistas",
+      "materiaId": "redacao-discursivas-estudos-caso",
+      "cargoIds": [
+        "tresp_aj_adm",
+        "tresp_aj_ti"
+      ],
+      "editalRefs": [
+        "CPNUJE — Edital nº 1/2024 — Analista Judiciário – Área Administrativa — Prova Discursiva",
+        "CPNUJE — Edital nº 1/2024 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Prova Discursiva"
+      ],
+      "sourceRefs": [
+        "CPNUJE — Edital nº 1/2024 atualizado até a Retificação nº 4 — item 9",
+        "CPNUJE — Padrão de Resposta Definitivo — Cargo 1 — Administração",
+        "CPNUJE — Padrão de Resposta Definitivo — Cargo 17 — Tecnologia da Informação",
+        "cargos.json",
+        "RDE-001",
+        "RDE-002",
+        "RDE-003",
+        "CHECKPOINT — Produção intercalada de matérias"
+      ],
+      "status": "concluido",
+      "topicoId": "RDE-004",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "redacao-discursivas-estudos-caso/RDE-004.json",
+      "materiaEditorial": "Redação, Discursivas e Estudos de Caso",
+      "classificacaoEditorial": "edital — prova discursiva de conhecimentos específicos",
+      "documentoUrl": "https://docs.google.com/document/d/1HOFZehKscC28fylJMTTH9dE9siGJpImUu9n3ni3b-SA/edit?usp=drivesdk",
+      "caracteres": 38224,
+      "sha256Texto": "419e278c3bf09bd06b52e4aa556ff8c997adbd76847f5c42ab7360c12f656a92",
+      "sha256Documento": "8495d7a45cbeca16b2df95068d077a91e8333a73c3344aaf9c93263cb0c673ea"
+    },
+    {
+      "id": "RLM-005",
+      "titulo": "RLM-005 — Diagramas lógicos e relações entre conjuntos: todo, algum, nenhum, inclusão, interseção e exclusão",
+      "materiaId": "raciocinio-logico",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Edital de Abertura número 02/2025 — TJSP2503 — Escrevente Técnico Judiciário — Raciocínio Lógico: estruturas lógicas, lógicas de argumentação, diagramas lógicos e sequências."
+      ],
+      "sourceRefs": [
+        "TJ-SP — Edital de Abertura número 02/2025 — Escrevente Técnico Judiciário.",
+        "Fundação VUNESP — página oficial do concurso TJSP2503.",
+        "Escola Judicial dos Servidores do TJ-SP — Apostila 3 — Raciocínio Lógico — seção Diagramas Lógicos.",
+        "TRF3 — Edital número 01/2024 — fonte primária comparativa de Raciocínio Lógico-Matemático.",
+        "TRT-2 — Edital número 01/2025 — fonte primária comparativa de Raciocínio Lógico-Matemático, auditada no projeto.",
+        "TRT-15 — Edital número 01/2024 — fonte primária comparativa de Raciocínio Lógico-Matemático.",
+        "RLM-001 — Estruturas lógicas e relações entre elementos.",
+        "RLM-002 — Lógica de argumentação e conclusões válidas.",
+        "RLM-003 — Proposições, conectivos e valores lógicos.",
+        "RLM-004 — Tabelas-verdade, equivalências lógicas e negações de proposições compostas."
+      ],
+      "status": "concluido",
+      "topicoId": "RLM-005",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "raciocinio-logico-matematico/RLM-005.json",
+      "materiaEditorial": "Raciocínio Lógico-Matemático",
+      "classificacaoEditorial": "núcleo formal consolidado — diagramas lógicos e relações categóricas",
+      "documentoUrl": "https://docs.google.com/document/d/17NwAgmZr6gL2zznlEdKXWa6476gYckGyl_MQz_bzawQ/edit?usp=drivesdk",
+      "caracteres": 47010,
+      "sha256Texto": "e1c539829296ae67ce9948fc144a867044ae18b62bc95310e2027906e1f59716",
+      "sha256Documento": "88c111b8d82c8e5c685a21af55eaadd69d99f02440dd92c4cbe7c902ed952aac"
     }
   ]
 }

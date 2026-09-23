@@ -80,3 +80,17 @@ arquivos afetados. Auditoria inicial concluída; não repetir sem mudança estru
   conferidos no navegador local, 4 matérias, desktop/mobile e zero erros.
   Deploy b5105c804257d39629da7c2087f3aea63b2bf06c; Actions 35587494736 OK.
   Público: 17 textos integrais/4 matérias/39 cartões, desktop/mobile OK, zero erros.
+
+- Auditoria completa de 21/09: 186 documentos relidos, 185 IDs canônicos, 39 matérias.
+  Matriz em docs/DRIVE_SYNC_AUDIT.json; 180 sem alterações, DA-014 revisada,
+  DA-015–018 novas (todas concluídas). Demais matérias conferidas sem diferenças.
+  Captura completa: output/drive-audit-20260921, fora do repo. Word conferido por
+  texto integral (conector move tabelas ao final); ES-003 mantém duas versões.
+  Próximos tópicos sem documento não são publicados. Questões/flashcards importados
+  continuam em leitura; não há botões dedicados anterior/próxima aula.
+
+- Lote 22/09: 28 novas e 17 revisadas em 20 matérias; 209 canônicas + demo,
+  39 cartões. Captura: output/drive-publish-20260922; inventário/hashes atualizados.
+  Auditoria ortográfica global solicitada ainda pendente; não confundir com sync.
+  Validação 23/09: TypeScript/lint/18 testes/build/PWA OK; 45 textos completos,
+  20 matérias, 39 cartões, desktop/mobile e zero erros locais.
