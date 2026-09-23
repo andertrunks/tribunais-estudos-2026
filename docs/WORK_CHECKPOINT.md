@@ -94,3 +94,5 @@ arquivos afetados. Auditoria inicial concluída; não repetir sem mudança estru
   Auditoria ortográfica global solicitada ainda pendente; não confundir com sync.
   Validação 23/09: TypeScript/lint/18 testes/build/PWA OK; 45 textos completos,
   20 matérias, 39 cartões, desktop/mobile e zero erros locais.
+  Publicado em 23/09: 0eac80199e27503a26e4ac8d91ed376744fec8ae; Actions 35902061209 OK.
+  Público: 45 textos integrais, 20 matérias, desktop/mobile OK, zero erros.
