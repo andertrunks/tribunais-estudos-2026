@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-08",
-  "total": 233,
+  "total": 243,
   "materias": 40,
   "aulas": [
     {
@@ -8433,6 +8433,407 @@
       "caracteres": 66558,
       "sha256Texto": "7578f0678cd03a6d282584ad006706082445a2252df5af4f57a9c19638c7d039",
       "sha256Documento": "64467bffd0e4fdab32f71a27575cc06b32ca2fbb30c5d65ce332ed3b2a485c32"
+    },
+    {
+      "id": "DPP-034",
+      "titulo": "DPP-034 — Juizados Especiais Criminais — Lei 9.099/1995 arts. 60–83 e 88–89",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.024"
+      ],
+      "sourceRefs": [
+        "SRC-LEI-9099-PLANALTO-60-83-88-89",
+        "SRC-LEI-9099-CAMARA-ATUALIZADA",
+        "SRC-LEI-11340-ART41",
+        "SRC-STJ-SUMULA536",
+        "SRC-STJ-SUMULA542",
+        "SRC-LEI-14245-2021",
+        "SRC-CPC-2015-LEI13105-ART83",
+        "SRC-VUNESP-TJSP2503",
+        "AUDITORIA-1-1",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — documento persistido, artigo por artigo conferido, auditoria homologada e controles canônicos atualizados aditivamente. Abrangência formal exata: Lei 9.099/1995, arts. 60 a 83 e 88 e 89.",
+      "topicoId": "DPP-034",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-034.json",
+      "materiaEditorial": "Direito Processual Penal — Juizados Especiais Criminais (JECRIM)",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1nrtPgClZ6BvpPczG1jPypg8H5RrHeqQUm99aGm2b0Ug/edit?usp=drivesdk",
+      "caracteres": 85047,
+      "sha256Texto": "f478525484cc8e2da5e39612762d4b512f6e80d073c482f6ef44856c5b911323",
+      "sha256Documento": "0486c35170809e05c667b353c90a67e461d2c349d3ea8a535a8953f13115c32d"
+    },
+    {
+      "id": "DPP-033",
+      "titulo": "DPP-033 — Do Habeas Corpus e Seu Processo — CPP arts. 647–667 e 647-A",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.023, recorte CPP 531–538",
+        "541–548",
+        "574–667"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-647-667",
+        "SRC-CPP-CAMARA-647-667",
+        "SRC-LEI-14836-2024",
+        "SRC-CF-ART5-LXVIII-LXVII-ART102-105",
+        "SRC-LEI-8038-41A",
+        "SRC-STF-SV25",
+        "SRC-STJ-HC-2026-SUBSTITUTIVO",
+        "SRC-STJ-RHC-2026-TRANCAMENTO",
+        "SRC-VUNESP-TJSP2503",
+        "DPP-032",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — documento persistido, auditado e homologado; controles canônicos atualizados de forma aditiva.",
+      "topicoId": "DPP-033",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-033.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1E1m3Jx5FGDkl7YLtKyde6QcKa_nc59YrATp17472Hsk/edit?usp=drivesdk",
+      "caracteres": 69739,
+      "sha256Texto": "86627273db6c1e6a4aed4e7b4e14d7ab3c46f2e0475c43fb7419bc4fd1c2ad87",
+      "sha256Documento": "049cd02af49ceb71a795ae60987593f8e7c9fe78d963ea334651de6bbee07991"
+    },
+    {
+      "id": "DPP-032",
+      "titulo": "DPP-032 — Da Carta Testemunhável — CPP arts. 639–646",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.023"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-639-646",
+        "SRC-CPP-CAMARA-639-646",
+        "SRC-CPP-SENADO-639-646",
+        "SRC-CPP-588-592",
+        "SRC-CPP-ART798",
+        "SRC-VUNESP-TJSP2503-PORTAL",
+        "DPP-025",
+        "DPP-031",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — leitura persistida e auditoria editorial homologadas, com atualização dos controles canônicos aditiva. cargoIds: [tjsp_escrevente]. editalRefs: [SRC-TJSP-2025; tjsp_escrevente.processo_penal.023], intervalo formal CPP 531–538, 541–548 e 574–667.",
+      "topicoId": "DPP-032",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-032.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1AO9ZvDBdHzwfzGv_u0W3dNaDV1WvDi8Mdzcmn4Srz4g/edit?usp=drivesdk",
+      "caracteres": 57196,
+      "sha256Texto": "e426ec3fd6a84073f44a9fe05462f5397e3294ac0bbb536fd7401e09207bec9e",
+      "sha256Documento": "9227b58023772da2c5b1d142846b3275f611d8dceb122f32a044826e39a1e501"
+    },
+    {
+      "id": "DPP-031",
+      "titulo": "DPP-031 — Do Recurso Extraordinário — CPP arts. 632–638",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.023"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-632-638",
+        "SRC-CPP-CAMARA-632-638",
+        "SRC-LEI-3396-1958",
+        "SRC-LEI-13964-2019",
+        "SRC-CF-ART102-III-105-III",
+        "SRC-CPC-995-1029-1030-1035",
+        "SRC-STF-ADC-43-44-54",
+        "SRC-STF-TEMA-1068",
+        "SRC-STF-SUMULA-279",
+        "SRC-STJ-SUMULA-7",
+        "SRC-VUNESP-TJSP2503-PORTAL",
+        "DPP-030",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — módulo persistido, releitura e auditoria homologadas; controles canônicos atualizados aditivamente.",
+      "topicoId": "DPP-031",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-031.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1nnZGA2aGlof7OfKvpo4OjkOJjZvDV8JCgHM6sE9SMXY/edit?usp=drivesdk",
+      "caracteres": 59843,
+      "sha256Texto": "461f574b77cc9210eb44cc32ac143e0646992d3775515897493da63d9b8165bb",
+      "sha256Documento": "65115aefbe724d2b22bfe7eca3e20bd9200383e86d10d32f14dc7a6060607d45"
+    },
+    {
+      "id": "DPP-030",
+      "titulo": "DPP-030 — Da Revisão Criminal — CPP arts. 621–631",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.023"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-621-631",
+        "SRC-CPP-CAMARA-621-631",
+        "SRC-CF88-ART5-LXXV",
+        "SRC-EC45-ART4",
+        "SRC-STJ-REVISAO-ART621-PROVA-NOVA",
+        "SRC-STJ-REVISAO-ART630",
+        "SRC-VUNESP-TJSP1701-PISTA-2017",
+        "DPP-029",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — leitura persistida, verificação editorial e auditoria homologadas; controles canônicos serão atualizados aditivamente. cargoIds: [tjsp_escrevente]. editalRefs: [SRC-TJSP-2025; tjsp_escrevente.processo_penal.023].",
+      "topicoId": "DPP-030",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-030.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1uplOyf_z2yeoCLAOyBNlE0WlB3FSQ-ztGTSGZjGZJJo/edit?usp=drivesdk",
+      "caracteres": 67434,
+      "sha256Texto": "e52bad2572f321a2ed3930bdacd6ca94958495ea4da74130f5f1f3821ce53d67",
+      "sha256Documento": "1b6ebcebf1cffca42ae514f97a0c7b5361cc864fde6c527b7e32452ae781aae2"
+    },
+    {
+      "id": "DPP-029",
+      "titulo": "DPP-029 — Dos Embargos — CPP arts. 619–620",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.023 — CPP 531–538",
+        "541–548",
+        "574–667"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-619-620",
+        "SRC-CPP-CAMARA-619-620",
+        "SRC-CPP-ART798",
+        "SRC-STJ-EDCL-INTEGRATIVOS-2026",
+        "SRC-STJ-EDCL-PRAZO-2026",
+        "SRC-VUNESP-PORTAL-TJSP2201",
+        "DPP-028",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — todos os itens persistidos, conferidos por leitura do Google Docs e homologados.",
+      "topicoId": "DPP-029",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-029.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1e_38F1tUZ56SumkhEPps_jLgxygfdYOUOdsnfdTy1JM/edit?usp=drivesdk",
+      "caracteres": 58245,
+      "sha256Texto": "5d92a1d5275e45d22f8989f13e43927dfcd0eaa3824e696f72c04c4468101d58",
+      "sha256Documento": "d9b95375c29dd4dcbe59627a2585583e7b53f120c8e12db725589225bfd6c1ef"
+    },
+    {
+      "id": "DPP-028",
+      "titulo": "DPP-028 — Do Processo e do Julgamento dos Recursos em Sentido Estrito e das Apelações nos Tribunais — CPP arts. 609–618",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.023"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-CAMARA-ATUALIZADO-609-618",
+        "SRC-CPP-PLANALTO-609-618",
+        "SRC-LEI-14836-2024",
+        "SRC-DL-552-1969",
+        "SRC-STF-SUMULA-160",
+        "SRC-STF-SUMULA-453",
+        "DPP-026",
+        "DPP-027",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — releitura integral, questões e fontes verificadas; controles canônicos devem refletir esta homologação.",
+      "topicoId": "DPP-028",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-028.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1g991rU_m2LbrSfnBl1ty9KuP6suw-LQ-AQahsUFKw64/edit?usp=drivesdk",
+      "caracteres": 62310,
+      "sha256Texto": "54be851a77756b85914c3461b5d400963c17b889a84c238e25a32c6b2dae49d9",
+      "sha256Documento": "67bbfbe2fe3a1f7b4fbe9e59ceaf94565cbf8a659717bb2699122b518ba77f12"
+    },
+    {
+      "id": "DPP-027",
+      "titulo": "DPP-027 — Do Protesto por Novo Júri — CPP arts. 607–608 (revogados)",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.023 — CPP 531–538",
+        "541–548",
+        "574–667"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-607-608",
+        "SRC-CPP-CAMARA-607-608",
+        "SRC-CPP-SENADO-VERSAO-HISTORICA",
+        "SRC-LEI-11689-2008-ART3-ART4",
+        "SRC-STJ-INFO405-RESP1094482",
+        "SRC-STJ-INFO385-HC58317",
+        "SRC-STJ-INFO574-HC278124",
+        "DPP-026",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — capítulo revogado mapeado e dados efetivamente relidos; linha .023 permanece PARCIAL.",
+      "topicoId": "DPP-027",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-027.json",
+      "materiaEditorial": "Direito Processual Penal — Recursos em Geral — Capítulo IV, Do Protesto por Novo Júri, integralmente revogado",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1Ei-8SL8BSGLpbn7xSvRPuNodmSDnqMelcogEsUGm888/edit?usp=drivesdk",
+      "caracteres": 44529,
+      "sha256Texto": "043621a5a90ee53e1ea6b26a7a6145c220441cb13a69f5294abbf6e100dbd951",
+      "sha256Documento": "12098e480ac1b85ab48efb3f4f7b9abef3c46fa0b972b6f6ab7ff57d4bbd03ae"
+    },
+    {
+      "id": "DPP-026",
+      "titulo": "DPP-026 — Da Apelação — CPP arts. 593 a 606",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.023 — CPP 531–538, 541–548, 574–667"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-593-606",
+        "SRC-CPP-CAMARA-593-606",
+        "SRC-LEI-11689-2008",
+        "SRC-STF-TEMA1068",
+        "SRC-STF-SUMULA713",
+        "SRC-CPP-598-600",
+        "SRC-VUNESP-TJSP2301-001-Q36-V1",
+        "SRC-TJSP-DJE3771-GAB-V1-Q36",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — artigo por artigo relido, contagens, origem de prova e auditoria verificadas; linha .023 permanece PARCIAL.",
+      "topicoId": "DPP-026",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-026.json",
+      "materiaEditorial": "Direito Processual Penal — Dos Recursos em Geral — Capítulo III, Da Apelação",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1jLtJhNbrhlC9gwhF8C4sesQneyccCUNl3splje419t0/edit?usp=drivesdk",
+      "caracteres": 67259,
+      "sha256Texto": "493aa3231ef5c1db4fcad598cda5dd858efd659edce9a95974490e902d4bb312",
+      "sha256Documento": "eb2575d4c8e0b3ccf39cde2ef9d2231884b6aa5025d5222c8a92b3de8bf31188"
+    },
+    {
+      "id": "DPP-025",
+      "titulo": "DPP-025 — Do Recurso em Sentido Estrito — CPP arts. 581 a 592",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — edital confirmado para Escrevente",
+        "tjsp_escrevente.processo_penal.023 — CPP 531–538, 541–548, 574–667"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-581-592",
+        "SRC-CPP-CAMARA-581-592",
+        "SRC-LEI-15358-2026",
+        "SRC-LEP-197",
+        "SRC-STJ-TEMA1219",
+        "SRC-STJ-INFO596",
+        "SRC-TJSP-190MAG-GAB-DEFINITIVO-V1",
+        "SRC-VUNESP-TJSP2202-PROVA001-V1-Q47-Q50",
+        "DPP-024",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — texto integral 581–592, jurisprudência, provas, questões e auditoria conferidos no readback; linha .023 permanece PARCIAL.",
+      "topicoId": "DPP-025",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-025.json",
+      "materiaEditorial": "Direito Processual Penal — Recursos em Geral, Capítulo II — Do Recurso em Sentido Estrito (RESE)",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1HP37R3sX1P-and1d25KqASOPbYWNdEWe9ZMphcatucU/edit?usp=drivesdk",
+      "caracteres": 67296,
+      "sha256Texto": "c2af27e844a7d15be5bdce702305ff7fad96192c7376470eaabf277534e2cd1a",
+      "sha256Documento": "bcad30365f8c2daf9ed9e2eef4ec42079cbe658229976076e2634a0e4c46119b"
     }
   ]
 }
