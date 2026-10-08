@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-08",
-  "total": 263,
+  "total": 270,
   "materias": 40,
   "aulas": [
     {
@@ -4243,18 +4243,36 @@
       "titulo": "MC-002 — Mínimo múltiplo comum e máximo divisor comum",
       "materiaId": "matematica",
       "cargoIds": [
-        "tjsp_escrevente"
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
       ],
       "editalRefs": [
-        "TJSP — Edital de Abertura nº 02/2025 — Anexo VI — Matemática, item 2"
+        "TJSP — Edital de Abertura nº 02/2025 — Anexo VI — Matemática, item 2",
+        "TRF3 — VUNESP — Edital nº 01/2023 — Analista Área Administrativa — Matemática itens 2 e 3: Mínimo múltiplo comum e Máximo divisor comum",
+        "TRF3 — mesmo edital — Técnico Apoio Especializado Informática — Matemática itens 2 e 3",
+        "TRF3 — mesmo edital — Analista Apoio Especializado Informática — Matemática itens 2 e 3",
+        "B.AJADM.MAT.02 — TRF3 Edital 01/2023 Anexo II Matemática 2: Mínimo múltiplo comum",
+        "B.AJADM.MAT.03 — TRF3 Edital 01/2023 Anexo II Matemática 3: Máximo divisor comum",
+        "C1.TJTI.MAT.02 — TRF3 Edital 01/2023 Anexo II Matemática 2: Mínimo múltiplo comum",
+        "C1.TJTI.MAT.03 — TRF3 Edital 01/2023 Anexo II Matemática 3: Máximo divisor comum",
+        "D1.AJTI.MAT.02 — TRF3 Edital 01/2023 Anexo II Matemática 2: Mínimo múltiplo comum",
+        "D1.AJTI.MAT.03 — TRF3 Edital 01/2023 Anexo II Matemática 3: Máximo divisor comum"
       ],
       "sourceRefs": [
-        "Edital de Abertura nº 02/2025 do TJ-SP/VUNESP",
-        "MC-001 — Operações com números reais",
-        "medio-matematica-mdc-mmc-001.md — material pedagógico interno anterior",
-        "CHECKPOINT — Produção intercalada de matérias."
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Matemática itens 2 e 3",
+        "TJSP — Edital de Abertura nº 02/2025 — Anexo VI — Matemática item 2",
+        "MC-001",
+        "medio-matematica-mdc-mmc-001.md — apoio pedagógico interno",
+        "CHECKPOINT",
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II-MAT02-MAT03: https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "MATRIZ-1-1-B-C1-D1",
+        "CHECKPOINT-E14",
+        "E15-GATE-MC002"
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "MC-002",
       "tipo": "oficial",
       "demonstracao": false,
@@ -4264,28 +4282,34 @@
       "materiaEditorial": "Matemática de Concurso",
       "classificacaoEditorial": "núcleo quantitativo formal",
       "documentoUrl": "https://docs.google.com/document/d/1cUOZIFLNWKnNugxVDT6wqY5KJWp0A5cwjUOqXJuIpSI/edit?usp=drivesdk",
-      "caracteres": 24562,
-      "sha256Texto": "3a317f26fb89d68833a34053b363155781285b1497be75d8ef2aca42ac4a6460",
-      "sha256Documento": "b445890db17932a547b2912521159bd59873230e9c8095954f00e80b7b2a6e2c"
+      "caracteres": 37838,
+      "sha256Texto": "7935230ef02313180ad48270bc3ea375cfc065be5ec23de15d3c1fcec795dca3",
+      "sha256Documento": "d3156e657173b004be2593b03d0c5e7cd2020ac9bc8712c4a1c6c4cbea2e0322"
     },
     {
       "id": "MC-001",
       "titulo": "MC-001 — Operações com números reais",
       "materiaId": "matematica",
       "cargoIds": [
-        "tjsp-escrevente",
-        "trf3-analista-adm",
-        "trf3-tecnico-adm"
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
       ],
       "editalRefs": [
-        "TJ-SP/Matemática/item 1 — Operações com números reais",
-        "TRF3/Raciocínio Lógico-Matemático — uso como pré-requisito para raciocínio matemático, proporcionalidade, porcentagem e regra de três, sem contagem como item autônomo"
+        "TRF3 — VUNESP — Edital nº 01/2023 — Analista Área Administrativa — Matemática item 1: situações-problema com adição, subtração, multiplicação, divisão, potenciação ou radiciação de números racionais em fração ou decimal",
+        "TRF3 — mesmo edital — Técnico Apoio Especializado Informática — Matemática item 1",
+        "TRF3 — mesmo edital — Analista Apoio Especializado Informática — Matemática item 1",
+        "TJ-SP — vínculo histórico do arquivo-base, pendente de reconciliação específica da fonte oficial aplicável"
       ],
       "sourceRefs": [
-        "Editais-base-fornecidos-pelo-usuario.txt",
-        "01 - Operacoes com Numeros Reais - Fundamentos - FINAL"
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Matemática item 1 nas seções dos cargos auditados",
+        "https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "01 - Operacoes com Numeros Reais - Fundamentos - FINAL — apoio pedagógico interno",
+        "Editais-base-fornecidos-pelo-usuario.txt — histórico TJ-SP"
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "MC-001",
       "tipo": "oficial",
       "demonstracao": false,
@@ -4295,9 +4319,9 @@
       "materiaEditorial": "Matemática de Concurso",
       "classificacaoEditorial": "",
       "documentoUrl": "https://docs.google.com/document/d/1yBhk1rO9JaHuaC6MaHoVopDP7TBiXxT2JJ98hv0k1_o/edit?usp=drivesdk",
-      "caracteres": 24697,
-      "sha256Texto": "f133997c084eae854451e5b0241003646a6568ee1a56b7b29356d88b1ca62463",
-      "sha256Documento": "85d8373282a5e051e30f50643878c57469a80cb573b47c1525b1ba9e9c9a1c37"
+      "caracteres": 38872,
+      "sha256Texto": "2edea294d66529b5d56a505d7f364fd1e12e61a0541e6669e4b5843ffb3eda6e",
+      "sha256Documento": "8e479539b4bedc06a59cd0425f4e6996dcf45db26de561ce947b18717e2c0ba8"
     },
     {
       "id": "LP-005",
@@ -5285,7 +5309,8 @@
         "DP-005",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
       "topicoId": "DP-006",
       "tipo": "oficial",
       "demonstracao": false,
@@ -5295,9 +5320,9 @@
       "materiaEditorial": "Direito Penal",
       "classificacaoEditorial": "edital — crimes praticados por funcionário público contra a Administração em geral",
       "documentoUrl": "https://docs.google.com/document/d/1gJ1xb99aFgWlkrBG2xfXwVcn4o_ykZOrZXQDFQSc6LY/edit?usp=drivesdk",
-      "caracteres": 31375,
-      "sha256Texto": "80528dbc9367c16361626928c872ee34eb766810cd3c4db886f6b8189ec1d542",
-      "sha256Documento": "bf4e3778344b8f21adb38c5697c9f4fc138267267f9cad93a3798ba235f3b6b5"
+      "caracteres": 31369,
+      "sha256Texto": "d5cab5bf211542c352730ce041b44665b8e244df6005d9fa7f6b72c2d86d02d3",
+      "sha256Documento": "e6ddac6085404dabeec9908f2bd18d327005bee677849a9af582b5d0331a8f3b"
     },
     {
       "id": "DC-006",
@@ -9536,6 +9561,274 @@
       "caracteres": 55006,
       "sha256Texto": "b58de50c7c8b91dfa3f530d492d7c24edd280af9a316925039009c492e896fac",
       "sha256Documento": "8f2be19d24795d9d2044d638af7d0d227845068f6efe95c9589744de77c0c68d"
+    },
+    {
+      "id": "DP-010",
+      "titulo": "DP-010 — Violência arbitrária, abandono de função, exercício funcional ilegalmente antecipado ou prolongado e violação de sigilo funcional — Código Penal, arts. 322 a 325",
+      "materiaId": "penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — Edital de Abertura nº 02/2025 — TJSP2503 — Direito Penal: Código Penal, arts. 319 a 333"
+      ],
+      "sourceRefs": [
+        "TJ-SP — Diário Eletrônico da Justiça — edição 4255 — Edital de Abertura nº 02/2025 — conteúdo programático oficial",
+        "Código Penal — Decreto-Lei nº 2.848/1940 — texto compilado oficial vigente — arts. 322, 323, 324 e 325",
+        "Superior Tribunal de Justiça — AgRg no AREsp 2.840.842/SC — aplicação contemporânea do art. 322",
+        "Fundação VUNESP — TJSP2101 — página oficial do concurso e gabarito oficial",
+        "reprodução secundária do caderno TJSP2101/001 — questão 29 — utilizada apenas como evidência auxiliar de padrão de cobrança",
+        "DP-009",
+        "AUDITORIA 1:1 DOS EDITAIS",
+        "AUDITORIA GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DP-010",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-penal/DP-010.json",
+      "materiaEditorial": "Direito Penal",
+      "classificacaoEditorial": "núcleo legal formal — crimes praticados por funcionário público contra a Administração em geral",
+      "documentoUrl": "https://docs.google.com/document/d/14lwrKTgfjDqxnllU-CBsnBFjyPFESBBuNHjKUwiSwkY/edit?usp=drivesdk",
+      "caracteres": 56181,
+      "sha256Texto": "87d915d0354197142bf6087dac8f84886be0effbb2c110a80511efef3c5b2e73",
+      "sha256Documento": "0ef5b21b200f26e5d63ee01866ac28865c39646418e5fd2f2a4986b86181abd4"
+    },
+    {
+      "id": "DP-009",
+      "titulo": "DP-009 — Prevaricação, prevaricação imprópria, condescendência criminosa e advocacia administrativa — Código Penal, arts. 319 a 321",
+      "materiaId": "penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — Edital de Abertura nº 02/2025 — TJSP2503 — Direito Penal: Código Penal, arts. 319 a 333"
+      ],
+      "sourceRefs": [
+        "TJ-SP — Diário Eletrônico da Justiça, edição 4255, disponibilização de 01/08/2025, Edital de Abertura nº 02/2025, página 77 — conteúdo programático oficial de Direito Penal",
+        "Código Penal — Decreto-Lei nº 2.848/1940 — texto compilado oficial vigente — arts. 319, 319-A, 320 e 321",
+        "Editais-base-fornecidos-pelo-usuario.txt — cópia de controle do recorte TJ-SP",
+        "Fundação VUNESP/TJ-SP — página oficial do concurso TJSP2503",
+        "VUNESP/TJ-SP — Edital de Divulgação do Gabarito da Prova Objetiva de 09/12/2025",
+        "reprodução secundária do caderno TJSP2503/2025, questão 20 — usada somente como evidência auxiliar, não como QUESTÃO REAL",
+        "AUDITORIA 1:1 DOS EDITAIS — Cobertura, lacunas e plano de correção",
+        "DP-008",
+        "CHECKPOINT — Produção intercalada de matérias"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DP-009",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-penal/DP-009.json",
+      "materiaEditorial": "Direito Penal",
+      "classificacaoEditorial": "núcleo legal formal — crimes praticados por funcionário público contra a Administração em geral",
+      "documentoUrl": "https://docs.google.com/document/d/1_T79pY7HG9O6dZRfzEEjf-LcfkXSaCxmQ0SRpeAm1qU/edit?usp=drivesdk",
+      "caracteres": 53827,
+      "sha256Texto": "25b1110860dc536ecab393fde1ef774ccead1b048d344236a5f83ab285ab7c44",
+      "sha256Documento": "7f8c27669bda4ff9b11f2345b1cd50c7daac2f7882add1904f66db22280c9c94"
+    },
+    {
+      "id": "DP-008",
+      "titulo": "DP-008 — Extravio ou inutilização de documento, emprego irregular de verbas, concussão, excesso de exação e corrupção passiva — Código Penal, arts. 314 a 317",
+      "materiaId": "penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — Edital de Abertura nº 02/2025 — TJSP2503 — Direito Penal: Código Penal, arts. 312 a 317"
+      ],
+      "sourceRefs": [
+        "Código Penal — Decreto-Lei nº 2.848/1940 — texto compilado oficial vigente — arts. 314 a 317",
+        "Fundação VUNESP/TJ-SP — TJSP2503 — edital oficial e página do concurso",
+        "Fundação VUNESP/TJ-SP — TJSP2401 — prova oficial, versão 004, questão 28",
+        "Fundação VUNESP/TJ-SP — TJSP2401 — gabarito oficial da versão 4",
+        "AUDITORIA 1:1 DOS EDITAIS — Cobertura, lacunas e plano de correção",
+        "DP-006",
+        "DP-007",
+        "CHECKPOINT — Produção intercalada de matérias"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DP-008",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-penal/DP-008.json",
+      "materiaEditorial": "Direito Penal",
+      "classificacaoEditorial": "núcleo legal formal — crimes praticados por funcionário público contra a Administração em geral",
+      "documentoUrl": "https://docs.google.com/document/d/10HY2UHuJQ2qf-JxIbBQFt8MnE5Sk8FjqYVKN2YyC3jM/edit?usp=drivesdk",
+      "caracteres": 51612,
+      "sha256Texto": "6af61b2bcf0182ef12c9db3a8e610c8e7529904366b148e655ac0fcf67161de1",
+      "sha256Documento": "5a8071587574e92b3a4b0d9f6f50177689722b51c1f4ee7145f100a5ca4e14fd"
+    },
+    {
+      "id": "DP-007",
+      "titulo": "DP-007 — Inserção de dados falsos em sistema de informações e modificação ou alteração não autorizada de sistema de informações — Código Penal, artigos 313-A e 313-B",
+      "materiaId": "penal",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_adm"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — TJSP2503/2025 — Direito Penal: Código Penal, artigos 312 a 317",
+        "TRF3 — Edital nº 01/2023 — Analista Judiciário – Área Administrativa — crimes contra a Administração Pública",
+        "TRF3 — Edital nº 01/2024 — Técnico Judiciário – Área Administrativa — crimes praticados por funcionário público e por particular contra a Administração em geral"
+      ],
+      "sourceRefs": [
+        "Código Penal — Decreto-Lei nº 2.848/1940 — texto compilado oficial vigente — artigos 30, 313-A, 313-B e 327 como apoio",
+        "TJ-SP — Edital TJSP2503/2025",
+        "TRF3 — Editais nº 01/2023 e nº 01/2024",
+        "DP-006",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DP-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-penal/DP-007.json",
+      "materiaEditorial": "Direito Penal",
+      "classificacaoEditorial": "núcleo legal consolidado — crimes funcionais informáticos contra a Administração Pública",
+      "documentoUrl": "https://docs.google.com/document/d/1Jvu2nVcms_GpDohUfWXrKSGkI93UP4jTbJ9DsWrHaDQ/edit?usp=drivesdk",
+      "caracteres": 37901,
+      "sha256Texto": "cc6b7ba3e68867af05d9f7fd47df4754c795020d56bae8c2c1655a848eb04169",
+      "sha256Documento": "df18adf0d257f8b6dfa7fca1e81c3177c8a9cc159ad3d44609a27f6a5b64578a"
+    },
+    {
+      "id": "MC-003",
+      "titulo": "MC-003 — Porcentagem: conceito, conversões, cálculo percentual, aumentos, descontos e variação",
+      "materiaId": "matematica",
+      "cargoIds": [
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Fundação VUNESP — Edital nº 01/2023 — Analista Judiciário Área Administrativa — Matemática item 4: Porcentagem",
+        "TRF3 — mesmo edital — Técnico Judiciário Apoio Especializado Informática — Matemática item 4: Porcentagem",
+        "TRF3 — mesmo edital — Analista Judiciário Apoio Especializado Informática — Matemática item 4: Porcentagem",
+        "B.AJADM.MAT.04 — TRF3/Fundação VUNESP Edital Abertura nº 01/2023, Anexo II, Matemática 4: Porcentagem, Analista Área Administrativa",
+        "C1.TJTI.MAT.04 — mesmo edital, Matemática 4: Porcentagem, Técnico Apoio Especializado Informática",
+        "D1.AJTI.MAT.04 — mesmo edital, Matemática 4: Porcentagem, Analista Apoio Especializado Informática"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, item 4 de Matemática nas seções aplicáveis",
+        "04_Porcentagem.docx — fonte pedagógica interna do projeto Prefeitura Rincão, reutilizada APENAS para teoria e exemplos",
+        "medio-matematica-porcentagem-001.md — fonte pedagógica interna, sem transportar banca/cargos/status",
+        "MC-001",
+        "MC-002",
+        "CHECKPOINT",
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II-MAT04: https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "MATRIZ-1-1-B-C1-D1",
+        "CHECKPOINT-E15",
+        "E16-GATE-MC003"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "MC-003",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-concurso/MC-003.json",
+      "materiaEditorial": "Matemática de Concurso",
+      "classificacaoEditorial": "núcleo quantitativo formal compartilhado",
+      "documentoUrl": "https://docs.google.com/document/d/1-4GTXQ0juRJrsheQ-8ibGDIyvTQdlSyiYfMeIm8bwCw/edit?usp=drivesdk",
+      "caracteres": 39803,
+      "sha256Texto": "098fbbacb17c7020f1415c70a230fbfcd77a7213f5acca788837e3440ecfd928",
+      "sha256Documento": "7eabe3294b7925c5e532756bc8b2f833a9162b6571fc43f97e90905caaaa0152"
+    },
+    {
+      "id": "MC-010",
+      "titulo": "MC-010 — Noções de Geometria: formas, ângulos, área, perímetro, volume, Pitágoras e Tales",
+      "materiaId": "matematica",
+      "cargoIds": [
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "B.AJADM.MAT.12 — TRF3 / Fundação VUNESP — Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário Área Administrativa, item Matemática 12",
+        "C1.TJTI.MAT.12 — mesmo edital, Técnico Judiciário Apoio Especializado Informática, Matemática 12",
+        "D1.AJTI.MAT.12 — mesmo edital, Analista Judiciário Apoio Especializado Informática, Matemática 12."
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "MATRIZ-1-1-B-C1-D1",
+        "CHECKPOINT-E12",
+        "MC-001",
+        "MC-004",
+        "MC-005",
+        "MC-008",
+        "MC-009",
+        "MB-TRILHA-SUPLEMENTAR"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "MC-010",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-concurso/MC-010.json",
+      "materiaEditorial": "Matemática de Concurso",
+      "classificacaoEditorial": "aula formal consolidada, núcleo compartilhado",
+      "documentoUrl": "https://docs.google.com/document/d/1LBz8ZSoU5tamNv_4BBjFCSDLX1OGmNUYqvMwxT4L6nI/edit?usp=drivesdk",
+      "caracteres": 34611,
+      "sha256Texto": "9c1a27ac59496cebd4da0e78273196bf3f1a9d342ab51885702d1be1a830caa0",
+      "sha256Documento": "c27824f907dc033c18dd5039b7dd56b993441694bc753b6e8b871cdae79db4d6"
+    },
+    {
+      "id": "MC-009",
+      "titulo": "MC-009 — Relação entre grandezas: leitura de tabelas, gráficos e variação quantitativa",
+      "materiaId": "matematica",
+      "cargoIds": [
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "B.AJADM.MAT.10 — TRF3, Fundação VUNESP, Edital de Abertura de Inscrições nº 01/2023, Anexo II, Analista Judiciário — Área Administrativa, Matemática, item 10: “Relação entre grandezas – tabela ou gráfico”",
+        "PDF índice 57 / página impressa 58.",
+        "C1.TJTI.MAT.10 — mesmo edital, Técnico Judiciário — Apoio Especializado — Informática, Matemática, item 10, redação idêntica",
+        "PDF índice 48 / página impressa 49.",
+        "D1.AJTI.MAT.10 — mesmo edital, Analista Judiciário — Apoio Especializado — Informática, Matemática, item 10, redação idêntica",
+        "PDF índice 57 / página impressa 58."
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "MATRIZ-1-1-B-C1-D1",
+        "CHECKPOINT-E10",
+        "MC-004",
+        "MC-005",
+        "MC-008",
+        "EST-001 como referência complementar PARCIAL, sem nova vinculação de cargos"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "MC-009",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-concurso/MC-009.json",
+      "materiaEditorial": "Matemática de Concurso",
+      "classificacaoEditorial": "aula formal consolidada; núcleo único para MAT.10",
+      "documentoUrl": "https://docs.google.com/document/d/1hKttDU7mhkt5-GiPnfCvghS4xtwrOlRN9wQN3VZLETU/edit?usp=drivesdk",
+      "caracteres": 31134,
+      "sha256Texto": "a71be18c46b54cd5152177277a892db76029db0f732c014d4656482fcc093097",
+      "sha256Documento": "8b12ea8e210f25f8b820c18250a63bca4866b2dd3d782dac403c852fb5c82f12"
     }
   ]
 }

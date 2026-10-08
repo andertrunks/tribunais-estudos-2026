@@ -6,18 +6,36 @@ export default {
   "titulo": "MC-002 — Mínimo múltiplo comum e máximo divisor comum",
   "materiaId": "matematica",
   "cargoIds": [
-    "tjsp_escrevente"
+    "tjsp_escrevente",
+    "trf3_aj_adm",
+    "trf3_tj_ti",
+    "trf3_aj_ti"
   ],
   "editalRefs": [
-    "TJSP — Edital de Abertura nº 02/2025 — Anexo VI — Matemática, item 2"
+    "TJSP — Edital de Abertura nº 02/2025 — Anexo VI — Matemática, item 2",
+    "TRF3 — VUNESP — Edital nº 01/2023 — Analista Área Administrativa — Matemática itens 2 e 3: Mínimo múltiplo comum e Máximo divisor comum",
+    "TRF3 — mesmo edital — Técnico Apoio Especializado Informática — Matemática itens 2 e 3",
+    "TRF3 — mesmo edital — Analista Apoio Especializado Informática — Matemática itens 2 e 3",
+    "B.AJADM.MAT.02 — TRF3 Edital 01/2023 Anexo II Matemática 2: Mínimo múltiplo comum",
+    "B.AJADM.MAT.03 — TRF3 Edital 01/2023 Anexo II Matemática 3: Máximo divisor comum",
+    "C1.TJTI.MAT.02 — TRF3 Edital 01/2023 Anexo II Matemática 2: Mínimo múltiplo comum",
+    "C1.TJTI.MAT.03 — TRF3 Edital 01/2023 Anexo II Matemática 3: Máximo divisor comum",
+    "D1.AJTI.MAT.02 — TRF3 Edital 01/2023 Anexo II Matemática 2: Mínimo múltiplo comum",
+    "D1.AJTI.MAT.03 — TRF3 Edital 01/2023 Anexo II Matemática 3: Máximo divisor comum"
   ],
   "sourceRefs": [
-    "Edital de Abertura nº 02/2025 do TJ-SP/VUNESP",
-    "MC-001 — Operações com números reais",
-    "medio-matematica-mdc-mmc-001.md — material pedagógico interno anterior",
-    "CHECKPOINT — Produção intercalada de matérias."
+    "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Matemática itens 2 e 3",
+    "TJSP — Edital de Abertura nº 02/2025 — Anexo VI — Matemática item 2",
+    "MC-001",
+    "medio-matematica-mdc-mmc-001.md — apoio pedagógico interno",
+    "CHECKPOINT",
+    "SRC-TRF3-2023-EDITAL-01-ANEXO-II-MAT02-MAT03: https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+    "MATRIZ-1-1-B-C1-D1",
+    "CHECKPOINT-E14",
+    "E15-GATE-MC002"
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "MC-002",
   "tipo": "oficial",
   "demonstracao": false,
