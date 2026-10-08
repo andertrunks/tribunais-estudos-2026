@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-08",
-  "total": 243,
+  "total": 253,
   "materias": 40,
   "aulas": [
     {
@@ -8834,6 +8834,354 @@
       "caracteres": 67296,
       "sha256Texto": "c2af27e844a7d15be5bdce702305ff7fad96192c7376470eaabf277534e2cd1a",
       "sha256Documento": "bcad30365f8c2daf9ed9e2eef4ec42079cbe658229976076e2634a0e4c46119b"
+    },
+    {
+      "id": "DPP-024",
+      "titulo": "DPP-024 — Disposições Gerais dos Recursos — CPP 574–580",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — TJSP2503, Escrevente Técnico Judiciário",
+        "tjsp_escrevente.processo_penal.023 — CPP 531–538, 541–548 e 574–667"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-574-580, SRC-CPP-CAMARA-574-580, SRC-LEI-11689-2008, SRC-STJ-HC278124-574-II, SRC-STF-SUMULA423, SRC-STJ-ART580, SRC-VUNESP-TJSP1006-CADERNO001-Q42-V1, SRC-TJSP-DJE904-GAB-Q42-V1, DPP-022, DPP-023, CHECKPOINT, AUDITORIA-1-1, AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — texto normativo, 40 exemplos, 50 flashcards, 40 questões e auditoria relidos; linha editalícia .023 permanece PARCIAL.",
+      "topicoId": "DPP-024",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-024.json",
+      "materiaEditorial": "Direito Processual Penal — Dos Recursos em Geral — Capítulo I, Disposições Gerais",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1GbbkIAk-NtgJoWR3xJygC-MAmgZlgYSrQ6MGwhgZw2s/edit?usp=drivesdk",
+      "caracteres": 70046,
+      "sha256Texto": "274ba4b52f0554ab80677136d6da75ec2b50e49e4adec5f93149a4fe59db2522",
+      "sha256Documento": "f7896fa5b939464d1d23893b8ee06a271821127f531dfba8cf838b8c1371f55a"
+    },
+    {
+      "id": "DPP-023",
+      "titulo": "DPP-023 — Restauração de Autos Extraviados ou Destruídos — CPP, arts. 541 a 548",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — TJSP2503, Escrevente Técnico Judiciário",
+        "tjsp_escrevente.processo_penal.023 — CPP 531–538",
+        "541–548",
+        "574–667"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-541-548, SRC-CPP-CAMARA-541-548, SRC-VUNESP-TJSP2201-2023-CADERNO001-Q36-V3, SRC-VUNESP-TJSP2201-2023-GABARITO001-Q36-V3, DPP-022, CHECKPOINT, AUDITORIA-1-1, AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — artigo por artigo relido, treino e auditoria confirmados; linha .023 permanece PARCIAL.",
+      "topicoId": "DPP-023",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-023.json",
+      "materiaEditorial": "Direito Processual Penal — Restauração de Autos, Capítulo VI",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1fmyq5A6l_85wGcRGPPL1agNIQ3PbfhBvpyuwjazWyr0/edit?usp=drivesdk",
+      "caracteres": 62799,
+      "sha256Texto": "2a9537c6baf4a7dce9cd37f71df182a2ee6686a965f3fe264a0c0646fc0b39f6",
+      "sha256Documento": "9c254516c67453f80ce29b82201e9289089ab13bc3bd67c1e66e32bcfb25b755"
+    },
+    {
+      "id": "DPP-022",
+      "titulo": "DPP-022 — Do Processo Sumário: audiência, testemunhas, debates, atos e remessa do JECRIM — CPP, arts. 531 a 538",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — TJSP2503/2025",
+        "tjsp_escrevente.processo_penal.023 — CPP 531–538",
+        "541–548",
+        "574–667"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-531-538",
+        "SRC-CPP-CAMARA-531-538",
+        "SRC-LEI-11719-2008",
+        "SRC-CPP-400-PARAGRAFOS",
+        "SRC-STF-ADPF395-444",
+        "SRC-VUNESP-TJSP1503-PROVA001-V1-Q35",
+        "SRC-VUNESP-TJSP1503-GAB-V1-Q35",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — documento persistido relido; linha .023 PARCIAL / CRIAR CONTINUAÇÃO.",
+      "topicoId": "DPP-022",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-022.json",
+      "materiaEditorial": "Direito Processual Penal — procedimento comum sumário",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1DGX2Dl88F5wUTvfmJJ23xB3-XcdgzHBR6DW8Aj8MHOE/edit?usp=drivesdk",
+      "caracteres": 58098,
+      "sha256Texto": "b643f8a46640229749bfda9c8f8ff10d26dd68e123418e6947d12bc8ffddea1c",
+      "sha256Documento": "f5a152b97996f1380421b85467412df718bcb8605a6becbacf8edc6cbceda492"
+    },
+    {
+      "id": "DPP-021",
+      "titulo": "DPP-021 — Atribuições do Presidente do Tribunal do Júri — CPP art. 497",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — TJSP2503/2025, Escrevente Técnico Judiciário",
+        "tjsp_escrevente.processo_penal.022 — CPP arts. 425–497"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-497",
+        "SRC-CPP-CAMARA-497",
+        "SRC-LEI-11689-2008",
+        "SRC-VUNESP-DPP021-PESQUISA-NEGATIVA",
+        "DPP-008-ATE-DPP-020",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — documento e todos os doze incisos relidos; matriz .022 COBERTO / CONCLUIDO.",
+      "topicoId": "DPP-021",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-021.json",
+      "materiaEditorial": "Direito Processual Penal — procedimento do Tribunal do Júri",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1uZuEm2zWu7i6OXo0aWIKEpTAw_wq_5Elp2TXAThJfsw/edit?usp=drivesdk",
+      "caracteres": 54089,
+      "sha256Texto": "6ffc04b1cc7facfb38caa29dd22decedf20fc8ea0d3cbdd119b9e89f6661b2e8",
+      "sha256Documento": "ab370860ebd2719fadf21f7a4b5dbf6450018246b68895506369e6f79fadbc87"
+    },
+    {
+      "id": "DPP-020",
+      "titulo": "DPP-020 — Da Ata dos Trabalhos: lavratura, 17 registros obrigatórios e falta da ata — CPP, arts. 494 a 496",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — TJSP2503/2025, Escrevente Técnico Judiciário, faixa CPP 394–497",
+        "tjsp_escrevente.processo_penal.022 — CPP 425–497"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-COMPILADO-494-496, SRC-CAMARA-CPP-ATUALIZADO-494-496, SRC-LEI-11689-2008, SRC-VUNESP-PESQUISA-NEGATIVA-DPP020, DPP-019, AUDITORIA-1-1, AUDITORIA-GLOBAL, CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — aula lida e contagens confirmadas; linha .022 permanece PARCIAL.",
+      "topicoId": "DPP-020",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-020.json",
+      "materiaEditorial": "Direito Processual Penal — procedimento do Tribunal do Júri",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1eKizwRSZ2nC1CrYfj9qgBA4eB2LB9xsPMF2vIwA_oNQ/edit?usp=drivesdk",
+      "caracteres": 56735,
+      "sha256Texto": "c63d30271eff225073e2f18e86c4c1ff998a6e97951a37077edcee11d06f312d",
+      "sha256Documento": "91651512961cd965c94ab6dc35828454f57f49fbb3c132de2c32c1f752097e57"
+    },
+    {
+      "id": "DPP-019",
+      "titulo": "DPP-019 — Da Sentença: condenação, absolvição, desclassificação, execução e leitura — CPP, arts. 492 e 493",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — TJSP2503/2025 — Escrevente Técnico Judiciário — CPP arts. 394–497",
+        "linha formal tjsp_escrevente.processo_penal.022 — faixa CPP 425–497"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-PLANALTO-492-493",
+        "SRC-CPP-CAMARA-492-493",
+        "SRC-LEI-11689-2008",
+        "SRC-LEI-13964-2019",
+        "SRC-STF-RE1235340-TEMA1068",
+        "SRC-VUNESP-TJSP2502-001-Q46-V1",
+        "DPP-018",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — aula e contagens relidas; linha editalícia .022 continua PARCIAL.",
+      "topicoId": "DPP-019",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-019.json",
+      "materiaEditorial": "Direito Processual Penal — Tribunal do Júri",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1VY6p2u1W0Xsyy1-SyYaG6-cUGtiZRrlfHtvfJo2Evtc/edit?usp=drivesdk",
+      "caracteres": 63054,
+      "sha256Texto": "257bbf53df165ac796214e8cbb8a62ad629981e62facfb76fc4944d459294504",
+      "sha256Documento": "64cab3939e5afa551a22d8dcea2aa35f74015b3885c83e48898bd4b69ca28eee"
+    },
+    {
+      "id": "DPP-018",
+      "titulo": "DPP-018 — Do Questionário e sua Votação: quesitos, ordem, sigilo, maioria e termo — CPP, arts. 482 a 491",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — concurso TJSP2503/2025, Escrevente Técnico Judiciário — CPP arts. 394–497",
+        "matriz tjsp_escrevente.processo_penal.022 — faixa formal 425–497"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-482-491-PLANALTO-COMPILADO",
+        "SRC-CPP-482-491-CAMARA-ATUALIZADA",
+        "SRC-LEI-11689-2008",
+        "SRC-VUNESP-TJSP2403-PROVA001-Q37-V1",
+        "SRC-VUNESP-TJSP2403-GABARITO-OFICIAL-V1",
+        "DPP-017",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — conteúdo efetivamente salvo e relido; atualização 1:1 deve permanecer PARCIAL.",
+      "topicoId": "DPP-018",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-018.json",
+      "materiaEditorial": "Direito Processual Penal — procedimento do Tribunal do Júri",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1pdd60bH9_lpocEGJqI_O0ZEvyeRLibkmuwLscJKQvX0/edit?usp=drivesdk",
+      "caracteres": 55337,
+      "sha256Texto": "f59f945573271ae43b696b6ed87a6806b699881b0318f08d1e830602096ca095",
+      "sha256Documento": "a81e5f0814a70c34e4d337e034a872408556963d736a6cb0eec7d1a46675faf1"
+    },
+    {
+      "id": "DPP-017",
+      "titulo": "DPP-017 — Dos Debates: ordem das falas, tempos, vedações, documentos, esclarecimentos e diligências — CPP, arts. 476 a 481",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — TJSP2503/2025 — Escrevente Técnico Judiciário — conteúdo de Processo Penal CPP arts. 394–497",
+        "matriz tjsp_escrevente.processo_penal.022 — CPP arts. 425–497"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-COMPILADO-476-481",
+        "SRC-CAMARA-CPP-ATUALIZADO-476-481",
+        "SRC-LEI-11689-2008",
+        "SRC-VUNESP-DPMS-2012-PESQUISA-NAO-HOMOLOGADA",
+        "DPP-016",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — conteúdo inserido e verificado por leitura, controle 1:1 preservado como PARCIAL.",
+      "topicoId": "DPP-017",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-017.json",
+      "materiaEditorial": "Direito Processual Penal — procedimento do Tribunal do Júri",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1IpMo61nO52jldfPiWbCAwDxGv7CYqUs_EPPIhaPn_Do/edit?usp=drivesdk",
+      "caracteres": 62528,
+      "sha256Texto": "765417920edf95e169ac4c9b8e49b19e6f78f8fe673cc4db16883f60457f793e",
+      "sha256Documento": "1caabbade5085751127ad3447012030c1cad12180477f65a03ec8f1f4a5a2693"
+    },
+    {
+      "id": "DPP-016",
+      "titulo": "DPP-016 — Instrução em Plenário: declarações, testemunhas, interrogatório, dignidade e registro — CPP, arts. 473, 474, 474-A e 475",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — TJ-SP, Escrevente Técnico Judiciário, TJSP2503/2025, faixa de CPP 394–497",
+        "tjsp_escrevente.processo_penal.022 — faixa formal 425–497"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-COMPILADO-473-475-INCL-474-A",
+        "SRC-LEI-11689-2008",
+        "SRC-LEI-14245-2021",
+        "SRC-CAMARA-CPP-ATUALIZADO",
+        "SRC-VUNESP-TJSP2401",
+        "DPP-015",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-016",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-016.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1xaH2waeySAkLJqgYxialTPX68cBCcmex4QZpqc6K2rc/edit?usp=drivesdk",
+      "caracteres": 37912,
+      "sha256Texto": "29c62e4e2d3a0418bc0dca9b116725db335d560a00b79a7ee21fc91302a9fb62",
+      "sha256Documento": "a983ef9b7299690f966a0eec230ab4ecbac2856a1bfd87b65e440d56bd602384"
+    },
+    {
+      "id": "DPP-015",
+      "titulo": "DPP-015 — Formação do Conselho de Sentença — CPP, arts. 467 a 472",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "SRC-TJSP-2025 — concurso TJSP2503/2025 — Escrevente Técnico Judiciário — Direito Processual Penal — CPP arts. 394–497",
+        "matriz tjsp_escrevente.processo_penal.022 — CPP arts. 425–497"
+      ],
+      "sourceRefs": [
+        "SRC-CPP-467-472-COMPILADO",
+        "SRC-LEI-11689-2008",
+        "SRC-TJSP-2025",
+        "DPP-014",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-015",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-015.json",
+      "materiaEditorial": "Direito Processual Penal — Tribunal do Júri",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/10toc5yHwEeBzPCEEhZIbpUmBP56gnhKoGZR62xyNm-U/edit?usp=drivesdk",
+      "caracteres": 39362,
+      "sha256Texto": "b9e1502791ff2fc5815727c32d856900420e2879fe16cf95ab6eaf4d952aa279",
+      "sha256Documento": "aeb1ae9957f365ca4209a22d11568f1ac7cbe59e62049c4314a2c2ababa839ca"
     }
   ]
 }
