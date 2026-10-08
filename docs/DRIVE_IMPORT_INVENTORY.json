@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-08",
-  "total": 230,
+  "total": 233,
   "materias": 40,
   "aulas": [
     {
@@ -3356,7 +3356,8 @@
         "DPP-004",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
       "topicoId": "DPP-005",
       "tipo": "oficial",
       "demonstracao": false,
@@ -3366,9 +3367,9 @@
       "materiaEditorial": "Direito Processual Penal",
       "classificacaoEditorial": "edital — procedimento comum — CPP, arts. 394 a 405",
       "documentoUrl": "https://docs.google.com/document/d/1VtJXkA6gpc_mRufDsqTjzMPOFpirdsomfuLSOG_4jLo/edit?usp=drivesdk",
-      "caracteres": 29247,
-      "sha256Texto": "7d9a134fbf6703bc3ace666a51d93660d7d1ac810d6812d5ef07929d0192245b",
-      "sha256Documento": "53a7374b6a5d9e7ee48d8eca2140c225bbf59c2fc48b0f912582555348572803"
+      "caracteres": 53267,
+      "sha256Texto": "e397b465bda33b92c309ada8486e3da706d85e2e282d102f405f02bf42c76883",
+      "sha256Documento": "a6bce0b1a4ce2963d822f7c095ddc4da570081575029599fc5fd2bb4a8c49d8e"
     },
     {
       "id": "DPP-004",
@@ -3378,21 +3379,30 @@
         "tjsp_escrevente"
       ],
       "editalRefs": [
-        "TJSP2503/VUNESP — Direito Processual Penal — Código de Processo Penal, arts. 351 a 372"
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.020"
       ],
       "sourceRefs": [
-        "Código de Processo Penal — Decreto-Lei nº 3.689/1941, texto compilado oficial do Planalto",
-        "Código de Processo Civil — Lei nº 13.105/2015, arts. 252 a 254, apenas como referência atual para citação com hora certa",
-        "STJ — Súmula 415",
-        "STJ — Informativo 693 / RHC 135.970-RS",
-        "STJ — Informativo 841/2025",
-        "edital oficial TJSP2503 já auditado no projeto",
+        "SRC-CPP-PLANALTO-351-372",
+        "SRC-CPP-CAMARA-351-372",
+        "SRC-LEI-11719-2008",
+        "SRC-CPC-2015-252-254",
+        "SRC-STJ-SUM415",
+        "SRC-STJ-SUM455",
+        "SRC-STF-TEMA438",
+        "SRC-STJ-INF693",
+        "SRC-STJ-INF841",
+        "SRC-TJSP-2025",
+        "SRC-VUNESP-TJSP2503",
         "DPP-001",
         "DPP-002",
         "DPP-003",
-        "CHECKPOINT — Produção intercalada de matérias."
+        "AUDITORIA-1-1",
+        "CHECKPOINT",
+        "AUDITORIA-GLOBAL"
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — DPP-004 refeito em seu ID estável, auditado e homologado após readback; três controles atualizados aditivamente.",
       "topicoId": "DPP-004",
       "tipo": "oficial",
       "demonstracao": false,
@@ -3400,11 +3410,11 @@
       "extensoes": [],
       "documentoArquivo": "direito-processual-penal/DPP-004.json",
       "materiaEditorial": "Direito Processual Penal",
-      "classificacaoEditorial": "edital — citações e intimações",
+      "classificacaoEditorial": "",
       "documentoUrl": "https://docs.google.com/document/d/1Xu-sQdeFMFJQiu8OQrFz0W6STZoAFFbXZOyaoaHyolA/edit?usp=drivesdk",
-      "caracteres": 29474,
-      "sha256Texto": "f86b5ab573207dfd792fb8825b1b25922fa86b8adca8873f7b9d6d459c13cb63",
-      "sha256Documento": "be3f80294ec8454dba569bc8d49006a60de6745e290f73dd8e96d4c3c488cac9"
+      "caracteres": 64651,
+      "sha256Texto": "37a289659f879cd8eb8297e0d18029512330bac019ef4b14bc319d30b38792ec",
+      "sha256Documento": "e9f12b1124e1e92d69d7668cf886cb8c78dabaebd536b3cc995e8d40c4c72d3b"
     },
     {
       "id": "DPP-003",
@@ -3414,24 +3424,20 @@
         "tjsp_escrevente"
       ],
       "editalRefs": [
-        "TJSP2503/VUNESP — Direito Processual Penal: Código de Processo Penal, arts. 251 a 258",
-        "261 a 267",
-        "274",
-        "351 a 372",
-        "394 a 497",
-        "531 a 538",
-        "541 a 548",
-        "574 a 667",
-        "Lei nº 9.099/1995, arts. 60 a 83, 88 e 89"
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.020"
       ],
       "sourceRefs": [
-        "Código de Processo Penal — Decreto-Lei nº 3.689/1941, texto compilado oficial do Planalto, especialmente arts. 254 e 274",
-        "TJ-SP/VUNESP TJSP2503 — edital oficial já auditado no projeto",
-        "DPP-001",
-        "DPP-002",
-        "CHECKPOINT — Produção intercalada de matérias."
+        "CPP-PLANALTO-274",
+        "CPP-CAMARA-TEXTO-ATUALIZADO",
+        "VUNESP-TJSP2503-EDITAL",
+        "CPP-254",
+        "CPP-105",
+        "CPP-112",
+        "DPP-001"
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
       "topicoId": "DPP-003",
       "tipo": "oficial",
       "demonstracao": false,
@@ -3439,11 +3445,11 @@
       "extensoes": [],
       "documentoArquivo": "direito-processual-penal/DPP-003.json",
       "materiaEditorial": "Direito Processual Penal",
-      "classificacaoEditorial": "edital — sujeitos processuais / funcionários da Justiça",
+      "classificacaoEditorial": "item formal de edital — sujeitos processuais, funcionários da Justiça",
       "documentoUrl": "https://docs.google.com/document/d/1-lfMbCnzU6nCHOEiheboGv47mQwQtYgxprVOpdUCzak/edit?usp=drivesdk",
-      "caracteres": 24137,
-      "sha256Texto": "70ddf9addd0fc4f63d387fe34f2c75f73760e696086671d0a642990dc92e80df",
-      "sha256Documento": "64af84c7a56a2db8608f893267a5b6edc2123f31ecce5d54944398feaa93d4ad"
+      "caracteres": 45115,
+      "sha256Texto": "8d5e1c305016e3b64d690ea92e98bae8b4a6d0c18270c131cbdff991dd95cc5b",
+      "sha256Documento": "449219bb5df314a76c309fe6e9ad07a54afd30ff851d7a19dcbcc60af14e8482"
     },
     {
       "id": "DPP-002",
@@ -3453,24 +3459,20 @@
         "tjsp_escrevente"
       ],
       "editalRefs": [
-        "TJSP2503/VUNESP — Direito Processual Penal: Código de Processo Penal, arts. 251 a 258",
-        "261 a 267",
-        "274",
-        "351 a 372",
-        "394 a 497",
-        "531 a 538",
-        "541 a 548",
-        "574 a 667",
-        "Lei nº 9.099/1995, arts. 60 a 83, 88 e 89"
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.020"
       ],
       "sourceRefs": [
-        "Código de Processo Penal — Decreto-Lei nº 3.689/1941, texto compilado oficial do Planalto",
-        "TJ-SP/VUNESP TJSP2503 — edital oficial",
-        "STF — Súmula 523",
-        "CHECKPOINT — Produção intercalada de matérias",
-        "DPP-001."
+        "CPP-PLANALTO",
+        "LEI-14752-2023",
+        "CF-1988",
+        "CC-2002",
+        "STF-SUM-523",
+        "STJ-AGR-ARESP-404293-SP",
+        "VUNESP-TJSP2503-EDITAL"
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido (material revisto e relido; a linha .020 permanece em refação até DPP-003)",
       "topicoId": "DPP-002",
       "tipo": "oficial",
       "demonstracao": false,
@@ -3478,32 +3480,39 @@
       "extensoes": [],
       "documentoArquivo": "direito-processual-penal/DPP-002.json",
       "materiaEditorial": "Direito Processual Penal",
-      "classificacaoEditorial": "edital — sujeitos processuais / acusado e defensor",
+      "classificacaoEditorial": "item formal de edital — TJ-SP Escrevente, CPP 261–267",
       "documentoUrl": "https://docs.google.com/document/d/1ZXonAyFyR-4cQ8CyS0G1a6hmQdH3Fa91hXp3GmnGlik/edit?usp=drivesdk",
-      "caracteres": 24618,
-      "sha256Texto": "07dd3b539b4c3103daafcc43245600ac8c6e2512a0aed8003b4195e50a65c0c1",
-      "sha256Documento": "d37eaba57852c7ef6e8842ec6434151d5b7208492c6e37536913217c60c4e203"
+      "caracteres": 45644,
+      "sha256Texto": "74239b6248d0f947dff340d6d7eabd3ad582680f156366c8634a7d149a136697",
+      "sha256Documento": "1ec857810b6d8fd35d0a9312092fc21bf1aa17eaf8b0f6eee80687f1e3d9fd98"
     },
     {
       "id": "DPP-001",
       "titulo": "DPP-001 — Sujeitos processuais: juiz e Ministério Público — CPP, arts. 251 a 258",
       "materiaId": "processual-penal",
       "cargoIds": [
-        "tjsp-escrevente",
-        "trf3-tecnico-adm"
+        "tjsp_escrevente"
       ],
       "editalRefs": [
-        "TJ-SP Escrevente — Código de Processo Penal, arts. 251 a 258",
-        "TRF3 Técnico Administrativo — núcleo “sujeitos” conforme Mapa Mestre Concatenado, associação sujeita à auditoria 1:1 do edital oficial"
+        "SRC-TJSP-2025",
+        "tjsp_escrevente.processo_penal.020, recorte CPP 251–258"
       ],
       "sourceRefs": [
-        "Editais-base-fornecidos-pelo-usuario.txt",
-        "Mapa Mestre Concatenado",
-        "Código de Processo Penal — Decreto-Lei nº 3.689/1941, texto compilado oficial do Planalto",
-        "Câmara dos Deputados — norma atualizada do CPP",
-        "STJ — AgRg no AREsp 2.621.019/SC, sobre impedimento e suspeição nos arts. 252 a 254"
+        "SRC-CPP-PLANALTO-251-258",
+        "SRC-CPP-CAMARA-251-258",
+        "SRC-CPP-SENADO-251-258",
+        "SRC-LEI-11719-2008-257",
+        "SRC-STJ-AGRG-ARESP-2621019-SC-2025",
+        "SRC-STJ-PESQUISA-PRONTA-2016-254",
+        "SRC-STJ-AGRG-HC-997775-PI-2026",
+        "SRC-CF-ART5-LIX",
+        "SRC-VUNESP-TJSP2503",
+        "CHECKPOINT",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL"
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — refação no mesmo documento, readback e auditoria homologados; vínculo formal TJ-SP validado, vínculo TRF3 não ratificado. sourceRefs: [SRC-CPP-PLANALTO-251-258; SRC-CPP-CAMARA-251-258; SRC-CPP-SENADO-251-258; SRC-LEI-11719-2008-257; SRC-STJ-AGRG-ARESP-2621019-SC-2025; SRC-STJ-PESQUISA-PRONTA-2016-254; SRC-STJ-AGRG-HC-997775-PI-2026; SRC-CF-ART5-LIX; SRC-VUNESP-TJSP2503; CHECKPOINT; AUDITORIA-1-1; AUDITORIA-GLOBAL].",
       "topicoId": "DPP-001",
       "tipo": "oficial",
       "demonstracao": false,
@@ -3511,11 +3520,11 @@
       "extensoes": [],
       "documentoArquivo": "direito-processual-penal/DPP-001.json",
       "materiaEditorial": "Direito Processual Penal",
-      "classificacaoEditorial": "edital",
+      "classificacaoEditorial": "",
       "documentoUrl": "https://docs.google.com/document/d/1pWWACT6O4e1SnVdFOzEfOq1bW7QWm-QuCLxo_9LzgbY/edit?usp=drivesdk",
-      "caracteres": 23787,
-      "sha256Texto": "0f2990d3d4641c2dd670921fa20c61d3687b5881abdb5f4d684c9b31804d7954",
-      "sha256Documento": "168a30d4649a0bca931050dd1e680f506f98ae7ee3d7e092c074fde53629cf6a"
+      "caracteres": 61633,
+      "sha256Texto": "96bf0f74ffd5b6a6be4786dcae46ce331c2e307ea9ca1acf8c073b4597e8b7d3",
+      "sha256Documento": "f174738e381ce913ef20d394b2d49b4edfb20ec72b3938b6fd5db8971a8ca38f"
     },
     {
       "id": "DP-005",
@@ -5715,7 +5724,8 @@
         "DPC-005",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
       "topicoId": "DPC-006",
       "tipo": "oficial",
       "demonstracao": false,
@@ -5725,9 +5735,9 @@
       "materiaEditorial": "Direito Processual Civil",
       "classificacaoEditorial": "edital — atos processuais / escrivão ou chefe de secretaria",
       "documentoUrl": "https://docs.google.com/document/d/1nHAmfU9WMJvatoG7W_iL_A4DFlCS-ftYw5POpFjxvu0/edit?usp=drivesdk",
-      "caracteres": 31070,
-      "sha256Texto": "2817c7012aa16ace42b319ea510cfa5f759d6af78c7cb5b87e9f5bfae69f96a7",
-      "sha256Documento": "3ea1d7b2f5a25aa0061be8d86ca0092c5e89b8be440005bdc291847ad27272df"
+      "caracteres": 31064,
+      "sha256Texto": "4209ecd6208fda5a42bf1052e318005ff36212fae5af0b345bd4e9fe032b281a",
+      "sha256Documento": "7f1294a1acf3dc1853f39696f648f37573d7d1623dc513b716b06e5c72f552ac"
     },
     {
       "id": "DA-014",
@@ -6321,7 +6331,8 @@
         "DPP-005",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
       "topicoId": "DPP-006",
       "tipo": "oficial",
       "demonstracao": false,
@@ -6331,9 +6342,9 @@
       "materiaEditorial": "Direito Processual Penal",
       "classificacaoEditorial": "edital — procedimento relativo aos processos da competência do Tribunal do Júri",
       "documentoUrl": "https://docs.google.com/document/d/1nJx92LihKGJUA7RYwIul3rZouA84JetaICr9tr9WI9g/edit?usp=drivesdk",
-      "caracteres": 35520,
-      "sha256Texto": "d4eaa5dacf378604d79538935553b6446be6d401e3048a6bdde3ed8117cbc96f",
-      "sha256Documento": "d3bf6b389a5dc3de9adea2f417d85035796111bb5e80ea34baf1b901ee2b3e72"
+      "caracteres": 69181,
+      "sha256Texto": "59804edc39cdb2b19e4cd2d48a98d0e9418f5c60c7bca8febcc23d3ac323095b",
+      "sha256Documento": "909f1ac2d11236d20d32ed70631e8d571cdb48c1216a8fc47572e560a46ebf7d"
     },
     {
       "id": "ARQ-005",
@@ -8318,6 +8329,110 @@
       "caracteres": 46564,
       "sha256Texto": "a76347b376e962c20d8825fc2b8c68fe8ad563ade4ce7aa4ffad512914eb96d6",
       "sha256Documento": "9a3f06da4261243b27ca5d4b79f442d5eb715b78f35156e1d90322e2219b363e"
+    },
+    {
+      "id": "BD-007",
+      "titulo": "BD-007 — SQL DML compartilhada e DQL (SELECT) como extensão formal do Analista TRF3/2023",
+      "materiaId": "bancos-dados",
+      "cargoIds": [
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 / Fundação VUNESP / Edital nº 01/2023 / Anexo II / Técnico Judiciário – Apoio Especializado – Informática / conhecimentos específicos / Banco de Dados / item 9.3: “Comandos SQL: DML, DDL e DCL”. Vínculo formal desta aula: DML. SELECT é apoio necessário à leitura/checagem dos dados, não item DQL nominal adicional do Técnico.",
+        "TRF3 / Fundação VUNESP / mesmo edital / Analista Judiciário – Apoio Especializado – Informática / conhecimentos específicos / Banco de Dados / itens 4.3.1: “DML – Linguagem de Manipulação de Dados” e 4.3.2: “DQL – Linguagem de Consulta de Dados”. Dois subitens formais atendidos por um único documento com seções distinguíveis."
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023: edital oficial VUNESP, https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "Técnico Informática item 9.3 e Analista Informática itens 4.3.1/4.3.2",
+        "matrizes C2/D2 da Auditoria 1:1.",
+        "BD-002: modelo relacional",
+        "BD-003: Modelo Entidade-Relacionamento",
+        "BD-004: mapeamento para o relacional",
+        "BD-005: normalização",
+        "BD-006: DDL, já existente e concluído.",
+        "Documentação técnica oficial de PostgreSQL, capítulos “Data Manipulation” e “Queries” (apoio conceitual",
+        "não substitui versões nominalmente exigidas): https://www.postgresql.org/docs/current/dml.html e https://www.postgresql.org/docs/current/queries.html .",
+        "Checkpoint e Auditoria Global do projeto."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "BD-007",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "bancos-dados-sql/BD-007.json",
+      "materiaEditorial": "Bancos de Dados e SQL",
+      "classificacaoEditorial": "núcleo técnico compartilhado DML + extensão específica DQL",
+      "documentoUrl": "https://docs.google.com/document/d/1HbjUVjW1HKiSBkahaV125taxFUesP50UgIPbmisiruM/edit?usp=drivesdk",
+      "caracteres": 33031,
+      "sha256Texto": "7dfda192a777ec59649f785b9321c73e7fc631aa38cb97f4c2828e4a59f05338",
+      "sha256Documento": "2c1702e2d6fcc9851319e58fa2ca821d8df29800cdfce11433b1dd85f9aae631"
+    },
+    {
+      "id": "DPC-007",
+      "titulo": "DPC-007 — Tempo e lugar dos atos processuais: dias e horários, prática eletrônica, férias e feriados forenses e lugar de realização — CPC, arts. 212 a 217",
+      "materiaId": "processual-civil",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — TJSP2503/2025 — Direito Processual Civil — CPC, artigos 188 a 275"
+      ],
+      "sourceRefs": [
+        "Lei nº 13.105/2015 — Código de Processo Civil — texto compilado oficial vigente — artigos 212 a 217",
+        "Constituição Federal, art. 5º, XI, apenas como remissão expressa do art. 212, § 2º",
+        "TJ-SP — Edital TJSP2503/2025",
+        "DPC-006",
+        "CHECKPOINT — Produção intercalada de matérias"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPC-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-civil/DPC-007.json",
+      "materiaEditorial": "Direito Processual Civil",
+      "classificacaoEditorial": "núcleo legal consolidado — tempo e lugar dos atos processuais",
+      "documentoUrl": "https://docs.google.com/document/d/1JVNhXeGaeNDck3MnSdGp383Vta4D2mMHGiRtyuOFSiM/edit?usp=drivesdk",
+      "caracteres": 33255,
+      "sha256Texto": "d832470bcdc948d4c4fc33eb2de7c1b5decec28c2597b2d284bd5547d5b6b0c1",
+      "sha256Documento": "09e953ec6def75408308a449d437c6d8aabe635ec0418cbf68e465e8accb7b8f"
+    },
+    {
+      "id": "DPP-007",
+      "titulo": "DPP-007 — Preparação do processo para julgamento em plenário: rol de testemunhas, documentos, diligências, saneamento de nulidades, relatório e inclusão em pauta — CPP, arts. 422 a 424",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — TJSP2503/2025 — Direito Processual Penal — Código de Processo Penal, artigos 394 a 497"
+      ],
+      "sourceRefs": [
+        "Código de Processo Penal — Decreto-Lei nº 3.689/1941 — texto compilado oficial vigente — artigos 422 a 424",
+        "artigos 421, 433 e 461 apenas como remissões de conexão",
+        "TJ-SP — Edital TJSP2503/2025",
+        "DPP-006",
+        "CHECKPOINT — Produção intercalada de matérias"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-007.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "núcleo legal consolidado — Tribunal do Júri — preparação para julgamento em plenário",
+      "documentoUrl": "https://docs.google.com/document/d/1sfs1AJ1QyDBR2ea4QLGRzjZOUPaXTPJ5pCWQdmSVboM/edit?usp=drivesdk",
+      "caracteres": 66558,
+      "sha256Texto": "7578f0678cd03a6d282584ad006706082445a2252df5af4f57a9c19638c7d039",
+      "sha256Documento": "64467bffd0e4fdab32f71a27575cc06b32ca2fbb30c5d65ce332ed3b2a485c32"
     }
   ]
 }

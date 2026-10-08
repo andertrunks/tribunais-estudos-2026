@@ -21,7 +21,8 @@ export default {
     "DPC-005",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "concluido",
+  "statusEditorialOriginal": "concluido",
   "topicoId": "DPC-006",
   "tipo": "oficial",
   "demonstracao": false,

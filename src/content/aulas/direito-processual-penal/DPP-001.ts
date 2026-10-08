@@ -6,21 +6,28 @@ export default {
   "titulo": "DPP-001 — Sujeitos processuais: juiz e Ministério Público — CPP, arts. 251 a 258",
   "materiaId": "processual-penal",
   "cargoIds": [
-    "tjsp-escrevente",
-    "trf3-tecnico-adm"
+    "tjsp_escrevente"
   ],
   "editalRefs": [
-    "TJ-SP Escrevente — Código de Processo Penal, arts. 251 a 258",
-    "TRF3 Técnico Administrativo — núcleo “sujeitos” conforme Mapa Mestre Concatenado, associação sujeita à auditoria 1:1 do edital oficial"
+    "SRC-TJSP-2025",
+    "tjsp_escrevente.processo_penal.020, recorte CPP 251–258"
   ],
   "sourceRefs": [
-    "Editais-base-fornecidos-pelo-usuario.txt",
-    "Mapa Mestre Concatenado",
-    "Código de Processo Penal — Decreto-Lei nº 3.689/1941, texto compilado oficial do Planalto",
-    "Câmara dos Deputados — norma atualizada do CPP",
-    "STJ — AgRg no AREsp 2.621.019/SC, sobre impedimento e suspeição nos arts. 252 a 254"
+    "SRC-CPP-PLANALTO-251-258",
+    "SRC-CPP-CAMARA-251-258",
+    "SRC-CPP-SENADO-251-258",
+    "SRC-LEI-11719-2008-257",
+    "SRC-STJ-AGRG-ARESP-2621019-SC-2025",
+    "SRC-STJ-PESQUISA-PRONTA-2016-254",
+    "SRC-STJ-AGRG-HC-997775-PI-2026",
+    "SRC-CF-ART5-LIX",
+    "SRC-VUNESP-TJSP2503",
+    "CHECKPOINT",
+    "AUDITORIA-1-1",
+    "AUDITORIA-GLOBAL"
   ],
-  "status": "em_producao",
+  "status": "concluido",
+  "statusEditorialOriginal": "concluido — refação no mesmo documento, readback e auditoria homologados; vínculo formal TJ-SP validado, vínculo TRF3 não ratificado. sourceRefs: [SRC-CPP-PLANALTO-251-258; SRC-CPP-CAMARA-251-258; SRC-CPP-SENADO-251-258; SRC-LEI-11719-2008-257; SRC-STJ-AGRG-ARESP-2621019-SC-2025; SRC-STJ-PESQUISA-PRONTA-2016-254; SRC-STJ-AGRG-HC-997775-PI-2026; SRC-CF-ART5-LIX; SRC-VUNESP-TJSP2503; CHECKPOINT; AUDITORIA-1-1; AUDITORIA-GLOBAL].",
   "topicoId": "DPP-001",
   "tipo": "oficial",
   "demonstracao": false,
@@ -28,6 +35,6 @@ export default {
   "extensoes": [],
   "documentoArquivo": "direito-processual-penal/DPP-001.json",
   "materiaEditorial": "Direito Processual Penal",
-  "classificacaoEditorial": "edital",
+  "classificacaoEditorial": "",
   "documentoUrl": "https://docs.google.com/document/d/1pWWACT6O4e1SnVdFOzEfOq1bW7QWm-QuCLxo_9LzgbY/edit?usp=drivesdk"
 } satisfies Aula;

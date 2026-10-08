@@ -9,24 +9,20 @@ export default {
     "tjsp_escrevente"
   ],
   "editalRefs": [
-    "TJSP2503/VUNESP — Direito Processual Penal: Código de Processo Penal, arts. 251 a 258",
-    "261 a 267",
-    "274",
-    "351 a 372",
-    "394 a 497",
-    "531 a 538",
-    "541 a 548",
-    "574 a 667",
-    "Lei nº 9.099/1995, arts. 60 a 83, 88 e 89"
+    "SRC-TJSP-2025",
+    "tjsp_escrevente.processo_penal.020"
   ],
   "sourceRefs": [
-    "Código de Processo Penal — Decreto-Lei nº 3.689/1941, texto compilado oficial do Planalto, especialmente arts. 254 e 274",
-    "TJ-SP/VUNESP TJSP2503 — edital oficial já auditado no projeto",
-    "DPP-001",
-    "DPP-002",
-    "CHECKPOINT — Produção intercalada de matérias."
+    "CPP-PLANALTO-274",
+    "CPP-CAMARA-TEXTO-ATUALIZADO",
+    "VUNESP-TJSP2503-EDITAL",
+    "CPP-254",
+    "CPP-105",
+    "CPP-112",
+    "DPP-001"
   ],
-  "status": "em_producao",
+  "status": "concluido",
+  "statusEditorialOriginal": "concluido",
   "topicoId": "DPP-003",
   "tipo": "oficial",
   "demonstracao": false,
@@ -34,6 +30,6 @@ export default {
   "extensoes": [],
   "documentoArquivo": "direito-processual-penal/DPP-003.json",
   "materiaEditorial": "Direito Processual Penal",
-  "classificacaoEditorial": "edital — sujeitos processuais / funcionários da Justiça",
+  "classificacaoEditorial": "item formal de edital — sujeitos processuais, funcionários da Justiça",
   "documentoUrl": "https://docs.google.com/document/d/1-lfMbCnzU6nCHOEiheboGv47mQwQtYgxprVOpdUCzak/edit?usp=drivesdk"
 } satisfies Aula;

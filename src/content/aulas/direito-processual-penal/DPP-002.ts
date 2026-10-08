@@ -9,24 +9,20 @@ export default {
     "tjsp_escrevente"
   ],
   "editalRefs": [
-    "TJSP2503/VUNESP — Direito Processual Penal: Código de Processo Penal, arts. 251 a 258",
-    "261 a 267",
-    "274",
-    "351 a 372",
-    "394 a 497",
-    "531 a 538",
-    "541 a 548",
-    "574 a 667",
-    "Lei nº 9.099/1995, arts. 60 a 83, 88 e 89"
+    "SRC-TJSP-2025",
+    "tjsp_escrevente.processo_penal.020"
   ],
   "sourceRefs": [
-    "Código de Processo Penal — Decreto-Lei nº 3.689/1941, texto compilado oficial do Planalto",
-    "TJ-SP/VUNESP TJSP2503 — edital oficial",
-    "STF — Súmula 523",
-    "CHECKPOINT — Produção intercalada de matérias",
-    "DPP-001."
+    "CPP-PLANALTO",
+    "LEI-14752-2023",
+    "CF-1988",
+    "CC-2002",
+    "STF-SUM-523",
+    "STJ-AGR-ARESP-404293-SP",
+    "VUNESP-TJSP2503-EDITAL"
   ],
-  "status": "em_producao",
+  "status": "concluido",
+  "statusEditorialOriginal": "concluido (material revisto e relido; a linha .020 permanece em refação até DPP-003)",
   "topicoId": "DPP-002",
   "tipo": "oficial",
   "demonstracao": false,
@@ -34,6 +30,6 @@ export default {
   "extensoes": [],
   "documentoArquivo": "direito-processual-penal/DPP-002.json",
   "materiaEditorial": "Direito Processual Penal",
-  "classificacaoEditorial": "edital — sujeitos processuais / acusado e defensor",
+  "classificacaoEditorial": "item formal de edital — TJ-SP Escrevente, CPP 261–267",
   "documentoUrl": "https://docs.google.com/document/d/1ZXonAyFyR-4cQ8CyS0G1a6hmQdH3Fa91hXp3GmnGlik/edit?usp=drivesdk"
 } satisfies Aula;
