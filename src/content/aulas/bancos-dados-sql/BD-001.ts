@@ -13,7 +13,8 @@ export default {
     "Oracle Database Concepts",
     "MongoDB Database Manual — Data Modeling."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "BD-001",
   "tipo": "compartilhado",
   "demonstracao": false,

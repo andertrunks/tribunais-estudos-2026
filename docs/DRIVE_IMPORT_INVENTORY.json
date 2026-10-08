@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-08",
-  "total": 225,
+  "total": 230,
   "materias": 40,
   "aulas": [
     {
@@ -2526,7 +2526,8 @@
         "IBM — database design / entity-relationship modeling",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "BD-004",
       "tipo": "oficial",
       "demonstracao": false,
@@ -2536,29 +2537,35 @@
       "materiaEditorial": "Bancos de Dados e SQL",
       "classificacaoEditorial": "núcleo técnico consolidado de TI — modelagem de dados — mapeamento MER → modelo relacional",
       "documentoUrl": "https://docs.google.com/document/d/1e7QEdF-VAjOQvEBFWtQWp7Y3Ue2yvBmwF7Kqvnh8fiw/edit?usp=drivesdk",
-      "caracteres": 34492,
-      "sha256Texto": "2869ba9332026b44e1cee6e7153ff9eb8c3869ebe1b6380e4a45ebf35dc65f3e",
-      "sha256Documento": "78b3f8ddc01a28f2a70651dcb8ff753d99ebbe9d9e46e1ab8a89e570de615124"
+      "caracteres": 36431,
+      "sha256Texto": "fe9740fbd1e37dd4e24100f9bd4e037f9f51c11664105a906a93565acc922576",
+      "sha256Documento": "9ff7ee3428e247a68194557adde607d8ff9893ee28841840b1138b7d6eb721c0"
     },
     {
       "id": "BD-003",
       "titulo": "BD-003 — Modelo Entidade-Relacionamento: entidades, atributos, relacionamentos, cardinalidades e participação",
       "materiaId": "bancos-dados",
       "cargoIds": [
-        "trt15_aj_ti"
+        "trt15_aj_ti",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
       ],
       "editalRefs": [
-        "TRT-15/FCC — Edital nº 01/2024 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Banco de Dados: Modelagem de dados. Modelo Entidade-Relacionamento."
+        "TRT-15/FCC — Edital nº 01/2024 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Banco de Dados: Modelagem de dados. Modelo Entidade-Relacionamento.",
+        "TRF3/VUNESP — Edital nº 01/2023 — Técnico Judiciário – Apoio Especializado – Informática — Conhecimentos Específicos, Banco de Dados, item 9.1 Modelo Entidade x Relacionamento",
+        "TRF3/VUNESP — Edital nº 01/2023 — Analista Judiciário – Apoio Especializado – Informática — Conhecimentos Específicos, Banco de Dados, item 4.1 Modelo Entidade x Relacionamento"
       ],
       "sourceRefs": [
-        "BD-002 — Modelo relacional: relações, tuplas, atributos, domínios, chaves e integridade",
-        "CHECKPOINT — Produção intercalada de matérias",
+        "SRC-TRF3-2023 — Edital de Abertura nº 01/2023, Anexo II, Técnico Informática 9.1 e Analista Informática 4.1, fonte primária https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
         "TRT-15 — Edital nº 01/2024",
-        "TRF3 — Edital nº 01/2023",
+        "BD-002 — Modelo relacional: relações, tuplas, atributos, domínios, chaves e integridade",
         "IBM — What is an Entity Relationship Diagram?",
-        "IBM Db2 — Designing databases."
+        "IBM Db2 — Designing databases",
+        "AUDITORIA 1:1 C2/D2",
+        "CHECKPOINT."
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "BD-003",
       "tipo": "oficial",
       "demonstracao": false,
@@ -2568,9 +2575,9 @@
       "materiaEditorial": "Bancos de Dados e SQL",
       "classificacaoEditorial": "núcleo técnico consolidado de TI — modelagem conceitual / Modelo Entidade-Relacionamento",
       "documentoUrl": "https://docs.google.com/document/d/1m546BeriDYmFBZMwxAEdCW9rhb7O5nuiaxZJ_zDTnj8/edit?usp=drivesdk",
-      "caracteres": 36067,
-      "sha256Texto": "23d60f04a693e1736e3f9e6b22bba5f7467764eea7e50b9f53f1a252ce92e215",
-      "sha256Documento": "538e140c371051ee14540d2bc8fc4ceb2455896dee288d87ce801a35e6f809aa"
+      "caracteres": 37606,
+      "sha256Texto": "585287117749d276ab74074e6b9880015fb20bd87602f55380be1b34ee551d16",
+      "sha256Documento": "dfec810c84c665cd2c64ca0ea14e52c56785654f6419af748378600676f19f82"
     },
     {
       "id": "BD-002",
@@ -2586,7 +2593,8 @@
         "TRF3 — Edital nº 01/2023",
         "TRT-15 — Edital nº 01/2024."
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "BD-002",
       "tipo": "compartilhado",
       "demonstracao": false,
@@ -2596,9 +2604,9 @@
       "materiaEditorial": "Bancos de Dados e SQL",
       "classificacaoEditorial": "núcleo técnico consolidado de TI — modelo relacional",
       "documentoUrl": "https://docs.google.com/document/d/1izh6SaHpwaWgCj8ytjO_SkiWN4UeOBHNXbb_RhMoY40/edit?usp=drivesdk",
-      "caracteres": 32207,
-      "sha256Texto": "8831535b586e379a9d817a18a8ed78dd726a2e05c16bf4ecaa1a266d696da641",
-      "sha256Documento": "5bca71ef925d32baba470cf4bf5c56ba9297915d0b6d081b148d2dd19908392a"
+      "caracteres": 33460,
+      "sha256Texto": "9c22dcabfd61f58a46752afa203cc9fbe376f46cc3457f5670767ee15ad8b5d1",
+      "sha256Documento": "16fb499a29766bc70f9de683f5c73c8aa66df3b7fb56f32533155e96d30deded"
     },
     {
       "id": "BD-001",
@@ -2612,7 +2620,8 @@
         "Oracle Database Concepts",
         "MongoDB Database Manual — Data Modeling."
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "BD-001",
       "tipo": "compartilhado",
       "demonstracao": false,
@@ -2622,9 +2631,9 @@
       "materiaEditorial": "Bancos de Dados e SQL",
       "classificacaoEditorial": "núcleo técnico consolidado de TI",
       "documentoUrl": "https://docs.google.com/document/d/12u0PySqzIZrwvCY5okmOoxbAWFmCAAzJAyK9mlXaqn4/edit?usp=drivesdk",
-      "caracteres": 30290,
-      "sha256Texto": "e416389b7d7a1c7b80a3e4c37435785fbb92921e70b38bacfea74459f48d3c43",
-      "sha256Documento": "01426ea499e74bc778620c6f1e3e6675d52b9cd29dcce7767b0eafa954d04563"
+      "caracteres": 31721,
+      "sha256Texto": "8c27745181ea87799f71d29081a20d996f53fa030050f1eb97b61652a500fca9",
+      "sha256Documento": "1e89abaebabec601451127618333b3b1c718a62f3ed52f3a06b0c37f6c89cffa"
     },
     {
       "id": "ATF-001",
@@ -5205,27 +5214,30 @@
       "cargoIds": [
         "tresp_aj_ti",
         "tresp_tj_programacao",
-        "trt2_aj_ti",
-        "trt15_aj_ti"
+        "trt15_aj_ti",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
       ],
       "editalRefs": [
+        "TRF3 / VUNESP — Edital nº 01/2023 — Técnico Judiciário – Apoio Especializado – Informática — Conhecimentos Específicos 9.2 “Normalização de dados: conceitos”.",
+        "TRF3 / VUNESP — Edital nº 01/2023 — Analista Judiciário – Apoio Especializado – Informática — Conhecimentos Específicos 4.2 “Normalização de dados: conceitos”.",
         "TRE-SP / CPNUJE / Cebraspe — Edital nº 1/2024 atualizado — Cargo 17 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Bancos de Dados: “Modelagem e normalização de dados”.",
-        "TRE-SP / CPNUJE / Cebraspe — Edital nº 1/2024 atualizado — Cargo 21 — Técnico Judiciário – Área Apoio Especializado – Especialidade Programação de Sistemas — Bancos de Dados: “Modelagem e normalização de dados” e “Normalização das estruturas de dados”.",
-        "TRT-2 / FCC — Edital nº 01/2025 — M13 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Banco de Dados: “Modelagem de dados. Modelo Entidade-Relacionamento. Formas normais.”",
-        "TRT-15 / FCC — Edital nº 01/2024 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Banco de Dados: “Modelagem de dados. Modelo Entidade-Relacionamento. Formas normais.”"
+        "TRE-SP / CPNUJE / Cebraspe — Edital nº 1/2024 atualizado — Cargo 21 — Técnico Judiciário – Área Apoio Especializado – Especialidade Programação de Sistemas — Bancos de Dados: “Modelagem e normalização de dados” e “Normalização das estruturas de dados”."
       ],
       "sourceRefs": [
         "CPNUJE/2024 — edital atualizado até a Retificação nº 15.",
-        "TRT-2 — Edital nº 01/2025 — Anexo II.",
+        "TRT-2 — Edital nº 01/2025 — Anexo II",
+        "referência documental histórica, fora da lista canônica de cargoIds ativos.",
         "TRT-15 — Edital nº 01/2024 — Anexo III.",
-        "TRF3 — Edital nº 01/2023 — usado como fonte complementar de escopo",
-        "sem cargoId nesta aula por falta de associação 1:1 suficientemente demonstrada entre o bloco recuperado e cada cargo técnico.",
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital nº 01/2023, Anexo II, item 9.2 do Técnico Informática e item 4.2 do Analista Informática, fonte oficial https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "AUDITORIA 1:1 C2/D2.",
         "BD-002 — Modelo relacional: relações, tuplas, atributos, domínios, chaves e integridade.",
         "BD-003 — Modelo Entidade-Relacionamento.",
         "BD-004 — Mapeamento MER → modelo relacional.",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "BD-005",
       "tipo": "oficial",
       "demonstracao": false,
@@ -5235,9 +5247,9 @@
       "materiaEditorial": "Bancos de Dados e SQL",
       "classificacaoEditorial": "núcleo técnico consolidado de TI — modelagem relacional — normalização",
       "documentoUrl": "https://docs.google.com/document/d/1cbBoKqjlJ5mPamZ7XOmIIb9Ws2exTXN9n03ihAlA7fU/edit?usp=drivesdk",
-      "caracteres": 42995,
-      "sha256Texto": "28493ed854527a1b61489fada749099e1222f7d1da2f3e5953285318397cfffe",
-      "sha256Documento": "93f0c4f6155fdc8a3419e4c93b42359fea5ba6d6ab4ca62600d49d3df56b9674"
+      "caracteres": 48010,
+      "sha256Texto": "3be9deb6523a7a6fe55b95c11637af2456a9ce4e22a54fe180045f542527493c",
+      "sha256Documento": "a990fb9b991f96f9ddb4efa4243933d47d7f9e851ac00842c0dfbc61ef443337"
     },
     {
       "id": "DP-006",
@@ -8082,6 +8094,230 @@
       "caracteres": 42797,
       "sha256Texto": "98ccf51436f5123856e2fe49987da8438f2f9c9f6cd1c6ebccf0c134c93751de",
       "sha256Documento": "6ebb458937fa8b6366693e2ec5cec56dc669fbae4c727691d818a381f1eafd3c"
+    },
+    {
+      "id": "BD-012",
+      "titulo": "BD-012 — Microsoft SQL Server e T-SQL: produto, consultas, transações, segurança e administração (TRF3 Analista 4.8)",
+      "materiaId": "bancos-dados",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "SRC-TRF3-2023: Fundação VUNESP, Edital de Abertura TRF3 nº 01/2023, Anexo II, ANALISTA JUDICIÁRIO – APOIO ESPECIALIZADO – INFORMÁTICA, Banco de Dados, 4.8: “SQL Server”. PDF índice 67, impresso 68. A numeração do item e o nome do produto são os dados formais efetivamente demonstrados.",
+        "Técnico Informática NÃO possui item SQL Server nominal na respectiva lista de Banco de Dados do mesmo edital. O Técnico não entra em cargoIds nem recebe “9.7” fictício."
+      ],
+      "sourceRefs": [
+        "Edital oficial: https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D , Anexo II",
+        "auditorias C2/D2 e checkpoint E5e.",
+        "Microsoft Learn, SQL Server Technical Documentation: https://learn.microsoft.com/en-us/sql/sql-server/sql-server-technical-documentation .",
+        "TOP (Transact-SQL): https://learn.microsoft.com/en-us/sql/t-sql/queries/top-transact-sql .",
+        "ORDER BY/OFFSET-FETCH: https://learn.microsoft.com/en-us/sql/t-sql/queries/select-order-by-clause-transact-sql .",
+        "IDENTITY: https://learn.microsoft.com/en-us/sql/t-sql/statements/create-table-transact-sql-identity-property .",
+        "@@IDENTITY e SCOPE_IDENTITY: https://learn.microsoft.com/en-us/sql/t-sql/functions/identity-transact-sql",
+        "https://learn.microsoft.com/en-us/sql/t-sql/functions/scope-identity-transact-sql .",
+        "OUTPUT clause: https://learn.microsoft.com/en-us/sql/t-sql/queries/output-clause-transact-sql .",
+        "@@ROWCOUNT: https://learn.microsoft.com/en-us/sql/t-sql/functions/rowcount-transact-sql .",
+        "TRY...CATCH e XACT_STATE: https://learn.microsoft.com/en-us/sql/t-sql/language-elements/try-catch-transact-sql",
+        "https://learn.microsoft.com/en-us/sql/t-sql/functions/xact-state-transact-sql .",
+        "SAVE TRANSACTION e @@TRANCOUNT: https://learn.microsoft.com/en-us/sql/t-sql/language-elements/save-transaction-transact-sql",
+        "https://learn.microsoft.com/en-us/sql/t-sql/functions/trancount-transact-sql .",
+        "Index Architecture and Design Guide e Execution Plan Overview: https://learn.microsoft.com/en-us/sql/relational-databases/sql-server-index-design-guide",
+        "https://learn.microsoft.com/en-us/sql/relational-databases/performance/execution-plans .",
+        "Backup Overview e Recovery Models: https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/backup-overview-sql-server",
+        "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/recovery-models-sql-server .",
+        "BD-002 e BD-005–011: acervo pedagógico prévio, sem duplicar núcleos SQL e materiais específicos PostgreSQL/Oracle."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "BD-012",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "bancos-dados-sql/BD-012.json",
+      "materiaEditorial": "Bancos de Dados e SQL",
+      "classificacaoEditorial": "aula específica de produto — Microsoft SQL Server; sem extensão fictícia do Técnico",
+      "documentoUrl": "https://docs.google.com/document/d/1Q__gzZ0G4F2dKLm7Jcvg_OwKXaDkNpyI7JzvdDkzcG8/edit?usp=drivesdk",
+      "caracteres": 47299,
+      "sha256Texto": "c2d3dfcebace9c856356a42830e61e3ed0b477cd1b12047e0f027e2975d2ad76",
+      "sha256Documento": "87868aa98bf09bb1b3ee9f9540a289beba3f9f3fdc3f202f9a59116c7caa8498"
+    },
+    {
+      "id": "BD-011",
+      "titulo": "BD-011 — Oracle Database 19 compartilhado e Oracle 12 como extensão formal do Analista TRF3/2023",
+      "materiaId": "bancos-dados",
+      "cargoIds": [
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "SRC-TRF3-2023: Fundação VUNESP/TRF3, Edital de Abertura nº 01/2023, Anexo II, Técnico Judiciário – Apoio Especializado – Informática, Banco de Dados, 9.6 “Oracle 19”. Núcleo versão 19 formal para trf3_tj_ti.",
+        "SRC-TRF3-2023: mesmo edital e anexo, Analista Judiciário – Apoio Especializado – Informática, Banco de Dados, 4.7 “Oracle 12 e 19”. Núcleo versão 19 e extensão versão 12 formais para trf3_aj_ti."
+      ],
+      "sourceRefs": [
+        "Edital oficial, Técnico PDF página índice 51 e Analista índice 67: https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "Oracle Database 19c, Database Concepts: https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/",
+        "Introdução à arquitetura: https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/introduction-to-oracle-database.html",
+        "instância: https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/oracle-database-instance.html",
+        "armazenamento lógico e físico: https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/logical-storage-structures.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/physical-storage-structures.html",
+        "transactions: https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/transactions.html .",
+        "Oracle 19c SQL Language Reference: https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/",
+        "SELECT com row_limiting_clause https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/SELECT.html",
+        "ROWNUM https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/ROWNUM-Pseudocolumn.html",
+        "MERGE https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/MERGE.html",
+        "CREATE SEQUENCE https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/CREATE-SEQUENCE.html .",
+        "Oracle 19c Multitenant Administrator's Guide: https://docs.oracle.com/en/database/oracle/oracle-database/19/multi/overview-of-the-multitenant-architecture.html",
+        "Backup and Recovery User's Guide: https://docs.oracle.com/en/database/oracle/oracle-database/19/bradv/introduction-backup-recovery.html",
+        "New Features Guide: https://docs.oracle.com/en/database/oracle/oracle-database/19/newft/",
+        "performance features: https://docs.oracle.com/en/database/oracle/oracle-database/19/newft/performance.html",
+        "big data and warehousing: https://docs.oracle.com/en/database/oracle/oracle-database/19/newft/big-data-and-data-warehousing-solutions.html .",
+        "Oracle 12c Release 1 Database Concepts/Multitenant: https://docs.oracle.com/database/121/CNCPT/intro.htm",
+        "https://docs.oracle.com/database/121/CNCPT/cdbovrvw.htm",
+        "Oracle 12c Release 1 SQL Language Reference https://docs.oracle.com/database/121/SQLRF/",
+        "New Features Guide https://docs.oracle.com/database/121/NEWFT/toc.htm .",
+        "Materiais internos BD-002, BD-005–BD-010 (DDL, DML/DQL, DCL/transações, PL/SQL e PostgreSQL) reutilizados sem reescrita."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "BD-011",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "bancos-dados-sql/BD-011.json",
+      "materiaEditorial": "Bancos de Dados e SQL",
+      "classificacaoEditorial": "núcleo Oracle Database 19 compartilhado + extensão Oracle Database 12 específica do Analista",
+      "documentoUrl": "https://docs.google.com/document/d/1uRaRMaa7SoFZwsWA8QTnjq7J42onu8GKINndxJgcp4g/edit?usp=drivesdk",
+      "caracteres": 49588,
+      "sha256Texto": "e638f818d58c6a2b6dcb49e87fda6c11570011c02fb52b1e82925221debcd83a",
+      "sha256Documento": "534effb515f3c86e03573fd9d6ce9245984bd5e73ea7d2d005d93b47fd5dcf8e"
+    },
+    {
+      "id": "BD-010",
+      "titulo": "BD-010 — PostgreSQL 13 compartilhado e PostgreSQL 12 como extensão específica do Analista TRF3/2023",
+      "materiaId": "bancos-dados",
+      "cargoIds": [
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "SRC-TRF3-2023, Edital nº 01/2023, Anexo II, Técnico Judiciário – Apoio Especializado – Informática: item 9.5 “PostgreSQL 13”. Somente o núcleo PostgreSQL 13 compõe o vínculo formal nominal deste cargo.",
+        "SRC-TRF3-2023, mesmo edital, Analista Judiciário – Apoio Especializado – Informática: item 4.6 “PostgreSQL 12 e 13”. Núcleo comum PostgreSQL 13 e extensão de versão 12 são formais SOMENTE para este cargo em conjunto.",
+        "Fonte primária: https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D — Anexo II, PDF índice 51 para Técnico e 67 para Analista, extração textual conferida",
+        "a ferramenta de screenshot do PDF retornou erro e não é apresentada como inspeção visual bem-sucedida."
+      ],
+      "sourceRefs": [
+        "Documentação OFICIAL do PostgreSQL 13: https://www.postgresql.org/docs/13/",
+        "Tutorial https://www.postgresql.org/docs/13/tutorial.html",
+        "psql https://www.postgresql.org/docs/13/app-psql.html",
+        "Schemas https://www.postgresql.org/docs/13/ddl-schemas.html",
+        "Roles https://www.postgresql.org/docs/13/user-manag.html",
+        "JSON https://www.postgresql.org/docs/13/datatype-json.html",
+        "MVCC https://www.postgresql.org/docs/13/mvcc.html",
+        "EXPLAIN https://www.postgresql.org/docs/13/using-explain.html",
+        "Partitioning https://www.postgresql.org/docs/13/ddl-partitioning.html",
+        "pg_dump https://www.postgresql.org/docs/13/app-pgdump.html",
+        "pg_restore https://www.postgresql.org/docs/13/app-pgrestore.html .",
+        "Documentação OFICIAL PostgreSQL 12: https://www.postgresql.org/docs/12/",
+        "CREATE TABLE/generated columns https://www.postgresql.org/docs/12/sql-createtable.html .",
+        "Release notes oficiais e diferenças: PostgreSQL 12 https://www.postgresql.org/docs/release/12.0/",
+        "PostgreSQL 13 https://www.postgresql.org/docs/release/13.0/ .",
+        "Aulas internas BD-002 (modelo relacional), BD-005 (normalização), BD-006 (DDL), BD-007 (DML/DQL), BD-008 (DCL e gerência de transações), BD-009 (SQL/PLSQL Oracle). Os documentos têm IDs próprios e não foram duplicados aqui."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "BD-010",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "bancos-dados-sql/BD-010.json",
+      "materiaEditorial": "Bancos de Dados e SQL",
+      "classificacaoEditorial": "núcleo PostgreSQL 13 compartilhado + extensão identificada PostgreSQL 12 para Analista",
+      "documentoUrl": "https://docs.google.com/document/d/1m4JFDHpja0LxJ2OEGuHsZt2ATRefbYIa68drhdA2TMg/edit?usp=drivesdk",
+      "caracteres": 48785,
+      "sha256Texto": "e3e187743496632fa97b3801596696ee9f398127664889bc4d0d28a10798a62f",
+      "sha256Documento": "ce12282aea9ccaa4b530745fead48c38ecdda212fed2888ba1973d3094bcd659"
+    },
+    {
+      "id": "BD-009",
+      "titulo": "BD-009 — Linguagens SQL e PL/SQL: fundamentos, blocos, controle de fluxo, cursores, exceções e subprogramas",
+      "materiaId": "bancos-dados",
+      "cargoIds": [
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Técnico Judiciário – Apoio Especializado – Informática, Conhecimentos Específicos, Banco de Dados, item 9.4: “Linguagens SQL e PL/SQL”.",
+        "TRF3/Fundação VUNESP, mesmo edital e anexo, Analista Judiciário – Apoio Especializado – Informática, Conhecimentos Específicos, Banco de Dados, item 4.5: “Linguagens SQL e PL/SQL”."
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023, edital oficial, Técnico Informática p.52 impressa (página de índice PDF 51), Analista Informática p.68 impressa (página de índice PDF 67): https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "Auditoria 1:1 C2.TJTI.09 e D2.AJTI.04.",
+        "Oracle Database 19c, PL/SQL Language Reference, Main Features e Block: https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/main-features-pl-sql.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/block.html .",
+        "Oracle Database 12c Release 1, PL/SQL Language Reference, Block: https://docs.oracle.com/database/121/LNPLS/block.htm .",
+        "Oracle Database 19c, SELECT INTO, Cursors Overview, Subprogram Parameters e PL/SQL Error Handling: https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/SELECT-INTO-statement.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/cursors-overview.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/subprogram-parameters.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/plsql-error-handling.html .",
+        "Materiais internos BD-002, BD-003, BD-004, BD-005, BD-006 (DDL), BD-007 (DML e DQL), BD-008 (DCL e gerência de transações), checkpoint e auditoria."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "BD-009",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "bancos-dados-sql/BD-009.json",
+      "materiaEditorial": "Bancos de Dados e SQL",
+      "classificacaoEditorial": "núcleo técnico compartilhado — linguagem SQL e extensão procedural PL/SQL da Oracle",
+      "documentoUrl": "https://docs.google.com/document/d/1XFJGbTTGoh_dviOt4CmfI_s6GMdyaZltnzJyyc5aC_Q/edit?usp=drivesdk",
+      "caracteres": 37129,
+      "sha256Texto": "a80e8b43ee5d8ac8ff4d6ce356bd89dc6f92880d251c789ebd02b8fc9aab3a83",
+      "sha256Documento": "82a0887384d180d3f53938e4a81de49195a6ed295e1ef6ddd303eed9b3dd398e"
+    },
+    {
+      "id": "BD-008",
+      "titulo": "BD-008 — SQL DCL: GRANT e REVOKE; gerência de transações (extensão formal do Analista TRF3/2023)",
+      "materiaId": "bancos-dados",
+      "cargoIds": [
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Técnico Judiciário, Apoio Especializado, Informática, Banco de Dados, item 9.3: “Comandos SQL: DML, DDL e DCL”. Este BD-008 atende ao componente DCL desse item. Transações são aprofundamento pedagógico para o Técnico, sem novo vínculo formal autônomo.",
+        "TRF3/Fundação VUNESP, mesmo edital, Analista Judiciário, Apoio Especializado, Informática, Banco de Dados, item 4.3.4: “DCL – Linguagem de Controle de Dados”",
+        "item 4.4: “Gerência de Transações”. São dois itens formais distintos do Analista cobertos por seções diferenciadas neste único documento."
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023: edital oficial VUNESP, https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "respectivas matrizes documentais C2.TJTI.09 e D2.AJTI.04 da Auditoria 1:1.",
+        "PostgreSQL 13, documentação oficial GRANT: https://www.postgresql.org/docs/13/sql-grant.html",
+        "PostgreSQL 13, documentação oficial REVOKE: https://www.postgresql.org/docs/13/sql-revoke.html",
+        "PostgreSQL 13, tutorial “Transactions”: https://www.postgresql.org/docs/13/tutorial-transactions.html",
+        "PostgreSQL 13, “Transaction Isolation”: https://www.postgresql.org/docs/13/transaction-iso.html",
+        "PostgreSQL 13, “SAVEPOINT” e “SET TRANSACTION”: https://www.postgresql.org/docs/13/sql-savepoint.html",
+        "https://www.postgresql.org/docs/13/sql-set-transaction.html",
+        "BD-002 (modelo relacional), BD-005 (normalização), BD-006 (DDL concluído), BD-007 (DML compartilhada + DQL formal do Analista)",
+        "Checkpoint e Auditoria Global."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "BD-008",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "bancos-dados-sql/BD-008.json",
+      "materiaEditorial": "Bancos de Dados e SQL",
+      "classificacaoEditorial": "núcleo DCL compartilhado + extensão de gerência de transações específica do Analista",
+      "documentoUrl": "https://docs.google.com/document/d/19dmHHxfdYxmhhHvpf_AwGU63AmhprL4ehQ1MiPNL-2E/edit?usp=drivesdk",
+      "caracteres": 46564,
+      "sha256Texto": "a76347b376e962c20d8825fc2b8c68fe8ad563ade4ce7aa4ffad512914eb96d6",
+      "sha256Documento": "9a3f06da4261243b27ca5d4b79f442d5eb715b78f35156e1d90322e2219b363e"
     }
   ]
 }

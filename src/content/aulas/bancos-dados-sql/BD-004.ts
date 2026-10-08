@@ -21,7 +21,8 @@ export default {
     "IBM — database design / entity-relationship modeling",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "BD-004",
   "tipo": "oficial",
   "demonstracao": false,

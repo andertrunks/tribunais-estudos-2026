@@ -8,27 +8,30 @@ export default {
   "cargoIds": [
     "tresp_aj_ti",
     "tresp_tj_programacao",
-    "trt2_aj_ti",
-    "trt15_aj_ti"
+    "trt15_aj_ti",
+    "trf3_tj_ti",
+    "trf3_aj_ti"
   ],
   "editalRefs": [
+    "TRF3 / VUNESP — Edital nº 01/2023 — Técnico Judiciário – Apoio Especializado – Informática — Conhecimentos Específicos 9.2 “Normalização de dados: conceitos”.",
+    "TRF3 / VUNESP — Edital nº 01/2023 — Analista Judiciário – Apoio Especializado – Informática — Conhecimentos Específicos 4.2 “Normalização de dados: conceitos”.",
     "TRE-SP / CPNUJE / Cebraspe — Edital nº 1/2024 atualizado — Cargo 17 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Bancos de Dados: “Modelagem e normalização de dados”.",
-    "TRE-SP / CPNUJE / Cebraspe — Edital nº 1/2024 atualizado — Cargo 21 — Técnico Judiciário – Área Apoio Especializado – Especialidade Programação de Sistemas — Bancos de Dados: “Modelagem e normalização de dados” e “Normalização das estruturas de dados”.",
-    "TRT-2 / FCC — Edital nº 01/2025 — M13 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Banco de Dados: “Modelagem de dados. Modelo Entidade-Relacionamento. Formas normais.”",
-    "TRT-15 / FCC — Edital nº 01/2024 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Banco de Dados: “Modelagem de dados. Modelo Entidade-Relacionamento. Formas normais.”"
+    "TRE-SP / CPNUJE / Cebraspe — Edital nº 1/2024 atualizado — Cargo 21 — Técnico Judiciário – Área Apoio Especializado – Especialidade Programação de Sistemas — Bancos de Dados: “Modelagem e normalização de dados” e “Normalização das estruturas de dados”."
   ],
   "sourceRefs": [
     "CPNUJE/2024 — edital atualizado até a Retificação nº 15.",
-    "TRT-2 — Edital nº 01/2025 — Anexo II.",
+    "TRT-2 — Edital nº 01/2025 — Anexo II",
+    "referência documental histórica, fora da lista canônica de cargoIds ativos.",
     "TRT-15 — Edital nº 01/2024 — Anexo III.",
-    "TRF3 — Edital nº 01/2023 — usado como fonte complementar de escopo",
-    "sem cargoId nesta aula por falta de associação 1:1 suficientemente demonstrada entre o bloco recuperado e cada cargo técnico.",
+    "SRC-TRF3-2023 — Fundação VUNESP, Edital nº 01/2023, Anexo II, item 9.2 do Técnico Informática e item 4.2 do Analista Informática, fonte oficial https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+    "AUDITORIA 1:1 C2/D2.",
     "BD-002 — Modelo relacional: relações, tuplas, atributos, domínios, chaves e integridade.",
     "BD-003 — Modelo Entidade-Relacionamento.",
     "BD-004 — Mapeamento MER → modelo relacional.",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "BD-005",
   "tipo": "oficial",
   "demonstracao": false,

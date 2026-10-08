@@ -15,7 +15,8 @@ export default {
     "TRF3 — Edital nº 01/2023",
     "TRT-15 — Edital nº 01/2024."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "BD-002",
   "tipo": "compartilhado",
   "demonstracao": false,
