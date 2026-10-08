@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-08",
-  "total": 216,
+  "total": 225,
   "materias": 40,
   "aulas": [
     {
@@ -6366,7 +6366,6 @@
         "trf3_tj_ti",
         "tresp_aj_ti",
         "tresp_tj_programacao",
-        "trt2_aj_ti",
         "trt15_aj_ti"
       ],
       "editalRefs": [
@@ -6376,14 +6375,12 @@
         "DDL — Linguagem de Definição de Dados.",
         "CPNUJE/TSE — Edital número 1/2024, atualizado até a Retificação número 15 — Cargo 17, Analista Judiciário, Tecnologia da Informação — Bancos de Dados: Linguagem de definição de dados, DDL.",
         "CPNUJE/TSE — Edital número 1/2024, atualizado até a Retificação número 15 — Cargo 21, Técnico Judiciário, Programação de Sistemas — Bancos de Dados: SQL ANSI",
-        "Linguagem de definição de dados, DDL.",
-        "TRT-2 — Edital número 01/2025 — M13, Analista Judiciário, Tecnologia da Informação — Banco de Dados: SQL padrão ANSI, PL/SQL, PL/pgSQL e Transact-SQL.",
-        "TRT-15 — Edital número 01/2024 — Cargo 24, Analista Judiciário, Tecnologia da Informação — Banco de Dados: SQL padrão ANSI, PL/SQL, PL/pgSQL e Transact-SQL."
+        "Linguagem de definição de dados, DDL."
       ],
       "sourceRefs": [
         "TRF3 — Edital de Abertura número 01/2023 e alterações posteriores.",
         "CPNUJE/TSE — Edital número 1/2024 atualizado até a Retificação número 15.",
-        "TRT-2 — Edital número 01/2025 e Retificação número 04/2025.",
+        "TRT-2 — Edital número 01/2025 e Retificação número 04/2025 (fonte histórica: trt2_aj_ti não é cargoId da matriz atual).",
         "TRT-15 — Edital número 01/2024, versão final.",
         "Cebraspe — CPNUJE 2024 — prova do Cargo 21, Técnico Judiciário, Programação de Sistemas.",
         "BD-003 — Modelo Entidade-Relacionamento.",
@@ -6391,6 +6388,7 @@
         "BD-005 — Normalização de dados."
       ],
       "status": "concluido",
+      "statusEditorialOriginal": "concluido",
       "topicoId": "BD-006",
       "tipo": "oficial",
       "demonstracao": false,
@@ -6400,9 +6398,9 @@
       "materiaEditorial": "Bancos de Dados e SQL",
       "classificacaoEditorial": "núcleo técnico consolidado — SQL DDL e definição de esquema",
       "documentoUrl": "https://docs.google.com/document/d/1o90GkDjt3Kt4rNq9fR7AlenueAnaqeTpUM5V24quJng/edit?usp=drivesdk",
-      "caracteres": 52968,
-      "sha256Texto": "f1e5c91c4c142d147844f6c123a0fde97ba515f91a1c8ca1e3221b19271961a9",
-      "sha256Documento": "09bb8cf2f935fb1ce8bb04cf801f898d1d1388f3c409c8a0c46a578097af9940"
+      "caracteres": 68133,
+      "sha256Texto": "d61635791c0d0d2efe8ff5bbf8a4823da090de0b30e5750140041fef3f539660",
+      "sha256Documento": "c5d08f0275d9b27e9e1361bc099e1d496ea1d25c6509131972ed06397b9a2a83"
     },
     {
       "id": "DA-015",
@@ -7759,6 +7757,331 @@
       "caracteres": 48403,
       "sha256Texto": "ed4cf6e5e59c293d93d46077afd4222f6116321e69f022edec14c5553d4aa0a0",
       "sha256Documento": "9141492e5abe3749b29340444cca4c0e2bd801dfaae42b9f70a394afdf3350d6"
+    },
+    {
+      "id": "SI-006",
+      "titulo": "SI-006 — Resposta a incidentes de segurança: preparação, detecção, análise, priorização, contenção, erradicação, recuperação, lições aprendidas, evidências, comunicação e integração com continuidade — fundamentos",
+      "materiaId": "seguranca",
+      "cargoIds": [
+        "tresp_aj_ti",
+        "trt15_aj_ti",
+        "trt15_tj_ti"
+      ],
+      "editalRefs": [
+        "CPNUJE/2024 — Cargo 17, Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Normativos da PDPJ-Br: Resolução CNJ nº 396/2021 e Portaria CNJ nº 162/2021",
+        "TRT-15 — Edital nº 01/2024 — Cargo 24, Analista Judiciário – Apoio Especializado – Tecnologia da Informação — “Tratamento de incidentes e problemas de Segurança da Informação”",
+        "TRT-15 — Edital nº 01/2024 — Cargo 28, Técnico Judiciário – Apoio Especializado – Tecnologia da Informação — “Tratamento de incidentes e problemas de Segurança da Informação”"
+      ],
+      "sourceRefs": [
+        "Resolução CNJ nº 396/2021 vigente",
+        "Portaria CNJ nº 162/2021 vigente",
+        "NIST SP 800-61 Rev. 3",
+        "CERT.br — Recomendações para Notificações de Incidentes de Segurança v1.4",
+        "SI-005",
+        "CHECKPOINT — Produção intercalada de matérias"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "SI-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "seguranca-informacao-cibernetica/SI-006.json",
+      "materiaEditorial": "Segurança da Informação e Cibernética",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI — resposta e tratamento de incidentes",
+      "documentoUrl": "https://docs.google.com/document/d/1ijqeQGjApVPBBuEqn87fM_kSQVA2hfwUSe0Ifb-Mi8U/edit?usp=drivesdk",
+      "caracteres": 50134,
+      "sha256Texto": "c28a05513d72f175ace4c1ff85ba9e8e60c6fa7c5643ee763b47abd85998b7b6",
+      "sha256Documento": "369041c95eccafb0ecfd738c4c385020028fb754255f23903fc5950d9494d034"
+    },
+    {
+      "id": "AGP-006",
+      "titulo": "AGP-006 — Gestão da qualidade: qualidade em serviços públicos, excelência, melhoria contínua, PDCA e ferramentas da qualidade",
+      "materiaId": "administracao-geral-publica",
+      "cargoIds": [
+        "tresp_aj_adm",
+        "tresp_tj_adm"
+      ],
+      "editalRefs": [
+        "CPNUJE — Edital número 1/2024 — Cargo 1 — Analista Judiciário – Área Administrativa — Administração Geral: Qualidade na Administração Pública",
+        "Gestão da qualidade e modelo de excelência gerencial",
+        "principais teóricos e suas contribuições",
+        "ferramentas de gestão da qualidade. Administração Pública: Gestão da qualidade",
+        "Excelência nos serviços públicos.",
+        "CPNUJE — Edital número 1/2024 — Cargo 19 — Técnico Judiciário – Área Administrativa — Administração Pública: Gestão da qualidade",
+        "Excelência nos serviços públicos."
+      ],
+      "sourceRefs": [
+        "Cebraspe/TSE — Edital número 1 – CPNUJE/2024 — texto oficial.",
+        "Cebraspe — Padrão de Resposta Definitivo do Cargo 1 — evidência real de cobrança de excelência em serviços públicos e qualidade do serviço.",
+        "Lei número 13.460/2017 — direitos do usuário, participação e avaliação dos serviços públicos — contexto institucional.",
+        "Decreto número 9.094/2017 — simplificação do atendimento ao usuário de serviços públicos — contexto institucional.",
+        "Governo Digital — Modelo/Central de Qualidade dos Serviços Públicos — foco no usuário, avaliação de satisfação e melhoria.",
+        "literatura clássica de gestão da qualidade: Deming, Juran, Crosby, Ishikawa e Feigenbaum — referência pedagógica.",
+        "AGP-001 a AGP-005.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "AGP-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "administracao-geral-publica/AGP-006.json",
+      "materiaEditorial": "Administração Geral e Pública",
+      "classificacaoEditorial": "núcleo administrativo consolidado — gestão da qualidade e excelência em serviços públicos",
+      "documentoUrl": "https://docs.google.com/document/d/1nBJgX-mnknvpfF3b6hby0EdzslG_1qG7zX1Q9AkcokE/edit?usp=drivesdk",
+      "caracteres": 42594,
+      "sha256Texto": "3ca18979e10a98f52f2d16fd956e69241dc74f4c4ac1aba1516276c5cbc53e0e",
+      "sha256Documento": "d6fed5bf6723ed2bc7bf499d84275b13232ec0cdcde2a5ac6608739bac7155a5"
+    },
+    {
+      "id": "CP-006",
+      "titulo": "CP-006 — Compras: planejamento, padronização, parcelamento, indicação de marca, amostras, prova de qualidade e processo de padronização — Lei número 14.133/2021, artigos 40 a 44",
+      "materiaId": "contratacoes-publicas",
+      "cargoIds": [
+        "trf3_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital número 01/2024 — Técnico Judiciário – Área Administrativa — Noções de Direito Administrativo — Lei número 14.133/2021: disposições gerais, licitação, contratos e sanções.",
+        "TRT-15 — Edital número 01/2024 — Analista Judiciário – Área Administrativa — Licitações e Contratos Administrativos — Lei número 14.133/2021.",
+        "TRT-15 — Edital número 01/2024 — Técnico Judiciário – Área Administrativa — Licitações e Contratos Administrativos — Lei número 14.133/2021."
+      ],
+      "sourceRefs": [
+        "Presidência da República — Lei número 14.133/2021 — texto oficial compilado vigente — artigos 40 a 44.",
+        "Presidência da República — Lei número 14.133/2021 — artigo 44-A, apenas como atualização normativa fora do recorte formal desta aula.",
+        "CP-001 a CP-005.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "CP-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "contratacoes-publicas/CP-006.json",
+      "materiaEditorial": "Contratações Públicas",
+      "classificacaoEditorial": "legislação — Lei número 14.133/2021 — disposições setoriais sobre compras",
+      "documentoUrl": "https://docs.google.com/document/d/1O9KjhIRprdOE0iRbiXnP8XdZfS7GebBM71pci8rIx04/edit?usp=drivesdk",
+      "caracteres": 43122,
+      "sha256Texto": "034890db99d98955e731fc60f9b8d3d35d30d39d3c1e7ca45390d66a2f3199c4",
+      "sha256Documento": "36d30220b4b5f0d4af3bb9a3174df3580f500a8089ff1db6a484490c31687cad"
+    },
+    {
+      "id": "ES-006",
+      "titulo": "ES-006 — Qualidade de software em profundidade — CMMI-DEV v2.0, MR-MPS-SW 2021, ABNT NBR ISO/IEC/IEEE 12207:2021, garantia, controle, métricas, auditorias e melhoria",
+      "materiaId": "engenharia-software",
+      "cargoIds": [
+        "trt15_aj_ti",
+        "trt15_tj_ti"
+      ],
+      "editalRefs": [
+        "TRT-15 — Edital número 01/2024 — Cargo 24 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Qualidade do software: conhecimento dos modelos Capability Maturity Model Integration, CMMI-DEV v2.0",
+        "ABNT NBR ISO/IEC/IEEE 12207:2021",
+        "versão 2021 do guia MR-MPS-SW.",
+        "TRT-15 — Edital número 01/2024 — Cargo 28 — Técnico Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Qualidade do software: conhecimento dos modelos CMMI-DEV v2.0",
+        "noções da ABNT NBR ISO/IEC/IEEE 12207:2021 e da versão 2021 do guia MR-MPS-SW."
+      ],
+      "sourceRefs": [
+        "TRT-15 — Edital número 01/2024 — versão final oficial — páginas do conteúdo dos Cargos 24 e 28.",
+        "CMMI Institute — CMMI Development V2.0",
+        "CMMI Levels of Capability and Performance",
+        "materiais oficiais de referência do CMMI V2.0.",
+        "Softex — Guia Geral MPS de Software:2021.",
+        "ISO — ISO/IEC/IEEE 12207:2017 — base internacional idêntica adotada no Brasil como ABNT NBR ISO/IEC/IEEE 12207:2021.",
+        "ABNT NBR ISO/IEC/IEEE 12207:2021 — edição brasileira exigida pelo edital.",
+        "ES-005 — Testes e qualidade de software.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "ES-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "engenharia-software/ES-006.json",
+      "materiaEditorial": "Engenharia de Software",
+      "classificacaoEditorial": "núcleo técnico consolidado — qualidade de software, maturidade e melhoria de processos",
+      "documentoUrl": "https://docs.google.com/document/d/1QAODQLAjZkJPk5qGyvzD3Y-M86kPIp-dc_aGROV7p5c/edit?usp=drivesdk",
+      "caracteres": 41537,
+      "sha256Texto": "ac7adf603240cb20ddcbdf7723250e9495d02bbfa9ff06b7fd9c6dee7e3ddd9d",
+      "sha256Documento": "bc0927f5f105460a53154f37e01f5c13270af6484968a89f53a02467804de378"
+    },
+    {
+      "id": "SCJ-006",
+      "titulo": "SCJ-006 — Licenças: disposições gerais e licença por motivo de doença em pessoa da família — Lei número 8.112/1990, artigos 81 a 83",
+      "materiaId": "servidores-carreira",
+      "cargoIds": [
+        "trf3_tj_adm",
+        "trt15_aj_adm",
+        "trt15_aj_ti",
+        "trt15_tj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital de Abertura número 01/2024 — Técnico Judiciário – Área Administrativa — Noções de Direito Administrativo: Lei número 8.112/1990 — direitos e vantagens: vencimento e remuneração, vantagens, férias, licenças, afastamentos e direito de petição.",
+        "TRT-15 — Edital número 01/2024 — Analista Judiciário – Área Administrativa — Lei número 8.112/1990 — direitos e vantagens: vencimento e remuneração, vantagens, férias, licenças, afastamentos e direito de petição.",
+        "TRT-15 — Edital número 01/2024 — bloco de Conhecimentos Gerais aplicável aos cargos de Analista Judiciário – Apoio Especializado – Tecnologia da Informação e Técnico Judiciário – Apoio Especializado – Tecnologia da Informação — Lei número 8.112/1990 — direitos e vantagens: vencimento e remuneração, vantagens, férias, licenças, afastamentos e direito de petição."
+      ],
+      "sourceRefs": [
+        "Presidência da República — Lei número 8.112/1990 — texto compilado vigente — artigos 81 a 83",
+        "artigos 44, inciso II, e 204, como remissões necessárias.",
+        "TRT-15 — Edital número 01/2024 — versão final oficial — conteúdo programático.",
+        "TRF3 — Edital de Abertura número 01/2024 — conteúdo programático oficial.",
+        "SCJ-005 — Férias — Lei número 8.112/1990, artigos 77 a 80.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "SCJ-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "servidores-carreira/SCJ-006.json",
+      "materiaEditorial": "Servidores e Carreira Judiciária",
+      "classificacaoEditorial": "legislação — regime jurídico dos servidores públicos civis da União — licenças",
+      "documentoUrl": "https://docs.google.com/document/d/1e6NvRvJYZTg-tL8kNL-QtNv5Kq-jI6IRwtYoWwPr1fA/edit?usp=drivesdk",
+      "caracteres": 36697,
+      "sha256Texto": "edc80d94ae30a5a25b4c52c4b73683b128080d3db4e100e1f8083cbd783b3fc9",
+      "sha256Documento": "fa45dcd366c13e2737c151be76baf919d9e35072ba2f0708dc96c6461243a6f7"
+    },
+    {
+      "id": "IA-004",
+      "titulo": "IA-004 — Ferramentas de aprendizado de máquina: Python 3, scikitlearn, Keras e PyTorch — TRF3 Analista TI 15.4",
+      "materiaId": "dados-bi",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.15.4 — TRF3/Fundação VUNESP, Edital nº 01/2023, Anexo II, Analista Judiciário — Apoio Especializado — Informática, “Conhecimentos sobre ferramentas de desenvolvimento de aplicações de aprendizado de máquina (python 3, scikitlearn, keras e pytorch)”"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "AUDITORIA-1-1-D2.AJTI.15.4",
+        "CHECKPOINT-E21",
+        "IA-001",
+        "IA-002",
+        "IA-003",
+        "DOC-PYTHON3-VENV",
+        "DOC-SCIKIT-GETTING-STARTED",
+        "DOC-KERAS-GETTING-STARTED",
+        "DOC-PYTORCH-BASICS"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate E22 restrito a D2.AJTI.15.4",
+      "topicoId": "IA-004",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "dados-bi-ia/IA-004.json",
+      "materiaEditorial": "Ciência de Dados, Inteligência Artificial e Aprendizado de Máquina",
+      "classificacaoEditorial": "núcleo formal consolidado — subitem 15.4",
+      "documentoUrl": "https://docs.google.com/document/d/1KzsBxoAf8MykB9sMVvpGeQlljK34xAiATEv4E7gunqc/edit?usp=drivesdk",
+      "caracteres": 48636,
+      "sha256Texto": "82d06151012c52947d4ae0ebf4101a86f0e7a91bd07201817b74b43c0144a51d",
+      "sha256Documento": "f9147af2e9df043a90728917422b7e671e52d379b4c59a385e663761a86ba282"
+    },
+    {
+      "id": "IA-003",
+      "titulo": "IA-003 — Avaliação de modelos: sobreajuste, métricas de classificação e regressão e análise ROC — TRF3 Analista TI 15.3",
+      "materiaId": "dados-bi",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.15.3 — TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário – Apoio Especializado – Especialidade Informática: “Avaliação de modelos (sobreajuste, métricas de classificação e regressão e análise ROC)”"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "AUDITORIA-1-1-D2-AJTI.15.3",
+        "CHECKPOINT-E20",
+        "IA-001",
+        "IA-002"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E21 restrito a D2.AJTI.15.3",
+      "topicoId": "IA-003",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "dados-bi-ia/IA-003.json",
+      "materiaEditorial": "Ciência de Dados, Inteligência Artificial e Aprendizado de Máquina",
+      "classificacaoEditorial": "núcleo formal consolidado — subitem 15.3",
+      "documentoUrl": "https://docs.google.com/document/d/1L372lWqfwGYVpdK3zNdwc-nJ8luuxc8GdlCGX5W80IE/edit?usp=drivesdk",
+      "caracteres": 37336,
+      "sha256Texto": "9225f9ee0bdc8a2e631a63df24a77e5a382b971a75f82f88347f5064d61e00ac",
+      "sha256Documento": "dede50f0629ec3da59b2660f0d8c8ca7ab852b94eacfaa72d36155b562b6c06f"
+    },
+    {
+      "id": "IA-002",
+      "titulo": "IA-002 — Modelos preditivos supervisionados e descritivos não supervisionados — TRF3 Analista TI 15.2",
+      "materiaId": "dados-bi",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.15.2 — TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário — Apoio Especializado — Especialidade Informática: “Conceitos de modelos preditivos (supervisionados) e descritivos (não supervisionados)”"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "AUDITORIA-1-1-D2.AJTI.15.2",
+        "CHECKPOINT-E19",
+        "IA-001-2026",
+        "scikit-learn User Guide, consulta pedagógica"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate E20, escopo exclusivo D2.AJTI.15.2",
+      "topicoId": "IA-002",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "dados-bi-ia/IA-002.json",
+      "materiaEditorial": "Ciência de Dados, Inteligência Artificial e Aprendizado de Máquina",
+      "classificacaoEditorial": "núcleo formal consolidado do subitem 15.2; não substitui IA-001, IA-003 ou IA-004",
+      "documentoUrl": "https://docs.google.com/document/d/1htD7Wa3vNGpsyjnBmGNGLXjOQUm-0buKUG23mvX-jHk/edit?usp=drivesdk",
+      "caracteres": 45108,
+      "sha256Texto": "ae48ec4f47b5750b739678d9890bddfc4fe0cd58912d1c78b913b0a0bf600a9f",
+      "sha256Documento": "6538fb35eaceb21214f0c2f2d2423365b425c4164a6c6d471669244ba086c3ff"
+    },
+    {
+      "id": "IA-001",
+      "titulo": "IA-001 — Pré-processamento de dados estruturados e não estruturados — TRF3 Analista TI 15.1",
+      "materiaId": "dados-bi",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.15.1 — TRF3/VUNESP Edital nº 01/2023, Anexo II, Analista Judiciário – Apoio Especializado – Informática, “Principais técnicas de pré-processamento de dados estruturados e não estruturados”"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "AUDITORIA-1-1-D2-AJTI.15",
+        "CHECKPOINT-E18",
+        "DBI-001, DBI-003, DBI-005, DBI-007 como fundamentos transversais e não cobertura do item 15"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E19 restrito a D2.AJTI.15.1",
+      "topicoId": "IA-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "dados-bi-ia/IA-001.json",
+      "materiaEditorial": "Ciência de Dados, Inteligência Artificial e Aprendizado de Máquina",
+      "classificacaoEditorial": "núcleo formal consolidado — etapa 15.1",
+      "documentoUrl": "https://docs.google.com/document/d/17HLmuOuv34dJY3p3WVAXkYAcQawu7q5hhbB9Wv_GKD4/edit?usp=drivesdk",
+      "caracteres": 42797,
+      "sha256Texto": "98ccf51436f5123856e2fe49987da8438f2f9c9f6cd1c6ebccf0c134c93751de",
+      "sha256Documento": "6ebb458937fa8b6366693e2ec5cec56dc669fbae4c727691d818a381f1eafd3c"
     }
   ]
 }

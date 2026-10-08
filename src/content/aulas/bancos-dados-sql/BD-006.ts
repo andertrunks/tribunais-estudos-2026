@@ -10,7 +10,6 @@ export default {
     "trf3_tj_ti",
     "tresp_aj_ti",
     "tresp_tj_programacao",
-    "trt2_aj_ti",
     "trt15_aj_ti"
   ],
   "editalRefs": [
@@ -20,14 +19,12 @@ export default {
     "DDL — Linguagem de Definição de Dados.",
     "CPNUJE/TSE — Edital número 1/2024, atualizado até a Retificação número 15 — Cargo 17, Analista Judiciário, Tecnologia da Informação — Bancos de Dados: Linguagem de definição de dados, DDL.",
     "CPNUJE/TSE — Edital número 1/2024, atualizado até a Retificação número 15 — Cargo 21, Técnico Judiciário, Programação de Sistemas — Bancos de Dados: SQL ANSI",
-    "Linguagem de definição de dados, DDL.",
-    "TRT-2 — Edital número 01/2025 — M13, Analista Judiciário, Tecnologia da Informação — Banco de Dados: SQL padrão ANSI, PL/SQL, PL/pgSQL e Transact-SQL.",
-    "TRT-15 — Edital número 01/2024 — Cargo 24, Analista Judiciário, Tecnologia da Informação — Banco de Dados: SQL padrão ANSI, PL/SQL, PL/pgSQL e Transact-SQL."
+    "Linguagem de definição de dados, DDL."
   ],
   "sourceRefs": [
     "TRF3 — Edital de Abertura número 01/2023 e alterações posteriores.",
     "CPNUJE/TSE — Edital número 1/2024 atualizado até a Retificação número 15.",
-    "TRT-2 — Edital número 01/2025 e Retificação número 04/2025.",
+    "TRT-2 — Edital número 01/2025 e Retificação número 04/2025 (fonte histórica: trt2_aj_ti não é cargoId da matriz atual).",
     "TRT-15 — Edital número 01/2024, versão final.",
     "Cebraspe — CPNUJE 2024 — prova do Cargo 21, Técnico Judiciário, Programação de Sistemas.",
     "BD-003 — Modelo Entidade-Relacionamento.",
@@ -35,6 +32,7 @@ export default {
     "BD-005 — Normalização de dados."
   ],
   "status": "concluido",
+  "statusEditorialOriginal": "concluido",
   "topicoId": "BD-006",
   "tipo": "oficial",
   "demonstracao": false,
