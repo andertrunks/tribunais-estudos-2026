@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-08",
-  "total": 253,
+  "total": 263,
   "materias": 40,
   "aulas": [
     {
@@ -9182,6 +9182,360 @@
       "caracteres": 39362,
       "sha256Texto": "b9e1502791ff2fc5815727c32d856900420e2879fe16cf95ab6eaf4d952aa279",
       "sha256Documento": "aeb1ae9957f365ca4209a22d11568f1ac7cbe59e62049c4314a2c2ababa839ca"
+    },
+    {
+      "id": "DPP-014",
+      "titulo": "DPP-014 — Reunião e sessões do Tribunal do Júri, parte 1: comparecimentos, testemunhas, instalação e incomunicabilidade — CPP, arts. 453 a 466",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — concurso TJSP2503/2025 — Direito Processual Penal — CPP, arts. 394–497",
+        "matriz 1:1 tjsp_escrevente.processo_penal.022 — CPP 425–497"
+      ],
+      "sourceRefs": [
+        "SRC-TJSP-2025",
+        "CPP compilado oficial, arts. 453–466",
+        "Lei 11.689/2008",
+        "DPP-013",
+        "AUDITORIA-1-1",
+        "AUDITORIA-GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-014",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-014.json",
+      "materiaEditorial": "Direito Processual Penal — Tribunal do Júri",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1yzxT2hbAsb2I2pFk05kV6yyCA1vY3niz117rJx2OsTM/edit?usp=drivesdk",
+      "caracteres": 35573,
+      "sha256Texto": "d6c7d7c65547e8a47985952703f55717852dc819fe0f449f33176c3248b1fb23",
+      "sha256Documento": "8880cbdc25ed11193e4fd658d2a1478f84f706f33a8ee7f5b5ee9251e0b56589"
+    },
+    {
+      "id": "DPP-013",
+      "titulo": "DPP-013 — Composição do Tribunal do Júri e formação do Conselho de Sentença — CPP, arts. 447 a 452",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP, Escrevente Técnico Judiciário, concurso TJSP2503/2025, Direito Processual Penal, CPP arts. 394–497, recorte formal auditado tjsp_escrevente.processo_penal.022 = CPP 425–497"
+      ],
+      "sourceRefs": [
+        "SRC-TJSP-2025",
+        "SRC-CPP-447-452",
+        "SRC-LEI-11689-2008",
+        "SRC-PROVA-TJSP2401-001-2024-Q34-V1",
+        "SRC-GABARITO-TJSP2401-2024-V1-Q34",
+        "DPP-012",
+        "AUDITORIA-1-1",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-013",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-013.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1oTnNtOy9q_t1PIes0b0KcJpzf44MenqepAxpiuPWlFM/edit?usp=drivesdk",
+      "caracteres": 38698,
+      "sha256Texto": "5a9d9e39ddc673dba7f783a52e321c92d1c59a0c38c22dece9f4599db7d96390",
+      "sha256Documento": "bdd05e43dc89acedb62bfe2bec1f1e0cea6752daee752caaa521b808ae26f12e"
+    },
+    {
+      "id": "DPP-012",
+      "titulo": "DPP-012 — Função do jurado: obrigatoriedade, isenções, serviço alternativo, direitos, faltas, escusas e responsabilidade — CPP, arts. 436 a 446",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — TJSP2503/2025 — Direito Processual Penal — Código de Processo Penal, arts. 394 a 497"
+      ],
+      "sourceRefs": [
+        "SRC-TJSP-2025",
+        "Código de Processo Penal — Decreto-Lei nº 3.689/1941, texto compilado oficial, arts. 436 a 446",
+        "Lei nº 11.689/2008",
+        "Lei nº 12.403/2011, alteração do art. 439",
+        "DPP-011",
+        "AUDITORIA 1:1",
+        "AUDITORIA GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-012",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-012.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "núcleo legal consolidado — Tribunal do Júri — função do jurado",
+      "documentoUrl": "https://docs.google.com/document/d/1y-fj-JV_ihTdeDL5GjojraON1iW51OYbWevrw70Labs/edit?usp=drivesdk",
+      "caracteres": 37359,
+      "sha256Texto": "f7187e69be2ca70c8fe455de91352f25bd23ba86aa69ce9b474af4b0d22d3434",
+      "sha256Documento": "84b1bbca3d4f12a9c931d8a680561254bbf705f84f17338fa5a7f9409d67f0fc"
+    },
+    {
+      "id": "DPP-011",
+      "titulo": "DPP-011 — Sorteio e convocação dos jurados: intimação institucional, audiência pública, 25 jurados, prazo do sorteio, convocação e publicidade — CPP, arts. 432 a 435",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — TJSP2503/2025 — Direito Processual Penal — Código de Processo Penal, arts. 394 a 497"
+      ],
+      "sourceRefs": [
+        "Código de Processo Penal — Decreto-Lei nº 3.689/1941 — texto compilado oficial vigente — arts. 432 a 435",
+        "Lei nº 11.689/2008",
+        "TJ-SP — Edital de Abertura nº 02/2025 — TJSP2503",
+        "DPP-010",
+        "AUDITORIA 1:1",
+        "AUDITORIA GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-011",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-011.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "núcleo legal consolidado — Tribunal do Júri — sorteio e convocação dos jurados",
+      "documentoUrl": "https://docs.google.com/document/d/19eIy5-0FubneAGlxbbxhHW4ZlVB5KVLSLIV3RjLZRMY/edit?usp=drivesdk",
+      "caracteres": 27169,
+      "sha256Texto": "557fb18ce85959d090f4b71f39c2409d22f1cc1d83576952bac5bd55d25261e2",
+      "sha256Documento": "8e4a166c20c1b0569b99b4f88401a494b2bf75d0d272d67310c0c452628947f0"
+    },
+    {
+      "id": "DPP-010",
+      "titulo": "DPP-010 — Organização da pauta: ordem de preferência, lista dos processos, datas para adiamentos, habilitação do assistente e intimações — CPP, arts. 429 a 431",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — TJSP2503/2025 — Direito Processual Penal — Código de Processo Penal, arts. 394 a 497"
+      ],
+      "sourceRefs": [
+        "Código de Processo Penal — Decreto-Lei nº 3.689/1941 — texto compilado oficial vigente — arts. 429 a 431",
+        "art. 420 por remissão expressa",
+        "Lei nº 11.689/2008",
+        "TJ-SP — Edital de Abertura nº 02/2025 — TJSP2503",
+        "DPP-009",
+        "AUDITORIA 1:1",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-010",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-010.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "núcleo legal consolidado — Tribunal do Júri — organização da pauta",
+      "documentoUrl": "https://docs.google.com/document/d/15hCTg6j6LZk1TfzV06asRg44mn0yJIhUlorwnnHEid8/edit?usp=drivesdk",
+      "caracteres": 31351,
+      "sha256Texto": "1c36a0ab258cd40c7895b6b21782a984852500fdf8d522793894d9d073ed7299",
+      "sha256Documento": "4fbc784a21d7e91c3362cbb443956cdfb2b7d7244f05b553f5fae9b633bc63ba"
+    },
+    {
+      "id": "DPP-009",
+      "titulo": "DPP-009 — Desaforamento: hipóteses, legitimidade, competência, tramitação, suspensão e excesso de serviço — CPP, arts. 427 e 428",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — TJSP2503/2025 — Direito Processual Penal — Código de Processo Penal, arts. 394 a 497"
+      ],
+      "sourceRefs": [
+        "Código de Processo Penal — Decreto-Lei nº 3.689/1941 — texto compilado oficial vigente — arts. 427 e 428",
+        "Lei nº 11.689/2008",
+        "TJ-SP — Edital de Abertura nº 02/2025 — TJSP2503",
+        "Fundação VUNESP — TJRJ1901 — página oficial do concurso",
+        "DPP-008",
+        "AUDITORIA 1:1",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-009",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-009.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "núcleo legal consolidado — Tribunal do Júri — desaforamento",
+      "documentoUrl": "https://docs.google.com/document/d/1rPtndGAPUfIvwYeCHHq_e7Tu1FDu23vWhVf4jcreT98/edit?usp=drivesdk",
+      "caracteres": 30138,
+      "sha256Texto": "5d75a655cfd6217dc51e971b133743b99d2c774b985e74896a718c8a8c8a669c",
+      "sha256Documento": "8f7665fa26a73ab7aad1fb6357cde49e6e159432aa1325d859d3608444069a7f"
+    },
+    {
+      "id": "DPP-008",
+      "titulo": "DPP-008 — Alistamento dos jurados: composição anual da lista geral, quantitativos, indicações, publicação, reclamação e guarda das cédulas — CPP, arts. 425 e 426",
+      "materiaId": "processual-penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — TJSP2503/2025 — Direito Processual Penal — Código de Processo Penal, artigos 394 a 497"
+      ],
+      "sourceRefs": [
+        "Código de Processo Penal — Decreto-Lei nº 3.689/1941 — texto compilado oficial vigente — arts. 425 e 426",
+        "Lei nº 11.689/2008",
+        "TJ-SP — Edital de Abertura nº 02/2025 — TJSP2503",
+        "Fundação VUNESP — página oficial do concurso TJSP2503",
+        "DPP-007",
+        "AUDITORIA 1:1",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DPP-008",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-processual-penal/DPP-008.json",
+      "materiaEditorial": "Direito Processual Penal",
+      "classificacaoEditorial": "núcleo legal consolidado — Tribunal do Júri — alistamento dos jurados",
+      "documentoUrl": "https://docs.google.com/document/d/18XHV_Tda4s-9IIrXVVIcuoxyv6EdrXT3RRKr22SiEyU/edit?usp=drivesdk",
+      "caracteres": 33468,
+      "sha256Texto": "9c7744325e19f5524d28ac993462fb58d8b73a32b7b2384c1439881c2f2ea743",
+      "sha256Documento": "83b74d81f1af832f14d86bfe8c20dc418b51982a505fd7cfc2b107127e05e4be"
+    },
+    {
+      "id": "DP-013",
+      "titulo": "DP-013 — Tráfico de influência e corrupção ativa — Código Penal, arts. 332 e 333",
+      "materiaId": "penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — Edital de Abertura nº 02/2025 — TJSP2503 — Direito Penal: Código Penal, arts. 312 a 317 e 319 a 333"
+      ],
+      "sourceRefs": [
+        "TJ-SP — Diário Eletrônico da Justiça — Edital de Abertura nº 02/2025 — conteúdo programático oficial",
+        "Código Penal — Decreto-Lei nº 2.848/1940 — texto compilado oficial vigente — arts. 332 e 333",
+        "STJ — jurisprudência oficial sobre tráfico de influência — art. 332",
+        "STJ — jurisprudência oficial sobre corrupção ativa — art. 333",
+        "Fundação VUNESP — concursos PLIN2302, PMCT2301 e referências secundárias de questões da banca sobre arts. 332 e 333",
+        "DP-012",
+        "AUDITORIA 1:1 DOS EDITAIS",
+        "AUDITORIA GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DP-013",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-penal/DP-013.json",
+      "materiaEditorial": "Direito Penal",
+      "classificacaoEditorial": "núcleo legal formal — encerramento do item penal TJ-SP 017",
+      "documentoUrl": "https://docs.google.com/document/d/1eKz-xzexry2tsWSkMgj_Zd9BIonPsNsQ-vCAzqEvwms/edit?usp=drivesdk",
+      "caracteres": 56353,
+      "sha256Texto": "d179ad84c9e9f7bed8a1ecb56220f47fd594955cc3875a150589c0db685b4e76",
+      "sha256Documento": "a8e4890dc0d33202b4f4fcc044c6b0caa110de4da54c3aa5c33a6fb914b6e1a1"
+    },
+    {
+      "id": "DP-012",
+      "titulo": "DP-012 — Usurpação de função pública, resistência, desobediência e desacato — Código Penal, arts. 328 a 331",
+      "materiaId": "penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — Edital de Abertura nº 02/2025 — TJSP2503 — Direito Penal: Código Penal, arts. 319 a 333"
+      ],
+      "sourceRefs": [
+        "TJ-SP — Diário Eletrônico da Justiça — Edital de Abertura nº 02/2025 — conteúdo programático oficial",
+        "Código Penal — Decreto-Lei nº 2.848/1940 — texto compilado oficial vigente — arts. 328, 329, 330 e 331",
+        "Fundação VUNESP — TJSP2401 — caderno oficial 004 de Escrevente Técnico Judiciário",
+        "Fundação VUNESP — TJSP2401 — gabarito definitivo oficial — versão 1",
+        "STF — ADPF 496 — constitucionalidade do art. 331",
+        "STJ — HC 379.269/MS e jurisprudência correlata sobre desacato",
+        "STJ — jurisprudência sobre art. 330 e sanção extrapenal específica",
+        "STJ — jurisprudência sobre art. 328 e efetivo exercício indevido de função",
+        "DP-011",
+        "AUDITORIA 1:1 DOS EDITAIS",
+        "AUDITORIA GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DP-012",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-penal/DP-012.json",
+      "materiaEditorial": "Direito Penal",
+      "classificacaoEditorial": "núcleo legal formal — crimes praticados por particular contra a Administração em geral",
+      "documentoUrl": "https://docs.google.com/document/d/19tqun1aX5mwwcjMa5QKlUI6qzj5WoIE6Gep-p-ZD2NI/edit?usp=drivesdk",
+      "caracteres": 52941,
+      "sha256Texto": "d1f9ae59f04506a12331038f6423de2676b82592436b0b27edf499c13ee40b39",
+      "sha256Documento": "ea5a941524f81e65c062957e6fbdf95cf49b0ddd798d7b932a44097a10a442e6"
+    },
+    {
+      "id": "DP-011",
+      "titulo": "DP-011 — Violação do sigilo de proposta de concorrência e conceito penal de funcionário público — Código Penal, arts. 326 e 327",
+      "materiaId": "penal",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — Edital de Abertura nº 02/2025 — TJSP2503 — Direito Penal: Código Penal, arts. 319 a 333"
+      ],
+      "sourceRefs": [
+        "TJ-SP — Diário Eletrônico da Justiça — Edital de Abertura nº 02/2025 — conteúdo programático oficial",
+        "Código Penal — Decreto-Lei nº 2.848/1940 — texto compilado oficial — arts. 326, 327 e 337-J",
+        "Lei nº 8.666/1993 — art. 94, revogado",
+        "Lei nº 14.133/2021 — inclusão do art. 337-J",
+        "Lei de Introdução às Normas do Direito Brasileiro — art. 2º, § 3º",
+        "STJ — jurisprudência oficial sobre art. 327, § 1º",
+        "VUNESP/TJ-SP — concurso TJSP1402/2014 — questão sobre funcionário público localizada em reproduções secundárias",
+        "DP-010",
+        "AUDITORIA 1:1 DOS EDITAIS",
+        "AUDITORIA GLOBAL",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DP-011",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "direito-penal/DP-011.json",
+      "materiaEditorial": "Direito Penal",
+      "classificacaoEditorial": "núcleo legal formal — fechamento dos crimes praticados por funcionário público contra a Administração em geral",
+      "documentoUrl": "https://docs.google.com/document/d/1MF7hrrYtz9RwEGFK5U_NoPtEGPDzKFKACtheEMHpWo8/edit?usp=drivesdk",
+      "caracteres": 55006,
+      "sha256Texto": "b58de50c7c8b91dfa3f530d492d7c24edd280af9a316925039009c492e896fac",
+      "sha256Documento": "8f2be19d24795d9d2044d638af7d0d227845068f6efe95c9589744de77c0c68d"
     }
   ]
 }

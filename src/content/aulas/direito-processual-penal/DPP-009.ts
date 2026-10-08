@@ -1,0 +1,34 @@
+import type { Aula } from "../../../types";
+
+// Cópia estrutural do documento canônico; não editar o conteúdo editorial aqui.
+export default {
+  "id": "DPP-009",
+  "titulo": "DPP-009 — Desaforamento: hipóteses, legitimidade, competência, tramitação, suspensão e excesso de serviço — CPP, arts. 427 e 428",
+  "materiaId": "processual-penal",
+  "cargoIds": [
+    "tjsp_escrevente"
+  ],
+  "editalRefs": [
+    "TJ-SP — Escrevente Técnico Judiciário — TJSP2503/2025 — Direito Processual Penal — Código de Processo Penal, arts. 394 a 497"
+  ],
+  "sourceRefs": [
+    "Código de Processo Penal — Decreto-Lei nº 3.689/1941 — texto compilado oficial vigente — arts. 427 e 428",
+    "Lei nº 11.689/2008",
+    "TJ-SP — Edital de Abertura nº 02/2025 — TJSP2503",
+    "Fundação VUNESP — TJRJ1901 — página oficial do concurso",
+    "DPP-008",
+    "AUDITORIA 1:1",
+    "CHECKPOINT"
+  ],
+  "status": "concluido",
+  "statusEditorialOriginal": "concluido",
+  "topicoId": "DPP-009",
+  "tipo": "oficial",
+  "demonstracao": false,
+  "secoes": [],
+  "extensoes": [],
+  "documentoArquivo": "direito-processual-penal/DPP-009.json",
+  "materiaEditorial": "Direito Processual Penal",
+  "classificacaoEditorial": "núcleo legal consolidado — Tribunal do Júri — desaforamento",
+  "documentoUrl": "https://docs.google.com/document/d/1rPtndGAPUfIvwYeCHHq_e7Tu1FDu23vWhVf4jcreT98/edit?usp=drivesdk"
+} satisfies Aula;
