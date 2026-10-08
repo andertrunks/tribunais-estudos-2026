@@ -1,8 +1,8 @@
 {
   "origem": "01_Materias_Consolidadas",
-  "data": "2026-09-22",
-  "total": 209,
-  "materias": 39,
+  "data": "2026-10-08",
+  "total": 216,
+  "materias": 40,
   "aulas": [
     {
       "id": "NTRT2-001",
@@ -578,7 +578,8 @@
         "GSTI-002",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido — auditoria incremental TI-GOV-001-03",
       "topicoId": "GSTI-003",
       "tipo": "oficial",
       "demonstracao": false,
@@ -588,9 +589,9 @@
       "materiaEditorial": "Governança, Serviços e Projetos de TI",
       "classificacaoEditorial": "núcleo técnico consolidado — gerenciamento de serviços — ITIL 4",
       "documentoUrl": "https://docs.google.com/document/d/1pEFrTaXhZQbyzEHFiYLJ57TR8uW9sHGtWx7Fl37WFWA/edit?usp=drivesdk",
-      "caracteres": 41793,
-      "sha256Texto": "ea88edec54aa3d60795f2ff4b6a8dd019dc72e02308ac7cc2ed2727dd9fc9066",
-      "sha256Documento": "c12561579ae0936bfeb0462fcff4099f7dcbb561dda20dd448f784d8acc02fb0"
+      "caracteres": 48630,
+      "sha256Texto": "0a3e286f6c442efbdb356586a4af58a0baf702dc9745e8d1c22bae7483805e47",
+      "sha256Documento": "73c04fd85cdf8957cca640ca61465021639d5ec84abefd8fc2ff750a51dd21d2"
     },
     {
       "id": "GSTI-002",
@@ -4761,7 +4762,8 @@
         "SVC-004",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
       "topicoId": "SVC-005",
       "tipo": "oficial",
       "demonstracao": false,
@@ -4771,9 +4773,9 @@
       "materiaEditorial": "Sistemas Operacionais, Virtualização e Cloud",
       "classificacaoEditorial": "núcleo técnico consolidado de TI — containers e Docker",
       "documentoUrl": "https://docs.google.com/document/d/1-5ppFSSem7-IxSn-05tAJly1GP36Sh69SSuEg4fpyvA/edit?usp=drivesdk",
-      "caracteres": 42943,
-      "sha256Texto": "1f712dd64dee7a9a1be7ac9d841d5702c1bab840135a9c18673e028ff403f724",
-      "sha256Documento": "679690e6fa98164527b3f1def30d3e276651b02147c59c1759d801bd3a2ffda8"
+      "caracteres": 42937,
+      "sha256Texto": "2a79704cbbb044635ae94a11a34c1a268b4a7094c3058596b0eaa688a87c4722",
+      "sha256Documento": "5ea8ab7b3e5e5b7ba1ac9eed3119a641ffeea223811785800062852084fd0918"
     },
     {
       "id": "AFO-005",
@@ -5666,7 +5668,8 @@
         "RED-004",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
       "topicoId": "RED-005",
       "tipo": "oficial",
       "demonstracao": false,
@@ -5676,9 +5679,9 @@
       "materiaEditorial": "Redes",
       "classificacaoEditorial": "núcleo técnico consolidado de TI — DHCPv4 e configuração dinâmica de hosts",
       "documentoUrl": "https://docs.google.com/document/d/1OnLEsHKvERPbstjHVMhKPpZTjrJORjV_FSA3DObGsvY/edit?usp=drivesdk",
-      "caracteres": 32777,
-      "sha256Texto": "7ae84990caab897914feb02ea2caadb5dbf28cfa84ac0971d428c63a12f0de69",
-      "sha256Documento": "22495d1a628d1030a7918c598c6bae2da9cd496dc78e85c5402542851f3bfd96"
+      "caracteres": 32771,
+      "sha256Texto": "57c32dbdf016b5f638f90fc7fa1c8e05b5e74152ce1e3598f07b48fc29fa746a",
+      "sha256Documento": "e3a9ec87d33d07bf6df7ca37ba90a1cf8b3247d5846075096605c10f6a1bee17"
     },
     {
       "id": "DPC-006",
@@ -7472,6 +7475,290 @@
       "caracteres": 47010,
       "sha256Texto": "e1c539829296ae67ce9948fc144a867044ae18b62bc95310e2027906e1f59716",
       "sha256Documento": "88c111b8d82c8e5c685a21af55eaadd69d99f02440dd92c4cbe7c902ed952aac"
+    },
+    {
+      "id": "EST-001",
+      "titulo": "EST-001 — Estatística descritiva: conceitos básicos, tabelas e gráficos, média, mediana e moda",
+      "materiaId": "estatistica",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trt15_aj_adm",
+        "trt15_tj_adm",
+        "trt15_aj_ti",
+        "trt15_tj_ti",
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TJ-SP/VUNESP — TJSP2503 — Matemática: média aritmética simples e ponderada",
+        "relação entre grandezas por tabelas e gráficos",
+        "TRT-15/FCC — Edital nº 01/2024 — Conhecimentos Gerais para todos os cargos — Raciocínio Lógico-Matemático: noções de Estatística, medidas de tendência central (moda, mediana, média aritmética simples e ponderada) e leitura/interpretação de gráficos e tabelas",
+        "TRF3/Fundação VUNESP — Edital Abertura nº 01/2023, Anexo II — B.AJADM.MAT.11: “Tratamento da informação – média aritmética simples” (Analista Área Administrativa)",
+        "TRF3 mesmo edital — C1.TJTI.MAT.11: item 11 Técnico Apoio Especializado Informática",
+        "TRF3 mesmo edital — D1.AJTI.MAT.11: item 11 Analista Apoio Especializado Informática",
+        "TJSP2503.tjsp_escrevente.MAT.06 — TJ-SP Edital 02/2025 Anexo VI, Matemática item 6: média aritmética simples e ponderada, recorte Capital/1ª RAJ",
+        "TJSP2503.tjsp_escrevente.MAT.10 — TJ-SP Edital 02/2025 Anexo VI, Matemática item 10: relação entre grandezas por tabelas e gráficos, recorte Capital/1ª RAJ",
+        "trt15_aj_adm.estatística.014 — TRT15 Edital 01/2024 Anexo III, Conhecimentos Gerais, noções de Estatística",
+        "núcleo EST-001 sem dispersão",
+        "trt15_tj_adm.estatística.014 — mesmo edital, mesmo bloco e limitação",
+        "trt15_aj_ti.estatística.014 — mesmo edital, mesmo bloco e limitação",
+        "trt15_tj_ti.estatística.014 — mesmo edital, mesmo bloco e limitação"
+      ],
+      "sourceRefs": [
+        "CHECKPOINT — Produção intercalada de matérias",
+        "MATRIZ_INICIAL_MATERIAS.md",
+        "Relatório consolidado dos editais judiciais de São Paulo e programa unificado de estudos",
+        "TJSP2503/VUNESP — conteúdo programático",
+        "TRT-15 — Edital nº 01/2024 — Anexo III",
+        "conteúdo pedagógico original do projeto. SRC-TRF3-2023-EDITAL-01-ANEXO-II (item Matemática 11, Técnico PDF índice 48 e Analistas PDF índice 57)",
+        "MATRIZ-1-1-B-C1-D1",
+        "CHECKPOINT-E11",
+        "EST-001-EXT-TRF3-MAT11 (extensão E12). SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-1RAJ: https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D (PDF índice 43/impresso 44)",
+        "SRC-TRT15-2024-EDITAL-01-ANEXO-III: https://trt15.jus.br/sites/portal/files/transparencia/concursos/servidores/Concurso%202024-2025/Edital%2001-2024%20-%20Vers%C3%A3o%20final.pdf (PDF índice 56/impresso 57)",
+        "MATRIZ-1-1",
+        "CHECKPOINT-E16",
+        "E17-EST001-NUCLEO-GATE."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "EST-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "estatistica/EST-001.json",
+      "materiaEditorial": "Estatística",
+      "classificacaoEditorial": "núcleo quantitativo formal consolidado",
+      "documentoUrl": "https://docs.google.com/document/d/11duLHtE2W6C-14zsLY5icPOb1mu0Bl84N7pkX_nQZ98/edit?usp=drivesdk",
+      "caracteres": 71964,
+      "sha256Texto": "90f01627f668a5c739b2310a14443f384ce6637a10e01a07042f7e1b5d4d9827",
+      "sha256Documento": "8f7d6e692aae6bd5b189c3f1e31319f67e59b3ec599de37ad73c812d32282a5b"
+    },
+    {
+      "id": "EST-002",
+      "titulo": "EST-002 — Medidas de dispersão: amplitude, desvio médio, variância e desvio-padrão",
+      "materiaId": "estatistica",
+      "cargoIds": [
+        "trt15_aj_adm",
+        "trt15_tj_adm",
+        "trt15_aj_ti",
+        "trt15_tj_ti"
+      ],
+      "editalRefs": [
+        "trt15_aj_adm.estatística.014 — dispersão",
+        "trt15_tj_adm.estatística.014 — dispersão",
+        "trt15_aj_ti.estatística.014 — dispersão",
+        "trt15_tj_ti.estatística.014 — dispersão"
+      ],
+      "sourceRefs": [
+        "SRC-TRT15-2024-EDITAL-01-ANEXO-III",
+        "EST-001",
+        "CHECKPOINT-E17",
+        "AUDITORIA-1-1",
+        "E18"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E18",
+      "topicoId": "EST-002",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "estatistica/EST-002.json",
+      "materiaEditorial": "Estatística",
+      "classificacaoEditorial": "núcleo quantitativo formal consolidado — complemento do EST-001",
+      "documentoUrl": "https://docs.google.com/document/d/1K9Kuitp0m1fEVv01I37MUUHJ9BGPzfFzjkTlY4TLRMs/edit?usp=drivesdk",
+      "caracteres": 28976,
+      "sha256Texto": "46b25e27ee6940c235696e0a4a3842870923523b7bbddab204502f9904a74c06",
+      "sha256Documento": "a49a3f5df6bb75d61fbb230a84e894ef9cf3cb0f4bd4f563f559f396324cc152"
+    },
+    {
+      "id": "SVC-006",
+      "titulo": "SVC-006 — Kubernetes e orquestração de containers: arquitetura de cluster, control plane, nodes, Pods, ReplicaSets, Deployments, Services, ConfigMaps, Secrets, namespaces, volumes, health checks, scaling, rolling updates e fundamentos de Rancher",
+      "materiaId": "sistemas-operacionais-virtualizacao-cloud",
+      "cargoIds": [
+        "trf3_aj_ti",
+        "trf3_tj_ti",
+        "tresp_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital nº 01/2023 — Analista Judiciário – Apoio Especializado – Informática — ambiente de clusters, Docker, Kubernetes, ferramenta de orquestração de contêineres, Rancher e deploy de aplicações",
+        "TRF3 — Edital nº 01/2023 — Técnico Judiciário – Apoio Especializado – Informática — desenvolvimento com containers, Docker, Kubernetes, boas práticas, orquestração, arquitetura altamente distribuída e bloco PDPJ-Br com ambiente de clusters e Rancher",
+        "CPNUJE/2024 — Cargo 17 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — ambiente de clusters, Kubernetes, orquestração de containeres e Rancher"
+      ],
+      "sourceRefs": [
+        "TRF3 — Edital nº 01/2023",
+        "CPNUJE/2024 e retificações",
+        "Kubernetes Documentation — Components, Pods, ReplicaSets, Deployments, Services, ConfigMaps, Secrets, Volumes, Probes, Horizontal Pod Autoscaling, Namespaces",
+        "Rancher Manager Documentation — Cluster Administration e Access Clusters",
+        "SVC-005",
+        "DEV-006",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "SVC-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "sistemas-operacionais-virtualizacao-cloud/SVC-006.json",
+      "materiaEditorial": "Sistemas Operacionais, Virtualização, Containers e Cloud",
+      "classificacaoEditorial": "núcleo técnico consolidado — Kubernetes e orquestração de containers",
+      "documentoUrl": "https://docs.google.com/document/d/15KmuxDDQLr5xd5t-IJ17syzZdOoAsPDLv4dXYgVpVmg/edit?usp=drivesdk",
+      "caracteres": 45417,
+      "sha256Texto": "3d6d3d5fea616ef2d891006a82ca05561ddecaeac557cd23a5fce2fbb2416f14",
+      "sha256Documento": "024b97913591763166e404730aca7dcd0b3e7dd1b88962896d1b4c62632111e9"
+    },
+    {
+      "id": "AFO-006",
+      "titulo": "AFO-006 — Despesas de exercícios anteriores: hipóteses, reconhecimento, dotação própria, restos a pagar cancelados, compromissos reconhecidos após o encerramento e diferenças em relação a restos a pagar — Lei nº 4.320/1964, art. 37, e regulamentação aplicável",
+      "materiaId": "afo-orcamento-publico",
+      "cargoIds": [
+        "trt15_aj_adm"
+      ],
+      "editalRefs": [
+        "TRT-15 — Edital nº 01/2024 — Analista Judiciário – Área Administrativa — Administração Orçamentária e Financeira — “despesas de exercícios anteriores”"
+      ],
+      "sourceRefs": [
+        "Lei nº 4.320/1964, art. 37",
+        "Decreto nº 93.872/1986, art. 22",
+        "MCASP 11ª edição, Parte I, item 4.8, e Parte II, capítulo 19",
+        "AFO-001 a AFO-005",
+        "CHECKPOINT — Produção intercalada de matérias"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "AFO-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "afo-orcamento-publico/AFO-006.json",
+      "materiaEditorial": "Administração Financeira e Orçamentária",
+      "classificacaoEditorial": "núcleo administrativo consolidado — Despesas de Exercícios Anteriores (DEA)",
+      "documentoUrl": "https://docs.google.com/document/d/1Xqa-gaLc1jD42eE5HgKm-Z71bFt2rjvfm7K6Yadk4yc/edit?usp=drivesdk",
+      "caracteres": 37683,
+      "sha256Texto": "ca58670cffe33cb722aae4cfc2db982a3dd192818133d87f3547f6211dca7e06",
+      "sha256Documento": "d659a55fa055bc28f7e019838474b08fe6559683dd7f2a80199006b029fe6412"
+    },
+    {
+      "id": "DEV-006",
+      "titulo": "DEV-006 — Containers e automação no fluxo DevOps: imagens, registries, Dockerfiles, build, tagging, push/pull, deploy automatizado e relação com CI/CD — consolidação entre DevOps e infraestrutura",
+      "materiaId": "devops",
+      "cargoIds": [
+        "trf3_aj_ti",
+        "trf3_tj_ti",
+        "tresp_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital nº 01/2023 — Analista TI — Docker, Kubernetes, orquestração de contêineres, Rancher, deploy de aplicações e CI/CD",
+        "TRF3 — Edital nº 01/2023 — Técnico TI — desenvolvimento com containers, Docker, Kubernetes, boas práticas de containers, orquestração, deploy e CI/CD",
+        "CPNUJE/2024 — Cargo 17 — Analista TI — ambiente de clusters, Kubernetes, orquestração de containeres, Rancher, deploy e CI/CD"
+      ],
+      "sourceRefs": [
+        "TRF3 — Edital nº 01/2023",
+        "CPNUJE/2024 e retificações",
+        "Docker Docs — Build, tag and publish an image",
+        "GitLab Docs — Build and push container images to the container registry",
+        "GitLab Docs — Use Docker to build Docker images",
+        "Kubernetes Docs — Deployments",
+        "Kubernetes Docs — Images",
+        "DEV-001 a DEV-005",
+        "SVC-005",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "DEV-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "devops-devsecops-git-cicd-automacao/DEV-006.json",
+      "materiaEditorial": "DevOps/DevSecOps, Git, CI/CD e Automação",
+      "classificacaoEditorial": "núcleo técnico consolidado — containers no fluxo de entrega",
+      "documentoUrl": "https://docs.google.com/document/d/1a2bJqFdBdSOIwv2jcxK1lbimw2swVza0rgXuHjuCAFs/edit?usp=drivesdk",
+      "caracteres": 37498,
+      "sha256Texto": "1f2be592e247fc2102ed659d19bc5a1100092279679cbbc6ca867fc940422d23",
+      "sha256Documento": "234bbacf65767ba75a3bcc08bb1b2fcfb9bd4396bf76cd422db522ef324aff21"
+    },
+    {
+      "id": "MPL-006",
+      "titulo": "MPL-006 — Inventário físico de materiais: inventário geral/periódico, rotativo e por amostragem, acuracidade, divergências, conciliação físico-contábil, ajustes, responsabilidades e controles de almoxarifado — fundamentos",
+      "materiaId": "materiais-patrimonio-logistica",
+      "cargoIds": [
+        "trf3_aj_adm"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital nº 01/2023 — Analista Judiciário – Área Administrativa — Gestão de Materiais — Gestão patrimonial — item 6.3: Inventário"
+      ],
+      "sourceRefs": [
+        "TRF3 — Edital nº 01/2023",
+        "Instrução Normativa SEDAP nº 205/1988 — Dos Inventários Físicos",
+        "Resolução CJF nº 880/2024 — administração de bens móveis na Justiça Federal",
+        "TRF3 — Ordem de Serviço DIRG nº 5/2023, com alterações — inventário patrimonial anual de bens permanentes e de consumo",
+        "MPL-001 a MPL-005",
+        "CHECKPOINT — Produção intercalada de matérias"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "MPL-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "materiais-patrimonio-logistica/MPL-006.json",
+      "materiaEditorial": "Materiais, Patrimônio e Logística",
+      "classificacaoEditorial": "núcleo administrativo consolidado — inventário físico de materiais e controles correlatos",
+      "documentoUrl": "https://docs.google.com/document/d/1CNkbv-va3Xj7yP9jNWP81ev6MEAbzEMsBlE7r209C70/edit?usp=drivesdk",
+      "caracteres": 43660,
+      "sha256Texto": "2da0ab1a16ed1e8e4551f3bd640085ce977951c8d32056d6090da636822ccca7",
+      "sha256Documento": "9b9a813a3c943b82b31c5033383694871dfeacb4d6853fb1cf55fc51645f53b5"
+    },
+    {
+      "id": "GP-006",
+      "titulo": "GP-006 — Gestão do clima organizacional: conceito, fatores, percepção dos servidores, pesquisa de clima, dimensões, indicadores, diagnóstico, plano de ação e relações com cultura, liderança, motivação e qualidade de vida no trabalho",
+      "materiaId": "gestao-pessoas",
+      "cargoIds": [
+        "trf3_tj_adm",
+        "trt2_aj_adm",
+        "trt2_tj_adm",
+        "trt15_aj_adm",
+        "trt15_tj_adm"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital nº 01/2024 e Retificação nº 02/2024 — Técnico Judiciário – Área Administrativa — “gestão de clima organizacional”",
+        "TRT-2 — Edital nº 01/2025 — Analista Judiciário – Área Administrativa — “Gestão de clima e cultura organizacional”",
+        "TRT-2 — Edital nº 01/2025 — Técnico Judiciário – Área Administrativa — “Gestão de clima e cultura organizacional”",
+        "TRT-15 — Edital nº 01/2024 — Analista Judiciário – Área Administrativa — “Gestão de clima e cultura organizacional”",
+        "TRT-15 — Edital nº 01/2024 — Técnico Judiciário – Área Administrativa — “Gestão de clima e cultura organizacional”"
+      ],
+      "sourceRefs": [
+        "editais oficiais indicados",
+        "TRT-2 — Pesquisa de Clima Organizacional",
+        "ENAP/Revista do Serviço Público — Escala de Percepção do Clima Organizacional para o Serviço Público",
+        "Governo Federal — Pesquisa de Clima Organizacional",
+        "Cebraspe — padrão de resposta PGDF/2021, Cargo Psicologia, usado como referência conceitual",
+        "Cebraspe — padrão de resposta TCE-PR/2024, Cargo Auditor Administração, usado como evidência real de abordagem",
+        "GP-001 a GP-005",
+        "CHECKPOINT"
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "GP-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "gestao-pessoas/GP-006.json",
+      "materiaEditorial": "Gestão de Pessoas",
+      "classificacaoEditorial": "núcleo administrativo consolidado — clima organizacional",
+      "documentoUrl": "https://docs.google.com/document/d/1ogbOrV07ntrUSvKMp8OGDjIzTJaIpspO_KASjZkFti8/edit?usp=drivesdk",
+      "caracteres": 48403,
+      "sha256Texto": "ed4cf6e5e59c293d93d46077afd4222f6116321e69f022edec14c5553d4aa0a0",
+      "sha256Documento": "9141492e5abe3749b29340444cca4c0e2bd801dfaae42b9f70a394afdf3350d6"
     }
   ]
 }

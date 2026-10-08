@@ -31,7 +31,8 @@ export default {
     "SVC-004",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "concluido",
+  "statusEditorialOriginal": "concluido",
   "topicoId": "SVC-005",
   "tipo": "oficial",
   "demonstracao": false,

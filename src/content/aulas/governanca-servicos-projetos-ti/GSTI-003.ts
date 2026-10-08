@@ -22,7 +22,8 @@ export default {
     "GSTI-002",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "concluido",
+  "statusEditorialOriginal": "concluido — auditoria incremental TI-GOV-001-03",
   "topicoId": "GSTI-003",
   "tipo": "oficial",
   "demonstracao": false,

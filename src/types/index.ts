@@ -43,6 +43,7 @@ export interface Topico extends Conteudo {
   tipo: Vinculo;
 }
 export interface Aula extends Conteudo {
+  statusEditorialOriginal?: string;
   documentoArquivo?: string;
   documentoUrl?: string;
   materiaEditorial?: string;

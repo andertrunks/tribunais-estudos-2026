@@ -28,6 +28,17 @@ function blocks(content = []) {
 }
 function plain(bs) {return bs.map(b=>b.tipo==='paragrafo'?b.runs.map(r=>r.texto).join(''):b.linhas.map(row=>row.map(c=>plain(c.blocos)).join('\t')).join('\n')).join('');}
 function field(text,key) {
+  // Recent canonical Docs also keep their control fields in a single paragraph.
+  const header=text.slice(0,12000);
+  if(key==='id') { const m=header.match(/\bid:\s*([A-Z0-9]+-\d+)\b/); if(m)return m[1]; }
+  if(['cargoIds','editalRefs','sourceRefs'].includes(key)) {
+    const m=header.match(new RegExp('\\b'+key+'(?:\\[\\])?\\s*:\\s*(\\[[^\\]]*\\])','i')); if(m)return m[1];
+  }
+  if(key==='status') { const m=header.match(/\bstatus:\s*([^\n]+)/i); if(m)return m[1]; }
+  if(key==='matéria'||key==='materia') {
+    const m=header.match(/(?:matéria|materia)(?: consolidada)?\s*:\s*([^\n]+?)(?=\. |;|\n|$)/i); if(m)return m[1];
+  }
+
   const lines=text.split('\n'); const i=lines.findIndex(l=>new RegExp('^\\s*'+key+'(?:\\[\\])?\\s*:', 'i').test(l));
   if(i<0) { const j=lines.findIndex(l=>l.trim().toLowerCase()===key.toLowerCase()); return j<0 ? '' : lines.slice(j+1).find(l=>l.trim())?.trim() || ''; }
   let value=lines[i].slice(lines[i].indexOf(':')+1).trim();
@@ -45,15 +56,16 @@ function refs(value,key) {
 const ids=new Set();
 for(const f of inventory) {
   const fileId=f.title.match(/^[A-Z0-9]+-\d+/)[0];
-  const doc=JSON.parse(fs.readFileSync(path.join(cache,fileId+'.json'),'utf8'));
+  const doc=JSON.parse(fs.readFileSync(path.join(cache,f.snapshotFile || fileId+'.json'),'utf8'));
   const bs=doc.tabs.flatMap(t=>blocks(t.body?.content));
   const text=plain(bs);
   const id=field(text,'id') || fileId;
   if(id!==fileId || ids.has(id)) throw new Error('Duplicate/mismatching ID '+id);
   ids.add(id);
-  const status=field(text,'status');
+  const statusEditorialOriginal=field(text,'status');
+  const status=statusEditorialOriginal.match(/^(nao_iniciado|em_producao|revisado|questoes_adicionadas|concluido)\b/)?.[1] || statusEditorialOriginal;
   if(!['nao_iniciado','em_producao','revisado','questoes_adicionadas','concluido'].includes(status))throw new Error('Invalid status '+id+': '+status);
-  const materia=field(text,'matéria') || field(text,'materia');
+  const materia=field(text,'matéria') || field(text,'materia') || text.match(/^([^|\n]+)\s*\|\s*Refação editorial/m)?.[1]?.trim() || previous.find(a=>a.id===id)?.materiaEditorial || '';  
   const classificacao=field(text,'tipo');
   const cargoIds=refs(field(text,'cargoIds'),'cargoIds');
   const editalRefs=refs(field(text,'editalRefs'),'editalRefs');
@@ -62,8 +74,9 @@ for(const f of inventory) {
   const materiaId=aliases[f.folder] || f.folder;
   const dir=path.join('src/content/aulas',f.folder);fs.mkdirSync(dir,{recursive:true});
   const documentoArquivo=`${f.folder}/${id}.json`;
-  const aula={id,titulo:f.type.includes('wordprocessingml') ? text.split('\n')[0] : f.title,materiaId,cargoIds,editalRefs,sourceRefs,status,topicoId:id,tipo,demonstracao:false,secoes:[],extensoes:[],documentoArquivo,materiaEditorial:materia,classificacaoEditorial:classificacao,documentoUrl:f.url};
-  const versoes = id === 'ES-003' ? [{titulo:'Versão Word existente no acervo — mesmo ID editorial', url:'https://drive.google.com/file/d/1jxNao-QqR8YrU_OYf_xEEkxO5-Mt_-Tw/view', blocos:JSON.parse(fs.readFileSync(path.join(cache,'ES-003-word.json'),'utf8')).tabs.flatMap(t=>blocks(t.body?.content))}] : undefined;
+  const aula={id,titulo:f.type.includes('wordprocessingml') ? text.split('\n')[0] : f.title,materiaId,cargoIds,editalRefs,sourceRefs,status,statusEditorialOriginal,topicoId:id,tipo,demonstracao:false,secoes:[],extensoes:[],documentoArquivo,materiaEditorial:materia,classificacaoEditorial:classificacao,documentoUrl:f.url};
+  let versoes = id === 'ES-003' ? [{titulo:'Versão Word existente no acervo — mesmo ID editorial', url:'https://drive.google.com/file/d/1jxNao-QqR8YrU_OYf_xEEkxO5-Mt_-Tw/view', blocos:JSON.parse(fs.readFileSync(path.join(cache,'ES-003-word.json'),'utf8')).tabs.flatMap(t=>blocks(t.body?.content))}] : undefined;
+  if(f.extraVersions?.length)versoes=[...(versoes || []),...f.extraVersions.map(v=>({titulo:v.titulo,url:v.url,blocos:JSON.parse(fs.readFileSync(path.join(cache,v.file),'utf8')).tabs.flatMap(t=>blocks(t.body?.content))}))];
   const body=JSON.stringify({blocos:bs,...(versoes ? {versoes}:{})});
   fs.writeFileSync(path.join(dir,id+'.json'),body+'\n');
   fs.writeFileSync(path.join(dir,id+'.ts'),'import type { Aula } from "../../../types";\n\n// Cópia estrutural do documento canônico; não editar o conteúdo editorial aqui.\nexport default '+JSON.stringify(aula,null,2)+' satisfies Aula;\n');

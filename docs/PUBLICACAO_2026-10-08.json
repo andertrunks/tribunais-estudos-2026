@@ -1,0 +1,844 @@
+{
+  "date": "2026-10-08",
+  "initialCommit": "a237464e12bae3f75e093d05d83047f667b8ed84",
+  "newLessons": 80,
+  "updatedLessons": 19,
+  "verifiedFullText": [
+    {
+      "id": "EST-001",
+      "driveId": "11duLHtE2W6C-14zsLY5icPOb1mu0Bl84N7pkX_nQZ98",
+      "modifiedTime": "2026-09-29T15:43:50.675Z",
+      "sha256Texto": "90f01627f668a5c739b2310a14443f384ce6637a10e01a07042f7e1b5d4d9827",
+      "chars": 71964
+    },
+    {
+      "id": "EST-002",
+      "driveId": "1K9Kuitp0m1fEVv01I37MUUHJ9BGPzfFzjkTlY4TLRMs",
+      "modifiedTime": "2026-09-29T15:43:30.538Z",
+      "sha256Texto": "46b25e27ee6940c235696e0a4a3842870923523b7bbddab204502f9904a74c06",
+      "chars": 28976
+    },
+    {
+      "id": "GSTI-003",
+      "driveId": "1pEFrTaXhZQbyzEHFiYLJ57TR8uW9sHGtWx7Fl37WFWA",
+      "modifiedTime": "2026-09-24T09:30:05.472Z",
+      "sha256Texto": "0a3e286f6c442efbdb356586a4af58a0baf702dc9745e8d1c22bae7483805e47",
+      "chars": 48630
+    },
+    {
+      "id": "RED-005",
+      "driveId": "1OnLEsHKvERPbstjHVMhKPpZTjrJORjV_FSA3DObGsvY",
+      "modifiedTime": "2026-09-23T18:35:40.480Z",
+      "sha256Texto": "57c32dbdf016b5f638f90fc7fa1c8e05b5e74152ce1e3598f07b48fc29fa746a",
+      "chars": 32771
+    },
+    {
+      "id": "SVC-006",
+      "driveId": "15KmuxDDQLr5xd5t-IJ17syzZdOoAsPDLv4dXYgVpVmg",
+      "modifiedTime": "2026-09-23T18:20:28.682Z",
+      "sha256Texto": "3d6d3d5fea616ef2d891006a82ca05561ddecaeac557cd23a5fce2fbb2416f14",
+      "chars": 45417
+    },
+    {
+      "id": "SVC-005",
+      "driveId": "1-5ppFSSem7-IxSn-05tAJly1GP36Sh69SSuEg4fpyvA",
+      "modifiedTime": "2026-09-23T18:12:56.930Z",
+      "sha256Texto": "2a79704cbbb044635ae94a11a34c1a268b4a7094c3058596b0eaa688a87c4722",
+      "chars": 42937
+    },
+    {
+      "id": "AFO-006",
+      "driveId": "1Xqa-gaLc1jD42eE5HgKm-Z71bFt2rjvfm7K6Yadk4yc",
+      "modifiedTime": "2026-09-23T18:03:01.818Z",
+      "sha256Texto": "ca58670cffe33cb722aae4cfc2db982a3dd192818133d87f3547f6211dca7e06",
+      "chars": 37683
+    },
+    {
+      "id": "DEV-006",
+      "driveId": "1a2bJqFdBdSOIwv2jcxK1lbimw2swVza0rgXuHjuCAFs",
+      "modifiedTime": "2026-09-23T17:54:41.222Z",
+      "sha256Texto": "1f2be592e247fc2102ed659d19bc5a1100092279679cbbc6ca867fc940422d23",
+      "chars": 37498
+    },
+    {
+      "id": "MPL-006",
+      "driveId": "1CNkbv-va3Xj7yP9jNWP81ev6MEAbzEMsBlE7r209C70",
+      "modifiedTime": "2026-09-23T16:10:57.348Z",
+      "sha256Texto": "2da0ab1a16ed1e8e4551f3bd640085ce977951c8d32056d6090da636822ccca7",
+      "chars": 43660
+    },
+    {
+      "id": "GP-006",
+      "driveId": "1ogbOrV07ntrUSvKMp8OGDjIzTJaIpspO_KASjZkFti8",
+      "modifiedTime": "2026-09-23T15:57:26.845Z",
+      "sha256Texto": "ed4cf6e5e59c293d93d46077afd4222f6116321e69f022edec14c5553d4aa0a0",
+      "chars": 48403
+    },
+    {
+      "id": "SI-006",
+      "driveId": "1ijqeQGjApVPBBuEqn87fM_kSQVA2hfwUSe0Ifb-Mi8U",
+      "modifiedTime": "2026-09-23T10:46:57.088Z",
+      "sha256Texto": "c28a05513d72f175ace4c1ff85ba9e8e60c6fa7c5643ee763b47abd85998b7b6",
+      "chars": 50134
+    },
+    {
+      "id": "AGP-006",
+      "driveId": "1nBJgX-mnknvpfF3b6hby0EdzslG_1qG7zX1Q9AkcokE",
+      "modifiedTime": "2026-09-23T10:24:02.989Z",
+      "sha256Texto": "3ca18979e10a98f52f2d16fd956e69241dc74f4c4ac1aba1516276c5cbc53e0e",
+      "chars": 42594
+    },
+    {
+      "id": "CP-006",
+      "driveId": "1O9KjhIRprdOE0iRbiXnP8XdZfS7GebBM71pci8rIx04",
+      "modifiedTime": "2026-09-23T09:58:51.853Z",
+      "sha256Texto": "034890db99d98955e731fc60f9b8d3d35d30d39d3c1e7ca45390d66a2f3199c4",
+      "chars": 43122
+    },
+    {
+      "id": "ES-006",
+      "driveId": "1QAODQLAjZkJPk5qGyvzD3Y-M86kPIp-dc_aGROV7p5c",
+      "modifiedTime": "2026-09-23T09:50:03.931Z",
+      "sha256Texto": "ac7adf603240cb20ddcbdf7723250e9495d02bbfa9ff06b7fd9c6dee7e3ddd9d",
+      "chars": 41537
+    },
+    {
+      "id": "SCJ-006",
+      "driveId": "1e6NvRvJYZTg-tL8kNL-QtNv5Kq-jI6IRwtYoWwPr1fA",
+      "modifiedTime": "2026-09-22T23:39:24.819Z",
+      "sha256Texto": "edc80d94ae30a5a25b4c52c4b73683b128080d3db4e100e1f8083cbd783b3fc9",
+      "chars": 36697
+    },
+    {
+      "id": "IA-004",
+      "driveId": "1KzsBxoAf8MykB9sMVvpGeQlljK34xAiATEv4E7gunqc",
+      "modifiedTime": "2026-09-29T18:18:47.541Z",
+      "sha256Texto": "82d06151012c52947d4ae0ebf4101a86f0e7a91bd07201817b74b43c0144a51d",
+      "chars": 48636
+    },
+    {
+      "id": "IA-003",
+      "driveId": "1L372lWqfwGYVpdK3zNdwc-nJ8luuxc8GdlCGX5W80IE",
+      "modifiedTime": "2026-09-29T17:14:01.482Z",
+      "sha256Texto": "9225f9ee0bdc8a2e631a63df24a77e5a382b971a75f82f88347f5064d61e00ac",
+      "chars": 37336
+    },
+    {
+      "id": "IA-002",
+      "driveId": "1htD7Wa3vNGpsyjnBmGNGLXjOQUm-0buKUG23mvX-jHk",
+      "modifiedTime": "2026-09-29T15:59:04.424Z",
+      "sha256Texto": "ae48ec4f47b5750b739678d9890bddfc4fe0cd58912d1c78b913b0a0bf600a9f",
+      "chars": 45108
+    },
+    {
+      "id": "IA-001",
+      "driveId": "17HLmuOuv34dJY3p3WVAXkYAcQawu7q5hhbB9Wv_GKD4",
+      "modifiedTime": "2026-09-29T15:52:34.943Z",
+      "sha256Texto": "98ccf51436f5123856e2fe49987da8438f2f9c9f6cd1c6ebccf0c134c93751de",
+      "chars": 42797
+    },
+    {
+      "id": "BD-006",
+      "driveId": "1o90GkDjt3Kt4rNq9fR7AlenueAnaqeTpUM5V24quJng",
+      "modifiedTime": "2026-09-28T22:45:31.944Z",
+      "sha256Texto": "d61635791c0d0d2efe8ff5bbf8a4823da090de0b30e5750140041fef3f539660",
+      "chars": 68133
+    },
+    {
+      "id": "BD-004",
+      "driveId": "1e7QEdF-VAjOQvEBFWtQWp7Y3Ue2yvBmwF7Kqvnh8fiw",
+      "modifiedTime": "2026-09-28T21:32:14.909Z",
+      "sha256Texto": "fe9740fbd1e37dd4e24100f9bd4e037f9f51c11664105a906a93565acc922576",
+      "chars": 36431
+    },
+    {
+      "id": "BD-002",
+      "driveId": "1izh6SaHpwaWgCj8ytjO_SkiWN4UeOBHNXbb_RhMoY40",
+      "modifiedTime": "2026-09-28T21:32:12.809Z",
+      "sha256Texto": "9c22dcabfd61f58a46752afa203cc9fbe376f46cc3457f5670767ee15ad8b5d1",
+      "chars": 33460
+    },
+    {
+      "id": "BD-001",
+      "driveId": "12u0PySqzIZrwvCY5okmOoxbAWFmCAAzJAyK9mlXaqn4",
+      "modifiedTime": "2026-09-28T21:32:10.318Z",
+      "sha256Texto": "8c27745181ea87799f71d29081a20d996f53fa030050f1eb97b61652a500fca9",
+      "chars": 31721
+    },
+    {
+      "id": "BD-005",
+      "driveId": "1cbBoKqjlJ5mPamZ7XOmIIb9Ws2exTXN9n03ihAlA7fU",
+      "modifiedTime": "2026-09-28T21:27:11.327Z",
+      "sha256Texto": "3be9deb6523a7a6fe55b95c11637af2456a9ce4e22a54fe180045f542527493c",
+      "chars": 48010
+    },
+    {
+      "id": "BD-003",
+      "driveId": "1m546BeriDYmFBZMwxAEdCW9rhb7O5nuiaxZJ_zDTnj8",
+      "modifiedTime": "2026-09-28T21:19:10.060Z",
+      "sha256Texto": "585287117749d276ab74074e6b9880015fb20bd87602f55380be1b34ee551d16",
+      "chars": 37606
+    },
+    {
+      "id": "BD-012",
+      "driveId": "1Q__gzZ0G4F2dKLm7Jcvg_OwKXaDkNpyI7JzvdDkzcG8",
+      "modifiedTime": "2026-09-28T21:06:54.691Z",
+      "sha256Texto": "c2d3dfcebace9c856356a42830e61e3ed0b477cd1b12047e0f027e2975d2ad76",
+      "chars": 47299
+    },
+    {
+      "id": "BD-011",
+      "driveId": "1uRaRMaa7SoFZwsWA8QTnjq7J42onu8GKINndxJgcp4g",
+      "modifiedTime": "2026-09-28T21:06:03.019Z",
+      "sha256Texto": "e638f818d58c6a2b6dcb49e87fda6c11570011c02fb52b1e82925221debcd83a",
+      "chars": 49588
+    },
+    {
+      "id": "BD-010",
+      "driveId": "1m4JFDHpja0LxJ2OEGuHsZt2ATRefbYIa68drhdA2TMg",
+      "modifiedTime": "2026-09-28T20:58:24.332Z",
+      "sha256Texto": "e3e187743496632fa97b3801596696ee9f398127664889bc4d0d28a10798a62f",
+      "chars": 48785
+    },
+    {
+      "id": "BD-009",
+      "driveId": "1XFJGbTTGoh_dviOt4CmfI_s6GMdyaZltnzJyyc5aC_Q",
+      "modifiedTime": "2026-09-28T20:57:56.869Z",
+      "sha256Texto": "a80e8b43ee5d8ac8ff4d6ce356bd89dc6f92880d251c789ebd02b8fc9aab3a83",
+      "chars": 37129
+    },
+    {
+      "id": "BD-008",
+      "driveId": "19dmHHxfdYxmhhHvpf_AwGU63AmhprL4ehQ1MiPNL-2E",
+      "modifiedTime": "2026-09-28T20:53:32.725Z",
+      "sha256Texto": "a76347b376e962c20d8825fc2b8c68fe8ad563ade4ce7aa4ffad512914eb96d6",
+      "chars": 46564
+    },
+    {
+      "id": "BD-007",
+      "driveId": "1HbjUVjW1HKiSBkahaV125taxFUesP50UgIPbmisiruM",
+      "modifiedTime": "2026-09-28T20:53:12.788Z",
+      "sha256Texto": "7dfda192a777ec59649f785b9321c73e7fc631aa38cb97f4c2828e4a59f05338",
+      "chars": 33031
+    },
+    {
+      "id": "DPC-007",
+      "driveId": "1JVNhXeGaeNDck3MnSdGp383Vta4D2mMHGiRtyuOFSiM",
+      "modifiedTime": "2026-09-23T18:35:38.637Z",
+      "sha256Texto": "d832470bcdc948d4c4fc33eb2de7c1b5decec28c2597b2d284bd5547d5b6b0c1",
+      "chars": 33255
+    },
+    {
+      "id": "DPC-006",
+      "driveId": "1nHAmfU9WMJvatoG7W_iL_A4DFlCS-ftYw5POpFjxvu0",
+      "modifiedTime": "2026-09-23T18:28:20.207Z",
+      "sha256Texto": "4209ecd6208fda5a42bf1052e318005ff36212fae5af0b345bd4e9fe032b281a",
+      "chars": 31064
+    },
+    {
+      "id": "DPP-007",
+      "driveId": "1sfs1AJ1QyDBR2ea4QLGRzjZOUPaXTPJ5pCWQdmSVboM",
+      "modifiedTime": "2026-09-27T10:41:18.879Z",
+      "sha256Texto": "7578f0678cd03a6d282584ad006706082445a2252df5af4f57a9c19638c7d039",
+      "chars": 66558
+    },
+    {
+      "id": "DPP-006",
+      "driveId": "1nJx92LihKGJUA7RYwIul3rZouA84JetaICr9tr9WI9g",
+      "modifiedTime": "2026-09-27T10:30:34.987Z",
+      "sha256Texto": "59804edc39cdb2b19e4cd2d48a98d0e9418f5c60c7bca8febcc23d3ac323095b",
+      "chars": 69181
+    },
+    {
+      "id": "DPP-005",
+      "driveId": "1VtJXkA6gpc_mRufDsqTjzMPOFpirdsomfuLSOG_4jLo",
+      "modifiedTime": "2026-09-27T00:33:04.202Z",
+      "sha256Texto": "e397b465bda33b92c309ada8486e3da706d85e2e282d102f405f02bf42c76883",
+      "chars": 53267
+    },
+    {
+      "id": "DPP-003",
+      "driveId": "1-lfMbCnzU6nCHOEiheboGv47mQwQtYgxprVOpdUCzak",
+      "modifiedTime": "2026-09-27T00:18:47.674Z",
+      "sha256Texto": "8d5e1c305016e3b64d690ea92e98bae8b4a6d0c18270c131cbdff991dd95cc5b",
+      "chars": 45115
+    },
+    {
+      "id": "DPP-002",
+      "driveId": "1ZXonAyFyR-4cQ8CyS0G1a6hmQdH3Fa91hXp3GmnGlik",
+      "modifiedTime": "2026-09-26T21:13:45.251Z",
+      "sha256Texto": "74239b6248d0f947dff340d6d7eabd3ad582680f156366c8634a7d149a136697",
+      "chars": 45644
+    },
+    {
+      "id": "DPP-001",
+      "driveId": "1pWWACT6O4e1SnVdFOzEfOq1bW7QWm-QuCLxo_9LzgbY",
+      "modifiedTime": "2026-09-26T20:01:53.420Z",
+      "sha256Texto": "96bf0f74ffd5b6a6be4786dcae46ce331c2e307ea9ca1acf8c073b4597e8b7d3",
+      "chars": 61633
+    },
+    {
+      "id": "DPP-004",
+      "driveId": "1Xu-sQdeFMFJQiu8OQrFz0W6STZoAFFbXZOyaoaHyolA",
+      "modifiedTime": "2026-09-26T17:17:16.384Z",
+      "sha256Texto": "37a289659f879cd8eb8297e0d18029512330bac019ef4b14bc319d30b38792ec",
+      "chars": 64651
+    },
+    {
+      "id": "DPP-034",
+      "driveId": "1nrtPgClZ6BvpPczG1jPypg8H5RrHeqQUm99aGm2b0Ug",
+      "modifiedTime": "2026-09-26T17:10:14.149Z",
+      "sha256Texto": "f478525484cc8e2da5e39612762d4b512f6e80d073c482f6ef44856c5b911323",
+      "chars": 85047
+    },
+    {
+      "id": "DPP-033",
+      "driveId": "1E1m3Jx5FGDkl7YLtKyde6QcKa_nc59YrATp17472Hsk",
+      "modifiedTime": "2026-09-26T16:59:34.200Z",
+      "sha256Texto": "86627273db6c1e6a4aed4e7b4e14d7ab3c46f2e0475c43fb7419bc4fd1c2ad87",
+      "chars": 69739
+    },
+    {
+      "id": "DPP-032",
+      "driveId": "1AO9ZvDBdHzwfzGv_u0W3dNaDV1WvDi8Mdzcmn4Srz4g",
+      "modifiedTime": "2026-09-26T16:51:45.565Z",
+      "sha256Texto": "e426ec3fd6a84073f44a9fe05462f5397e3294ac0bbb536fd7401e09207bec9e",
+      "chars": 57196
+    },
+    {
+      "id": "DPP-031",
+      "driveId": "1nnZGA2aGlof7OfKvpo4OjkOJjZvDV8JCgHM6sE9SMXY",
+      "modifiedTime": "2026-09-26T16:44:46.500Z",
+      "sha256Texto": "461f574b77cc9210eb44cc32ac143e0646992d3775515897493da63d9b8165bb",
+      "chars": 59843
+    },
+    {
+      "id": "DPP-030",
+      "driveId": "1uplOyf_z2yeoCLAOyBNlE0WlB3FSQ-ztGTSGZjGZJJo",
+      "modifiedTime": "2026-09-26T16:37:17.474Z",
+      "sha256Texto": "e52bad2572f321a2ed3930bdacd6ca94958495ea4da74130f5f1f3821ce53d67",
+      "chars": 67434
+    },
+    {
+      "id": "DPP-029",
+      "driveId": "1e_38F1tUZ56SumkhEPps_jLgxygfdYOUOdsnfdTy1JM",
+      "modifiedTime": "2026-09-26T16:30:07.092Z",
+      "sha256Texto": "5d92a1d5275e45d22f8989f13e43927dfcd0eaa3824e696f72c04c4468101d58",
+      "chars": 58245
+    },
+    {
+      "id": "DPP-028",
+      "driveId": "1g991rU_m2LbrSfnBl1ty9KuP6suw-LQ-AQahsUFKw64",
+      "modifiedTime": "2026-09-26T16:23:21.006Z",
+      "sha256Texto": "54be851a77756b85914c3461b5d400963c17b889a84c238e25a32c6b2dae49d9",
+      "chars": 62310
+    },
+    {
+      "id": "DPP-027",
+      "driveId": "1Ei-8SL8BSGLpbn7xSvRPuNodmSDnqMelcogEsUGm888",
+      "modifiedTime": "2026-09-26T16:13:48.682Z",
+      "sha256Texto": "043621a5a90ee53e1ea6b26a7a6145c220441cb13a69f5294abbf6e100dbd951",
+      "chars": 44529
+    },
+    {
+      "id": "DPP-026",
+      "driveId": "1jLtJhNbrhlC9gwhF8C4sesQneyccCUNl3splje419t0",
+      "modifiedTime": "2026-09-26T14:43:30.758Z",
+      "sha256Texto": "493aa3231ef5c1db4fcad598cda5dd858efd659edce9a95974490e902d4bb312",
+      "chars": 67259
+    },
+    {
+      "id": "DPP-025",
+      "driveId": "1HP37R3sX1P-and1d25KqASOPbYWNdEWe9ZMphcatucU",
+      "modifiedTime": "2026-09-26T14:11:51.192Z",
+      "sha256Texto": "c2af27e844a7d15be5bdce702305ff7fad96192c7376470eaabf277534e2cd1a",
+      "chars": 67296
+    },
+    {
+      "id": "DPP-024",
+      "driveId": "1GbbkIAk-NtgJoWR3xJygC-MAmgZlgYSrQ6MGwhgZw2s",
+      "modifiedTime": "2026-09-26T12:43:40.474Z",
+      "sha256Texto": "274ba4b52f0554ab80677136d6da75ec2b50e49e4adec5f93149a4fe59db2522",
+      "chars": 70046
+    },
+    {
+      "id": "DPP-023",
+      "driveId": "1fmyq5A6l_85wGcRGPPL1agNIQ3PbfhBvpyuwjazWyr0",
+      "modifiedTime": "2026-09-26T12:35:58.719Z",
+      "sha256Texto": "2a9537c6baf4a7dce9cd37f71df182a2ee6686a965f3fe264a0c0646fc0b39f6",
+      "chars": 62799
+    },
+    {
+      "id": "DPP-022",
+      "driveId": "1DGX2Dl88F5wUTvfmJJ23xB3-XcdgzHBR6DW8Aj8MHOE",
+      "modifiedTime": "2026-09-26T12:24:08.104Z",
+      "sha256Texto": "b643f8a46640229749bfda9c8f8ff10d26dd68e123418e6947d12bc8ffddea1c",
+      "chars": 58098
+    },
+    {
+      "id": "DPP-021",
+      "driveId": "1uZuEm2zWu7i6OXo0aWIKEpTAw_wq_5Elp2TXAThJfsw",
+      "modifiedTime": "2026-09-26T12:15:02.437Z",
+      "sha256Texto": "6ffc04b1cc7facfb38caa29dd22decedf20fc8ea0d3cbdd119b9e89f6661b2e8",
+      "chars": 54089
+    },
+    {
+      "id": "DPP-020",
+      "driveId": "1eKizwRSZ2nC1CrYfj9qgBA4eB2LB9xsPMF2vIwA_oNQ",
+      "modifiedTime": "2026-09-26T12:03:46.993Z",
+      "sha256Texto": "c63d30271eff225073e2f18e86c4c1ff998a6e97951a37077edcee11d06f312d",
+      "chars": 56735
+    },
+    {
+      "id": "DPP-019",
+      "driveId": "1VY6p2u1W0Xsyy1-SyYaG6-cUGtiZRrlfHtvfJo2Evtc",
+      "modifiedTime": "2026-09-26T11:56:21.792Z",
+      "sha256Texto": "257bbf53df165ac796214e8cbb8a62ad629981e62facfb76fc4944d459294504",
+      "chars": 63054
+    },
+    {
+      "id": "DPP-018",
+      "driveId": "1pdd60bH9_lpocEGJqI_O0ZEvyeRLibkmuwLscJKQvX0",
+      "modifiedTime": "2026-09-26T11:50:04.444Z",
+      "sha256Texto": "f59f945573271ae43b696b6ed87a6806b699881b0318f08d1e830602096ca095",
+      "chars": 55337
+    },
+    {
+      "id": "DPP-017",
+      "driveId": "1IpMo61nO52jldfPiWbCAwDxGv7CYqUs_EPPIhaPn_Do",
+      "modifiedTime": "2026-09-26T11:42:42.495Z",
+      "sha256Texto": "765417920edf95e169ac4c9b8e49b19e6f78f8fe673cc4db16883f60457f793e",
+      "chars": 62528
+    },
+    {
+      "id": "DPP-016",
+      "driveId": "1xaH2waeySAkLJqgYxialTPX68cBCcmex4QZpqc6K2rc",
+      "modifiedTime": "2026-09-26T11:33:03.160Z",
+      "sha256Texto": "29c62e4e2d3a0418bc0dca9b116725db335d560a00b79a7ee21fc91302a9fb62",
+      "chars": 37912
+    },
+    {
+      "id": "DPP-015",
+      "driveId": "10toc5yHwEeBzPCEEhZIbpUmBP56gnhKoGZR62xyNm-U",
+      "modifiedTime": "2026-09-26T11:28:06.622Z",
+      "sha256Texto": "b9e1502791ff2fc5815727c32d856900420e2879fe16cf95ab6eaf4d952aa279",
+      "chars": 39362
+    },
+    {
+      "id": "DPP-014",
+      "driveId": "1yzxT2hbAsb2I2pFk05kV6yyCA1vY3niz117rJx2OsTM",
+      "modifiedTime": "2026-09-26T11:19:25.954Z",
+      "sha256Texto": "d6c7d7c65547e8a47985952703f55717852dc819fe0f449f33176c3248b1fb23",
+      "chars": 35573
+    },
+    {
+      "id": "DPP-013",
+      "driveId": "1oTnNtOy9q_t1PIes0b0KcJpzf44MenqepAxpiuPWlFM",
+      "modifiedTime": "2026-09-26T11:12:15.093Z",
+      "sha256Texto": "5a9d9e39ddc673dba7f783a52e321c92d1c59a0c38c22dece9f4599db7d96390",
+      "chars": 38698
+    },
+    {
+      "id": "DPP-012",
+      "driveId": "1y-fj-JV_ihTdeDL5GjojraON1iW51OYbWevrw70Labs",
+      "modifiedTime": "2026-09-26T11:04:42.776Z",
+      "sha256Texto": "f7187e69be2ca70c8fe455de91352f25bd23ba86aa69ce9b474af4b0d22d3434",
+      "chars": 37359
+    },
+    {
+      "id": "DPP-011",
+      "driveId": "19eIy5-0FubneAGlxbbxhHW4ZlVB5KVLSLIV3RjLZRMY",
+      "modifiedTime": "2026-09-25T19:59:05.879Z",
+      "sha256Texto": "557fb18ce85959d090f4b71f39c2409d22f1cc1d83576952bac5bd55d25261e2",
+      "chars": 27169
+    },
+    {
+      "id": "DPP-010",
+      "driveId": "15hCTg6j6LZk1TfzV06asRg44mn0yJIhUlorwnnHEid8",
+      "modifiedTime": "2026-09-25T19:54:34.099Z",
+      "sha256Texto": "1c36a0ab258cd40c7895b6b21782a984852500fdf8d522793894d9d073ed7299",
+      "chars": 31351
+    },
+    {
+      "id": "DPP-009",
+      "driveId": "1rPtndGAPUfIvwYeCHHq_e7Tu1FDu23vWhVf4jcreT98",
+      "modifiedTime": "2026-09-25T19:46:02.630Z",
+      "sha256Texto": "5d75a655cfd6217dc51e971b133743b99d2c774b985e74896a718c8a8c8a669c",
+      "chars": 30138
+    },
+    {
+      "id": "DPP-008",
+      "driveId": "18XHV_Tda4s-9IIrXVVIcuoxyv6EdrXT3RRKr22SiEyU",
+      "modifiedTime": "2026-09-25T19:40:04.729Z",
+      "sha256Texto": "9c7744325e19f5524d28ac993462fb58d8b73a32b7b2384c1439881c2f2ea743",
+      "chars": 33468
+    },
+    {
+      "id": "DP-013",
+      "driveId": "1eKz-xzexry2tsWSkMgj_Zd9BIonPsNsQ-vCAzqEvwms",
+      "modifiedTime": "2026-09-24T00:33:58.144Z",
+      "sha256Texto": "d179ad84c9e9f7bed8a1ecb56220f47fd594955cc3875a150589c0db685b4e76",
+      "chars": 56353
+    },
+    {
+      "id": "DP-012",
+      "driveId": "19tqun1aX5mwwcjMa5QKlUI6qzj5WoIE6Gep-p-ZD2NI",
+      "modifiedTime": "2026-09-24T00:23:36.730Z",
+      "sha256Texto": "d1f9ae59f04506a12331038f6423de2676b82592436b0b27edf499c13ee40b39",
+      "chars": 52941
+    },
+    {
+      "id": "DP-011",
+      "driveId": "1MF7hrrYtz9RwEGFK5U_NoPtEGPDzKFKACtheEMHpWo8",
+      "modifiedTime": "2026-09-24T00:13:04.283Z",
+      "sha256Texto": "b58de50c7c8b91dfa3f530d492d7c24edd280af9a316925039009c492e896fac",
+      "chars": 55006
+    },
+    {
+      "id": "DP-010",
+      "driveId": "14lwrKTgfjDqxnllU-CBsnBFjyPFESBBuNHjKUwiSwkY",
+      "modifiedTime": "2026-09-24T00:01:18.658Z",
+      "sha256Texto": "87d915d0354197142bf6087dac8f84886be0effbb2c110a80511efef3c5b2e73",
+      "chars": 56181
+    },
+    {
+      "id": "DP-009",
+      "driveId": "1_T79pY7HG9O6dZRfzEEjf-LcfkXSaCxmQ0SRpeAm1qU",
+      "modifiedTime": "2026-09-23T23:49:30.724Z",
+      "sha256Texto": "25b1110860dc536ecab393fde1ef774ccead1b048d344236a5f83ab285ab7c44",
+      "chars": 53827
+    },
+    {
+      "id": "DP-008",
+      "driveId": "10HY2UHuJQ2qf-JxIbBQFt8MnE5Sk8FjqYVKN2YyC3jM",
+      "modifiedTime": "2026-09-23T21:52:19.372Z",
+      "sha256Texto": "6af61b2bcf0182ef12c9db3a8e610c8e7529904366b148e655ac0fcf67161de1",
+      "chars": 51612
+    },
+    {
+      "id": "DP-007",
+      "driveId": "1Jvu2nVcms_GpDohUfWXrKSGkI93UP4jTbJ9DsWrHaDQ",
+      "modifiedTime": "2026-09-23T18:14:15.725Z",
+      "sha256Texto": "cc6b7ba3e68867af05d9f7fd47df4754c795020d56bae8c2c1655a848eb04169",
+      "chars": 37901
+    },
+    {
+      "id": "DP-006",
+      "driveId": "1gJ1xb99aFgWlkrBG2xfXwVcn4o_ykZOrZXQDFQSc6LY",
+      "modifiedTime": "2026-09-23T18:12:54.757Z",
+      "sha256Texto": "d5cab5bf211542c352730ce041b44665b8e244df6005d9fa7f6b72c2d86d02d3",
+      "chars": 31369
+    },
+    {
+      "id": "MC-003",
+      "driveId": "1-4GTXQ0juRJrsheQ-8ibGDIyvTQdlSyiYfMeIm8bwCw",
+      "modifiedTime": "2026-09-29T11:26:20.440Z",
+      "sha256Texto": "098fbbacb17c7020f1415c70a230fbfcd77a7213f5acca788837e3440ecfd928",
+      "chars": 39803
+    },
+    {
+      "id": "MC-002",
+      "driveId": "1cUOZIFLNWKnNugxVDT6wqY5KJWp0A5cwjUOqXJuIpSI",
+      "modifiedTime": "2026-09-29T11:10:36.043Z",
+      "sha256Texto": "7935230ef02313180ad48270bc3ea375cfc065be5ec23de15d3c1fcec795dca3",
+      "chars": 37838
+    },
+    {
+      "id": "MC-001",
+      "driveId": "1yBhk1rO9JaHuaC6MaHoVopDP7TBiXxT2JJ98hv0k1_o",
+      "modifiedTime": "2026-09-29T10:12:36.008Z",
+      "sha256Texto": "2edea294d66529b5d56a505d7f364fd1e12e61a0541e6669e4b5843ffb3eda6e",
+      "chars": 38872
+    },
+    {
+      "id": "MC-010",
+      "driveId": "1LBz8ZSoU5tamNv_4BBjFCSDLX1OGmNUYqvMwxT4L6nI",
+      "modifiedTime": "2026-09-29T00:43:17.700Z",
+      "sha256Texto": "9c1a27ac59496cebd4da0e78273196bf3f1a9d342ab51885702d1be1a830caa0",
+      "chars": 34611
+    },
+    {
+      "id": "MC-009",
+      "driveId": "1hKttDU7mhkt5-GiPnfCvghS4xtwrOlRN9wQN3VZLETU",
+      "modifiedTime": "2026-09-29T00:26:08.926Z",
+      "sha256Texto": "a71be18c46b54cd5152177277a892db76029db0f732c014d4656482fcc093097",
+      "chars": 31134
+    },
+    {
+      "id": "MC-008",
+      "driveId": "1UdkhobJOwxJltXAd1cM832JZuJJoyimIHUNQsdAh-48",
+      "modifiedTime": "2026-09-29T00:00:37.529Z",
+      "sha256Texto": "c408ef237f916a5b94109d86f84a05059f968a4a6a3b66c377873e124824dda9",
+      "chars": 31198
+    },
+    {
+      "id": "MC-007",
+      "driveId": "15M6XLo40Y30Ns1L9gZ30_FO6FIPujilsLcygaXbcCIE",
+      "modifiedTime": "2026-09-28T23:48:35.843Z",
+      "sha256Texto": "42d16589b9605769517b948852bbc0e99b5613dbe548744c9a14913d361d4f36",
+      "chars": 31968
+    },
+    {
+      "id": "MC-006",
+      "driveId": "1kKL6BjtI1uW-lSkd2Bu0sV7tNrSWZry5Ez0PuhxHyHY",
+      "modifiedTime": "2026-09-28T23:33:21.156Z",
+      "sha256Texto": "95c5675ec15c2562bdd84b1bf4c0d3a7474304965b25fb214915f3af2a189938",
+      "chars": 29197
+    },
+    {
+      "id": "MC-005",
+      "driveId": "1KQVWRGjgzKwSvTxeDVQlbEEv-5NGJN4EFI70QxOneKE",
+      "modifiedTime": "2026-09-28T23:25:29.935Z",
+      "sha256Texto": "9e2ac86020c5eac8697dc20f7170c683b2fce41b81a841b102e592ccc479ba3d",
+      "chars": 34558
+    },
+    {
+      "id": "MC-004",
+      "driveId": "1QZrzl8YscGAtv6jRpmiCgMKSo37O1FJncd4HsP9wex4",
+      "modifiedTime": "2026-09-28T23:17:42.158Z",
+      "sha256Texto": "4b15ef61d128c614debf4203af35c34ece8ebd78ac2452ad499e7a73ade5ad29",
+      "chars": 29055
+    },
+    {
+      "id": "LP-021",
+      "driveId": "1jygutrroiRLrDHuT6UUGR5oEn1v834ke1c-DA8NN9hA",
+      "modifiedTime": "2026-09-25T19:32:45.536Z",
+      "sha256Texto": "321157e6c6909ec9a83e814647ce4dfa513cb3473f38bd74fa798ee10d112772",
+      "chars": 37363
+    },
+    {
+      "id": "LP-020",
+      "driveId": "1AjQRJqzRdTgeGhO-lItGx7hdvUGk6KdbUbB4EIFvNFE",
+      "modifiedTime": "2026-09-25T19:26:22.337Z",
+      "sha256Texto": "b8e7112823d9fa725e89406ecb1bd0028c4c9839bfaaef909352a5f30d6b279e",
+      "chars": 52322
+    },
+    {
+      "id": "LP-019",
+      "driveId": "12oT-msHxkXvSulXJqCsawhDXukyIMd6pKwG1di8V-Hk",
+      "modifiedTime": "2026-09-25T19:16:59.623Z",
+      "sha256Texto": "3a74bad35d73ecca2274e6c5bae5fc9d21887b75c58eb1e2b87dfe628f7ce182",
+      "chars": 44860
+    },
+    {
+      "id": "LP-018",
+      "driveId": "1gSQYH_ZW3UKzi3eoGfDaM-IUCwTrQA-H_PpTfZ9jcrI",
+      "modifiedTime": "2026-09-25T19:05:33.382Z",
+      "sha256Texto": "f2b4717543bb1aebe63869b53828c3723c2e14bbe9bddaf26fbc93e49183eaa9",
+      "chars": 43203
+    },
+    {
+      "id": "LP-017",
+      "driveId": "1CoyXsAmGZmIBQ-JdFngDxrLVEtaC_cLLY9y774IiqPw",
+      "modifiedTime": "2026-09-24T23:36:55.919Z",
+      "sha256Texto": "465dbf76f32c732aa78fad9ad805fe02e1f29bcdc0a93d169144394d1118e007",
+      "chars": 46349
+    },
+    {
+      "id": "LP-016",
+      "driveId": "1RaLLAUjutTal9f8c8m-Hl71yItKf9DVrTattf2VFHdg",
+      "modifiedTime": "2026-09-24T23:01:53.352Z",
+      "sha256Texto": "68f3422f53848ce620339a2a8ec292d769df9455a9e3c5b01b77e3f2b625a419",
+      "chars": 50219
+    },
+    {
+      "id": "LP-015",
+      "driveId": "1P4a8-WoYbDOgMrpvaYVE-XJJ7mTswDzgI1y2gcpyH9k",
+      "modifiedTime": "2026-09-24T19:53:12.176Z",
+      "sha256Texto": "8e232e8605f10556a38a353f0e373ef886f4cccd7eb4a385c1aefbd8acc5a4b4",
+      "chars": 53326
+    },
+    {
+      "id": "LP-014",
+      "driveId": "11JrrW6Gj3FKMOaf8kVvN6P-0uRPQJsmfXhCGmuqLEfA",
+      "modifiedTime": "2026-09-24T19:28:17.067Z",
+      "sha256Texto": "5f50eef8225196ae4c5cf22593f846e03d5cfa75b1d59d0deae22e1b2de32876",
+      "chars": 51672
+    },
+    {
+      "id": "LP-013",
+      "driveId": "1E4xA5W6Fj1KE0V_qDcDbjS2zBpTyETSTzFh5lItecJ8",
+      "modifiedTime": "2026-09-24T18:48:34.151Z",
+      "sha256Texto": "e7905a5f75ec080002a3d9f5f7de8b192810626f7afae74fe4dc710916dbabbb",
+      "chars": 74232
+    },
+    {
+      "id": "LP-012",
+      "driveId": "1o8KlVLvSYcHHWh-3V4_96ZkfA1CdY1AP1ZZltQRGoL4",
+      "modifiedTime": "2026-09-24T18:29:23.358Z",
+      "sha256Texto": "8951399d5eacd75f9e725031ad48c1d01ac77ded76b05e7ba9783e06df7044aa",
+      "chars": 73825
+    },
+    {
+      "id": "LP-011",
+      "driveId": "1r4dVElgLk1jk6nD9Ff7J99ygIRbqo2VmX-lHwj1mluw",
+      "modifiedTime": "2026-09-24T10:09:01.670Z",
+      "sha256Texto": "0c2503331b4bbb5682bc5d50add7d289f076fb8f0523099fd0f23c2421b26bef",
+      "chars": 80553
+    },
+    {
+      "id": "LP-010",
+      "driveId": "1VgPp4-atJQMW_A77qUrOmbcZLeWtF1KL8iK4ChaoHqQ",
+      "modifiedTime": "2026-09-24T09:40:26.724Z",
+      "sha256Texto": "d2c569bb5afc00e3e4ddadb457ef4935af60b084460a6ea6a7b1e83e2ac110cf",
+      "chars": 73829
+    },
+    {
+      "id": "LP-009",
+      "driveId": "1XGj4DzNIJ1ftOHpclyBJ6RA5iBUP-Kb7uQpyYV9u1gU",
+      "modifiedTime": "2026-09-24T01:20:42.679Z",
+      "sha256Texto": "6dfb44ac55cd591ea1da720f9085f53913204dff266130568fb300ab1047c526",
+      "chars": 63075
+    },
+    {
+      "id": "LP-008",
+      "driveId": "1Sx5Brq_kuISUkF9bGo-jWAJ2dRmu-ZYUrnWeNloAcvQ",
+      "modifiedTime": "2026-09-24T00:46:29.809Z",
+      "sha256Texto": "ab1734abcbd719225c4370ffc436627eb8c65f823cfb2cf72d2b11ffc50869c1",
+      "chars": 60354
+    }
+  ],
+  "deferred": [
+    {
+      "title": "GSTI-004 — Gerenciamento de projetos: projeto, programa, portfólio, ciclo de vida, restrições, partes interessadas, governança e abordagens preditiva, adaptativa e híbrida — fundamentos",
+      "id": "1m-Qv7gJLtxd_hF9CKY5BL1NjpXMlplBaNI_-neJDgJs",
+      "reason": "status não apto ou mídia inline exige integração"
+    },
+    {
+      "title": "GSTI-001 — Fundamentos de Governança e Gestão de TI: governança x gestão, alinhamento estratégico, geração de valor, partes interessadas, riscos, recursos e desempenho — núcleo geral",
+      "id": "1sSoVSmC8lGC0jZkzqMfnlwi2szr3i_ndp7-cM1AEPUY",
+      "reason": "status não apto ou mídia inline exige integração"
+    },
+    {
+      "title": "GSTI-002 — COBIT 2019: governança e gestão, Core Model, objetivos, componentes, cascata de metas e fatores de desenho",
+      "id": "13Ulq3BD55mVdBBJutdq4yJR67hqcLtykDBm0bjr_Few",
+      "reason": "status não apto ou mídia inline exige integração"
+    },
+    {
+      "title": "RED-001 — Fundamentos de Redes de Computadores: comunicação, tipos de rede, modelos OSI e TCP/IP, encapsulamento e dispositivos — núcleo geral",
+      "id": "1QbwltMKnr5snP4yj2K1JL2mlXkeH6vw4Y5qhDONyEEs",
+      "reason": "status não apto ou mídia inline exige integração"
+    },
+    {
+      "title": "SI-001 — Fundamentos de Segurança da Informação: confidencialidade, integridade, disponibilidade, autenticidade, não repúdio, ameaça, vulnerabilidade, risco e controles",
+      "id": "1Ye84c36liZ7TOOiwkIuprBOy7IaDMmlspKLAJqDv3ec",
+      "reason": "status não apto ou mídia inline exige integração"
+    },
+    {
+      "title": "LP-001 — Compreensão e interpretação de textos",
+      "id": "1hR1Zh5G1BPDwk0HycguP3ENYdp6mlrSA4VCzIhzbkrc",
+      "reason": "status não apto ou mídia inline exige integração"
+    },
+    {
+      "title": "LP-002 — Informações literais, inferências e ponto de vista do autor",
+      "id": "1oVnUNKpB1IO6Rj-i-qVkACtzNdGJkfyWwhwRRnXe38E",
+      "reason": "status não apto ou mídia inline exige integração"
+    }
+  ],
+  "tests": "typecheck, lint, 18 tests, production build passed; full source text equality 99/99; DP-009 secondary preserved",
+  "deploy": "pending; branch only until all validated batches are published",
+  "integratedIds": [
+    "EST-001",
+    "EST-002",
+    "GSTI-003",
+    "RED-005",
+    "SVC-006",
+    "SVC-005",
+    "AFO-006",
+    "DEV-006",
+    "MPL-006",
+    "GP-006"
+  ],
+  "pendingIds": [
+    "SI-006",
+    "AGP-006",
+    "CP-006",
+    "ES-006",
+    "SCJ-006",
+    "IA-004",
+    "IA-003",
+    "IA-002",
+    "IA-001",
+    "BD-006",
+    "BD-004",
+    "BD-002",
+    "BD-001",
+    "BD-005",
+    "BD-003",
+    "BD-012",
+    "BD-011",
+    "BD-010",
+    "BD-009",
+    "BD-008",
+    "BD-007",
+    "DPC-007",
+    "DPC-006",
+    "DPP-007",
+    "DPP-006",
+    "DPP-005",
+    "DPP-003",
+    "DPP-002",
+    "DPP-001",
+    "DPP-004",
+    "DPP-034",
+    "DPP-033",
+    "DPP-032",
+    "DPP-031",
+    "DPP-030",
+    "DPP-029",
+    "DPP-028",
+    "DPP-027",
+    "DPP-026",
+    "DPP-025",
+    "DPP-024",
+    "DPP-023",
+    "DPP-022",
+    "DPP-021",
+    "DPP-020",
+    "DPP-019",
+    "DPP-018",
+    "DPP-017",
+    "DPP-016",
+    "DPP-015",
+    "DPP-014",
+    "DPP-013",
+    "DPP-012",
+    "DPP-011",
+    "DPP-010",
+    "DPP-009",
+    "DPP-008",
+    "DP-013",
+    "DP-012",
+    "DP-011",
+    "DP-010",
+    "DP-009",
+    "DP-008",
+    "DP-007",
+    "DP-006",
+    "MC-003",
+    "MC-002",
+    "MC-001",
+    "MC-010",
+    "MC-009",
+    "MC-008",
+    "MC-007",
+    "MC-006",
+    "MC-005",
+    "MC-004",
+    "LP-021",
+    "LP-020",
+    "LP-019",
+    "LP-018",
+    "LP-017",
+    "LP-016",
+    "LP-015",
+    "LP-014",
+    "LP-013",
+    "LP-012",
+    "LP-011",
+    "LP-010",
+    "LP-009",
+    "LP-008"
+  ],
+  "batch": 1
+}
