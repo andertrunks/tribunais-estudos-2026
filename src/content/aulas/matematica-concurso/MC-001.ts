@@ -12,16 +12,17 @@ export default {
     "trf3_aj_ti"
   ],
   "editalRefs": [
+    "TJSP2503.tjsp_escrevente.MAT.01 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 1: “Operações com números reais”",
     "TRF3 — VUNESP — Edital nº 01/2023 — Analista Área Administrativa — Matemática item 1: situações-problema com adição, subtração, multiplicação, divisão, potenciação ou radiciação de números racionais em fração ou decimal",
     "TRF3 — mesmo edital — Técnico Apoio Especializado Informática — Matemática item 1",
-    "TRF3 — mesmo edital — Analista Apoio Especializado Informática — Matemática item 1",
-    "TJ-SP — vínculo histórico do arquivo-base, pendente de reconciliação específica da fonte oficial aplicável"
+    "TRF3 — mesmo edital — Analista Apoio Especializado Informática — Matemática item 1"
   ],
   "sourceRefs": [
+    "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT01 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
     "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Matemática item 1 nas seções dos cargos auditados",
     "https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
     "01 - Operacoes com Numeros Reais - Fundamentos - FINAL — apoio pedagógico interno",
-    "Editais-base-fornecidos-pelo-usuario.txt — histórico TJ-SP"
+    "EDITAL-AUD-001-LOTE12-TJSP-MAT01"
   ],
   "status": "revisado",
   "statusEditorialOriginal": "revisado",

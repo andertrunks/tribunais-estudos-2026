@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-09",
-  "total": 289,
+  "total": 290,
   "materias": 40,
   "aulas": [
     {
@@ -4293,9 +4293,9 @@
       "materiaEditorial": "Matemática de Concurso",
       "classificacaoEditorial": "núcleo quantitativo formal",
       "documentoUrl": "https://docs.google.com/document/d/1cUOZIFLNWKnNugxVDT6wqY5KJWp0A5cwjUOqXJuIpSI/edit?usp=drivesdk",
-      "caracteres": 37838,
-      "sha256Texto": "7935230ef02313180ad48270bc3ea375cfc065be5ec23de15d3c1fcec795dca3",
-      "sha256Documento": "d3156e657173b004be2593b03d0c5e7cd2020ac9bc8712c4a1c6c4cbea2e0322"
+      "caracteres": 39009,
+      "sha256Texto": "26c5cbed15147ea4e43210a627ea41b1d385f678f2a861059cf17e85494ee42d",
+      "sha256Documento": "a1fc527524a6aa969e8e66a6f79c17c128556786b8084b5b4f3e962befe447c8"
     },
     {
       "id": "MC-001",
@@ -4308,16 +4308,17 @@
         "trf3_aj_ti"
       ],
       "editalRefs": [
+        "TJSP2503.tjsp_escrevente.MAT.01 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 1: “Operações com números reais”",
         "TRF3 — VUNESP — Edital nº 01/2023 — Analista Área Administrativa — Matemática item 1: situações-problema com adição, subtração, multiplicação, divisão, potenciação ou radiciação de números racionais em fração ou decimal",
         "TRF3 — mesmo edital — Técnico Apoio Especializado Informática — Matemática item 1",
-        "TRF3 — mesmo edital — Analista Apoio Especializado Informática — Matemática item 1",
-        "TJ-SP — vínculo histórico do arquivo-base, pendente de reconciliação específica da fonte oficial aplicável"
+        "TRF3 — mesmo edital — Analista Apoio Especializado Informática — Matemática item 1"
       ],
       "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT01 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
         "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Matemática item 1 nas seções dos cargos auditados",
         "https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
         "01 - Operacoes com Numeros Reais - Fundamentos - FINAL — apoio pedagógico interno",
-        "Editais-base-fornecidos-pelo-usuario.txt — histórico TJ-SP"
+        "EDITAL-AUD-001-LOTE12-TJSP-MAT01"
       ],
       "status": "revisado",
       "statusEditorialOriginal": "revisado",
@@ -4330,9 +4331,9 @@
       "materiaEditorial": "Matemática de Concurso",
       "classificacaoEditorial": "",
       "documentoUrl": "https://docs.google.com/document/d/1yBhk1rO9JaHuaC6MaHoVopDP7TBiXxT2JJ98hv0k1_o/edit?usp=drivesdk",
-      "caracteres": 38872,
-      "sha256Texto": "2edea294d66529b5d56a505d7f364fd1e12e61a0541e6669e4b5843ffb3eda6e",
-      "sha256Documento": "8e479539b4bedc06a59cd0425f4e6996dcf45db26de561ce947b18717e2c0ba8"
+      "caracteres": 40257,
+      "sha256Texto": "495b130de9fcf698d4f08f7db2529d91d78087069e0f161872cd278162534f72",
+      "sha256Documento": "a012c720225359dcd2cf2f9412dbdde2e602ed8ea9ef125e9d2e79a42181614c"
     },
     {
       "id": "LP-005",
@@ -7588,9 +7589,9 @@
       "materiaEditorial": "Estatística",
       "classificacaoEditorial": "núcleo quantitativo formal consolidado",
       "documentoUrl": "https://docs.google.com/document/d/11duLHtE2W6C-14zsLY5icPOb1mu0Bl84N7pkX_nQZ98/edit?usp=drivesdk",
-      "caracteres": 71964,
-      "sha256Texto": "90f01627f668a5c739b2310a14443f384ce6637a10e01a07042f7e1b5d4d9827",
-      "sha256Documento": "8f7d6e692aae6bd5b189c3f1e31319f67e59b3ec599de37ad73c812d32282a5b"
+      "caracteres": 74167,
+      "sha256Texto": "201201c8f2b3d85d39c93c88b4fb1dd4d815df85f4173e8e368914fb7b35fd2c",
+      "sha256Documento": "6a3e00abefb36632c9aa6a8c9d08aecad000115ba2d6842c2950df0f988e8d54"
     },
     {
       "id": "EST-002",
@@ -9765,19 +9766,23 @@
       "titulo": "MC-010 — Noções de Geometria: formas, ângulos, área, perímetro, volume, Pitágoras e Tales",
       "materiaId": "matematica",
       "cargoIds": [
+        "tjsp_escrevente",
         "trf3_aj_adm",
         "trf3_tj_ti",
         "trf3_aj_ti"
       ],
       "editalRefs": [
+        "TJSP2503.tjsp_escrevente.MAT.12 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 12: “Noções de geometria: forma, perímetro, área, volume, ângulo, teorema de Pitágoras.”",
         "B.AJADM.MAT.12 — TRF3 / Fundação VUNESP — Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário Área Administrativa, item Matemática 12",
         "C1.TJTI.MAT.12 — mesmo edital, Técnico Judiciário Apoio Especializado Informática, Matemática 12",
         "D1.AJTI.MAT.12 — mesmo edital, Analista Judiciário Apoio Especializado Informática, Matemática 12."
       ],
       "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT12",
         "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
         "MATRIZ-1-1-B-C1-D1",
         "CHECKPOINT-E12",
+        "EDITAL-AUD-001-LOTE10-TJSP-MAT12",
         "MC-001",
         "MC-004",
         "MC-005",
@@ -9796,20 +9801,23 @@
       "materiaEditorial": "Matemática de Concurso",
       "classificacaoEditorial": "aula formal consolidada, núcleo compartilhado",
       "documentoUrl": "https://docs.google.com/document/d/1LBz8ZSoU5tamNv_4BBjFCSDLX1OGmNUYqvMwxT4L6nI/edit?usp=drivesdk",
-      "caracteres": 34611,
-      "sha256Texto": "9c1a27ac59496cebd4da0e78273196bf3f1a9d342ab51885702d1be1a830caa0",
-      "sha256Documento": "c27824f907dc033c18dd5039b7dd56b993441694bc753b6e8b871cdae79db4d6"
+      "caracteres": 36524,
+      "sha256Texto": "e4c4e1ac5645aed8a65dac2502e4e75d8911213ceb3071a5ac84d57f82bea69e",
+      "sha256Documento": "f2659255df9184b7d6cf003335ccba6c45c57eca332f0d0f92c0a610188bd4f9"
     },
     {
       "id": "MC-009",
       "titulo": "MC-009 — Relação entre grandezas: leitura de tabelas, gráficos e variação quantitativa",
       "materiaId": "matematica",
       "cargoIds": [
+        "tjsp_escrevente",
         "trf3_aj_adm",
         "trf3_tj_ti",
         "trf3_aj_ti"
       ],
       "editalRefs": [
+        "TJSP2503.tjsp_escrevente.MAT.10 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 10: “Relação entre grandezas: tabelas e gráficos”",
+        "PDF índice 43 / página impressa 44.",
         "B.AJADM.MAT.10 — TRF3, Fundação VUNESP, Edital de Abertura de Inscrições nº 01/2023, Anexo II, Analista Judiciário — Área Administrativa, Matemática, item 10: “Relação entre grandezas – tabela ou gráfico”",
         "PDF índice 57 / página impressa 58.",
         "C1.TJTI.MAT.10 — mesmo edital, Técnico Judiciário — Apoio Especializado — Informática, Matemática, item 10, redação idêntica",
@@ -9818,13 +9826,14 @@
         "PDF índice 57 / página impressa 58."
       ],
       "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT10",
         "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
         "MATRIZ-1-1-B-C1-D1",
         "CHECKPOINT-E10",
         "MC-004",
         "MC-005",
         "MC-008",
-        "EST-001 como referência complementar PARCIAL, sem nova vinculação de cargos"
+        "EST-001 como referência complementar PARCIAL, sem segunda unidade primária"
       ],
       "status": "revisado",
       "statusEditorialOriginal": "revisado",
@@ -9837,20 +9846,23 @@
       "materiaEditorial": "Matemática de Concurso",
       "classificacaoEditorial": "aula formal consolidada; núcleo único para MAT.10",
       "documentoUrl": "https://docs.google.com/document/d/1hKttDU7mhkt5-GiPnfCvghS4xtwrOlRN9wQN3VZLETU/edit?usp=drivesdk",
-      "caracteres": 31134,
-      "sha256Texto": "a71be18c46b54cd5152177277a892db76029db0f732c014d4656482fcc093097",
-      "sha256Documento": "8b12ea8e210f25f8b820c18250a63bca4866b2dd3d782dac403c852fb5c82f12"
+      "caracteres": 32561,
+      "sha256Texto": "13e970dfdd08693575172be7e5fd76b6e1255871b7d6fed14c8e9dbb7b8b801d",
+      "sha256Documento": "96eca79ad18ff76a14b4875d5c7ca8a228e22bae352744f00e38088d5ef8b574"
     },
     {
       "id": "MC-008",
       "titulo": "MC-008 — Grandezas e medidas: quantidade, tempo, comprimento, superfície, capacidade e massa",
       "materiaId": "matematica",
       "cargoIds": [
+        "tjsp_escrevente",
         "trf3_aj_adm",
         "trf3_tj_ti",
         "trf3_aj_ti"
       ],
       "editalRefs": [
+        "TJSP2503.tjsp_escrevente.MAT.11 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 11: “Sistemas de medidas usuais”",
+        "PDF índice 43 / página impressa 44.",
         "TRF3, Edital de Abertura de Inscrições nº 01/2023, Fundação VUNESP, Anexo II, Analista Judiciário — Área Administrativa, Conhecimentos Gerais, Matemática, item 9: “Grandezas e medidas – quantidade, tempo, comprimento, superfície, capacidade e massa”",
         "bloco comum dos Analistas, índice PDF 57, página impressa 58.",
         "TRF3, mesmo Edital 01/2023, Técnico Judiciário — Apoio Especializado — Especialidade Informática, Conhecimentos Gerais, Matemática, item 9, redação acima",
@@ -9859,6 +9871,7 @@
         "bloco comum dos Analistas, índice PDF 57, página impressa 58."
       ],
       "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT11",
         "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
         "MATRIZ-1-1-B-C1-D1",
         "CHECKPOINT-E9",
@@ -9879,20 +9892,23 @@
       "materiaEditorial": "Matemática de Concurso",
       "classificacaoEditorial": "aula formal consolidada",
       "documentoUrl": "https://docs.google.com/document/d/1UdkhobJOwxJltXAd1cM832JZuJJoyimIHUNQsdAh-48/edit?usp=drivesdk",
-      "caracteres": 31198,
-      "sha256Texto": "c408ef237f916a5b94109d86f84a05059f968a4a6a3b66c377873e124824dda9",
-      "sha256Documento": "16438545ff8ac7e530f3cafde8a0b2ac8018df82ccfe53d720a7d16bf96e59a6"
+      "caracteres": 32549,
+      "sha256Texto": "a5c1040f59aaea8f98415b1ba2a46424c7c187cbde8422aa09a202872cd52f20",
+      "sha256Documento": "d9af1b20273d651836e86d8935018aa7d98f170b4e3daf54d764f5e2274673d9"
     },
     {
       "id": "MC-007",
       "titulo": "MC-007 — Sistemas de equações do 1º grau: interpretação, substituição, adição e aplicações",
       "materiaId": "matematica",
       "cargoIds": [
+        "tjsp_escrevente",
         "trf3_aj_adm",
         "trf3_tj_ti",
         "trf3_aj_ti"
       ],
       "editalRefs": [
+        "TJ-SP — Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Escrevente Técnico Judiciário — Matemática item 9: “Sistema de equações do 1.º grau”",
+        "PDF índice 43, página impressa 44.",
         "TRF3 — Fundação VUNESP — Edital de Abertura nº 01/2023 — Anexo II — Analista Judiciário, Área Administrativa — Conhecimentos Gerais, Matemática item 8: “Sistema de equações do 1º grau”",
         "bloco comum de Analistas, PDF página índice 57, página impressa 58.",
         "TRF3 — Fundação VUNESP — Edital de Abertura nº 01/2023 — Anexo II — Técnico Judiciário, Apoio Especializado, Especialidade Informática — Conhecimentos Gerais, Matemática item 8: “Sistema de equações do 1º grau”",
@@ -9901,6 +9917,7 @@
         "bloco comum de Analistas, PDF página índice 57, página impressa 58."
       ],
       "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT09 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
         "SRC-TRF3-2023-EDITAL-01 — fonte oficial primária",
         "MC-001 operações",
         "MC-006 equações isoladas",
@@ -9919,9 +9936,9 @@
       "materiaEditorial": "Matemática de Concurso",
       "classificacaoEditorial": "",
       "documentoUrl": "https://docs.google.com/document/d/15M6XLo40Y30Ns1L9gZ30_FO6FIPujilsLcygaXbcCIE/edit?usp=drivesdk",
-      "caracteres": 31968,
-      "sha256Texto": "42d16589b9605769517b948852bbc0e99b5613dbe548744c9a14913d361d4f36",
-      "sha256Documento": "744f4e45b967d828d6e0241d6642522376507d6dc869b952d7b2b14adfb7799a"
+      "caracteres": 33373,
+      "sha256Texto": "e9d47e11075793d79e4546fcb91f6502ae14d1a870c35de4f2eb92bc4887404f",
+      "sha256Documento": "1b1bb82b1a752142783320cdb6b0b6448d198f1e4f9d56f0d4de6733880f5e1e"
     },
     {
       "id": "MC-006",
@@ -10561,6 +10578,46 @@
       "caracteres": 60354,
       "sha256Texto": "ab1734abcbd719225c4370ffc436627eb8c65f823cfb2cf72d2b11ffc50869c1",
       "sha256Documento": "55bc8a0e1916bfb92b1848f4c1660e15b20c5caea3e319e3522e9d561586fc08"
+    },
+    {
+      "id": "MC-012",
+      "titulo": "MC-012 — Resolução de situações-problema: leitura, modelagem, estratégia, cálculo e verificação",
+      "materiaId": "matematica",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJSP2503.tjsp_escrevente.MAT.13 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 13: “Resolução de situações-problema”."
+      ],
+      "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT13 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
+        "MC-001",
+        "MC-002",
+        "MC-003",
+        "MC-004",
+        "MC-005",
+        "MC-006",
+        "MC-007",
+        "MC-008",
+        "MC-009",
+        "MC-010",
+        "MC-011",
+        "EST-001 como materiais relacionados, sem substituição automática deste item"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "MC-012",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-concurso/MC-012.json",
+      "materiaEditorial": "Matemática de Concurso",
+      "classificacaoEditorial": "aula formal consolidada — competência transversal de resolução de problemas",
+      "documentoUrl": "https://docs.google.com/document/d/12BpdXaeh-Z5fpOtKe3rZvCrrDzvhSMdRq5yXwsao0-4/edit?usp=drivesdk",
+      "caracteres": 22360,
+      "sha256Texto": "f1baddd8d000574ec19609f212395c71b57403c56818eb8672d56c10c3474b1f",
+      "sha256Documento": "ddeecd7ad93ec9df765cc68e34f8714d0c451022d739f2a6f93affdfe89adfeb"
     }
   ]
 }

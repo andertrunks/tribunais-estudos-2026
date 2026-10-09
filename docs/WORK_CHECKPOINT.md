@@ -1,5 +1,18 @@
 # Tribunais Estudos 2026 — checkpoint operacional
 
+Atualização de acervo — 09/10/2026: segundo lote integral do Drive com
+MC-001, MC-002, MC-007, MC-008, MC-009, MC-010, MC-012 e EST-001.
+MC-012 é uma aula nova no site, recuperada de documento já produzido e
+revisado; sete aulas existentes recebem a versão revisada completa.
+Igualdade de texto fonte/importado 8/8; catálogo passa a 290 canônicas
++ 1 demonstração. Vínculos por cargo e limites históricos permanecem
+explícitos na fonte; não transformar extensões em itens de edital.
+TypeScript, lint e 18/18 testes locais PASS; publicação usa o workflow
+obrigatório de PR e main. O receipt final de CI/deploy/smoke deste lote
+é registrado no mesmo checkpoint canônico do Drive após a verificação.
+
+
+
 Estado verificado em 09/10/2026: INF-001–INF-005 importadas integralmente dos
 documentos canônicos revisados, com Edital nº 02/2025/TJSP2503 e cargo
 tjsp_escrevente. Catálogo: 289 aulas canônicas + 1 demonstração, 40 matérias.
