@@ -9,11 +9,12 @@ export default {
     "tjsp_escrevente"
   ],
   "editalRefs": [
-    "TJ-SP — Edital nº 01/2024 — Escrevente Técnico Judiciário — Informática: interação com o conjunto de aplicativos do Microsoft-365",
-    "MS-Word: estrutura básica dos documentos, edição e formatação de textos, cabeçalhos, parágrafos, fontes, colunas, marcadores simbólicos e numéricos, tabelas, impressão, controle de quebras e numeração de páginas, legendas, índices, inserção de objetos, campos predefinidos e caixas de texto."
+    "TJ-SP — Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Escrevente Técnico Judiciário — Informática — interação com o conjunto de aplicativos do Microsoft-365",
+    "MS-Word: estrutura básica dos documentos, edição e formatação de textos, cabeçalhos, parágrafos, fontes, colunas, marcadores simbólicos e numéricos, tabelas, impressão, controle de quebras e numeração de páginas, legendas, índices, inserção de objetos, campos predefinidos e caixas de texto. PDF índice 43/página impressa 44."
   ],
   "sourceRefs": [
-    "VUNESP — TJSP2401 — Edital nº 01/2024, Anexo VI, Conteúdo Programático, p. 46",
+    "VUNESP — TJSP2503 — Edital de Abertura nº 02/2025, Anexo VI, Conteúdo Programático de Informática, PDF índice 43/página impressa 44 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
+    "VUNESP — TJSP2401 — Edital nº 01/2024 (fonte histórica preservada)",
     "Microsoft Support — Create a document in Word",
     "Basic tasks in Word",
     "Change the line and paragraph spacing in Word",
@@ -23,7 +24,8 @@ export default {
     "INF-003",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "INF-004",
   "tipo": "oficial",
   "demonstracao": false,
