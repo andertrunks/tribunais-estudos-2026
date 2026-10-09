@@ -21,7 +21,7 @@ export default {
     "classificação de dados."
   ],
   "sourceRefs": [
-    "Editais-base canônicos do projeto — TJ-SP — Escrevente Técnico Judiciário.",
+    "TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — TJSP2503 — Anexo VI, Informática, bloco MS-Excel — PDF índice 43/página impressa 44 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
     "Fundação VUNESP — TJSP2503 — página oficial do concurso de Escrevente.",
     "Microsoft Support — Tarefas básicas no Excel.",
     "Microsoft Support — O que é o Excel?",
@@ -31,7 +31,8 @@ export default {
     "INF-005 — Microsoft Word: aprofundamento do recorte formal do TJ-SP.",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "concluido",
+  "statusEditorialOriginal": "concluido",
   "topicoId": "INF-006",
   "tipo": "oficial",
   "demonstracao": false,
@@ -40,5 +41,5 @@ export default {
   "documentoArquivo": "informatica-escritorio-colaboracao/INF-006.json",
   "materiaEditorial": "Informática Básica / Escritório / Colaboração",
   "classificacaoEditorial": "núcleo formal de Microsoft Excel — fundamentos e organização da planilha",
-  "documentoUrl": "https://docs.google.com/document/d/1q_QJ996PHCeBzAPQ-oLicYhhLKtav0TLEZNkzhwJKUs/edit?usp=drivesdk"
+  "documentoUrl": "https://docs.google.com/document/d/1q_QJ996PHCeBzAPQ-oLicYhhLKtav0TLEZNkzhwJKUs"
 } satisfies Aula;
