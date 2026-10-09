@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-09",
-  "total": 290,
+  "total": 291,
   "materias": 40,
   "aulas": [
     {
@@ -5404,50 +5404,6 @@
       "sha256Documento": "65f9d943fac28b985ccdd9b8ed851d8851f13b6d87cbbad1f590ffd493d67edb"
     },
     {
-      "id": "INF-006",
-      "titulo": "INF-006 — Microsoft Excel: estrutura básica das planilhas, células, linhas, colunas, pastas de trabalho, tabelas e gráficos — fundamentos e organização da planilha",
-      "materiaId": "informatica",
-      "cargoIds": [
-        "tjsp_escrevente"
-      ],
-      "editalRefs": [
-        "TJ-SP — Escrevente Técnico Judiciário — conteúdo programático de Informática: MS-Excel — estrutura básica das planilhas",
-        "conceitos de células, linhas, colunas, pastas e gráficos",
-        "elaboração de tabelas e gráficos",
-        "uso de fórmulas, funções e macros",
-        "impressão",
-        "inserção de objetos",
-        "campos predefinidos",
-        "controle de quebras e numeração de páginas",
-        "obtenção de dados externos",
-        "classificação de dados."
-      ],
-      "sourceRefs": [
-        "Editais-base canônicos do projeto — TJ-SP — Escrevente Técnico Judiciário.",
-        "Fundação VUNESP — TJSP2503 — página oficial do concurso de Escrevente.",
-        "Microsoft Support — Tarefas básicas no Excel.",
-        "Microsoft Support — O que é o Excel?",
-        "Microsoft Support — Inserir ou excluir linhas e colunas no Excel.",
-        "Microsoft Support — Criar e formatar tabelas.",
-        "Microsoft Support — Criar um gráfico do início ao fim.",
-        "INF-005 — Microsoft Word: aprofundamento do recorte formal do TJ-SP.",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "em_producao",
-      "topicoId": "INF-006",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "informatica-escritorio-colaboracao/INF-006.json",
-      "materiaEditorial": "Informática Básica / Escritório / Colaboração",
-      "classificacaoEditorial": "núcleo formal de Microsoft Excel — fundamentos e organização da planilha",
-      "documentoUrl": "https://docs.google.com/document/d/1q_QJ996PHCeBzAPQ-oLicYhhLKtav0TLEZNkzhwJKUs/edit?usp=drivesdk",
-      "caracteres": 36728,
-      "sha256Texto": "692d88a92d07f223616f5aada91d458ca9429c7d00e53ba1968cce17febb6793",
-      "sha256Documento": "af9defacfd310c3d580c1e68e855b5c9679bd4d06e700cf5991529e3b81689f0"
-    },
-    {
       "id": "PCD-006",
       "titulo": "PCD-006 — Direito ao trabalho — Lei nº 13.146/2015, arts. 34 a 38",
       "materiaId": "direitos-pessoa-deficiencia-acessibilidade",
@@ -7173,41 +7129,6 @@
       "caracteres": 49894,
       "sha256Texto": "8b487ae2eb8ae15f7529e765008a85bd03137cd945787ca91aee1b9d5d6e4475",
       "sha256Documento": "f67cd7e2d6296f6d76d972136128e7105cf667aa0f338345e046225bb4f253cc"
-    },
-    {
-      "id": "INF-007",
-      "titulo": "INF-007 — Microsoft Excel: fórmulas, operadores, referências relativas, absolutas e mistas, precedência, AutoPreenchimento e erros de fórmula — fundamentos",
-      "materiaId": "informatica",
-      "cargoIds": [
-        "tjsp_escrevente"
-      ],
-      "editalRefs": [
-        "TJ-SP — Escrevente Técnico Judiciário — conteúdo programático de Informática: MS-Excel — uso de fórmulas, funções e macros, dentro do bloco formal de Microsoft Excel."
-      ],
-      "sourceRefs": [
-        "Editais-base canônicos do projeto — TJ-SP — Escrevente Técnico Judiciário.",
-        "Fundação VUNESP — TJSP2503 — concurso de Escrevente Técnico Judiciário.",
-        "Microsoft Support — Visão geral de fórmulas no Excel.",
-        "Microsoft Support — Operadores de cálculo e precedência no Excel.",
-        "Microsoft Support — Alternar entre referências relativas, absolutas e mistas.",
-        "Microsoft Support — Preencher uma fórmula nas células adjacentes.",
-        "Microsoft Support — Como corrigir os erros #DIV/0!, #REF!, #VALOR! e #NOME?.",
-        "INF-006 — Microsoft Excel: fundamentos e organização da planilha.",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "concluido",
-      "topicoId": "INF-007",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "informatica-escritorio-colaboracao/INF-007.json",
-      "materiaEditorial": "Informática Básica / Escritório / Colaboração",
-      "classificacaoEditorial": "núcleo formal de Microsoft Excel — fórmulas e referências",
-      "documentoUrl": "https://docs.google.com/document/d/1ENg3o3IJwjYtjdM6819ZF8iUmmy8x1jSfzuM_dXTSJE/edit?usp=drivesdk",
-      "caracteres": 44986,
-      "sha256Texto": "a38f89518a129f28c3b0e7996ceda1eba5c48f2e4c0efd3b34e09d67a3273dae",
-      "sha256Documento": "09c0b9de6f09e78c309025e748672e8e4360efddf5dde732c810e84c293c7788"
     },
     {
       "id": "LP-007",
@@ -10618,6 +10539,115 @@
       "caracteres": 22360,
       "sha256Texto": "f1baddd8d000574ec19609f212395c71b57403c56818eb8672d56c10c3474b1f",
       "sha256Documento": "ddeecd7ad93ec9df765cc68e34f8714d0c451022d739f2a6f93affdfe89adfeb"
+    },
+    {
+      "id": "INF-006",
+      "titulo": "INF-006 — Microsoft Excel: estrutura básica das planilhas, células, linhas, colunas, pastas de trabalho, tabelas e gráficos — fundamentos e organização da planilha",
+      "materiaId": "informatica",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — conteúdo programático de Informática: MS-Excel — estrutura básica das planilhas",
+        "conceitos de células, linhas, colunas, pastas e gráficos",
+        "elaboração de tabelas e gráficos",
+        "uso de fórmulas, funções e macros",
+        "impressão",
+        "inserção de objetos",
+        "campos predefinidos",
+        "controle de quebras e numeração de páginas",
+        "obtenção de dados externos",
+        "classificação de dados."
+      ],
+      "sourceRefs": [
+        "TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — TJSP2503 — Anexo VI, Informática, bloco MS-Excel — PDF índice 43/página impressa 44 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
+        "Fundação VUNESP — TJSP2503 — página oficial do concurso de Escrevente.",
+        "Microsoft Support — Tarefas básicas no Excel.",
+        "Microsoft Support — O que é o Excel?",
+        "Microsoft Support — Inserir ou excluir linhas e colunas no Excel.",
+        "Microsoft Support — Criar e formatar tabelas.",
+        "Microsoft Support — Criar um gráfico do início ao fim.",
+        "INF-005 — Microsoft Word: aprofundamento do recorte formal do TJ-SP.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "INF-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "informatica-escritorio-colaboracao/INF-006.json",
+      "materiaEditorial": "Informática Básica / Escritório / Colaboração",
+      "classificacaoEditorial": "núcleo formal de Microsoft Excel — fundamentos e organização da planilha",
+      "documentoUrl": "https://docs.google.com/document/d/1q_QJ996PHCeBzAPQ-oLicYhhLKtav0TLEZNkzhwJKUs",
+      "caracteres": 37534,
+      "sha256Texto": "ef36b7b3080d4bff2df252ae23b5d7e44becde7146291bd0f15e4aae5f50240f",
+      "sha256Documento": "4822794417f596d853f75e21cf7f2f07fe3943233949cd7c896010cdaa12d70d"
+    },
+    {
+      "id": "INF-007",
+      "titulo": "INF-007 — Microsoft Excel: fórmulas, operadores, referências relativas, absolutas e mistas, precedência, AutoPreenchimento e erros de fórmula — fundamentos",
+      "materiaId": "informatica",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — conteúdo programático de Informática: MS-Excel — uso de fórmulas, funções e macros, dentro do bloco formal de Microsoft Excel."
+      ],
+      "sourceRefs": [
+        "TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — TJSP2503 — Anexo VI, Informática, bloco MS-Excel — PDF índice 43/página impressa 44 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
+        "Fundação VUNESP — TJSP2503 — concurso de Escrevente Técnico Judiciário.",
+        "Microsoft Support — Visão geral de fórmulas no Excel.",
+        "Microsoft Support — Operadores de cálculo e precedência no Excel.",
+        "Microsoft Support — Alternar entre referências relativas, absolutas e mistas.",
+        "Microsoft Support — Preencher uma fórmula nas células adjacentes.",
+        "Microsoft Support — Como corrigir os erros #DIV/0!, #REF!, #VALOR! e #NOME?.",
+        "INF-006 — Microsoft Excel: fundamentos e organização da planilha.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "INF-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "informatica-escritorio-colaboracao/INF-007.json",
+      "materiaEditorial": "Informática Básica / Escritório / Colaboração",
+      "classificacaoEditorial": "núcleo formal de Microsoft Excel — fórmulas e referências",
+      "documentoUrl": "https://docs.google.com/document/d/1ENg3o3IJwjYtjdM6819ZF8iUmmy8x1jSfzuM_dXTSJE",
+      "caracteres": 45842,
+      "sha256Texto": "3751209162d416b607e871ebf13ec2b5c5c775267dc45d926de3cdb86052214d",
+      "sha256Documento": "0ebdd3de57e561fb9d8e4b1a9c99b0994a87f9e02b62325ae92d855bfe523974"
+    },
+    {
+      "id": "INF-008",
+      "titulo": "INF-008 — Microsoft Excel: funções essenciais — SOMA, MÉDIA, MÍNIMO, MÁXIMO, CONT.NÚM, CONT.VALORES, SE, E, OU, SOMASE, CONT.SE e SEERRO",
+      "materiaId": "informatica",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Escrevente Técnico Judiciário — conteúdo programático de Informática: MS-Excel — uso de fórmulas, funções e macros, dentro do bloco formal de Microsoft Excel."
+      ],
+      "sourceRefs": [
+        "TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — TJSP2503 — Anexo VI, Informática, bloco MS-Excel — PDF índice 43/página impressa 44 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "INF-008",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "informatica-escritorio-colaboracao/INF-008.json",
+      "materiaEditorial": "Informática Básica / Escritório / Colaboração",
+      "classificacaoEditorial": "núcleo formal de Microsoft Excel — funções essenciais",
+      "documentoUrl": "https://docs.google.com/document/d/1IyMmrQas8SPwqewYi2vZeOIQuHq-wRNqeZH5DiXCFew",
+      "caracteres": 27125,
+      "sha256Texto": "4572a490f17cfd17c6a258f77b7de33320527b13211f0675a59c04c6b0b511f9",
+      "sha256Documento": "04d05db5354be9feda512995e40bd4828d6f578f0c9fa2ada3ceef2a3cab5889"
     }
   ]
 }

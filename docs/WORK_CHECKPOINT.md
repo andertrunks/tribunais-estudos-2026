@@ -1,5 +1,21 @@
 # Tribunais Estudos 2026 — checkpoint operacional
 
+Lote Excel — 09/10/2026: INF-006 e INF-007 homologadas em fonte primária
+TJSP2503, Edital 02/2025, Anexo VI, Informática, página impressa 44.
+INF-008 recuperada do novo documento revisado na mesma pasta canônica.
+Três textos integrais importados com igualdade fonte/importado 3/3;
+90 questões inéditas em modo leitura, sem falsa atribuição à VUNESP.
+Catálogo: 291 aulas canônicas + 1 demonstração = 292 aulas exibidas,
+40 matérias. INF-006/007 preservam status concluido, INF-008 revisado.
+O lote cobre estrutura/tabelas/gráficos, fórmulas e funções essenciais;
+não encerra o bloco formal inteiro de Excel. Macros, impressão, objetos,
+campos, quebras/paginação e dados externos mantêm suas pendências.
+Receipt de CI, merge, deploy e smoke no checkpoint canônico após verificação.
+Próxima produção: obedecer à rotação intercalada do Drive; não avançar
+automaticamente para INF-009. Nenhuma arquitetura cloud alterada.
+
+Histórico dos lotes anteriores preservado abaixo.
+
 Atualização de acervo — 09/10/2026: segundo lote integral do Drive com
 MC-001, MC-002, MC-007, MC-008, MC-009, MC-010, MC-012 e EST-001.
 MC-012 é uma aula nova no site, recuperada de documento já produzido e

@@ -12,7 +12,7 @@ export default {
     "TJ-SP — Escrevente Técnico Judiciário — conteúdo programático de Informática: MS-Excel — uso de fórmulas, funções e macros, dentro do bloco formal de Microsoft Excel."
   ],
   "sourceRefs": [
-    "Editais-base canônicos do projeto — TJ-SP — Escrevente Técnico Judiciário.",
+    "TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — TJSP2503 — Anexo VI, Informática, bloco MS-Excel — PDF índice 43/página impressa 44 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
     "Fundação VUNESP — TJSP2503 — concurso de Escrevente Técnico Judiciário.",
     "Microsoft Support — Visão geral de fórmulas no Excel.",
     "Microsoft Support — Operadores de cálculo e precedência no Excel.",
@@ -23,6 +23,7 @@ export default {
     "CHECKPOINT — Produção intercalada de matérias."
   ],
   "status": "concluido",
+  "statusEditorialOriginal": "concluido",
   "topicoId": "INF-007",
   "tipo": "oficial",
   "demonstracao": false,
@@ -31,5 +32,5 @@ export default {
   "documentoArquivo": "informatica-escritorio-colaboracao/INF-007.json",
   "materiaEditorial": "Informática Básica / Escritório / Colaboração",
   "classificacaoEditorial": "núcleo formal de Microsoft Excel — fórmulas e referências",
-  "documentoUrl": "https://docs.google.com/document/d/1ENg3o3IJwjYtjdM6819ZF8iUmmy8x1jSfzuM_dXTSJE/edit?usp=drivesdk"
+  "documentoUrl": "https://docs.google.com/document/d/1ENg3o3IJwjYtjdM6819ZF8iUmmy8x1jSfzuM_dXTSJE"
 } satisfies Aula;
