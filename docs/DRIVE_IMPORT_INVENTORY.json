@@ -1,6 +1,6 @@
 {
   "origem": "01_Materias_Consolidadas",
-  "data": "2026-10-08",
+  "data": "2026-10-09",
   "total": 289,
   "materias": 40,
   "aulas": [
@@ -3863,16 +3863,17 @@
         "tjsp_escrevente"
       ],
       "editalRefs": [
-        "TJ-SP — Edital nº 01/2024 — Escrevente Técnico Judiciário — Informática: MS-Word — cabeçalhos, colunas, tabelas, impressão, controle de quebras e numeração de páginas, legendas, índices, inserção de objetos, campos predefinidos e caixas de texto."
+        "TJ-SP — Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Escrevente Técnico Judiciário — Informática — MS-Word: cabeçalhos, colunas, tabelas, impressão, controle de quebras e numeração de páginas, legendas, índices, inserção de objetos, campos predefinidos e caixas de texto. PDF índice 43/página impressa 44."
       ],
       "sourceRefs": [
-        "Fundação VUNESP — TJ-SP — Edital nº 01/2024 — conteúdo programático de Informática",
-        "Fundação VUNESP — TJSP2503 — página oficial do concurso de Escrevente",
+        "Fundação VUNESP — TJSP2503 — Edital de Abertura nº 02/2025 — Anexo VI — Conteúdo Programático de Informática — PDF índice 43/página impressa 44 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
+        "Fundação VUNESP — TJ-SP — Edital nº 01/2024 (fonte histórica preservada)",
         "Microsoft Support — Word para Microsoft 365",
         "INF-004",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "INF-005",
       "tipo": "oficial",
       "demonstracao": false,
@@ -3882,9 +3883,9 @@
       "materiaEditorial": "Informática Básica / Escritório / Colaboração",
       "classificacaoEditorial": "núcleo Microsoft 365 — Microsoft Word",
       "documentoUrl": "https://docs.google.com/document/d/1_lucG4VjZvl2HNAFyUmmkQHSopZ8Hl_FipyizyznnhY/edit?usp=drivesdk",
-      "caracteres": 37393,
-      "sha256Texto": "8c281b77bb22037244ab0c8bf18f97da0c5ce475ab2584f916ab6939679dca49",
-      "sha256Documento": "894f3479ff70e5b137bacf5dd75f37c9138adc6fa7623ea82aef2bc54510a810"
+      "caracteres": 38706,
+      "sha256Texto": "b3a2d0c64597a1cd3a478f1376989ebd426b2455320c8edaee88ab0aa6abf74b",
+      "sha256Documento": "429691e79cd1af37f7dcd3fa346f03e93564ce8ffaaca8bc1cf24868e84dc316"
     },
     {
       "id": "INF-004",
@@ -3894,11 +3895,12 @@
         "tjsp_escrevente"
       ],
       "editalRefs": [
-        "TJ-SP — Edital nº 01/2024 — Escrevente Técnico Judiciário — Informática: interação com o conjunto de aplicativos do Microsoft-365",
-        "MS-Word: estrutura básica dos documentos, edição e formatação de textos, cabeçalhos, parágrafos, fontes, colunas, marcadores simbólicos e numéricos, tabelas, impressão, controle de quebras e numeração de páginas, legendas, índices, inserção de objetos, campos predefinidos e caixas de texto."
+        "TJ-SP — Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Escrevente Técnico Judiciário — Informática — interação com o conjunto de aplicativos do Microsoft-365",
+        "MS-Word: estrutura básica dos documentos, edição e formatação de textos, cabeçalhos, parágrafos, fontes, colunas, marcadores simbólicos e numéricos, tabelas, impressão, controle de quebras e numeração de páginas, legendas, índices, inserção de objetos, campos predefinidos e caixas de texto. PDF índice 43/página impressa 44."
       ],
       "sourceRefs": [
-        "VUNESP — TJSP2401 — Edital nº 01/2024, Anexo VI, Conteúdo Programático, p. 46",
+        "VUNESP — TJSP2503 — Edital de Abertura nº 02/2025, Anexo VI, Conteúdo Programático de Informática, PDF índice 43/página impressa 44 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
+        "VUNESP — TJSP2401 — Edital nº 01/2024 (fonte histórica preservada)",
         "Microsoft Support — Create a document in Word",
         "Basic tasks in Word",
         "Change the line and paragraph spacing in Word",
@@ -3908,7 +3910,8 @@
         "INF-003",
         "CHECKPOINT — Produção intercalada de matérias."
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "INF-004",
       "tipo": "oficial",
       "demonstracao": false,
@@ -3918,9 +3921,9 @@
       "materiaEditorial": "Informática Básica / Escritório / Colaboração",
       "classificacaoEditorial": "núcleo Microsoft 365 — Microsoft Word",
       "documentoUrl": "https://docs.google.com/document/d/1QipprKqs3JZEO_MIsA0j3QonqdZNb-StldY16Cl4eLo/edit?usp=drivesdk",
-      "caracteres": 37090,
-      "sha256Texto": "42b728eab708c1f9c4876cfc6ad2f1f32adf89d74c739667ce2a4915974c917e",
-      "sha256Documento": "411f9e30de0a6b407a12c8600471959b4b82be837a5a7814f2b0154512edc20d"
+      "caracteres": 38866,
+      "sha256Texto": "a7aa7c3ed7a5ab073e3ef69a06b709609a1ecd04ac6a4452e641d87a69aa0616",
+      "sha256Documento": "e07ae19b73c6d4daafe7d59456d73d85a3e913a4f85968da788b5b546e211edb"
     },
     {
       "id": "INF-003",
@@ -3930,10 +3933,10 @@
         "tjsp_escrevente"
       ],
       "editalRefs": [
-        "TJ-SP Escrevente — Informática — MS-Windows 10 ou superior: conceito de pastas, diretórios, arquivos e atalhos, área de trabalho, área de transferência, manipulação de arquivos e pastas, uso dos menus, programas e aplicativos"
+        "TJSP2503.tjsp_escrevente.INF.037 — TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Informática — MS-Windows 10 ou superior: conceito de pastas, diretórios, arquivos e atalhos, área de trabalho, área de transferência, manipulação de arquivos e pastas, uso dos menus, programas e aplicativos"
       ],
       "sourceRefs": [
-        "Editais-base-fornecidos-pelo-usuario.txt",
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-INF-WINDOWS: https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
         "Microsoft Support — Ferramentas de configuração do sistema no Windows",
         "Microsoft Support — Localizar seus arquivos e aplicativos no Windows",
         "Microsoft Support — Indexação de pesquisa no Windows",
@@ -3942,9 +3945,12 @@
         "Microsoft Support — Configurar várias áreas de trabalho no Windows",
         "Microsoft Support — Como realizar multitarefas no Windows",
         "INF-001",
-        "INF-002."
+        "INF-002",
+        "EDITAL-AUD-001-LOTE14-TJSP-INF037",
+        "Editais-base-fornecidos-pelo-usuario.txt — histórico"
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "INF-003",
       "tipo": "oficial",
       "demonstracao": false,
@@ -3954,9 +3960,9 @@
       "materiaEditorial": "Informática Básica / Escritório / Colaboração",
       "classificacaoEditorial": "núcleo Windows consolidado — aprofundamento operacional",
       "documentoUrl": "https://docs.google.com/document/d/1X-CPC50k31Rn4MNm7TGh2PNv1RZz-9KBEqHYP2cum_U/edit?usp=drivesdk",
-      "caracteres": 25363,
-      "sha256Texto": "048dc5cabec98f120c7b2c077d7aee80df1612f54c8a7988eb0577bfc3ca9821",
-      "sha256Documento": "472a3e6d60c38b7fafc5053ca44f2531e66b34df664ccfb29841ec613cdc976a"
+      "caracteres": 26503,
+      "sha256Texto": "56174dfa893a94a997b0c3e827678e417cd754bd3780308e65666fcb17cea328",
+      "sha256Documento": "48a32b682514cc39a6448fa2d191c7bcca2f3eb636f33f28eecbdb8b43f5942c"
     },
     {
       "id": "INF-002",
@@ -3966,18 +3972,20 @@
         "tjsp_escrevente"
       ],
       "editalRefs": [
-        "TJ-SP Escrevente — Informática — MS-Windows 10 ou superior: área de trabalho, área de transferência, menus, programas e aplicativos",
-        "interação e manipulação de arquivos e pastas"
+        "TJSP2503.tjsp_escrevente.INF.037 — TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Informática — MS-Windows 10 ou superior: área de trabalho, área de transferência, manipulação de arquivos e pastas, uso dos menus, programas e aplicativos"
       ],
       "sourceRefs": [
-        "Editais-base-fornecidos-pelo-usuario.txt",
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-INF-WINDOWS: https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
         "Microsoft Support — Explorador de Arquivos no Windows",
         "Microsoft Support — Usando a área de transferência",
         "Microsoft Support — Localizar seus arquivos e aplicativos no Windows",
         "Microsoft Support — Localizar a Lixeira no Windows",
-        "INF-001 — Windows: pastas, diretórios, arquivos e atalhos."
+        "INF-001 — Windows: pastas, diretórios, arquivos e atalhos",
+        "EDITAL-AUD-001-LOTE14-TJSP-INF037",
+        "Editais-base-fornecidos-pelo-usuario.txt — histórico"
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "INF-002",
       "tipo": "oficial",
       "demonstracao": false,
@@ -3987,26 +3995,29 @@
       "materiaEditorial": "Informática Básica / Escritório / Colaboração",
       "classificacaoEditorial": "núcleo Windows consolidado",
       "documentoUrl": "https://docs.google.com/document/d/1DblGHOquw3w9JqcPacaMPBbI3Sooqd5oDcdYzBiHyL0/edit?usp=drivesdk",
-      "caracteres": 25486,
-      "sha256Texto": "3254cb7ea18910a284347a097ccdd1a649d2d52dd2796cb76c153311f7985ba2",
-      "sha256Documento": "a1966640813525a0c2ffe85b091b8ba3d4ab8e0a42c0860a4ce0ab5547a0fe31"
+      "caracteres": 26659,
+      "sha256Texto": "14cd244d43deedb96997cd67939958dfafd3f7fde785f05eea92521a971151cd",
+      "sha256Documento": "ce3cf349a92b89073a632dc354215af746cfc4c2022a7d4d6c1a508eee3a96ba"
     },
     {
       "id": "INF-001",
       "titulo": "INF-001 — Windows: pastas, diretórios, arquivos e atalhos",
       "materiaId": "informatica",
       "cargoIds": [
-        "tjsp-escrevente"
+        "tjsp_escrevente"
       ],
       "editalRefs": [
-        "TJ-SP Escrevente — Informática — MS-Windows 10 ou superior: conceito de pastas, diretórios, arquivos e atalhos"
+        "TJSP2503.tjsp_escrevente.INF.037 — TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Informática — MS-Windows 10 ou superior: conceito de pastas, diretórios, arquivos e atalhos"
       ],
       "sourceRefs": [
-        "Editais-base-fornecidos-pelo-usuario.txt",
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-INF-WINDOWS: https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
         "Microsoft Support — Explorador de Arquivos no Windows",
-        "Microsoft Support — Localizar seus arquivos e aplicativos no Windows"
+        "Microsoft Support — Localizar seus arquivos e aplicativos no Windows",
+        "EDITAL-AUD-001-LOTE14-TJSP-INF037",
+        "Editais-base-fornecidos-pelo-usuario.txt — histórico"
       ],
-      "status": "em_producao",
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
       "topicoId": "INF-001",
       "tipo": "oficial",
       "demonstracao": false,
@@ -4016,9 +4027,9 @@
       "materiaEditorial": "Informática de Escritório e Colaboração",
       "classificacaoEditorial": "edital",
       "documentoUrl": "https://docs.google.com/document/d/1hm0JfecNhlMQmQ9A_RYaN--V_yKlgutrQm0FvGds3cI/edit?usp=drivesdk",
-      "caracteres": 19536,
-      "sha256Texto": "ba8fb5727e805da36d6c4ed375464f54c6d829c3da3a46ae993516af3161dcad",
-      "sha256Documento": "68f8be23f88f12e77a67f474032e85efb19b8542d53e7ad352a089f7976db3e5"
+      "caracteres": 20712,
+      "sha256Texto": "c87230c34907b97821057597f2a3c2a97bc19e25d9b0df6416fb1d6904a6fe1a",
+      "sha256Documento": "081d2b39b278e53dd6c2b3628da30f68eb465f9b30a2a84adbb04f8ba109bed1"
     },
     {
       "id": "PCD-005",

@@ -6,17 +6,20 @@ export default {
   "titulo": "INF-001 — Windows: pastas, diretórios, arquivos e atalhos",
   "materiaId": "informatica",
   "cargoIds": [
-    "tjsp-escrevente"
+    "tjsp_escrevente"
   ],
   "editalRefs": [
-    "TJ-SP Escrevente — Informática — MS-Windows 10 ou superior: conceito de pastas, diretórios, arquivos e atalhos"
+    "TJSP2503.tjsp_escrevente.INF.037 — TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Informática — MS-Windows 10 ou superior: conceito de pastas, diretórios, arquivos e atalhos"
   ],
   "sourceRefs": [
-    "Editais-base-fornecidos-pelo-usuario.txt",
+    "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-INF-WINDOWS: https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
     "Microsoft Support — Explorador de Arquivos no Windows",
-    "Microsoft Support — Localizar seus arquivos e aplicativos no Windows"
+    "Microsoft Support — Localizar seus arquivos e aplicativos no Windows",
+    "EDITAL-AUD-001-LOTE14-TJSP-INF037",
+    "Editais-base-fornecidos-pelo-usuario.txt — histórico"
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "INF-001",
   "tipo": "oficial",
   "demonstracao": false,

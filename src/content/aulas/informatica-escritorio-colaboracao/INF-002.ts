@@ -9,18 +9,20 @@ export default {
     "tjsp_escrevente"
   ],
   "editalRefs": [
-    "TJ-SP Escrevente — Informática — MS-Windows 10 ou superior: área de trabalho, área de transferência, menus, programas e aplicativos",
-    "interação e manipulação de arquivos e pastas"
+    "TJSP2503.tjsp_escrevente.INF.037 — TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Informática — MS-Windows 10 ou superior: área de trabalho, área de transferência, manipulação de arquivos e pastas, uso dos menus, programas e aplicativos"
   ],
   "sourceRefs": [
-    "Editais-base-fornecidos-pelo-usuario.txt",
+    "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-INF-WINDOWS: https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
     "Microsoft Support — Explorador de Arquivos no Windows",
     "Microsoft Support — Usando a área de transferência",
     "Microsoft Support — Localizar seus arquivos e aplicativos no Windows",
     "Microsoft Support — Localizar a Lixeira no Windows",
-    "INF-001 — Windows: pastas, diretórios, arquivos e atalhos."
+    "INF-001 — Windows: pastas, diretórios, arquivos e atalhos",
+    "EDITAL-AUD-001-LOTE14-TJSP-INF037",
+    "Editais-base-fornecidos-pelo-usuario.txt — histórico"
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "INF-002",
   "tipo": "oficial",
   "demonstracao": false,

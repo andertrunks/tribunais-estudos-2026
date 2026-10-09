@@ -9,16 +9,17 @@ export default {
     "tjsp_escrevente"
   ],
   "editalRefs": [
-    "TJ-SP — Edital nº 01/2024 — Escrevente Técnico Judiciário — Informática: MS-Word — cabeçalhos, colunas, tabelas, impressão, controle de quebras e numeração de páginas, legendas, índices, inserção de objetos, campos predefinidos e caixas de texto."
+    "TJ-SP — Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Escrevente Técnico Judiciário — Informática — MS-Word: cabeçalhos, colunas, tabelas, impressão, controle de quebras e numeração de páginas, legendas, índices, inserção de objetos, campos predefinidos e caixas de texto. PDF índice 43/página impressa 44."
   ],
   "sourceRefs": [
-    "Fundação VUNESP — TJ-SP — Edital nº 01/2024 — conteúdo programático de Informática",
-    "Fundação VUNESP — TJSP2503 — página oficial do concurso de Escrevente",
+    "Fundação VUNESP — TJSP2503 — Edital de Abertura nº 02/2025 — Anexo VI — Conteúdo Programático de Informática — PDF índice 43/página impressa 44 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
+    "Fundação VUNESP — TJ-SP — Edital nº 01/2024 (fonte histórica preservada)",
     "Microsoft Support — Word para Microsoft 365",
     "INF-004",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "INF-005",
   "tipo": "oficial",
   "demonstracao": false,

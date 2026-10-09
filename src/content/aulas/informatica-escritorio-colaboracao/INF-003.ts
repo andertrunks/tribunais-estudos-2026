@@ -9,10 +9,10 @@ export default {
     "tjsp_escrevente"
   ],
   "editalRefs": [
-    "TJ-SP Escrevente — Informática — MS-Windows 10 ou superior: conceito de pastas, diretórios, arquivos e atalhos, área de trabalho, área de transferência, manipulação de arquivos e pastas, uso dos menus, programas e aplicativos"
+    "TJSP2503.tjsp_escrevente.INF.037 — TJ-SP/Fundação VUNESP — Edital de Abertura nº 02/2025 — Anexo VI — Informática — MS-Windows 10 ou superior: conceito de pastas, diretórios, arquivos e atalhos, área de trabalho, área de transferência, manipulação de arquivos e pastas, uso dos menus, programas e aplicativos"
   ],
   "sourceRefs": [
-    "Editais-base-fornecidos-pelo-usuario.txt",
+    "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-INF-WINDOWS: https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
     "Microsoft Support — Ferramentas de configuração do sistema no Windows",
     "Microsoft Support — Localizar seus arquivos e aplicativos no Windows",
     "Microsoft Support — Indexação de pesquisa no Windows",
@@ -21,9 +21,12 @@ export default {
     "Microsoft Support — Configurar várias áreas de trabalho no Windows",
     "Microsoft Support — Como realizar multitarefas no Windows",
     "INF-001",
-    "INF-002."
+    "INF-002",
+    "EDITAL-AUD-001-LOTE14-TJSP-INF037",
+    "Editais-base-fornecidos-pelo-usuario.txt — histórico"
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "INF-003",
   "tipo": "oficial",
   "demonstracao": false,
