@@ -1,5 +1,26 @@
 # Tribunais Estudos 2026 — checkpoint operacional
 
+Estado verificado em 09/10/2026: INF-001–INF-005 importadas integralmente dos
+documentos canônicos revisados, com Edital nº 02/2025/TJSP2503 e cargo
+tjsp_escrevente. Catálogo: 289 aulas canônicas + 1 demonstração, 40 matérias.
+PR: https://github.com/andertrunks/tribunais-estudos-2026/pull/1
+Candidate: 17039337248d7206f085442269213fc3e8a209ee.
+Merge/deploy: de74da03b676330d5f16c8efdec409f39f69a63c.
+CI PR 37974349200 e deploy main 37974835516: PASS.
+Windows: instalação limpa, typecheck, lint, 18/18 testes, build/PWA PASS.
+Cinco aulas verificadas no site público com status revisado e referências
+corretas; conclusão persistiu após reload, mobile 390px sem overflow, zero
+pageerrors/assets HTTP >=400 nas páginas verificadas.
+Validação de PR agora automática; deploy continua em main.
+Os sete itens adiados foram relidos: LP-001/002 e GSTI-004 em_producao;
+GSTI-002 em_auditoria_incremental; GSTI-001/RED-001/SI-001 agora vinculados
+a CRBio/SETEC no documento compartilhado, sem habilitação editorial para
+substituir o vínculo de Tribunais. Não propagar esses cargos automaticamente.
+Próxima ação: concluir homologação documental de INF-006/007 (Excel) no
+Drive e importar apenas a versão apta, preservando texto integral e IDs.
+
+O histórico abaixo permanece como evidência das execuções anteriores.
+
 Atualizado: 20/09/2026. Leia este arquivo primeiro; depois status/diff e somente
 arquivos afetados. Auditoria inicial concluída; não repetir sem mudança estrutural.
 
