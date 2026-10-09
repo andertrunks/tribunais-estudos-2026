@@ -6,11 +6,14 @@ export default {
   "titulo": "MC-008 — Grandezas e medidas: quantidade, tempo, comprimento, superfície, capacidade e massa",
   "materiaId": "matematica",
   "cargoIds": [
+    "tjsp_escrevente",
     "trf3_aj_adm",
     "trf3_tj_ti",
     "trf3_aj_ti"
   ],
   "editalRefs": [
+    "TJSP2503.tjsp_escrevente.MAT.11 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 11: “Sistemas de medidas usuais”",
+    "PDF índice 43 / página impressa 44.",
     "TRF3, Edital de Abertura de Inscrições nº 01/2023, Fundação VUNESP, Anexo II, Analista Judiciário — Área Administrativa, Conhecimentos Gerais, Matemática, item 9: “Grandezas e medidas – quantidade, tempo, comprimento, superfície, capacidade e massa”",
     "bloco comum dos Analistas, índice PDF 57, página impressa 58.",
     "TRF3, mesmo Edital 01/2023, Técnico Judiciário — Apoio Especializado — Especialidade Informática, Conhecimentos Gerais, Matemática, item 9, redação acima",
@@ -19,6 +22,7 @@ export default {
     "bloco comum dos Analistas, índice PDF 57, página impressa 58."
   ],
   "sourceRefs": [
+    "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT11",
     "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
     "MATRIZ-1-1-B-C1-D1",
     "CHECKPOINT-E9",
