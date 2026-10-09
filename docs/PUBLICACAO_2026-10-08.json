@@ -736,7 +736,7 @@
     }
   ],
   "tests": "typecheck, lint, 18 tests, production build passed; full source text equality 99/99; DP-009 secondary preserved",
-  "deploy": "pending; branch only until all validated batches are published",
+  "deploy": "published and verified",
   "integratedIds": [
     "EST-001",
     "EST-002",
@@ -838,6 +838,31 @@
     "LP-009",
     "LP-008"
   ],
-  "pendingIds": [],
-  "batch": 10
+  "pendingIds": [
+    "GSTI-004",
+    "GSTI-001",
+    "GSTI-002",
+    "RED-001",
+    "SI-001",
+    "LP-001",
+    "LP-002"
+  ],
+  "batch": 10,
+  "functionalCommit": "249477c72a9c4a92307d505812191d3811cfcbbc",
+  "deployCommit": "a0916eed000b40428c29ea2edfe78c2ee4a5e49f",
+  "workflowRun": 37878346769,
+  "verifiedAt": "2026-10-09T00:14:00-03:00",
+  "publicUrl": "https://andertrunks.github.io/tribunais-estudos-2026/#/",
+  "publicVerification": {
+    "catalog": "40 matérias, 311 assuntos, 290 aulas exibidas no catálogo",
+    "routes": {
+      "EST-001": "rendered; 74799 body chars; full lesson marker present",
+      "DPP-034": "rendered; 87418 body chars",
+      "LP-021": "rendered; 39490 body chars",
+      "BD-012": "rendered; 49037 body chars",
+      "DP-009": "rendered; 57147 body chars; secondary version preserved"
+    },
+    "errors": "none in verified routes"
+  },
+  "nextExactAction": "Reaudit the seven deferred Drive documents (GSTI-004, GSTI-001, GSTI-002, RED-001, SI-001, LP-001, LP-002); publish only the first whose editorial status and inline-media handling are complete, preserving its ID and full text, then run typecheck, lint, tests and production build."
 }
