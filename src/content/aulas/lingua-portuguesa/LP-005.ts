@@ -18,9 +18,13 @@ export default {
     "trt15_aj_adm",
     "trt15_tj_adm",
     "trt15_aj_ti",
-    "trt15_tj_ti"
+    "trt15_tj_ti",
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
   ],
   "editalRefs": [
+    "Central de Estudos / PORT-002 — CRBIO01-2026-ATI — Semântica: sinônimos e antônimos, conforme MATRIZ_EDITAIS canônica.",
+    "Central de Estudos / PORT-002 — SETEC-2026-ATI — Semântica: sinônimos e antônimos, conforme MATRIZ_EDITAIS canônica.",
     "TJ-SP / VUNESP — Edital de Abertura nº 02/2025 — TJSP2503 — Escrevente Técnico Judiciário — Anexo VI, Bloco I, Língua Portuguesa, item 6: “Sinônimos e antônimos”.",
     "TRF3 / VUNESP — Edital nº 01/2023 — Conhecimentos Gerais, Língua Portuguesa: “Sinônimos e antônimos”, aplicável aos cargos-alvo daquele certame, entre eles Analista Administrativo e cargos de TI auditados pelo projeto.",
     "TRF3 / FCC — Edital nº 01/2024 — Anexo VI, Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Sinonímia e antonímia”, incluindo Técnico Judiciário – Área Administrativa.",
@@ -28,6 +32,8 @@ export default {
     "TRT-15 / FCC — Edital nº 01/2024 — Anexo III, Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Sinonímia e antonímia”."
   ],
   "sourceRefs": [
+    "SRC-CRBIO01-EDITAL-001 — edital P1 ativo do CRBio-01.",
+    "SRC-SETEC-EDITAL-001 — edital P1 ativo da SETEC.",
     "TJ-SP/VUNESP — Edital nº 02/2025, TJSP2503, Anexo VI.",
     "TRF3 — Edital nº 01/2023, publicado em 03/07/2023, banca VUNESP.",
     "TRF3 — Edital nº 01/2024, publicado em 18/04/2024, banca FCC.",
@@ -36,7 +42,8 @@ export default {
     "LP-004 — Significação contextual de palavras e expressões.",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "LP-005",
   "tipo": "oficial",
   "demonstracao": false,
