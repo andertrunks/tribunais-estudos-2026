@@ -10,8 +10,8 @@ export default {
     "trf3_tj_ti"
   ],
   "editalRefs": [
-    "TRF3 — Edital nº 01/2023 — Analista Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão e Governança de TI — item 2.3 COBIT 2019",
-    "TRF3 — Edital nº 01/2023 — Técnico Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão de Projetos, Gerenciamento de Serviços e Governança — item 8.3 Noções de COBIT 2019"
+    "D2.AJTI.02.3 — TRF3/2023 — COBIT 2019",
+    "TRF3/2023 — Técnico Judiciário – Especialidade Informática — item 8.3 Noções de COBIT 2019"
   ],
   "sourceRefs": [
     "TRF3 — Edital nº 01/2023, PDF oficial indexado",
@@ -22,7 +22,8 @@ export default {
     "GSTI-001",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado — gate editorial E52 — vínculo D2.AJTI.02.3 homologado",
   "topicoId": "GSTI-002",
   "tipo": "oficial",
   "demonstracao": false,

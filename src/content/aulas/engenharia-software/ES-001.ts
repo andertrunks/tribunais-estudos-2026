@@ -5,18 +5,29 @@ export default {
   "id": "ES-001",
   "titulo": "ES-001 — Fundamentos de Engenharia de Software e ciclo de vida: produto, processo, requisitos, desenvolvimento, testes, implantação e manutenção",
   "materiaId": "engenharia-software",
-  "cargoIds": [],
-  "editalRefs": [],
-  "sourceRefs": [
-    "IEEE Computer Society — SWEBOK (Software Engineering Body of Knowledge), referência conceitual",
-    "ISO/IEC/IEEE 12207 — processos de ciclo de vida de software, apenas como referência estrutural a ser aprofundada em aula própria",
-    "MATRIZ_INICIAL_MATERIAS.md",
-    "CHECKPOINT — Produção intercalada de matérias",
-    "relatório consolidado dos editais judiciais, somente como mapa secundário."
+  "cargoIds": [
+    "trf3_aj_ti"
   ],
-  "status": "em_producao",
+  "editalRefs": [
+    "D2.AJTI.01.7 — TRF3/2023 — Engenharia de Software"
+  ],
+  "sourceRefs": [
+    "SRC-TRF3-2023",
+    "IEEE Computer Society — SWEBOK Guide V4.0a, referência conceitual atual",
+    "ISO/IEC/IEEE 12207:2026, referência estrutural internacional atual de processos do ciclo de vida",
+    "ES-002",
+    "ES-003",
+    "ES-004",
+    "ES-005",
+    "ES-006",
+    "AUDITORIA-1-1-D2.AJTI.01.7",
+    "CHECKPOINT-E47",
+    "E48."
+  ],
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado — gate editorial E48 — vínculo D2.AJTI.01.7 homologado",
   "topicoId": "ES-001",
-  "tipo": "compartilhado",
+  "tipo": "oficial",
   "demonstracao": false,
   "secoes": [],
   "extensoes": [],

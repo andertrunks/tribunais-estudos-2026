@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
-  "data": "2026-10-09",
-  "total": 291,
+  "data": "2026-10-13",
+  "total": 295,
   "materias": 40,
   "aulas": [
     {
@@ -522,111 +522,6 @@
       "caracteres": 32917,
       "sha256Texto": "bfbe6e9f9ded33004e3a161c8c8a930e0b7a716729e298e1c469fad767c212e8",
       "sha256Documento": "587ed07bb43713d1d47d2c9a5c7650b2cc73900ce96a4bb7834b689c5e2736ff"
-    },
-    {
-      "id": "GSTI-004",
-      "titulo": "GSTI-004 — Gerenciamento de projetos: projeto, programa, portfólio, ciclo de vida, restrições, partes interessadas, governança e abordagens preditiva, adaptativa e híbrida — fundamentos",
-      "materiaId": "governanca-servicos-projetos-ti",
-      "cargoIds": [
-        "trf3_tj_ti"
-      ],
-      "editalRefs": [
-        "TRF3 — Edital nº 01/2023 — Técnico Judiciário – Área Apoio Especializado – Especialidade Informática — bloco “Gestão de Projetos, Gerenciamento de Serviços e Governança” — Gestão de Projetos"
-      ],
-      "sourceRefs": [
-        "TRF3 — Edital nº 01/2023 e página oficial do concurso",
-        "PMI — Standards & Publications",
-        "PMI — PMBOK Guide, edição corrente",
-        "PMI — Lexicon of Project Management Terms",
-        "GSTI-001 — Fundamentos de Governança e Gestão de TI",
-        "GSTI-002 — COBIT 2019",
-        "GSTI-003 — ITIL 4",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "em_producao",
-      "topicoId": "GSTI-004",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-004.json",
-      "materiaEditorial": "Governança, Serviços e Projetos de TI",
-      "classificacaoEditorial": "núcleo técnico consolidado — gerenciamento de projetos — fundamentos independentes de edição específica do PMBOK",
-      "documentoUrl": "https://docs.google.com/document/d/1m-Qv7gJLtxd_hF9CKY5BL1NjpXMlplBaNI_-neJDgJs/edit?usp=drivesdk",
-      "caracteres": 39523,
-      "sha256Texto": "b00f135db880d1b83453303dfdc6589c10efb624bddde7cfa88742f0c3ea4db6",
-      "sha256Documento": "c8c6b83c02fc05890f7a917fac8d6ce2b4db4c2cbd2b510ae9d84ae2ae96cf24"
-    },
-    {
-      "id": "GSTI-003",
-      "titulo": "GSTI-003 — ITIL 4: conceitos de serviço e valor, Service Value System (SVS), princípios orientadores, quatro dimensões, Service Value Chain e práticas — fundamentos",
-      "materiaId": "governanca-servicos-projetos-ti",
-      "cargoIds": [
-        "trf3_aj_ti",
-        "trf3_tj_ti"
-      ],
-      "editalRefs": [
-        "TRF3 — Edital nº 01/2023 — Analista Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão e Governança de TI — item 2.2 ITIL v4",
-        "TRF3 — Edital nº 01/2023 — Técnico Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão de Projetos, Gerenciamento de Serviços e Governança — item 8.2 Noções de ITIL V4"
-      ],
-      "sourceRefs": [
-        "TRF3 — Edital nº 01/2023 e página oficial de editais/retificações do concurso 2023",
-        "PeopleCert — ITIL 4 Foundation",
-        "PeopleCert — materiais oficiais sobre Service Value System, guiding principles, four dimensions e Service Value Chain",
-        "PeopleCert — ITIL 4 Management Practices e Practice Guides",
-        "GSTI-001",
-        "GSTI-002",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "concluido",
-      "statusEditorialOriginal": "concluido — auditoria incremental TI-GOV-001-03",
-      "topicoId": "GSTI-003",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-003.json",
-      "materiaEditorial": "Governança, Serviços e Projetos de TI",
-      "classificacaoEditorial": "núcleo técnico consolidado — gerenciamento de serviços — ITIL 4",
-      "documentoUrl": "https://docs.google.com/document/d/1pEFrTaXhZQbyzEHFiYLJ57TR8uW9sHGtWx7Fl37WFWA/edit?usp=drivesdk",
-      "caracteres": 48630,
-      "sha256Texto": "0a3e286f6c442efbdb356586a4af58a0baf702dc9745e8d1c22bae7483805e47",
-      "sha256Documento": "73c04fd85cdf8957cca640ca61465021639d5ec84abefd8fc2ff750a51dd21d2"
-    },
-    {
-      "id": "GSTI-002",
-      "titulo": "GSTI-002 — COBIT 2019: governança e gestão, Core Model, objetivos, componentes, cascata de metas e fatores de desenho",
-      "materiaId": "governanca-servicos-projetos-ti",
-      "cargoIds": [
-        "trf3_aj_ti",
-        "trf3_tj_ti"
-      ],
-      "editalRefs": [
-        "TRF3 — Edital nº 01/2023 — Analista Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão e Governança de TI — item 2.3 COBIT 2019",
-        "TRF3 — Edital nº 01/2023 — Técnico Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão de Projetos, Gerenciamento de Serviços e Governança — item 8.3 Noções de COBIT 2019"
-      ],
-      "sourceRefs": [
-        "TRF3 — Edital nº 01/2023, PDF oficial indexado",
-        "ISACA — COBIT 2019 Framework: Introduction and Methodology",
-        "ISACA — COBIT 2019 Framework: Governance and Management Objectives",
-        "ISACA — COBIT Design Guide e materiais oficiais sobre design factors",
-        "prova objetiva oficial VUNESP/TRF3 2023 — Técnico Judiciário – Especialidade Informática, questão 37, e gabarito oficial",
-        "GSTI-001",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "em_producao",
-      "topicoId": "GSTI-002",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-002.json",
-      "materiaEditorial": "Governança, Serviços e Projetos de TI",
-      "classificacaoEditorial": "núcleo técnico consolidado — COBIT 2019",
-      "documentoUrl": "https://docs.google.com/document/d/13Ulq3BD55mVdBBJutdq4yJR67hqcLtykDBm0bjr_Few/edit?usp=drivesdk",
-      "caracteres": 32385,
-      "sha256Texto": "46226d199929b97bb04870e275670f5a55e50594cdaaa62020ad5b42ae14c95b",
-      "sha256Documento": "40606d3805ad00c80d58df6ebde1e72c062f802d890f164072ac41d100717137"
     },
     {
       "id": "GSTI-001",
@@ -2117,33 +2012,6 @@
       "sha256Documento": "4bb82b37fae0c1aa2e0c50f86c7df36c294a87e00808ffebb8dcee61404e70e1"
     },
     {
-      "id": "ES-001",
-      "titulo": "ES-001 — Fundamentos de Engenharia de Software e ciclo de vida: produto, processo, requisitos, desenvolvimento, testes, implantação e manutenção",
-      "materiaId": "engenharia-software",
-      "cargoIds": [],
-      "editalRefs": [],
-      "sourceRefs": [
-        "IEEE Computer Society — SWEBOK (Software Engineering Body of Knowledge), referência conceitual",
-        "ISO/IEC/IEEE 12207 — processos de ciclo de vida de software, apenas como referência estrutural a ser aprofundada em aula própria",
-        "MATRIZ_INICIAL_MATERIAS.md",
-        "CHECKPOINT — Produção intercalada de matérias",
-        "relatório consolidado dos editais judiciais, somente como mapa secundário."
-      ],
-      "status": "em_producao",
-      "topicoId": "ES-001",
-      "tipo": "compartilhado",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "engenharia-software/ES-001.json",
-      "materiaEditorial": "Engenharia de Software",
-      "classificacaoEditorial": "núcleo técnico consolidado de TI",
-      "documentoUrl": "https://docs.google.com/document/d/1RVjt3ZyOZQXJI3DrIfpt8R40DRL2Wi8kuKMoTRhVbDc/edit?usp=drivesdk",
-      "caracteres": 32357,
-      "sha256Texto": "584eaf8df2265a426bf9448c56ee1cee0be9752ec7e030b56fea78eb7e11af53",
-      "sha256Documento": "475a460a2fff2922fff9648c486de70c9142c2000cd1c1516d44bec74c672799"
-    },
-    {
       "id": "SCJ-004",
       "titulo": "SCJ-004 — Direitos e vantagens: vencimento, remuneração, indenizações, gratificações e adicionais na Lei nº 8.112/1990",
       "materiaId": "servidores-carreira",
@@ -2423,60 +2291,6 @@
       "caracteres": 30734,
       "sha256Texto": "f8f94786fdfec4b2ab3af3cf6524ac598e5bc4389a9214213a8fc287300930e2",
       "sha256Documento": "ceb0c0455396495191e0c8358b9c97a0fb48e43c31559898e1ccd79439f19cc2"
-    },
-    {
-      "id": "PW-003",
-      "titulo": "PW-003 — CSS: seletores, cascata, especificidade, box model, unidades, layout e responsividade",
-      "materiaId": "programacao-web",
-      "cargoIds": [],
-      "editalRefs": [],
-      "sourceRefs": [
-        "MDN Web Docs — CSS, Cascade, Specificity, Box Model, Flexbox, Grid e Media Queries",
-        "W3C/CSS Working Group — especificações CSS",
-        "PW-001",
-        "PW-002",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "em_producao",
-      "topicoId": "PW-003",
-      "tipo": "compartilhado",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "programacao-web/PW-003.json",
-      "materiaEditorial": "Programação e Web",
-      "classificacaoEditorial": "núcleo técnico consolidado de TI",
-      "documentoUrl": "https://docs.google.com/document/d/1qH_yZ2kArmMQUakDKMnIQJWAecbzXszLlzJgO_Y5iyw/edit?usp=drivesdk",
-      "caracteres": 30217,
-      "sha256Texto": "f9d09f771f3e21848d7a50a763874d51f9a7d64a2a2482f4e6158df6abbfdd10",
-      "sha256Documento": "8ab52837916bf3bd653ad075eb60612eb6e9d3d517984178cfc86d508014ec48"
-    },
-    {
-      "id": "PW-002",
-      "titulo": "PW-002 — HTML: estrutura semântica, elementos, atributos, formulários e acessibilidade",
-      "materiaId": "programacao-web",
-      "cargoIds": [],
-      "editalRefs": [],
-      "sourceRefs": [
-        "WHATWG HTML Living Standard",
-        "W3C Web Accessibility Initiative (WAI) — Accessibility Principles, Forms Tutorial, Labeling Controls, Images Tutorial e Developing for Web Accessibility",
-        "MDN Web Docs — Semantic HTML, Forms and buttons in HTML, Accessibility e elementos HTML",
-        "PW-001",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "em_producao",
-      "topicoId": "PW-002",
-      "tipo": "compartilhado",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "programacao-web/PW-002.json",
-      "materiaEditorial": "Programação e Web",
-      "classificacaoEditorial": "núcleo técnico consolidado de TI",
-      "documentoUrl": "https://docs.google.com/document/d/1PUp8LMhvtnFNEUAsnyWFs_b7JkuqO0OeXRbO1fwE9q8/edit?usp=drivesdk",
-      "caracteres": 31100,
-      "sha256Texto": "da4b3d3b4a8cf8cd369cc7679c13321af3be012022c84950405dc9519b25cf19",
-      "sha256Documento": "32a74489ee55d728bd263d952e82459546d60772378ea9d5d4e1c777085112ab"
     },
     {
       "id": "PW-001",
@@ -10648,6 +10462,370 @@
       "caracteres": 27125,
       "sha256Texto": "4572a490f17cfd17c6a258f77b7de33320527b13211f0675a59c04c6b0b511f9",
       "sha256Documento": "04d05db5354be9feda512995e40bd4828d6f578f0c9fa2ada3ceef2a3cab5889"
+    },
+    {
+      "id": "PW-003",
+      "titulo": "PW-003 — CSS: seletores, cascata, especificidade, box model, unidades, layout e responsividade",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.2 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Aplicações web/mobile: CSS3"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "MDN Web Docs — CSS, Cascade, Specificity, Box Model, Flexbox, Grid e Media Queries",
+        "W3C/CSS Working Group — especificações CSS",
+        "PW-001",
+        "PW-002",
+        "CHECKPOINT-E58",
+        "E59"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E59 — vínculo D2.AJTI.05.1.2 homologado",
+      "topicoId": "PW-003",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-003.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI",
+      "documentoUrl": "https://docs.google.com/document/d/1qH_yZ2kArmMQUakDKMnIQJWAecbzXszLlzJgO_Y5iyw/edit?usp=drivesdk",
+      "caracteres": 31308,
+      "sha256Texto": "6ecc71d5a9defcf86b83717e80f3e1ccaeec75084028de471dd9f2d361bd4628",
+      "sha256Documento": "40be73ff86bc6f7337dcde75f6405f7c0cc6cc79d51f85aa06e6079e11531550"
+    },
+    {
+      "id": "PW-002",
+      "titulo": "PW-002 — HTML: estrutura semântica, elementos, atributos, formulários e acessibilidade",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.1 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Desenvolvimento de aplicações web e mobile > Linguagens, tecnologias, bibliotecas e frameworks > HTML5"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023 — Edital de Abertura de Inscrições nº 01/2023, Fundação VUNESP, item 5.1.1, HTML5",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "E58",
+        "WHATWG HTML Living Standard",
+        "W3C Web Accessibility Initiative (WAI) — Accessibility Principles, Forms Tutorial, Labeling Controls, Images Tutorial e Developing for Web Accessibility",
+        "MDN Web Docs — Semantic HTML, Forms and buttons in HTML, Accessibility e elementos HTML",
+        "PW-001",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E58 — vínculo D2.AJTI.05.1.1 homologado",
+      "topicoId": "PW-002",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-002.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI",
+      "documentoUrl": "https://docs.google.com/document/d/1PUp8LMhvtnFNEUAsnyWFs_b7JkuqO0OeXRbO1fwE9q8/edit?usp=drivesdk",
+      "caracteres": 32656,
+      "sha256Texto": "a9be84bea5904f781b47a8b343e419ccdc18c67c5dc71f181a2e174c0f779d51",
+      "sha256Documento": "f1b805a6a88171a0c6e8828249072d15769117f530452ed0270fa276507d3526"
+    },
+    {
+      "id": "PRG-001",
+      "titulo": "PRG-001 — Fundamentos de programação e programação estruturada: lógica, estruturas de controle, decomposição e modularidade — núcleo geral",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.03.1 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Fundamentos de programação: lógica, operadores/expressões e estruturas de controle de seleção, repetição e desvio",
+        "D2.AJTI.03.2.2 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Fundamentos de programação: paradigma de programação estruturada"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "AUDITORIA-1-1-D2.AJTI.03",
+        "PW-004",
+        "PRG-002",
+        "CHECKPOINT-E53",
+        "CHECKPOINT-E55",
+        "E54",
+        "E56"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gates editoriais E54/E56 — vínculos D2.AJTI.03.1 e D2.AJTI.03.2.2 homologados",
+      "topicoId": "PRG-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PRG-001.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "núcleo técnico-pedagógico consolidado — fundamentos de programação independentes de linguagem",
+      "documentoUrl": "https://docs.google.com/document/d/1i33c7w0_PbAVeYtwreOvOc8ay6NduZAsTFY5fOgK7aM/edit?usp=drivesdk",
+      "caracteres": 57306,
+      "sha256Texto": "018bdf8d098a8f40fa69b7b837f5f84772cf74a5e011162dacb811ab8beda936",
+      "sha256Documento": "a6e112397ad2ffa6a435fc3b95de8550fd4603bc97776221855ec2bede32df1d"
+    },
+    {
+      "id": "PRG-002",
+      "titulo": "PRG-002 — Orientação a Objetos: classes, objetos, encapsulamento, herança, polimorfismo, abstração e composição",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.03.2.1 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Fundamentos de programação: paradigma de orientação a objetos"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "AUDITORIA-1-1-D2.AJTI.03",
+        "PRG-001",
+        "ES-004",
+        "FCC-TRT15-2023-AJTI-PROVA-Q59",
+        "FCC-TRT15-2023-AJTI-GABARITO-Q59",
+        "CHECKPOINT-E54",
+        "E55"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E55 — vínculo D2.AJTI.03.2.1 homologado",
+      "topicoId": "PRG-002",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PRG-002.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "núcleo técnico-pedagógico consolidado — paradigma de orientação a objetos",
+      "documentoUrl": "https://docs.google.com/document/d/1j6_hd6gqsJPPsQk-NUSM0fFzt44GGdMirCqRCwfdf2U/edit?usp=drivesdk",
+      "caracteres": 26904,
+      "sha256Texto": "8efb5c34f473ab7adc5e7a35c9cdb5966a172b2f2435d246a22999fc7d18fdd3",
+      "sha256Documento": "04a9aeaf069a9e82fb6db9c19a7564d334476ea9f79a14670203773bd4c9486d"
+    },
+    {
+      "id": "GSTI-006",
+      "titulo": "GSTI-006 — Resolução CNJ nº 370/2021 — ENTIC-JUD: governança, planejamento, iGovTIC-JUD, transformação digital, serviços, riscos e acompanhamento",
+      "materiaId": "governanca-servicos-projetos-ti",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.02.4 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Resolução CNJ nº 370/2021"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "CNJ-RES-370-2021-COMPILADA",
+        "CNJ-RES-396-2021",
+        "CNJ-IGOVTIC-JUD",
+        "AUDITORIA-1-1-D2.AJTI.02.4",
+        "CHECKPOINT-E52",
+        "E53"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E53 — vínculo D2.AJTI.02.4 homologado",
+      "topicoId": "GSTI-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-006.json",
+      "materiaEditorial": "Governança, Serviços e Projetos de TI",
+      "classificacaoEditorial": "núcleo normativo consolidado — governança e gestão de TIC no Poder Judiciário",
+      "documentoUrl": "https://docs.google.com/document/d/18yy9wT7ijxQY1U_XhQ6f8bQFbuN-zI8tlyXBUsXaVS0/edit?usp=drivesdk",
+      "caracteres": 33203,
+      "sha256Texto": "18afee718f11fc6d00baae9fc9c18e2e15262fcb11337d4020bab2ae93b68373",
+      "sha256Documento": "6b0f19c3ff560a0e017595ce73dc5ce7c1305cbee3aeb7762ddc0abf48c767ef"
+    },
+    {
+      "id": "GSTI-002",
+      "titulo": "GSTI-002 — COBIT 2019: governança e gestão, Core Model, objetivos, componentes, cascata de metas e fatores de desenho",
+      "materiaId": "governanca-servicos-projetos-ti",
+      "cargoIds": [
+        "trf3_aj_ti",
+        "trf3_tj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.02.3 — TRF3/2023 — COBIT 2019",
+        "TRF3/2023 — Técnico Judiciário – Especialidade Informática — item 8.3 Noções de COBIT 2019"
+      ],
+      "sourceRefs": [
+        "TRF3 — Edital nº 01/2023, PDF oficial indexado",
+        "ISACA — COBIT 2019 Framework: Introduction and Methodology",
+        "ISACA — COBIT 2019 Framework: Governance and Management Objectives",
+        "ISACA — COBIT Design Guide e materiais oficiais sobre design factors",
+        "prova objetiva oficial VUNESP/TRF3 2023 — Técnico Judiciário – Especialidade Informática, questão 37, e gabarito oficial",
+        "GSTI-001",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E52 — vínculo D2.AJTI.02.3 homologado",
+      "topicoId": "GSTI-002",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-002.json",
+      "materiaEditorial": "Governança, Serviços e Projetos de TI",
+      "classificacaoEditorial": "núcleo técnico consolidado — COBIT 2019",
+      "documentoUrl": "https://docs.google.com/document/d/13Ulq3BD55mVdBBJutdq4yJR67hqcLtykDBm0bjr_Few/edit?usp=drivesdk",
+      "caracteres": 40154,
+      "sha256Texto": "71b933f6eb2bfb3266ad821cccdc9d1eac68e40945a9e6e1b93585a8935b9862",
+      "sha256Documento": "8c3a1eba884878cf227b50443558578296a13cddc650d0bd9b0884e0d35426da"
+    },
+    {
+      "id": "GSTI-003",
+      "titulo": "GSTI-003 — ITIL 4: conceitos de serviço e valor, Service Value System (SVS), princípios orientadores, quatro dimensões, Service Value Chain e práticas — fundamentos",
+      "materiaId": "governanca-servicos-projetos-ti",
+      "cargoIds": [
+        "trf3_aj_ti",
+        "trf3_tj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital nº 01/2023 — Analista Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão e Governança de TI — item 2.2 ITIL v4",
+        "TRF3 — Edital nº 01/2023 — Técnico Judiciário – Área Apoio Especializado – Especialidade Informática — Gestão de Projetos, Gerenciamento de Serviços e Governança — item 8.2 Noções de ITIL V4"
+      ],
+      "sourceRefs": [
+        "TRF3 — Edital nº 01/2023 e página oficial de editais/retificações do concurso 2023",
+        "PeopleCert — ITIL 4 Foundation",
+        "PeopleCert — materiais oficiais sobre Service Value System, guiding principles, four dimensions e Service Value Chain",
+        "PeopleCert — ITIL 4 Management Practices e Practice Guides",
+        "PeopleCert — ITIL FAQ/Version 5 transition — ITIL 4 disponível até sunset planejado em 31/12/2027",
+        "GSTI-001",
+        "GSTI-002",
+        "GSTI-005",
+        "AUDITORIA-1-1-D2.AJTI.02.2",
+        "CHECKPOINT-E50",
+        "E51."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E51 — vínculo D2.AJTI.02.2 homologado",
+      "topicoId": "GSTI-003",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-003.json",
+      "materiaEditorial": "Governança, Serviços e Projetos de TI",
+      "classificacaoEditorial": "núcleo técnico consolidado — gerenciamento de serviços — ITIL 4",
+      "documentoUrl": "https://docs.google.com/document/d/1pEFrTaXhZQbyzEHFiYLJ57TR8uW9sHGtWx7Fl37WFWA/edit?usp=drivesdk",
+      "caracteres": 51100,
+      "sha256Texto": "8f0e5155e05dbc7e1676d95e0afaa8354f586b646db0bc92afb7d076b4ee914e",
+      "sha256Documento": "78c0a60b5157cc647490559c9e7f50f66cc7d7e0be8df249d7e4cf679efe2838"
+    },
+    {
+      "id": "GSTI-004",
+      "titulo": "GSTI-004 — Gerenciamento de projetos: projeto, programa, portfólio, ciclo de vida, restrições, partes interessadas, governança e abordagens preditiva, adaptativa e híbrida — fundamentos",
+      "materiaId": "governanca-servicos-projetos-ti",
+      "cargoIds": [
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital nº 01/2023 — Técnico Judiciário, Apoio Especializado, Informática — item 8.1: Noções de PMBOK 6ª Edição",
+        "D2.AJTI.02.1 — TRF3/2023 — Analista Judiciário, Apoio Especializado, Informática — PMBOK 6ª Edição"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "Fundação VUNESP/TRF3 — Edital de Abertura nº 01/2023, Anexo II, Técnico Informática item 8.1 e Analista Informática item 2.1",
+        "PMI — A Guide to the Project Management Body of Knowledge, Sixth Edition",
+        "PMI — Errata, Sixth Edition, Fourth Printing",
+        "PMI — PMBOK Guide Eighth Edition, apenas contexto de mercado atual em 11/10/2026",
+        "PMI — Lexicon of Project Management Terms",
+        "GSTI-001",
+        "GSTI-002",
+        "GSTI-003",
+        "AUDITORIA-1-1-D2.AJTI.02.1",
+        "CHECKPOINT-E49",
+        "E50."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E50 — vínculo D2.AJTI.02.1 homologado",
+      "topicoId": "GSTI-004",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-004.json",
+      "materiaEditorial": "Governança, Serviços e Projetos de TI",
+      "classificacaoEditorial": "núcleo técnico consolidado — fundamentos compartilhados e extensão formal PMBOK 6ª edição",
+      "documentoUrl": "https://docs.google.com/document/d/1m-Qv7gJLtxd_hF9CKY5BL1NjpXMlplBaNI_-neJDgJs/edit?usp=drivesdk",
+      "caracteres": 58330,
+      "sha256Texto": "aca979bfb495911825e329b8fd2556a383edcccd42142a126b4273d95e995a23",
+      "sha256Documento": "9599552f0e4ba1e6c971ead7e3f7d197d197883b99ebb71ab0ffca37c3e6b6a9"
+    },
+    {
+      "id": "ES-007",
+      "titulo": "ES-007 — Low-code e no-code: conceitos, diferenças, plataformas, governança, riscos e ciclo de vida",
+      "materiaId": "engenharia-software",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.01.8 — TRF3/2023 — low-code/no-code"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "MICROSOFT-LOWCODE-NOCODE-2026",
+        "ORACLE-APEX-LOWCODE-2026",
+        "ES-001",
+        "AUDITORIA-1-1-D2.AJTI.01.8",
+        "CHECKPOINT-E48",
+        "E49"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E49 — vínculo D2.AJTI.01.8 homologado",
+      "topicoId": "ES-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "engenharia-software/ES-007.json",
+      "materiaEditorial": "Engenharia de Software",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI — low-code/no-code",
+      "documentoUrl": "https://docs.google.com/document/d/1OuRJwhffNxvciV2ZyuXEXXgo6uGvab8DfwY2_iOoB3Q/edit?usp=drivesdk",
+      "caracteres": 26751,
+      "sha256Texto": "7996341952267143ae91869aa01d9eae35905c18783ebb76d00288a6d3ed8e08",
+      "sha256Documento": "0b0129339be06bc1f059af61065dc85e27f07c98e7ebab7a1ed857e17507e5c2"
+    },
+    {
+      "id": "ES-001",
+      "titulo": "ES-001 — Fundamentos de Engenharia de Software e ciclo de vida: produto, processo, requisitos, desenvolvimento, testes, implantação e manutenção",
+      "materiaId": "engenharia-software",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.01.7 — TRF3/2023 — Engenharia de Software"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "IEEE Computer Society — SWEBOK Guide V4.0a, referência conceitual atual",
+        "ISO/IEC/IEEE 12207:2026, referência estrutural internacional atual de processos do ciclo de vida",
+        "ES-002",
+        "ES-003",
+        "ES-004",
+        "ES-005",
+        "ES-006",
+        "AUDITORIA-1-1-D2.AJTI.01.7",
+        "CHECKPOINT-E47",
+        "E48."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E48 — vínculo D2.AJTI.01.7 homologado",
+      "topicoId": "ES-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "engenharia-software/ES-001.json",
+      "materiaEditorial": "Engenharia de Software",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI",
+      "documentoUrl": "https://docs.google.com/document/d/1RVjt3ZyOZQXJI3DrIfpt8R40DRL2Wi8kuKMoTRhVbDc/edit?usp=drivesdk",
+      "caracteres": 33590,
+      "sha256Texto": "8be051d561d33a2e3eb28ead56548c89bada39a34b2ffe9396339fe4edd35e8b",
+      "sha256Documento": "a9ef0aab614e768a3a8f94fd777a47f7bc9a2cc80a5206ffcc1c7c5bb513939b"
     }
   ]
 }
