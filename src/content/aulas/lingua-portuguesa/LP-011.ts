@@ -8,6 +8,9 @@ export default {
   "cargoIds": [
     "tjsp_escrevente",
     "trf3_tj_adm",
+    "trf3_aj_adm",
+    "trf3_aj_ti",
+    "trf3_tj_ti",
     "tresp_aj_adm",
     "tresp_tj_adm",
     "tresp_aj_ti",
@@ -17,10 +20,19 @@ export default {
     "trt15_aj_adm",
     "trt15_tj_adm",
     "trt15_aj_ti",
-    "trt15_tj_ti"
+    "trt15_tj_ti",
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
   ],
   "editalRefs": [
+    "CRBIO01-2026-ATI — PORT-005-05: preposições no item de classes de palavras",
+    "reutilização da LP-011 sem duplicar teoria.",
+    "SETEC-2026-ATI — PORT-005-05: preposições no item de classes de palavras",
+    "reutilização da LP-011 sem duplicar teoria.",
     "TJ-SP / VUNESP — fonte canônica SRC-TJSP-2025 — Língua Portuguesa: classes de palavras, com menção expressa a preposição, seu emprego e o sentido das relações que estabelece.",
+    "TRF3 / VUNESP — SRC-TRF3-2023 — C1.TJTI.POR.05",
+    "AJADM.CG.01.05",
+    "D1.AJTI.POR.05 — item 5 de Língua Portuguesa, com menção expressa a preposição no conjunto de classes de palavras.",
     "TRF3 / Fundação Carlos Chagas — Edital nº 01/2024 — Língua Portuguesa: morfossintaxe e regência nominal e verbal. LP-011 cobre a classe preposição e sua interface introdutória com regência",
     "a regência completa permanece em material próprio.",
     "TSE / Cebraspe — CPNUJE/2024 — Conhecimentos Básicos, Língua Portuguesa, item 5.1: emprego das classes de palavras",
@@ -29,7 +41,11 @@ export default {
     "TRT-15 / Fundação Carlos Chagas — Edital nº 01/2024 — Língua Portuguesa: morfossintaxe e regência nominal e verbal."
   ],
   "sourceRefs": [
+    "SRC-CRBIO01-EDITAL-001.",
+    "SRC-SETEC-EDITAL-001.",
     "SRC-TJSP-2025 — edital oficial TJ-SP/VUNESP.",
+    "SRC-TRF3-2023 — Edital nº 01/2023/VUNESP — Anexo II, item 5 de Língua Portuguesa",
+    "Técnico Informática no PDF índice 48/página impressa 49 e Analistas Área Administrativa/Informática no PDF índice 57/página impressa 58.",
     "SRC-TRF3-2024 — edital oficial TRF3/FCC.",
     "SRC-TRE-2024 — CPNUJE/Cebraspe — edital e retificações.",
     "SRC-TRT2-2025 — edital oficial TRT-2/FCC.",

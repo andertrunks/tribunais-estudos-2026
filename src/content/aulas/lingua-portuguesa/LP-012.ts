@@ -8,6 +8,9 @@ export default {
   "cargoIds": [
     "tjsp_escrevente",
     "trf3_tj_adm",
+    "trf3_aj_adm",
+    "trf3_aj_ti",
+    "trf3_tj_ti",
     "tresp_aj_adm",
     "tresp_tj_adm",
     "tresp_aj_ti",
@@ -17,10 +20,17 @@ export default {
     "trt15_aj_adm",
     "trt15_tj_adm",
     "trt15_aj_ti",
-    "trt15_tj_ti"
+    "trt15_tj_ti",
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
   ],
   "editalRefs": [
+    "CRBio-01 / Quadrix — PORT-005 classes de palavras — recorte de conjunções",
+    "SETEC / INDEPAC — PORT-005 classes de palavras — recorte de conjunções",
     "TJ-SP / VUNESP — Edital de Abertura nº 02/2025 — TJSP2503 — Língua Portuguesa, item 8: classes de palavras, com menção expressa a conjunção, emprego e sentido nas relações que estabelece.",
+    "TRF3 / VUNESP — SRC-TRF3-2023 — C1.TJTI.POR.05",
+    "AJADM.CG.01.05",
+    "D1.AJTI.POR.05 — item 5 de Língua Portuguesa, com menção expressa a conjunção no conjunto de classes de palavras.",
     "TRF3 / Fundação Carlos Chagas — Edital nº 01/2024 — Língua Portuguesa: morfossintaxe, coordenação e subordinação e conectivos, conforme extração canônica já consolidada para trf3_tj_adm.",
     "TSE / Cebraspe — CPNUJE/2024 — Conhecimentos Básicos, Língua Portuguesa: emprego de conectores e outros elementos de sequenciação textual",
     "emprego das classes de palavras",
@@ -30,7 +40,11 @@ export default {
     "TRT-15 / Fundação Carlos Chagas — Edital nº 01/2024 — Língua Portuguesa: morfossintaxe e relações sintático-semânticas correlatas, no recorte documental já consolidado pelo projeto."
   ],
   "sourceRefs": [
+    "SRC-CRBIO01-EDITAL-001",
+    "SRC-SETEC-EDITAL-001",
     "SRC-TJSP-2025 — edital oficial TJ-SP/VUNESP.",
+    "SRC-TRF3-2023 — Edital nº 01/2023/VUNESP — Anexo II, item 5 de Língua Portuguesa",
+    "Técnico Informática no PDF índice 48/página impressa 49 e Analistas Área Administrativa/Informática no PDF índice 57/página impressa 58.",
     "SRC-TRF3-2024 — edital oficial TRF3/FCC.",
     "SRC-TRE-2024 — Edital nº 1–CPNUJE/2024 e retificações oficiais.",
     "SRC-TRT2-2025 — edital oficial TRT-2/FCC.",
