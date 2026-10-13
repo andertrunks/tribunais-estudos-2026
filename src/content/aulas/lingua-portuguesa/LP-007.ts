@@ -22,19 +22,30 @@ export default {
     "trt15_aj_adm",
     "trt15_tj_adm",
     "trt15_aj_ti",
-    "trt15_tj_ti"
+    "trt15_tj_ti",
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
   ],
   "editalRefs": [
+    "Central de Estudos / PORT-005-01 — CRBIO01-2026-ATI — Classes de palavras: substantivo, adjetivo, numeral e demais classes do escopo comum, conforme MATRIZ_EDITAIS canônica.",
+    "Central de Estudos / PORT-005-01 — SETEC-2026-ATI — Classes de palavras: substantivo, adjetivo, numeral e demais classes do escopo comum, conforme MATRIZ_EDITAIS canônica.",
     "TJ-SP / VUNESP — TJSP2503 — Língua Portuguesa, item 6: “Classes de palavras: emprego e sentido que imprimem às relações que estabelecem: substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição e conjunção”.",
     "TRF3 / VUNESP — Edital número 01/2023 — Língua Portuguesa, item 5, para os blocos que abrangem os cargos-alvo do certame: “Classes de palavras: substantivo, adjetivo, numeral, artigo, pronome, verbo, advérbio, preposição e conjunção: emprego e sentido que imprimem às relações que estabelecem”.",
+    "SRC-TRF3-2023 — C1.TJTI.POR.05",
+    "AJADM.CG.01.05",
+    "D1.AJTI.POR.05 — item 5 de Língua Portuguesa do Edital nº 01/2023/VUNESP.",
     "TRF3 / Fundação Carlos Chagas — Edital número 01/2024 — Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Morfossintaxe” e “Flexão nominal e flexão verbal”. Para o Técnico Judiciário – Área Administrativa, LP-007 é decomposição editorial do item amplo, e não transcrição literal de quatro classes enumeradas.",
     "TSE / Cebraspe — Edital número 1 do CPNUJE/2024, atualizado até a Retificação número 15 — Conhecimentos Básicos, Língua Portuguesa, item 5.1: “Emprego das classes de palavras”. LP-007 cobre quatro classes dentro desse item amplo.",
     "TRT-2 / Fundação Carlos Chagas — Edital número 01/2025 — Anexo II — Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Morfossintaxe” e “Flexão nominal e flexão verbal”. LP-007 é decomposição pedagógica do item amplo.",
     "TRT-15 / Fundação Carlos Chagas — Edital número 01/2024 — Anexo III — Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Morfossintaxe” e “Flexão nominal e flexão verbal”. LP-007 é decomposição pedagógica do item amplo."
   ],
   "sourceRefs": [
+    "SRC-CRBIO01-EDITAL-001 — edital P1 ativo do CRBio-01.",
+    "SRC-SETEC-EDITAL-001 — edital P1 ativo da SETEC.",
     "TJ-SP — TJSP2503 — edital oficial.",
     "Fundação VUNESP / TRF3 — Edital número 01/2023 — documento oficial fornecido e revalidado.",
+    "SRC-TRF3-2023 — Anexo II, item 5 de Língua Portuguesa",
+    "Técnico Informática no PDF índice 48/página impressa 49 e Analistas Área Administrativa/Informática no PDF índice 57/página impressa 58.",
     "TRF3 / Fundação Carlos Chagas — Edital número 01/2024.",
     "Tribunal Superior Eleitoral / Cebraspe — CPNUJE/2024 — Edital número 1 atualizado até a Retificação número 15.",
     "TRT-2 / Fundação Carlos Chagas — Edital número 01/2025 e retificações.",
@@ -44,6 +55,7 @@ export default {
     "CHECKPOINT — Produção intercalada de matérias."
   ],
   "status": "concluido",
+  "statusEditorialOriginal": "concluido",
   "topicoId": "LP-007",
   "tipo": "oficial",
   "demonstracao": false,

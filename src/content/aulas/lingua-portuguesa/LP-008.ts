@@ -8,6 +8,9 @@ export default {
   "cargoIds": [
     "tjsp_escrevente",
     "trf3_tj_adm",
+    "trf3_aj_adm",
+    "trf3_aj_ti",
+    "trf3_tj_ti",
     "tresp_aj_adm",
     "tresp_tj_adm",
     "tresp_aj_ti",
@@ -17,17 +20,28 @@ export default {
     "trt15_aj_adm",
     "trt15_tj_adm",
     "trt15_aj_ti",
-    "trt15_tj_ti"
+    "trt15_tj_ti",
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
   ],
   "editalRefs": [
+    "Central de Estudos / PORT-005-02 — CRBIO01-2026-ATI — classes de palavras: pronomes, emprego e relações de sentido, conforme MATRIZ_EDITAIS canônica.",
+    "Central de Estudos / PORT-005-02 — SETEC-2026-ATI — classes de palavras: pronomes, emprego e relações de sentido, conforme MATRIZ_EDITAIS canônica.",
     "TJ-SP / VUNESP — TJSP2503 — Língua Portuguesa: “Classes de palavras: emprego e sentido que imprimem às relações que estabelecem”, com menção expressa a pronome.",
+    "TRF3 / VUNESP — SRC-TRF3-2023 — C1.TJTI.POR.05",
+    "AJADM.CG.01.05",
+    "D1.AJTI.POR.05 — item 5 de Língua Portuguesa, com menção expressa a pronome no conjunto de classes de palavras.",
     "TRF3 / Fundação Carlos Chagas — Edital nº 01/2024 — Conhecimentos Gerais — Língua Portuguesa: “Morfossintaxe”, “Pronomes” e demais conteúdos gramaticais do bloco comum ao cargo trf3_tj_adm.",
     "TSE / Cebraspe — CPNUJE/2024 — Conhecimentos Básicos — Língua Portuguesa: emprego das classes de palavras e mecanismos de coesão textual, aplicáveis aos cargos-alvo do TRE-SP já consolidados na matriz.",
     "TRT-2 / Fundação Carlos Chagas — Edital nº 01/2025 — Anexo II — Língua Portuguesa: morfossintaxe e conteúdos correlatos, vinculados aos cargos administrativos canônicos.",
     "TRT-15 / Fundação Carlos Chagas — Edital nº 01/2024 — Anexo III — Língua Portuguesa: morfossintaxe e conteúdos correlatos, vinculados aos cargos administrativos e de TI canônicos."
   ],
   "sourceRefs": [
+    "SRC-CRBIO01-EDITAL-001 — edital P1 ativo do CRBio-01.",
+    "SRC-SETEC-EDITAL-001 — edital P1 ativo da SETEC.",
     "TJ-SP — TJSP2503 — edital oficial.",
+    "SRC-TRF3-2023 — Edital nº 01/2023/VUNESP — Anexo II, item 5 de Língua Portuguesa",
+    "Técnico Informática no PDF índice 48/página impressa 49 e Analistas Área Administrativa/Informática no PDF índice 57/página impressa 58.",
     "TRF3 / Fundação Carlos Chagas — Edital nº 01/2024.",
     "TSE / Cebraspe — CPNUJE/2024 — edital e prova oficial.",
     "TRT-2 / Fundação Carlos Chagas — Edital nº 01/2025.",

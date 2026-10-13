@@ -8,6 +8,9 @@ export default {
   "cargoIds": [
     "tjsp_escrevente",
     "trf3_tj_adm",
+    "trf3_aj_adm",
+    "trf3_aj_ti",
+    "trf3_tj_ti",
     "tresp_aj_adm",
     "tresp_tj_adm",
     "tresp_aj_ti",
@@ -17,17 +20,28 @@ export default {
     "trt15_aj_adm",
     "trt15_tj_adm",
     "trt15_aj_ti",
-    "trt15_tj_ti"
+    "trt15_tj_ti",
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
   ],
   "editalRefs": [
+    "CRBio-01 — Analista de Tecnologia da Informação — PORT-005-04 / advérbios no item de classes de palavras — SRC-CRBIO01-EDITAL-001.",
+    "SETEC — Analista Técnico (Informática) — PORT-005-04 / advérbios no item de classes de palavras — SRC-SETEC-EDITAL-001.",
     "TJ-SP / VUNESP — Edital nº 01/2024 — Anexo VI, Língua Portuguesa, item 8: classes de palavras, com menção expressa a advérbio, emprego e sentido nas relações que estabelece.",
+    "TRF3 / VUNESP — SRC-TRF3-2023 — C1.TJTI.POR.05",
+    "AJADM.CG.01.05",
+    "D1.AJTI.POR.05 — item 5 de Língua Portuguesa, com menção expressa a advérbio no conjunto de classes de palavras.",
     "TRF3 / Fundação Carlos Chagas — Edital nº 01/2024 — Língua Portuguesa: morfossintaxe. LP-010 é decomposição editorial do domínio amplo, sem transformar “advérbio” em item literalmente enumerado.",
     "TSE / Cebraspe — CPNUJE/2024 — Conhecimentos Básicos, Língua Portuguesa: emprego das classes de palavras.",
     "TRT-2 / Fundação Carlos Chagas — Edital nº 01/2025 — Língua Portuguesa: morfossintaxe. LP-010 é decomposição editorial do domínio amplo.",
     "TRT-15 / Fundação Carlos Chagas — Edital nº 01/2024 — Língua Portuguesa: morfossintaxe. LP-010 é decomposição editorial do domínio amplo."
   ],
   "sourceRefs": [
+    "SRC-CRBIO01-EDITAL-001.",
+    "SRC-SETEC-EDITAL-001.",
     "SRC-TJSP-2025 / edital oficial TJ-SP-VUNESP.",
+    "SRC-TRF3-2023 — Edital nº 01/2023/VUNESP — Anexo II, item 5 de Língua Portuguesa",
+    "Técnico Informática no PDF índice 48/página impressa 49 e Analistas Área Administrativa/Informática no PDF índice 57/página impressa 58.",
     "SRC-TRF3-2024 / edital oficial TRF3-FCC.",
     "SRC-TRE-2024 / edital e retificações do CPNUJE/Cebraspe.",
     "SRC-TRT2-2025 / edital oficial TRT-2-FCC.",

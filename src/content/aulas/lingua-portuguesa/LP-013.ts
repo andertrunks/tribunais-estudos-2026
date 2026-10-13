@@ -17,9 +17,13 @@ export default {
     "trt15_aj_adm",
     "trt15_tj_adm",
     "trt15_aj_ti",
-    "trt15_tj_ti"
+    "trt15_tj_ti",
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
   ],
   "editalRefs": [
+    "Central de Estudos / PORT-003 — CRBIO01-2026-ATI — Ortografia oficial e acentuação gráfica, conforme MATRIZ_EDITAIS canônica.",
+    "Central de Estudos / PORT-003 — SETEC-2026-ATI — Ortografia oficial e acentuação gráfica, conforme MATRIZ_EDITAIS canônica.",
     "TJ-SP / VUNESP — TJSP2503 — fonte canônica SRC-TJSP-2025 — linha formal da matriz: “Ortografia oficial e acentuação gráfica”.",
     "TRF3 / Fundação Carlos Chagas — Edital nº 01/2024 — Anexo VI — Língua Portuguesa: “Ortografia e acentuação”.",
     "TSE / Cebraspe — Edital nº 1–CPNUJE/2024, texto consolidado — Língua Portuguesa: “Domínio da ortografia oficial”. O edital não separa “acentuação” como item autônomo nesse ponto",
@@ -28,6 +32,10 @@ export default {
     "TRT-15 / Fundação Carlos Chagas — Edital nº 01/2024 — Língua Portuguesa: “Ortografia e acentuação”."
   ],
   "sourceRefs": [
+    "SRC-CRBIO01-EDITAL-001 — edital P1 ativo do CRBio-01.",
+    "SRC-SETEC-EDITAL-001 — edital P1 ativo da SETEC.",
+    "SRC-PORT003-AO90-001 — Decreto nº 6.583/2008 / Acordo Ortográfico — fonte normativa P1.",
+    "SRC-PORT003-VOLP-001 — VOLP da Academia Brasileira de Letras — fonte lexical P1, edição digital 2025–2026.",
     "SRC-TJSP-2025 — edital oficial TJ-SP/VUNESP.",
     "SRC-TRF3-2024 — edital oficial TRF3/FCC.",
     "SRC-TRE-2024 — Edital nº 1–CPNUJE/2024 e retificações.",

@@ -8,6 +8,9 @@ export default {
   "cargoIds": [
     "tjsp_escrevente",
     "trf3_tj_adm",
+    "trf3_aj_adm",
+    "trf3_aj_ti",
+    "trf3_tj_ti",
     "tresp_aj_adm",
     "tresp_tj_adm",
     "tresp_aj_ti",
@@ -17,17 +20,28 @@ export default {
     "trt15_aj_adm",
     "trt15_tj_adm",
     "trt15_aj_ti",
-    "trt15_tj_ti"
+    "trt15_tj_ti",
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
   ],
   "editalRefs": [
+    "CRBio-01 / Quadrix — PORT-005 — Classes de palavras — recorte verbal aplicável ao cargo CRBIO01-2026-ATI.",
+    "SETEC / INDEPAC — PORT-005 — Classes de palavras — recorte verbal aplicável ao cargo SETEC-2026-ATI.",
     "TJ-SP / VUNESP — TJSP2503 — Língua Portuguesa: “Classes de palavras: emprego e sentido que imprimem às relações que estabelecem”, com menção expressa a verbo.",
+    "TRF3 / VUNESP — SRC-TRF3-2023 — C1.TJTI.POR.05",
+    "AJADM.CG.01.05",
+    "D1.AJTI.POR.05 — item 5 de Língua Portuguesa, com menção expressa a verbo no conjunto de classes de palavras.",
     "TRF3 / Fundação Carlos Chagas — Edital nº 01/2024 — Língua Portuguesa: morfossintaxe, flexão verbal, vozes do verbo e correlação de tempos e modos verbais.",
     "TSE / Cebraspe — CPNUJE/2024 — Língua Portuguesa: emprego das classes de palavras, emprego de tempos e modos verbais e reescrita de frases e parágrafos.",
     "TRT-2 / Fundação Carlos Chagas — Edital nº 01/2025 — Língua Portuguesa: morfossintaxe, flexão nominal e flexão verbal, vozes do verbo e correlação de tempos e modos verbais.",
     "TRT-15 / Fundação Carlos Chagas — Edital nº 01/2024 — Língua Portuguesa: morfossintaxe, flexão nominal e flexão verbal, vozes do verbo e correlação de tempos e modos verbais."
   ],
   "sourceRefs": [
+    "SRC-CRBIO01-EDITAL-001 — edital oficial CRBio-01.",
+    "SRC-SETEC-EDITAL-001 — edital oficial SETEC.",
     "TJ-SP — TJSP2503 — edital oficial.",
+    "SRC-TRF3-2023 — Edital nº 01/2023/VUNESP — Anexo II, item 5 de Língua Portuguesa",
+    "Técnico Informática no PDF índice 48/página impressa 49 e Analistas Área Administrativa/Informática no PDF índice 57/página impressa 58.",
     "TRF3 / Fundação Carlos Chagas — Edital nº 01/2024.",
     "TSE / Cebraspe — CPNUJE/2024 — edital, prova oficial e gabarito definitivo.",
     "TRT-2 / Fundação Carlos Chagas — Edital nº 01/2025.",

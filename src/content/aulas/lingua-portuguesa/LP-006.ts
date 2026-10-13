@@ -18,16 +18,24 @@ export default {
     "trt15_aj_adm",
     "trt15_tj_adm",
     "trt15_aj_ti",
-    "trt15_tj_ti"
+    "trt15_tj_ti",
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
   ],
   "editalRefs": [
+    "Central de Estudos / PORT-002 — CRBIO01-2026-ATI — Semântica: sentido próprio/figurado, denotação/conotação, conforme MATRIZ_EDITAIS canônica.",
+    "Central de Estudos / PORT-002 — SETEC-2026-ATI — Semântica: sentido próprio/figurado, denotação/conotação, conforme MATRIZ_EDITAIS canônica.",
     "TJ-SP / VUNESP — Edital de Abertura nº 02/2025 — TJSP2503 — Escrevente Técnico Judiciário — Língua Portuguesa, item 7: “Sentido próprio e figurado das palavras”.",
-    "TRF3 / VUNESP — Edital nº 01/2023 — Conhecimentos Gerais, Língua Portuguesa: “Denotação e conotação”, aplicável aos cargos-alvo daquele certame já auditados pelo projeto: Analista Judiciário – Área Administrativa, Analista Judiciário – TI e Técnico Judiciário – TI.",
+    "TRF3 / VUNESP — Edital nº 01/2023 — Anexo II, Conhecimentos Gerais, Língua Portuguesa, item 3: “Sentido próprio e figurado das palavras”, aplicável aos três cargos canônicos reauditados neste recorte: Analista Judiciário – Área Administrativa",
+    "Analista Judiciário – Área Apoio Especializado – Especialidade Informática",
+    "Técnico Judiciário – Área Apoio Especializado – Especialidade Informática.",
     "TRF3 / FCC — Edital nº 01/2024 — Anexo VI — Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Denotação e conotação”, incluindo Técnico Judiciário – Área Administrativa.",
     "TRT-2 / FCC — Edital nº 01/2025 — Anexo II — Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Denotação e conotação”.",
     "TRT-15 / FCC — Edital nº 01/2024 — Anexo III — Conhecimentos Gerais para todos os cargos — Língua Portuguesa: “Denotação e conotação”."
   ],
   "sourceRefs": [
+    "SRC-CRBIO01-EDITAL-001 — edital P1 ativo do CRBio-01.",
+    "SRC-SETEC-EDITAL-001 — edital P1 ativo da SETEC.",
     "TJ-SP — Edital de Abertura nº 02/2025 — TJSP2503.",
     "TRF3 — Edital nº 01/2023 — VUNESP.",
     "TRF3 — Edital nº 01/2024 — FCC.",
@@ -39,7 +47,8 @@ export default {
     "LP-005 — Sinônimos e antônimos.",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "LP-006",
   "tipo": "oficial",
   "demonstracao": false,
