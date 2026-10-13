@@ -6,11 +6,14 @@ export default {
   "titulo": "MC-006 — Equações do 1º e do 2º graus: resolução, discriminante, raízes e problemas",
   "materiaId": "matematica",
   "cargoIds": [
+    "tjsp_escrevente",
     "trf3_aj_adm",
     "trf3_tj_ti",
     "trf3_aj_ti"
   ],
   "editalRefs": [
+    "TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática item 8: “Equação do 1.º e 2.º graus”",
+    "PDF índice 43, página impressa 44.",
     "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário — Área Administrativa, Conhecimentos Gerais, Matemática item 7: “Equações do 1º ou do 2º graus”",
     "grupo de Analistas na página impressa 58 (PDF índice 57).",
     "TRF3/Fundação VUNESP, mesmo edital, Técnico Judiciário — Apoio Especializado — Especialidade Informática, Conhecimentos Gerais, Matemática item 7: “Equações do 1º ou do 2º graus”",
@@ -19,6 +22,7 @@ export default {
     "grupo de Analistas, página impressa 58 (PDF índice 57)."
   ],
   "sourceRefs": [
+    "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT08 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
     "SRC-TRF3-2023 — edital primário, Anexo II",
     "MC-001 operações",
     "MC-002 MMC/MDC",
@@ -26,7 +30,8 @@ export default {
     "MC-004 razão e proporção",
     "MC-005 regra de três",
     "CHECKPOINT",
-    "AUDITORIA 1:1"
+    "AUDITORIA 1:1",
+    "EDITAL-AUD-001-LOTE06-TJSP-MAT08"
   ],
   "status": "revisado",
   "statusEditorialOriginal": "revisado",

@@ -6,22 +6,30 @@ export default {
   "titulo": "RLM-001 — Estruturas lógicas e relações entre elementos",
   "materiaId": "raciocinio-logico",
   "cargoIds": [
-    "tj-sp-escrevente",
-    "trf3-analista-administrativa",
-    "trf3-tecnico-administrativa"
+    "tjsp_escrevente",
+    "trf3_tj_adm",
+    "trf3_aj_adm",
+    "trf3_tj_ti",
+    "trf3_aj_ti"
   ],
   "editalRefs": [
-    "TJ-SP — Raciocínio Lógico: estrutura lógica de relações arbitrárias entre pessoas, lugares, coisas e eventos fictícios",
-    "dedução de novas informações",
-    "avaliação das condições que estabelecem a estrutura. TRF3 Administrativo — Raciocínio Lógico-Matemático: estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios",
-    "dedução de novas informações",
-    "avaliação das condições usadas para estabelecer a estrutura."
+    "AJADM.CG.03.01",
+    "C1.TJTI.RLM.01",
+    "D1.AJTI.RLM.01",
+    "AJADM.CG.03.02",
+    "C1.TJTI.RLM.02",
+    "D1.AJTI.RLM.02",
+    "vínculos históricos TJ-SP e TRF3 Técnico Área Administrativa preservados para auditoria documental própria"
   ],
   "sourceRefs": [
+    "SRC-TRF3-2023 — Fundação VUNESP, Edital nº 01/2023, Anexo II, Raciocínio Lógico-Matemático itens 1 e 2",
+    "Técnico Apoio Especializado Informática no PDF índice 48/página impressa 49",
+    "Analistas Área Administrativa e Apoio Especializado Informática no PDF índice 57/página impressa 58",
     "Editais-base-fornecidos-pelo-usuario.txt",
     "MATRIZ_INICIAL_MATERIAS.md"
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "RLM-001",
   "tipo": "oficial",
   "demonstracao": false,

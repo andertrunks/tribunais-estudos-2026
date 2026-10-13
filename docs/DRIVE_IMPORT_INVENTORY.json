@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-13",
-  "total": 300,
+  "total": 303,
   "materias": 40,
   "aulas": [
     {
@@ -272,43 +272,6 @@
       "caracteres": 34699,
       "sha256Texto": "9504b5c2a7206cacddf89f80694331faf88355b32771813c9889f6b071dab33b",
       "sha256Documento": "9c450bc490d389739ece7700f697c48a89b2d46aa0fd49c58fd734eb11a27e6c"
-    },
-    {
-      "id": "ARQ-001",
-      "titulo": "ARQ-001 — Fundamentos da PDPJ-Br: objetivos, modelo de convergência, marketplace, arquitetura de serviços e integração — Resolução CNJ nº 335/2020 — núcleo geral",
-      "materiaId": "arquitetura-judiciaria-pdpj-br",
-      "cargoIds": [
-        "tresp_aj_ti"
-      ],
-      "editalRefs": [
-        "Edital nº 1–CPNUJE/2024, versão atualizada, Cargo 17 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação, TRE/SP",
-        "conteúdo de PDPJ-Br incluído/explicitado pelas retificações do certame, especialmente Edital nº 3–CPNUJE/2024."
-      ],
-      "sourceRefs": [
-        "Resolução CNJ nº 335/2020, texto compilado vigente",
-        "Resolução CNJ nº 574/2024",
-        "Resolução CNJ nº 443/2022",
-        "Portaria CNJ nº 257/2022",
-        "Portaria CNJ nº 252/2020",
-        "Portaria CNJ nº 253/2020",
-        "Guia de Alinhamento Estratégico de Implantação da PDPJ-Br",
-        "Edital nº 1–CPNUJE/2024 atualizado",
-        "prova oficial Cebraspe CPNUJE/2024 Cargo 17 e gabarito definitivo",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "em_producao",
-      "topicoId": "ARQ-001",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-001.json",
-      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
-      "classificacaoEditorial": "núcleo técnico-normativo consolidado de TI do Poder Judiciário",
-      "documentoUrl": "https://docs.google.com/document/d/1wlI6pppoqSmkiZozTCGjUn0oX43av-k6f-B0lwFngK4/edit?usp=drivesdk",
-      "caracteres": 30523,
-      "sha256Texto": "7d738f07e2da0a57031b0352d765fa8725a188523016d6f9e335002a2cf93772",
-      "sha256Documento": "f03e766a10d1d148ed8d0dde1b30237688f01366954cc796b92974383246f5fc"
     },
     {
       "id": "DE-004",
@@ -3888,40 +3851,6 @@
       "sha256Documento": "7e0c371255eccab4a2fc996c4bd77a63284a60db8f07ff3d974d816f299c9c29"
     },
     {
-      "id": "RLM-001",
-      "titulo": "RLM-001 — Estruturas lógicas e relações entre elementos",
-      "materiaId": "raciocinio-logico",
-      "cargoIds": [
-        "tj-sp-escrevente",
-        "trf3-analista-administrativa",
-        "trf3-tecnico-administrativa"
-      ],
-      "editalRefs": [
-        "TJ-SP — Raciocínio Lógico: estrutura lógica de relações arbitrárias entre pessoas, lugares, coisas e eventos fictícios",
-        "dedução de novas informações",
-        "avaliação das condições que estabelecem a estrutura. TRF3 Administrativo — Raciocínio Lógico-Matemático: estrutura lógica de relações arbitrárias entre pessoas, lugares, objetos ou eventos fictícios",
-        "dedução de novas informações",
-        "avaliação das condições usadas para estabelecer a estrutura."
-      ],
-      "sourceRefs": [
-        "Editais-base-fornecidos-pelo-usuario.txt",
-        "MATRIZ_INICIAL_MATERIAS.md"
-      ],
-      "status": "em_producao",
-      "topicoId": "RLM-001",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "raciocinio-logico-matematico/RLM-001.json",
-      "materiaEditorial": "Raciocínio Lógico-Matemático",
-      "classificacaoEditorial": "",
-      "documentoUrl": "https://docs.google.com/document/d/10BC9hM1IV-g5jxKQkxbPIdCg6jvtCQfdVjqchoeGDjY/edit?usp=drivesdk",
-      "caracteres": 30244,
-      "sha256Texto": "52312862d7d387ad9acfdd7e2db3a0225d56ad88f1439f5a70a2688607c2bc3b",
-      "sha256Documento": "841b040a3773bda9eec87fcdcb93bbcf021bcead93a100ee5d6a8408ee1f8fbc"
-    },
-    {
       "id": "MC-002",
       "titulo": "MC-002 — Mínimo múltiplo comum e máximo divisor comum",
       "materiaId": "matematica",
@@ -7092,42 +7021,6 @@
       "sha256Documento": "8495d7a45cbeca16b2df95068d077a91e8333a73c3344aaf9c93263cb0c673ea"
     },
     {
-      "id": "RLM-005",
-      "titulo": "RLM-005 — Diagramas lógicos e relações entre conjuntos: todo, algum, nenhum, inclusão, interseção e exclusão",
-      "materiaId": "raciocinio-logico",
-      "cargoIds": [
-        "tjsp_escrevente"
-      ],
-      "editalRefs": [
-        "TJ-SP — Edital de Abertura número 02/2025 — TJSP2503 — Escrevente Técnico Judiciário — Raciocínio Lógico: estruturas lógicas, lógicas de argumentação, diagramas lógicos e sequências."
-      ],
-      "sourceRefs": [
-        "TJ-SP — Edital de Abertura número 02/2025 — Escrevente Técnico Judiciário.",
-        "Fundação VUNESP — página oficial do concurso TJSP2503.",
-        "Escola Judicial dos Servidores do TJ-SP — Apostila 3 — Raciocínio Lógico — seção Diagramas Lógicos.",
-        "TRF3 — Edital número 01/2024 — fonte primária comparativa de Raciocínio Lógico-Matemático.",
-        "TRT-2 — Edital número 01/2025 — fonte primária comparativa de Raciocínio Lógico-Matemático, auditada no projeto.",
-        "TRT-15 — Edital número 01/2024 — fonte primária comparativa de Raciocínio Lógico-Matemático.",
-        "RLM-001 — Estruturas lógicas e relações entre elementos.",
-        "RLM-002 — Lógica de argumentação e conclusões válidas.",
-        "RLM-003 — Proposições, conectivos e valores lógicos.",
-        "RLM-004 — Tabelas-verdade, equivalências lógicas e negações de proposições compostas."
-      ],
-      "status": "concluido",
-      "topicoId": "RLM-005",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "raciocinio-logico-matematico/RLM-005.json",
-      "materiaEditorial": "Raciocínio Lógico-Matemático",
-      "classificacaoEditorial": "núcleo formal consolidado — diagramas lógicos e relações categóricas",
-      "documentoUrl": "https://docs.google.com/document/d/17NwAgmZr6gL2zznlEdKXWa6476gYckGyl_MQz_bzawQ/edit?usp=drivesdk",
-      "caracteres": 47010,
-      "sha256Texto": "e1c539829296ae67ce9948fc144a867044ae18b62bc95310e2027906e1f59716",
-      "sha256Documento": "88c111b8d82c8e5c685a21af55eaadd69d99f02440dd92c4cbe7c902ed952aac"
-    },
-    {
       "id": "EST-001",
       "titulo": "EST-001 — Estatística descritiva: conceitos básicos, tabelas e gráficos, média, mediana e moda",
       "materiaId": "estatistica",
@@ -9270,50 +9163,6 @@
       "sha256Documento": "df18adf0d257f8b6dfa7fca1e81c3177c8a9cc159ad3d44609a27f6a5b64578a"
     },
     {
-      "id": "MC-003",
-      "titulo": "MC-003 — Porcentagem: conceito, conversões, cálculo percentual, aumentos, descontos e variação",
-      "materiaId": "matematica",
-      "cargoIds": [
-        "trf3_aj_adm",
-        "trf3_tj_ti",
-        "trf3_aj_ti"
-      ],
-      "editalRefs": [
-        "TRF3 — Fundação VUNESP — Edital nº 01/2023 — Analista Judiciário Área Administrativa — Matemática item 4: Porcentagem",
-        "TRF3 — mesmo edital — Técnico Judiciário Apoio Especializado Informática — Matemática item 4: Porcentagem",
-        "TRF3 — mesmo edital — Analista Judiciário Apoio Especializado Informática — Matemática item 4: Porcentagem",
-        "B.AJADM.MAT.04 — TRF3/Fundação VUNESP Edital Abertura nº 01/2023, Anexo II, Matemática 4: Porcentagem, Analista Área Administrativa",
-        "C1.TJTI.MAT.04 — mesmo edital, Matemática 4: Porcentagem, Técnico Apoio Especializado Informática",
-        "D1.AJTI.MAT.04 — mesmo edital, Matemática 4: Porcentagem, Analista Apoio Especializado Informática"
-      ],
-      "sourceRefs": [
-        "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, item 4 de Matemática nas seções aplicáveis",
-        "04_Porcentagem.docx — fonte pedagógica interna do projeto Prefeitura Rincão, reutilizada APENAS para teoria e exemplos",
-        "medio-matematica-porcentagem-001.md — fonte pedagógica interna, sem transportar banca/cargos/status",
-        "MC-001",
-        "MC-002",
-        "CHECKPOINT",
-        "SRC-TRF3-2023-EDITAL-01-ANEXO-II-MAT04: https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
-        "MATRIZ-1-1-B-C1-D1",
-        "CHECKPOINT-E15",
-        "E16-GATE-MC003"
-      ],
-      "status": "revisado",
-      "statusEditorialOriginal": "revisado",
-      "topicoId": "MC-003",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "matematica-concurso/MC-003.json",
-      "materiaEditorial": "Matemática de Concurso",
-      "classificacaoEditorial": "núcleo quantitativo formal compartilhado",
-      "documentoUrl": "https://docs.google.com/document/d/1-4GTXQ0juRJrsheQ-8ibGDIyvTQdlSyiYfMeIm8bwCw/edit?usp=drivesdk",
-      "caracteres": 39803,
-      "sha256Texto": "098fbbacb17c7020f1415c70a230fbfcd77a7213f5acca788837e3440ecfd928",
-      "sha256Documento": "7eabe3294b7925c5e532756bc8b2f833a9162b6571fc43f97e90905caaaa0152"
-    },
-    {
       "id": "MC-010",
       "titulo": "MC-010 — Noções de Geometria: formas, ângulos, área, perímetro, volume, Pitágoras e Tales",
       "materiaId": "matematica",
@@ -9356,51 +9205,6 @@
       "caracteres": 36524,
       "sha256Texto": "e4c4e1ac5645aed8a65dac2502e4e75d8911213ceb3071a5ac84d57f82bea69e",
       "sha256Documento": "f2659255df9184b7d6cf003335ccba6c45c57eca332f0d0f92c0a610188bd4f9"
-    },
-    {
-      "id": "MC-009",
-      "titulo": "MC-009 — Relação entre grandezas: leitura de tabelas, gráficos e variação quantitativa",
-      "materiaId": "matematica",
-      "cargoIds": [
-        "tjsp_escrevente",
-        "trf3_aj_adm",
-        "trf3_tj_ti",
-        "trf3_aj_ti"
-      ],
-      "editalRefs": [
-        "TJSP2503.tjsp_escrevente.MAT.10 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 10: “Relação entre grandezas: tabelas e gráficos”",
-        "PDF índice 43 / página impressa 44.",
-        "B.AJADM.MAT.10 — TRF3, Fundação VUNESP, Edital de Abertura de Inscrições nº 01/2023, Anexo II, Analista Judiciário — Área Administrativa, Matemática, item 10: “Relação entre grandezas – tabela ou gráfico”",
-        "PDF índice 57 / página impressa 58.",
-        "C1.TJTI.MAT.10 — mesmo edital, Técnico Judiciário — Apoio Especializado — Informática, Matemática, item 10, redação idêntica",
-        "PDF índice 48 / página impressa 49.",
-        "D1.AJTI.MAT.10 — mesmo edital, Analista Judiciário — Apoio Especializado — Informática, Matemática, item 10, redação idêntica",
-        "PDF índice 57 / página impressa 58."
-      ],
-      "sourceRefs": [
-        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT10",
-        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
-        "MATRIZ-1-1-B-C1-D1",
-        "CHECKPOINT-E10",
-        "MC-004",
-        "MC-005",
-        "MC-008",
-        "EST-001 como referência complementar PARCIAL, sem segunda unidade primária"
-      ],
-      "status": "revisado",
-      "statusEditorialOriginal": "revisado",
-      "topicoId": "MC-009",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "matematica-concurso/MC-009.json",
-      "materiaEditorial": "Matemática de Concurso",
-      "classificacaoEditorial": "aula formal consolidada; núcleo único para MAT.10",
-      "documentoUrl": "https://docs.google.com/document/d/1hKttDU7mhkt5-GiPnfCvghS4xtwrOlRN9wQN3VZLETU/edit?usp=drivesdk",
-      "caracteres": 32561,
-      "sha256Texto": "13e970dfdd08693575172be7e5fd76b6e1255871b7d6fed14c8e9dbb7b8b801d",
-      "sha256Documento": "96eca79ad18ff76a14b4875d5c7ca8a228e22bae352744f00e38088d5ef8b574"
     },
     {
       "id": "MC-008",
@@ -9493,48 +9297,6 @@
       "sha256Documento": "1b1bb82b1a752142783320cdb6b0b6448d198f1e4f9d56f0d4de6733880f5e1e"
     },
     {
-      "id": "MC-006",
-      "titulo": "MC-006 — Equações do 1º e do 2º graus: resolução, discriminante, raízes e problemas",
-      "materiaId": "matematica",
-      "cargoIds": [
-        "trf3_aj_adm",
-        "trf3_tj_ti",
-        "trf3_aj_ti"
-      ],
-      "editalRefs": [
-        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário — Área Administrativa, Conhecimentos Gerais, Matemática item 7: “Equações do 1º ou do 2º graus”",
-        "grupo de Analistas na página impressa 58 (PDF índice 57).",
-        "TRF3/Fundação VUNESP, mesmo edital, Técnico Judiciário — Apoio Especializado — Especialidade Informática, Conhecimentos Gerais, Matemática item 7: “Equações do 1º ou do 2º graus”",
-        "página impressa 49 (PDF índice 48).",
-        "TRF3/Fundação VUNESP, mesmo edital, Analista Judiciário — Apoio Especializado — Especialidade Informática, Conhecimentos Gerais, Matemática item 7: “Equações do 1º ou do 2º graus”",
-        "grupo de Analistas, página impressa 58 (PDF índice 57)."
-      ],
-      "sourceRefs": [
-        "SRC-TRF3-2023 — edital primário, Anexo II",
-        "MC-001 operações",
-        "MC-002 MMC/MDC",
-        "MC-003 porcentagem",
-        "MC-004 razão e proporção",
-        "MC-005 regra de três",
-        "CHECKPOINT",
-        "AUDITORIA 1:1"
-      ],
-      "status": "revisado",
-      "statusEditorialOriginal": "revisado",
-      "topicoId": "MC-006",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "matematica-concurso/MC-006.json",
-      "materiaEditorial": "Matemática de Concurso",
-      "classificacaoEditorial": "núcleo formal compartilhado — equações",
-      "documentoUrl": "https://docs.google.com/document/d/1kKL6BjtI1uW-lSkd2Bu0sV7tNrSWZry5Ez0PuhxHyHY/edit?usp=drivesdk",
-      "caracteres": 29197,
-      "sha256Texto": "95c5675ec15c2562bdd84b1bf4c0d3a7474304965b25fb214915f3af2a189938",
-      "sha256Documento": "879fe857e7984177d7756dbe04da4f978415e86abcf8bff8d283b7b3568593c3"
-    },
-    {
       "id": "MC-005",
       "titulo": "MC-005 — Regra de três simples e composta: proporcionalidade direta, inversa e aplicações",
       "materiaId": "matematica",
@@ -9571,42 +9333,6 @@
       "caracteres": 34558,
       "sha256Texto": "9e2ac86020c5eac8697dc20f7170c683b2fce41b81a841b102e592ccc479ba3d",
       "sha256Documento": "8d03fce19c793213379add31acb60e0fc0470decfd44731cf0dae1a415813642"
-    },
-    {
-      "id": "MC-004",
-      "titulo": "MC-004 — Razão e proporção: conceitos, propriedades, grandezas, escalas e divisão proporcional",
-      "materiaId": "matematica",
-      "cargoIds": [
-        "trf3_aj_adm",
-        "trf3_tj_ti",
-        "trf3_aj_ti"
-      ],
-      "editalRefs": [
-        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário — Área Administrativa, Conhecimentos Gerais, Matemática, item 5: “Razão e proporção”.",
-        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Técnico Judiciário — Apoio Especializado — Informática, Conhecimentos Gerais, Matemática, item 5: “Razão e proporção”.",
-        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário — Apoio Especializado — Informática, Conhecimentos Gerais, Matemática, item 5: “Razão e proporção”."
-      ],
-      "sourceRefs": [
-        "SRC-TRF3-2023",
-        "MC-001 operações",
-        "MC-002 MMC/MDC",
-        "MC-003 porcentagem",
-        "CHECKPOINT — Produção intercalada de matérias"
-      ],
-      "status": "revisado",
-      "statusEditorialOriginal": "revisado",
-      "topicoId": "MC-004",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "matematica-concurso/MC-004.json",
-      "materiaEditorial": "Matemática de Concurso",
-      "classificacaoEditorial": "núcleo quantitativo formal consolidado por matéria — razão e proporção",
-      "documentoUrl": "https://docs.google.com/document/d/1QZrzl8YscGAtv6jRpmiCgMKSo37O1FJncd4HsP9wex4/edit?usp=drivesdk",
-      "caracteres": 29055,
-      "sha256Texto": "4b15ef61d128c614debf4203af35c34ece8ebd78ac2452ad499e7a73ade5ad29",
-      "sha256Documento": "697f8cf3d99cad7532b824a4588fbbae87e2341ebfbddb2eac04c173a52223ac"
     },
     {
       "id": "LP-021",
@@ -11030,6 +10756,398 @@
       "caracteres": 26159,
       "sha256Texto": "b3b60965628eb799aa4a6ffcbdf689b89667a3f87b621ba159055874659ef455",
       "sha256Documento": "bbf03fbbd612aa570e003cfdc6244889324730a133e6b11e640ce6959d8ae2c9"
+    },
+    {
+      "id": "RLM-006",
+      "titulo": "RLM-006 — Sequências lógicas, numéricas e figurais: identificação de padrões, posição de termos, recorrências simples e estratégias de resolução",
+      "materiaId": "raciocinio-logico",
+      "cargoIds": [
+        "trf3_tj_ti",
+        "trf3_aj_adm",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "AJADM.CG.03.03 — componente interno “raciocínio sequencial”",
+        "C1.TJTI.RLM.03 — componente interno “raciocínio sequencial”",
+        "D1.AJTI.RLM.03 — componente interno “raciocínio sequencial”"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital nº 01/2023, Anexo II",
+        "Técnico Apoio Especializado Informática: PDF índice 48/página impressa 49",
+        "Analistas Área Administrativa e Apoio Especializado Informática: PDF índice 57/página impressa 58"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "RLM-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "raciocinio-logico-matematico/RLM-006.json",
+      "materiaEditorial": "Raciocínio Lógico-Matemático",
+      "classificacaoEditorial": "núcleo formal compartilhado — raciocínio sequencial",
+      "documentoUrl": "https://docs.google.com/document/d/1itQchl-8gAvpyNYcerS_DoBZdJTlSScPbxd0JVBk-pI/edit?usp=drivesdk",
+      "caracteres": 23152,
+      "sha256Texto": "9f82e99c22a364149cbb05beb23574da648116c32a2e791cf5b9c71634299834",
+      "sha256Documento": "057a7cbd8c1db04d6554d0cf53ed274240e2c4ac3d6db771fe59cad96a886265"
+    },
+    {
+      "id": "RLM-005",
+      "titulo": "RLM-005 — Diagramas lógicos e relações entre conjuntos: todo, algum, nenhum, inclusão, interseção e exclusão",
+      "materiaId": "raciocinio-logico",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJ-SP — Edital de Abertura número 02/2025 — TJSP2503 — Escrevente Técnico Judiciário — Raciocínio Lógico: estruturas lógicas, lógicas de argumentação, diagramas lógicos e sequências."
+      ],
+      "sourceRefs": [
+        "TJ-SP — Edital de Abertura número 02/2025 — Escrevente Técnico Judiciário.",
+        "Fundação VUNESP — página oficial do concurso TJSP2503.",
+        "Escola Judicial dos Servidores do TJ-SP — Apostila 3 — Raciocínio Lógico — seção Diagramas Lógicos.",
+        "TRF3 — Edital número 01/2024 — fonte primária comparativa de Raciocínio Lógico-Matemático.",
+        "TRT-2 — Edital número 01/2025 — fonte primária comparativa de Raciocínio Lógico-Matemático, auditada no projeto.",
+        "TRT-15 — Edital número 01/2024 — fonte primária comparativa de Raciocínio Lógico-Matemático.",
+        "RLM-001 — Estruturas lógicas e relações entre elementos.",
+        "RLM-002 — Lógica de argumentação e conclusões válidas.",
+        "RLM-003 — Proposições, conectivos e valores lógicos.",
+        "RLM-004 — Tabelas-verdade, equivalências lógicas e negações de proposições compostas."
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "RLM-005",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "raciocinio-logico-matematico/RLM-005.json",
+      "materiaEditorial": "Raciocínio Lógico-Matemático",
+      "classificacaoEditorial": "núcleo formal consolidado — diagramas lógicos e relações categóricas",
+      "documentoUrl": "https://docs.google.com/document/d/17NwAgmZr6gL2zznlEdKXWa6476gYckGyl_MQz_bzawQ/edit?usp=drivesdk",
+      "caracteres": 47897,
+      "sha256Texto": "bf9e9d0921daf355af876d783de296ca42e2a9db83206a8a171e9ab233fccef8",
+      "sha256Documento": "ecf104d05a67d37a536efd2805ac64398de41d99ff95d39497008e3de60764e7"
+    },
+    {
+      "id": "RLM-001",
+      "titulo": "RLM-001 — Estruturas lógicas e relações entre elementos",
+      "materiaId": "raciocinio-logico",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_tj_adm",
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "AJADM.CG.03.01",
+        "C1.TJTI.RLM.01",
+        "D1.AJTI.RLM.01",
+        "AJADM.CG.03.02",
+        "C1.TJTI.RLM.02",
+        "D1.AJTI.RLM.02",
+        "vínculos históricos TJ-SP e TRF3 Técnico Área Administrativa preservados para auditoria documental própria"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital nº 01/2023, Anexo II, Raciocínio Lógico-Matemático itens 1 e 2",
+        "Técnico Apoio Especializado Informática no PDF índice 48/página impressa 49",
+        "Analistas Área Administrativa e Apoio Especializado Informática no PDF índice 57/página impressa 58",
+        "Editais-base-fornecidos-pelo-usuario.txt",
+        "MATRIZ_INICIAL_MATERIAS.md"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "RLM-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "raciocinio-logico-matematico/RLM-001.json",
+      "materiaEditorial": "Raciocínio Lógico-Matemático",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/10BC9hM1IV-g5jxKQkxbPIdCg6jvtCQfdVjqchoeGDjY/edit?usp=drivesdk",
+      "caracteres": 37060,
+      "sha256Texto": "8cca13017cc0def1c73e062fa56d778eb0a2c7c71e410a71fd3d07885bd36fec",
+      "sha256Documento": "cb1650d9884593b9a33b8f8de91af0a7e967a7670f8919ffad1a6d39141ea8ee"
+    },
+    {
+      "id": "ARQ-001",
+      "titulo": "ARQ-001 — Fundamentos da PDPJ-Br: objetivos, modelo de convergência, marketplace, arquitetura de serviços e integração — Resolução CNJ nº 335/2020 — núcleo geral",
+      "materiaId": "arquitetura-judiciaria-pdpj-br",
+      "cargoIds": [
+        "tresp_aj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "CPNUJE2024.C17.PDPJ.RES335 — TRE/SP — Resolução CNJ nº 335/2020",
+        "D2.AJTI.16.2 — TRF3/2023 — Resolução CNJ nº 335/2020 — governança e gestão do processo judicial eletrônico / PDPJ-Br"
+      ],
+      "sourceRefs": [
+        "CNJ-RES-335-2020 — texto compilado vigente, situação Alterado pela Resolução CNJ nº 574/2024",
+        "CNJ-RES-574-2024",
+        "CNJ-RES-443-2022",
+        "CNJ-PORT-257-2022",
+        "CNJ-PORT-252-2020",
+        "CNJ-PORT-253-2020",
+        "Guia de Alinhamento Estratégico de Implantação da PDPJ-Br",
+        "CPNUJE-2024",
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "AUDITORIA-1-1-D2.AJTI.16.2",
+        "CHECKPOINT-E35",
+        "E36"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E36 — vínculo D2.AJTI.16.2 homologado",
+      "topicoId": "ARQ-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-001.json",
+      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
+      "classificacaoEditorial": "núcleo técnico-normativo consolidado de TI do Poder Judiciário",
+      "documentoUrl": "https://docs.google.com/document/d/1wlI6pppoqSmkiZozTCGjUn0oX43av-k6f-B0lwFngK4/edit?usp=drivesdk",
+      "caracteres": 31780,
+      "sha256Texto": "7b6a109ed3406b749217af931f8f5d97175527528b1d611d8ea887b18bc1ecbd",
+      "sha256Documento": "392169b9684d7e52905e54ed0229b612ac5bc7afe890598a6b882983c5ee931d"
+    },
+    {
+      "id": "MC-009",
+      "titulo": "MC-009 — Relação entre grandezas: leitura de tabelas, gráficos e variação quantitativa",
+      "materiaId": "matematica",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TJSP2503.tjsp_escrevente.MAT.10 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 10: “Relação entre grandezas: tabelas e gráficos”",
+        "PDF índice 43 / página impressa 44.",
+        "B.AJADM.MAT.10 — TRF3, Fundação VUNESP, Edital de Abertura de Inscrições nº 01/2023, Anexo II, Analista Judiciário — Área Administrativa, Matemática, item 10: “Relação entre grandezas – tabela ou gráfico”",
+        "PDF índice 57 / página impressa 58.",
+        "C1.TJTI.MAT.10 — mesmo edital, Técnico Judiciário — Apoio Especializado — Informática, Matemática, item 10, redação idêntica",
+        "PDF índice 48 / página impressa 49.",
+        "D1.AJTI.MAT.10 — mesmo edital, Analista Judiciário — Apoio Especializado — Informática, Matemática, item 10, redação idêntica",
+        "PDF índice 57 / página impressa 58."
+      ],
+      "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT10",
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "MATRIZ-1-1-B-C1-D1",
+        "CHECKPOINT-E10",
+        "MC-004",
+        "MC-005",
+        "MC-008",
+        "EST-001 como referência complementar PARCIAL, sem segunda unidade primária"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "MC-009",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-concurso/MC-009.json",
+      "materiaEditorial": "Matemática de Concurso",
+      "classificacaoEditorial": "aula formal consolidada; núcleo único para MAT.10",
+      "documentoUrl": "https://docs.google.com/document/d/1hKttDU7mhkt5-GiPnfCvghS4xtwrOlRN9wQN3VZLETU/edit?usp=drivesdk",
+      "caracteres": 35032,
+      "sha256Texto": "5bfbe35963d52ca7d64d20f0aed33d35b199101d5d2f984486bf11af1cee2e86",
+      "sha256Documento": "39195ee7ec1f794e1107f3165de4e813ffab27ed09f28d7159822b8adfb0bb99"
+    },
+    {
+      "id": "ARQ-006",
+      "titulo": "ARQ-006 — Resolução CNJ nº 91/2009 e o MoReq-Jus histórico exigido pelo TRF3/2023",
+      "materiaId": "arquitetura-judiciaria-pdpj-br",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.16.1"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "CNJ-RES91-2009-HISTORICA",
+        "CNJ-RES522-2023-VIGENTE",
+        "CNJ-MOREQ-JUS-ATUAL"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "ARQ-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-006.json",
+      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
+      "classificacaoEditorial": "núcleo normativo formal — recorte histórico expressamente exigido pelo edital",
+      "documentoUrl": "https://docs.google.com/document/d/1ZKozXGZfIjebHIVe6lxt5EIcnGCnc4WBUdh7rJRIBUU/edit?usp=drivesdk",
+      "caracteres": 37713,
+      "sha256Texto": "5f9ecd78f1057d1420c294b105ebdb9f5e566c7910f89cd5d207852109b51822",
+      "sha256Documento": "d9a2a0f8fc84c5a02d18c97aaa0da94e11f9d083f241cb820dcd45daa680b485"
+    },
+    {
+      "id": "MC-006",
+      "titulo": "MC-006 — Equações do 1º e do 2º graus: resolução, discriminante, raízes e problemas",
+      "materiaId": "matematica",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática item 8: “Equação do 1.º e 2.º graus”",
+        "PDF índice 43, página impressa 44.",
+        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário — Área Administrativa, Conhecimentos Gerais, Matemática item 7: “Equações do 1º ou do 2º graus”",
+        "grupo de Analistas na página impressa 58 (PDF índice 57).",
+        "TRF3/Fundação VUNESP, mesmo edital, Técnico Judiciário — Apoio Especializado — Especialidade Informática, Conhecimentos Gerais, Matemática item 7: “Equações do 1º ou do 2º graus”",
+        "página impressa 49 (PDF índice 48).",
+        "TRF3/Fundação VUNESP, mesmo edital, Analista Judiciário — Apoio Especializado — Especialidade Informática, Conhecimentos Gerais, Matemática item 7: “Equações do 1º ou do 2º graus”",
+        "grupo de Analistas, página impressa 58 (PDF índice 57)."
+      ],
+      "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT08 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
+        "SRC-TRF3-2023 — edital primário, Anexo II",
+        "MC-001 operações",
+        "MC-002 MMC/MDC",
+        "MC-003 porcentagem",
+        "MC-004 razão e proporção",
+        "MC-005 regra de três",
+        "CHECKPOINT",
+        "AUDITORIA 1:1",
+        "EDITAL-AUD-001-LOTE06-TJSP-MAT08"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "MC-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-concurso/MC-006.json",
+      "materiaEditorial": "Matemática de Concurso",
+      "classificacaoEditorial": "núcleo formal compartilhado — equações",
+      "documentoUrl": "https://docs.google.com/document/d/1kKL6BjtI1uW-lSkd2Bu0sV7tNrSWZry5Ez0PuhxHyHY/edit?usp=drivesdk",
+      "caracteres": 32759,
+      "sha256Texto": "d1c28d9bc54fa74db2bbf11dcf220ccb373993138be4d00e6f23adc7e73cfadb",
+      "sha256Documento": "c7384456961f2b69a938ed1aa5b22b5f4dd8290117dce5cb600d079b81d536db"
+    },
+    {
+      "id": "MC-011",
+      "titulo": "MC-011 — Juros simples: capital, taxa, tempo, juros, montante e problemas",
+      "materiaId": "matematica",
+      "cargoIds": [
+        "tjsp_escrevente"
+      ],
+      "editalRefs": [
+        "TJSP2503.tjsp_escrevente.MAT.07 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 7: “Juros simples”."
+      ],
+      "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT07 — https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D — PDF índice 43/página impressa 44",
+        "MED-MAT-004 — medio-matematica-juros-simples-001.md — material pedagógico revisado reaproveitado como base editorial, sem herdar cargoIds, editalRefs ou padrão de banca INEPAM",
+        "EDITAL-AUD-001-LOTE05-TJSP-MAT07"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "MC-011",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-concurso/MC-011.json",
+      "materiaEditorial": "Matemática de Concurso",
+      "classificacaoEditorial": "núcleo formal consolidado",
+      "documentoUrl": "https://docs.google.com/document/d/1fIRU5qXyUcu2-KZMBCsCX1tsX-Z7mtQrEMUgn9Ueneg/edit?usp=drivesdk",
+      "caracteres": 16374,
+      "sha256Texto": "fa1770c91b6b1d0fe5908b118f307f547db938dd8ed5379d46d3df9b7b61bd40",
+      "sha256Documento": "9fcf73d0ce95cb53d1e406819ac3bd2c4aeb31dc0a8ead6177aaba5d83e2387a"
+    },
+    {
+      "id": "MC-003",
+      "titulo": "MC-003 — Porcentagem: conceito, conversões, cálculo percentual, aumentos, descontos e variação",
+      "materiaId": "matematica",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TJSP2503.tjsp_escrevente.MAT.04 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 4: Porcentagem",
+        "TRF3 — Fundação VUNESP — Edital nº 01/2023 — Analista Judiciário Área Administrativa — Matemática item 4: Porcentagem",
+        "TRF3 — mesmo edital — Técnico Judiciário Apoio Especializado Informática — Matemática item 4: Porcentagem",
+        "TRF3 — mesmo edital — Analista Judiciário Apoio Especializado Informática — Matemática item 4: Porcentagem",
+        "B.AJADM.MAT.04 — TRF3/Fundação VUNESP Edital Abertura nº 01/2023, Anexo II, Matemática 4: Porcentagem, Analista Área Administrativa",
+        "C1.TJTI.MAT.04 — mesmo edital, Matemática 4: Porcentagem, Técnico Apoio Especializado Informática",
+        "D1.AJTI.MAT.04 — mesmo edital, Matemática 4: Porcentagem, Analista Apoio Especializado Informática"
+      ],
+      "sourceRefs": [
+        "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT04: https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, item 4 de Matemática nas seções aplicáveis",
+        "04_Porcentagem.docx — fonte pedagógica interna do projeto Prefeitura Rincão, reutilizada APENAS para teoria e exemplos",
+        "medio-matematica-porcentagem-001.md — fonte pedagógica interna, sem transportar banca/cargos/status",
+        "MC-001",
+        "MC-002",
+        "CHECKPOINT",
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II-MAT04: https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "MATRIZ-1-1-B-C1-D1",
+        "CHECKPOINT-E15",
+        "E16-GATE-MC003",
+        "EDITAL-AUD-001-LOTE02-TJSP-MAT04"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "MC-003",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-concurso/MC-003.json",
+      "materiaEditorial": "Matemática de Concurso",
+      "classificacaoEditorial": "núcleo quantitativo formal compartilhado",
+      "documentoUrl": "https://docs.google.com/document/d/1-4GTXQ0juRJrsheQ-8ibGDIyvTQdlSyiYfMeIm8bwCw/edit?usp=drivesdk",
+      "caracteres": 43068,
+      "sha256Texto": "4fc5ad3747a3cdb2e4e0f931b108e675ace8d5cae2af2d5704776d81184b54de",
+      "sha256Documento": "9e26d3634357deee17f465873f3f417869ca22775f2895dce1bd731550f1260f"
+    },
+    {
+      "id": "MC-004",
+      "titulo": "MC-004 — Razão e proporção: conceitos, propriedades, grandezas, escalas e divisão proporcional",
+      "materiaId": "matematica",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário — Área Administrativa, Conhecimentos Gerais, Matemática, item 5: “Razão e proporção”.",
+        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Técnico Judiciário — Apoio Especializado — Informática, Conhecimentos Gerais, Matemática, item 5: “Razão e proporção”.",
+        "TRF3/Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Analista Judiciário — Apoio Especializado — Informática, Conhecimentos Gerais, Matemática, item 5: “Razão e proporção”."
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "MC-001 operações",
+        "MC-002 MMC/MDC",
+        "MC-003 porcentagem",
+        "CHECKPOINT — Produção intercalada de matérias"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "MC-004",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "matematica-concurso/MC-004.json",
+      "materiaEditorial": "Matemática de Concurso",
+      "classificacaoEditorial": "núcleo quantitativo formal consolidado por matéria — razão e proporção",
+      "documentoUrl": "https://docs.google.com/document/d/1QZrzl8YscGAtv6jRpmiCgMKSo37O1FJncd4HsP9wex4/edit?usp=drivesdk",
+      "caracteres": 31913,
+      "sha256Texto": "4839184dc6f4f31da3f8617f82e6206700260b134083d9676e0cc8f93dcca6ed",
+      "sha256Documento": "321b6f318893eece7b1af370f6ad0d4dbfa7bde52096dfc854a623cd30e0a9aa"
     }
   ]
 }

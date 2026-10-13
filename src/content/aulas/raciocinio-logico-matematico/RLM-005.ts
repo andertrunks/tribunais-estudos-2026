@@ -24,6 +24,7 @@ export default {
     "RLM-004 — Tabelas-verdade, equivalências lógicas e negações de proposições compostas."
   ],
   "status": "concluido",
+  "statusEditorialOriginal": "concluido",
   "topicoId": "RLM-005",
   "tipo": "oficial",
   "demonstracao": false,

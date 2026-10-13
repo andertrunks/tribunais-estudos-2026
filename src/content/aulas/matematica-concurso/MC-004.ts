@@ -6,6 +6,7 @@ export default {
   "titulo": "MC-004 — Razão e proporção: conceitos, propriedades, grandezas, escalas e divisão proporcional",
   "materiaId": "matematica",
   "cargoIds": [
+    "tjsp_escrevente",
     "trf3_aj_adm",
     "trf3_tj_ti",
     "trf3_aj_ti"

@@ -6,25 +6,29 @@ export default {
   "titulo": "ARQ-001 — Fundamentos da PDPJ-Br: objetivos, modelo de convergência, marketplace, arquitetura de serviços e integração — Resolução CNJ nº 335/2020 — núcleo geral",
   "materiaId": "arquitetura-judiciaria-pdpj-br",
   "cargoIds": [
-    "tresp_aj_ti"
+    "tresp_aj_ti",
+    "trf3_aj_ti"
   ],
   "editalRefs": [
-    "Edital nº 1–CPNUJE/2024, versão atualizada, Cargo 17 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação, TRE/SP",
-    "conteúdo de PDPJ-Br incluído/explicitado pelas retificações do certame, especialmente Edital nº 3–CPNUJE/2024."
+    "CPNUJE2024.C17.PDPJ.RES335 — TRE/SP — Resolução CNJ nº 335/2020",
+    "D2.AJTI.16.2 — TRF3/2023 — Resolução CNJ nº 335/2020 — governança e gestão do processo judicial eletrônico / PDPJ-Br"
   ],
   "sourceRefs": [
-    "Resolução CNJ nº 335/2020, texto compilado vigente",
-    "Resolução CNJ nº 574/2024",
-    "Resolução CNJ nº 443/2022",
-    "Portaria CNJ nº 257/2022",
-    "Portaria CNJ nº 252/2020",
-    "Portaria CNJ nº 253/2020",
+    "CNJ-RES-335-2020 — texto compilado vigente, situação Alterado pela Resolução CNJ nº 574/2024",
+    "CNJ-RES-574-2024",
+    "CNJ-RES-443-2022",
+    "CNJ-PORT-257-2022",
+    "CNJ-PORT-252-2020",
+    "CNJ-PORT-253-2020",
     "Guia de Alinhamento Estratégico de Implantação da PDPJ-Br",
-    "Edital nº 1–CPNUJE/2024 atualizado",
-    "prova oficial Cebraspe CPNUJE/2024 Cargo 17 e gabarito definitivo",
-    "CHECKPOINT — Produção intercalada de matérias."
+    "CPNUJE-2024",
+    "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+    "AUDITORIA-1-1-D2.AJTI.16.2",
+    "CHECKPOINT-E35",
+    "E36"
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado — gate editorial E36 — vínculo D2.AJTI.16.2 homologado",
   "topicoId": "ARQ-001",
   "tipo": "oficial",
   "demonstracao": false,

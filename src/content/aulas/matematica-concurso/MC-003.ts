@@ -6,11 +6,13 @@ export default {
   "titulo": "MC-003 — Porcentagem: conceito, conversões, cálculo percentual, aumentos, descontos e variação",
   "materiaId": "matematica",
   "cargoIds": [
+    "tjsp_escrevente",
     "trf3_aj_adm",
     "trf3_tj_ti",
     "trf3_aj_ti"
   ],
   "editalRefs": [
+    "TJSP2503.tjsp_escrevente.MAT.04 — TJ-SP/Fundação VUNESP, Edital de Abertura nº 02/2025, Anexo VI, Matemática, item 4: Porcentagem",
     "TRF3 — Fundação VUNESP — Edital nº 01/2023 — Analista Judiciário Área Administrativa — Matemática item 4: Porcentagem",
     "TRF3 — mesmo edital — Técnico Judiciário Apoio Especializado Informática — Matemática item 4: Porcentagem",
     "TRF3 — mesmo edital — Analista Judiciário Apoio Especializado Informática — Matemática item 4: Porcentagem",
@@ -19,6 +21,7 @@ export default {
     "D1.AJTI.MAT.04 — mesmo edital, Matemática 4: Porcentagem, Analista Apoio Especializado Informática"
   ],
   "sourceRefs": [
+    "SRC-TJSP2503-EDITAL-02-2025-ANEXO-VI-MAT04: https://documento.vunesp.com.br/documento/stream/NzEzOTYxNw%3D%3D",
     "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, item 4 de Matemática nas seções aplicáveis",
     "04_Porcentagem.docx — fonte pedagógica interna do projeto Prefeitura Rincão, reutilizada APENAS para teoria e exemplos",
     "medio-matematica-porcentagem-001.md — fonte pedagógica interna, sem transportar banca/cargos/status",
@@ -28,7 +31,8 @@ export default {
     "SRC-TRF3-2023-EDITAL-01-ANEXO-II-MAT04: https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
     "MATRIZ-1-1-B-C1-D1",
     "CHECKPOINT-E15",
-    "E16-GATE-MC003"
+    "E16-GATE-MC003",
+    "EDITAL-AUD-001-LOTE02-TJSP-MAT04"
   ],
   "status": "revisado",
   "statusEditorialOriginal": "revisado",
