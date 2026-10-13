@@ -31,7 +31,8 @@ export default {
     "ES-003",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "ES-004",
   "tipo": "oficial",
   "demonstracao": false,

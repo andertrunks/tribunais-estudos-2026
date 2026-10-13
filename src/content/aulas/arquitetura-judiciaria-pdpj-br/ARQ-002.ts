@@ -6,23 +6,28 @@ export default {
   "titulo": "ARQ-002 — Governança e gestão da PDPJ-Br: Portaria CNJ nº 252/2020, papéis, requisitos de integração e colaboração",
   "materiaId": "arquitetura-judiciaria-pdpj-br",
   "cargoIds": [
-    "tresp_aj_ti"
+    "tresp_aj_ti",
+    "trf3_aj_ti"
   ],
   "editalRefs": [
-    "Edital nº 1–CPNUJE/2024, versão atualizada até a retificação do Edital nº 15, Cargo 17 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação",
-    "bloco “Normativos da PDPJ-Br”, incluído pelo Edital nº 3–CPNUJE/2024, com referência expressa à Portaria CNJ nº 252/2020."
+    "CPNUJE2024.C17.PDPJ.PORT252 — TRE/SP — Portaria CNJ nº 252/2020",
+    "D2.AJTI.16.4 — TRF3/2023 — Portaria CNJ nº 252/2020 — Modelo de Governança e Gestão da PDPJ-Br"
   ],
   "sourceRefs": [
-    "Portaria CNJ nº 252/2020 — texto compilado",
-    "Portaria CNJ nº 284/2021",
-    "Resolução CNJ nº 335/2020 — texto compilado",
-    "Resolução CNJ nº 443/2022",
-    "Portaria CNJ nº 257/2022",
-    "Edital nº 1–CPNUJE/2024 atualizado até a retificação nº 15",
+    "CNJ-PORT-252-2020 — texto compilado atual, situação Alterado pela Portaria CNJ nº 284/2021",
+    "CNJ-PORT-284-2021",
+    "CNJ-RES-335-2020",
+    "CNJ-RES-443-2022",
+    "CNJ-PORT-257-2022",
+    "CPNUJE-2024",
+    "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+    "AUDITORIA-1-1-D2.AJTI.16.4",
     "ARQ-001",
-    "CHECKPOINT — Produção intercalada de matérias."
+    "CHECKPOINT-E37",
+    "E38"
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado — gate editorial E38 — vínculo D2.AJTI.16.4 homologado",
   "topicoId": "ARQ-002",
   "tipo": "oficial",
   "demonstracao": false,

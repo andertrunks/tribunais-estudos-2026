@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
   "data": "2026-10-13",
-  "total": 295,
+  "total": 300,
   "materias": 40,
   "aulas": [
     {
@@ -272,78 +272,6 @@
       "caracteres": 34699,
       "sha256Texto": "9504b5c2a7206cacddf89f80694331faf88355b32771813c9889f6b071dab33b",
       "sha256Documento": "9c450bc490d389739ece7700f697c48a89b2d46aa0fd49c58fd734eb11a27e6c"
-    },
-    {
-      "id": "ARQ-003",
-      "titulo": "ARQ-003 — Critérios e diretrizes técnicas de desenvolvimento na PDPJ-Br — Portaria CNJ nº 253/2020",
-      "materiaId": "arquitetura-judiciaria-pdpj-br",
-      "cargoIds": [
-        "tresp_aj_ti"
-      ],
-      "editalRefs": [
-        "Edital nº 1–CPNUJE/2024, versão atualizada até a Retificação nº 15, Cargo 17 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — bloco “Normativos da PDPJ-Br”, item 4: Portaria CNJ nº 253/2020"
-      ],
-      "sourceRefs": [
-        "Portaria CNJ nº 253/2020 — situação vigente no portal de atos do CNJ",
-        "Resolução CNJ nº 335/2020",
-        "Portaria CNJ nº 257/2022",
-        "Resolução CNJ nº 615/2025, texto compilado com alteração da Resolução nº 674/2026",
-        "Edital nº 1–CPNUJE/2024 atualizado até a Retificação nº 15",
-        "Edital nº 3–CPNUJE/2024",
-        "prova oficial FGV TJ-TO 2022 — Técnico Judiciário – Informática — Tipo 1",
-        "gabarito definitivo FGV TJ-TO 2022",
-        "ARQ-001",
-        "ARQ-002",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "em_producao",
-      "topicoId": "ARQ-003",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-003.json",
-      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
-      "classificacaoEditorial": "núcleo técnico-normativo consolidado de TI do Poder Judiciário",
-      "documentoUrl": "https://docs.google.com/document/d/1oWxT2nlb2qBfaq5XQ4dKXt-OYnqnJnr6mt7lkZvK8t4/edit?usp=drivesdk",
-      "caracteres": 38801,
-      "sha256Texto": "a3496f8bbeea3441e21191bce927477448a3725f1b9c265e309e4fb8bad753cb",
-      "sha256Documento": "87a05847b3e9c4ccf440bb6982be2fbd50f76e4ab0d51a90da0cd2cba5f636a0"
-    },
-    {
-      "id": "ARQ-002",
-      "titulo": "ARQ-002 — Governança e gestão da PDPJ-Br: Portaria CNJ nº 252/2020, papéis, requisitos de integração e colaboração",
-      "materiaId": "arquitetura-judiciaria-pdpj-br",
-      "cargoIds": [
-        "tresp_aj_ti"
-      ],
-      "editalRefs": [
-        "Edital nº 1–CPNUJE/2024, versão atualizada até a retificação do Edital nº 15, Cargo 17 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação",
-        "bloco “Normativos da PDPJ-Br”, incluído pelo Edital nº 3–CPNUJE/2024, com referência expressa à Portaria CNJ nº 252/2020."
-      ],
-      "sourceRefs": [
-        "Portaria CNJ nº 252/2020 — texto compilado",
-        "Portaria CNJ nº 284/2021",
-        "Resolução CNJ nº 335/2020 — texto compilado",
-        "Resolução CNJ nº 443/2022",
-        "Portaria CNJ nº 257/2022",
-        "Edital nº 1–CPNUJE/2024 atualizado até a retificação nº 15",
-        "ARQ-001",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "em_producao",
-      "topicoId": "ARQ-002",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-002.json",
-      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
-      "classificacaoEditorial": "núcleo técnico-normativo consolidado de TI do Poder Judiciário",
-      "documentoUrl": "https://docs.google.com/document/d/1bXCBrMLZ1Tjpm8UfsqWlGzoXpRLOJV54AjOsPhH-E8U/edit?usp=drivesdk",
-      "caracteres": 31538,
-      "sha256Texto": "08c8e465823cfc221a1ef242308b77bff253274adcc73425605df6c11c234e46",
-      "sha256Documento": "9ff485bfbd34be5bc0419f706c77f0202d5899d32cfc18fb886d213cf6d8d205"
     },
     {
       "id": "ARQ-001",
@@ -1911,50 +1839,6 @@
       "caracteres": 24472,
       "sha256Texto": "00115ed40aedd82ba0a20030f64c44088baf9f43913a5ed31de7478685155420",
       "sha256Documento": "939f301c590ffdff002d434f3d3d77785f4e7da24760533930b77dccaf2af893"
-    },
-    {
-      "id": "ES-004",
-      "titulo": "ES-004 — Modelagem, UML e documentação de requisitos: casos de uso, diagramas de atividades/estados, histórias, critérios de aceitação e modelos de domínio",
-      "materiaId": "engenharia-software",
-      "cargoIds": [
-        "trf3_aj_ti",
-        "trf3_tj_ti",
-        "tresp_aj_ti",
-        "trt15_aj_ti",
-        "trt15_tj_ti"
-      ],
-      "editalRefs": [
-        "TRF3 — Edital nº 01/2023 — Analista Judiciário – Apoio Especializado – Informática — Engenharia de Software/Requisitos e UML 2.5",
-        "TRF3 — Edital nº 01/2023 — Técnico Judiciário – Apoio Especializado – Informática — Engenharia de Requisitos e UML 2.5",
-        "CPNUJE/TRE-SP — Edital nº 1/2024 — Cargo 17 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Engenharia de requisitos e Unified Modeling Language (UML)",
-        "TRT-15 — Edital nº 01/2024 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Engenharia de requisitos e UML 2.5",
-        "TRT-15 — Edital nº 01/2024 — Técnico Judiciário – Apoio Especializado – Tecnologia da Informação — Engenharia de requisitos e UML 2.5."
-      ],
-      "sourceRefs": [
-        "OMG — UML 2.5.1 Specification",
-        "IEEE Computer Society — SWEBOK Guide V4.0/V4.0a — Software Requirements e Software Engineering Models and Methods",
-        "Agile Alliance — User Stories e Acceptance Criteria como práticas de requisitos/agilidade",
-        "TRF3 — Edital nº 01/2023 — conteúdo programático oficial",
-        "Cebraspe — CPNUJE — Edital nº 1/2024 — Cargo 17",
-        "TRT-15 — Edital nº 01/2024 — conteúdo programático oficial",
-        "ES-001",
-        "ES-002",
-        "ES-003",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "em_producao",
-      "topicoId": "ES-004",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "engenharia-software/ES-004.json",
-      "materiaEditorial": "Engenharia de Software",
-      "classificacaoEditorial": "núcleo técnico consolidado de TI — modelagem e documentação de requisitos",
-      "documentoUrl": "https://docs.google.com/document/d/1qoREzTRfWKzzoZZWUsjeXqE3FjBWhvbjuO0DYhXY45s/edit?usp=drivesdk",
-      "caracteres": 33058,
-      "sha256Texto": "a048972c6840cdec1826d768f441eb376bfe98a01bc4ec177009da44e7fc1dfa",
-      "sha256Documento": "1de285582dd7c08a500bdf5cdb3f0894977b408dbaba76d2b0e4388ca98095e6"
     },
     {
       "id": "ES-003",
@@ -4002,32 +3886,6 @@
       "caracteres": 31284,
       "sha256Texto": "ad3c2ed2c2764537194464a97a5065a7aabd0bcad71f4b3cd848bed1f96b3ed3",
       "sha256Documento": "7e0c371255eccab4a2fc996c4bd77a63284a60db8f07ff3d974d816f299c9c29"
-    },
-    {
-      "id": "RLM-002",
-      "titulo": "RLM-002 — Lógica de argumentação e conclusões válidas",
-      "materiaId": "raciocinio-logico",
-      "cargoIds": [],
-      "editalRefs": [],
-      "sourceRefs": [
-        "CHECKPOINT — Produção intercalada de matérias",
-        "RLM-001 — Estruturas lógicas e relações entre elementos",
-        "MATRIZ_INICIAL_MATERIAS.md",
-        "Relatório consolidado dos editais judiciais de São Paulo e programa unificado de estudos.docx"
-      ],
-      "status": "em_producao",
-      "topicoId": "RLM-002",
-      "tipo": "compartilhado",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "raciocinio-logico-matematico/RLM-002.json",
-      "materiaEditorial": "Raciocínio Lógico-Matemático",
-      "classificacaoEditorial": "",
-      "documentoUrl": "https://docs.google.com/document/d/1Obbg5YIsI6my4cQbartBMKVmSk3dvI7AqwJ7jT3ppk0/edit?usp=drivesdk",
-      "caracteres": 27331,
-      "sha256Texto": "58db9f6d3a70939098f9c6381a54d083aaaf1bd9c0cc9a9d9568a4d5998b5f55",
-      "sha256Documento": "0edc93d2836eb43497017abadd26a4778e8d03e3207711cf6275110da5e07945"
     },
     {
       "id": "RLM-001",
@@ -7668,47 +7526,6 @@
       "sha256Documento": "36d30220b4b5f0d4af3bb9a3174df3580f500a8089ff1db6a484490c31687cad"
     },
     {
-      "id": "ES-006",
-      "titulo": "ES-006 — Qualidade de software em profundidade — CMMI-DEV v2.0, MR-MPS-SW 2021, ABNT NBR ISO/IEC/IEEE 12207:2021, garantia, controle, métricas, auditorias e melhoria",
-      "materiaId": "engenharia-software",
-      "cargoIds": [
-        "trt15_aj_ti",
-        "trt15_tj_ti"
-      ],
-      "editalRefs": [
-        "TRT-15 — Edital número 01/2024 — Cargo 24 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Qualidade do software: conhecimento dos modelos Capability Maturity Model Integration, CMMI-DEV v2.0",
-        "ABNT NBR ISO/IEC/IEEE 12207:2021",
-        "versão 2021 do guia MR-MPS-SW.",
-        "TRT-15 — Edital número 01/2024 — Cargo 28 — Técnico Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Qualidade do software: conhecimento dos modelos CMMI-DEV v2.0",
-        "noções da ABNT NBR ISO/IEC/IEEE 12207:2021 e da versão 2021 do guia MR-MPS-SW."
-      ],
-      "sourceRefs": [
-        "TRT-15 — Edital número 01/2024 — versão final oficial — páginas do conteúdo dos Cargos 24 e 28.",
-        "CMMI Institute — CMMI Development V2.0",
-        "CMMI Levels of Capability and Performance",
-        "materiais oficiais de referência do CMMI V2.0.",
-        "Softex — Guia Geral MPS de Software:2021.",
-        "ISO — ISO/IEC/IEEE 12207:2017 — base internacional idêntica adotada no Brasil como ABNT NBR ISO/IEC/IEEE 12207:2021.",
-        "ABNT NBR ISO/IEC/IEEE 12207:2021 — edição brasileira exigida pelo edital.",
-        "ES-005 — Testes e qualidade de software.",
-        "CHECKPOINT — Produção intercalada de matérias."
-      ],
-      "status": "concluido",
-      "statusEditorialOriginal": "concluido",
-      "topicoId": "ES-006",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "engenharia-software/ES-006.json",
-      "materiaEditorial": "Engenharia de Software",
-      "classificacaoEditorial": "núcleo técnico consolidado — qualidade de software, maturidade e melhoria de processos",
-      "documentoUrl": "https://docs.google.com/document/d/1QAODQLAjZkJPk5qGyvzD3Y-M86kPIp-dc_aGROV7p5c/edit?usp=drivesdk",
-      "caracteres": 41537,
-      "sha256Texto": "ac7adf603240cb20ddcbdf7723250e9495d02bbfa9ff06b7fd9c6dee7e3ddd9d",
-      "sha256Documento": "bc0927f5f105460a53154f37e01f5c13270af6484968a89f53a02467804de378"
-    },
-    {
       "id": "SCJ-006",
       "titulo": "SCJ-006 — Licenças: disposições gerais e licença por motivo de doença em pessoa da família — Lei número 8.112/1990, artigos 81 a 83",
       "materiaId": "servidores-carreira",
@@ -10826,6 +10643,393 @@
       "caracteres": 33590,
       "sha256Texto": "8be051d561d33a2e3eb28ead56548c89bada39a34b2ffe9396339fe4edd35e8b",
       "sha256Documento": "a9ef0aab614e768a3a8f94fd777a47f7bc9a2cc80a5206ffcc1c7c5bb513939b"
+    },
+    {
+      "id": "ES-006",
+      "titulo": "ES-006 — Qualidade de software em profundidade — CMMI-DEV v2.0, MR-MPS-SW 2021, ABNT NBR ISO/IEC/IEEE 12207:2021, garantia, controle, métricas, auditorias e melhoria",
+      "materiaId": "engenharia-software",
+      "cargoIds": [
+        "trt15_aj_ti",
+        "trt15_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TRT-15 — Edital número 01/2024 — Cargo 24 — Analista Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Qualidade do software: conhecimento dos modelos Capability Maturity Model Integration, CMMI-DEV v2.0",
+        "ABNT NBR ISO/IEC/IEEE 12207:2021",
+        "versão 2021 do guia MR-MPS-SW.",
+        "TRT-15 — Edital número 01/2024 — Cargo 28 — Técnico Judiciário – Área Apoio Especializado – Especialidade Tecnologia da Informação — Qualidade do software: conhecimento dos modelos CMMI-DEV v2.0",
+        "noções da ABNT NBR ISO/IEC/IEEE 12207:2021 e da versão 2021 do guia MR-MPS-SW.",
+        "D2.AJTI.01.1 — TRF3/2023 — Analista Judiciário – Área Apoio Especializado – Especialidade Informática — Processo de desenvolvimento de software — CMMI-DEV v2.0.",
+        "D2.AJTI.01.2 — TRF3/2023 — Analista Judiciário – Área Apoio Especializado – Especialidade Informática — Processo de desenvolvimento de software — ABNT NBR ISO/IEC/IEEE 12207:2021.",
+        "D2.AJTI.01.3 — TRF3/2023 — componente MR-MPSSW/MR-MPS-SW do subitem histórico combinado “MR-MPSSW e UML 2.5”",
+        "neste documento, homologa-se a parcela conceitual MR-MPSSW/MR-MPS-SW sem atribuir ao edital uma versão que ele não especifica."
+      ],
+      "sourceRefs": [
+        "TRT-15 — Edital número 01/2024 — versão final oficial — páginas do conteúdo dos Cargos 24 e 28.",
+        "CMMI Institute — CMMI Development V2.0",
+        "CMMI Levels of Capability and Performance",
+        "materiais oficiais de referência do CMMI V2.0.",
+        "SRC-TRF3-2023 — Edital de Abertura TRF3 nº 01/2023, Anexo II, Analista Judiciário – Área Apoio Especializado – Especialidade Informática, D2.AJTI.01.1–1.2.",
+        "ISO-12207-2017-OFFICIAL — ISO/IEC/IEEE 12207:2017, base internacional da adoção brasileira 2021",
+        "retirada internacionalmente em 29/04/2026.",
+        "ISO-12207-2026-OFFICIAL — edição internacional sucessora, publicada em 04/2026",
+        "contexto atual, não substitutivo da versão editalícia brasileira 2021.",
+        "Softex — Guia Geral MPS de Software:2021.",
+        "ISO — ISO/IEC/IEEE 12207:2017 — base internacional idêntica adotada no Brasil como ABNT NBR ISO/IEC/IEEE 12207:2021.",
+        "ABNT NBR ISO/IEC/IEEE 12207:2021 — edição brasileira exigida pelo edital.",
+        "ES-005 — Testes e qualidade de software.",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "concluido",
+      "statusEditorialOriginal": "concluido",
+      "topicoId": "ES-006",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "engenharia-software/ES-006.json",
+      "materiaEditorial": "Engenharia de Software",
+      "classificacaoEditorial": "núcleo técnico consolidado — qualidade de software, maturidade e melhoria de processos",
+      "documentoUrl": "https://docs.google.com/document/d/1QAODQLAjZkJPk5qGyvzD3Y-M86kPIp-dc_aGROV7p5c/edit?usp=drivesdk",
+      "caracteres": 47968,
+      "sha256Texto": "536ebb981f2baa2dc4d1a1a119922603410127c12adaea66d8b3fc845bbe8304",
+      "sha256Documento": "037efcdff18accc0f23ea8eb1a3ce91244c5990afae19c981fb03b6a09ababbf"
+    },
+    {
+      "id": "ES-004",
+      "titulo": "ES-004 — Modelagem, UML e documentação de requisitos: casos de uso, diagramas de atividades/estados, histórias, critérios de aceitação e modelos de domínio",
+      "materiaId": "engenharia-software",
+      "cargoIds": [
+        "trf3_aj_ti",
+        "trf3_tj_ti",
+        "tresp_aj_ti",
+        "trt15_aj_ti",
+        "trt15_tj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — Edital nº 01/2023 — Analista Judiciário – Apoio Especializado – Informática — Engenharia de Software/Requisitos e UML 2.5",
+        "TRF3 — Edital nº 01/2023 — Técnico Judiciário – Apoio Especializado – Informática — Engenharia de Requisitos e UML 2.5",
+        "CPNUJE/TRE-SP — Edital nº 1/2024 — Cargo 17 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Engenharia de requisitos e Unified Modeling Language (UML)",
+        "TRT-15 — Edital nº 01/2024 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Engenharia de requisitos e UML 2.5",
+        "TRT-15 — Edital nº 01/2024 — Técnico Judiciário – Apoio Especializado – Tecnologia da Informação — Engenharia de requisitos e UML 2.5."
+      ],
+      "sourceRefs": [
+        "OMG — UML 2.5.1 Specification",
+        "IEEE Computer Society — SWEBOK Guide V4.0/V4.0a — Software Requirements e Software Engineering Models and Methods",
+        "Agile Alliance — User Stories e Acceptance Criteria como práticas de requisitos/agilidade",
+        "TRF3 — Edital nº 01/2023 — conteúdo programático oficial",
+        "Cebraspe — CPNUJE — Edital nº 1/2024 — Cargo 17",
+        "TRT-15 — Edital nº 01/2024 — conteúdo programático oficial",
+        "ES-001",
+        "ES-002",
+        "ES-003",
+        "CHECKPOINT — Produção intercalada de matérias."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "ES-004",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "engenharia-software/ES-004.json",
+      "materiaEditorial": "Engenharia de Software",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI — modelagem e documentação de requisitos",
+      "documentoUrl": "https://docs.google.com/document/d/1qoREzTRfWKzzoZZWUsjeXqE3FjBWhvbjuO0DYhXY45s/edit?usp=drivesdk",
+      "caracteres": 50070,
+      "sha256Texto": "a76691cfffc65f17cd95566ac170d45f5165e342bbbed5524fa3c50361e7861d",
+      "sha256Documento": "23a1ecc28ae0812c1d7d7e64519568861e78a429b9520f12f90e27c093832296"
+    },
+    {
+      "id": "ARQ-009",
+      "titulo": "ARQ-009 — Portaria CNJ nº 162/2021 — Protocolos e Manuais da ENSEC-PJ",
+      "materiaId": "arquitetura-judiciaria-pdpj-br",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.16.7 — TRF3/2023 — Portaria CNJ nº 162/2021 — Protocolos e Manuais da Estratégia Nacional de Segurança Cibernética do Poder Judiciário"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "CNJ-PORT-162-2021-VIGENTE",
+        "CNJ-RES-396-2021-VIGENTE",
+        "IGOVTIC-JUD-2025/2026-CNJ",
+        "ARQ-007",
+        "SI-006",
+        "AUDITORIA-1-1-D2.AJTI.16.7",
+        "CHECKPOINT-E40",
+        "E41"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E41",
+      "topicoId": "ARQ-009",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-009.json",
+      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
+      "classificacaoEditorial": "núcleo normativo formal",
+      "documentoUrl": "https://docs.google.com/document/d/1_hFH7TbEar3hYQbFUwTwzzoKpB2ZpgnIwKjfbW_zcIA/edit?usp=drivesdk",
+      "caracteres": 21804,
+      "sha256Texto": "d19b70daea661ffeb9034681bcf1957d445af6ab48b6776c69783b889566a362",
+      "sha256Documento": "c59eeda6d585017dd6f97626fdbce437335b9464a062c5d74ff506ae0408d12c"
+    },
+    {
+      "id": "ARQ-008",
+      "titulo": "ARQ-008 — Portaria CNJ nº 131/2021 — Grupo Revisor de Código-Fonte da PDPJ-Br e do PJe",
+      "materiaId": "arquitetura-judiciaria-pdpj-br",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.16.6 — TRF3/2023 — Portaria CNJ nº 131/2021 — Grupo Revisor de Código-Fonte das soluções da PDPJ-Br e do PJe"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "CNJ-PORT-131-2021-VIGENTE",
+        "CNJ-RES-335-2020",
+        "CNJ-PORT-252-2020",
+        "AUDITORIA-1-1-D2.AJTI.16.6",
+        "CHECKPOINT-E39",
+        "E40"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E40",
+      "topicoId": "ARQ-008",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-008.json",
+      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
+      "classificacaoEditorial": "núcleo normativo formal — revisão e qualidade de código-fonte na PDPJ-Br/PJe",
+      "documentoUrl": "https://docs.google.com/document/d/1WqbYuQwiLPLptImv5xmE7WnZL_O3scEdmlzabcoThUA/edit?usp=drivesdk",
+      "caracteres": 35725,
+      "sha256Texto": "60d670d50b699544e071432eef6eee33060cc21e98548cca14556be2f4c1fa3f",
+      "sha256Documento": "46a79458dd51f3761580958ef391a6a409c736fa8ebe452cb79537697dd3fef3"
+    },
+    {
+      "id": "ARQ-003",
+      "titulo": "ARQ-003 — Critérios e diretrizes técnicas de desenvolvimento na PDPJ-Br — Portaria CNJ nº 253/2020",
+      "materiaId": "arquitetura-judiciaria-pdpj-br",
+      "cargoIds": [
+        "tresp_aj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "CPNUJE2024.C17.PDPJ.PORT253 — TRE/SP — Portaria CNJ nº 253/2020",
+        "D2.AJTI.16.5 — TRF3/2023 — Portaria CNJ nº 253/2020 — critérios e diretrizes técnicas para desenvolvimento de módulos e serviços na PDPJ-Br"
+      ],
+      "sourceRefs": [
+        "CNJ-PORT-253-2020 — texto vigente",
+        "CNJ-RES-335-2020",
+        "CNJ-PORT-257-2022",
+        "CNJ-RES-615-2025 — texto compilado atual, situação Alterado pela Resolução CNJ nº 674/2026",
+        "CNJ-RES-674-2026",
+        "CPNUJE-2024",
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "AUDITORIA-1-1-D2.AJTI.16.5",
+        "FGV-TJTO-2022-TJ-INFORMATICA-Q78",
+        "ARQ-001",
+        "ARQ-002",
+        "CHECKPOINT-E38",
+        "E39"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E39 — vínculo D2.AJTI.16.5 homologado",
+      "topicoId": "ARQ-003",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-003.json",
+      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
+      "classificacaoEditorial": "núcleo técnico-normativo consolidado de TI do Poder Judiciário",
+      "documentoUrl": "https://docs.google.com/document/d/1oWxT2nlb2qBfaq5XQ4dKXt-OYnqnJnr6mt7lkZvK8t4/edit?usp=drivesdk",
+      "caracteres": 40087,
+      "sha256Texto": "1960389af94ec51f169e6d66700581b711511ec8b355bf16f4515cdcb47342fc",
+      "sha256Documento": "733cba6d9fd1dd4c3579a2b2075f9209f4a7da072abb8a0e3468e7caea78a05d"
+    },
+    {
+      "id": "ARQ-002",
+      "titulo": "ARQ-002 — Governança e gestão da PDPJ-Br: Portaria CNJ nº 252/2020, papéis, requisitos de integração e colaboração",
+      "materiaId": "arquitetura-judiciaria-pdpj-br",
+      "cargoIds": [
+        "tresp_aj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "CPNUJE2024.C17.PDPJ.PORT252 — TRE/SP — Portaria CNJ nº 252/2020",
+        "D2.AJTI.16.4 — TRF3/2023 — Portaria CNJ nº 252/2020 — Modelo de Governança e Gestão da PDPJ-Br"
+      ],
+      "sourceRefs": [
+        "CNJ-PORT-252-2020 — texto compilado atual, situação Alterado pela Portaria CNJ nº 284/2021",
+        "CNJ-PORT-284-2021",
+        "CNJ-RES-335-2020",
+        "CNJ-RES-443-2022",
+        "CNJ-PORT-257-2022",
+        "CPNUJE-2024",
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "AUDITORIA-1-1-D2.AJTI.16.4",
+        "ARQ-001",
+        "CHECKPOINT-E37",
+        "E38"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E38 — vínculo D2.AJTI.16.4 homologado",
+      "topicoId": "ARQ-002",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-002.json",
+      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
+      "classificacaoEditorial": "núcleo técnico-normativo consolidado de TI do Poder Judiciário",
+      "documentoUrl": "https://docs.google.com/document/d/1bXCBrMLZ1Tjpm8UfsqWlGzoXpRLOJV54AjOsPhH-E8U/edit?usp=drivesdk",
+      "caracteres": 32143,
+      "sha256Texto": "7c767f2087071083f15e6165dc47a908424dd58868a884b5290c8c87f9a414c2",
+      "sha256Documento": "d4dfe53b4ce44e88ed61369aa2f238dc5097bf1cedd881431c48b2d9259dc8bd"
+    },
+    {
+      "id": "ARQ-007",
+      "titulo": "ARQ-007 — Resolução CNJ nº 396/2021 — ENSEC-PJ, governança, resposta a incidentes e segurança cibernética do Poder Judiciário",
+      "materiaId": "arquitetura-judiciaria-pdpj-br",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.16.3 — TRF3/2023 — Resolução CNJ nº 396/2021 — Estratégia Nacional de Segurança Cibernética do Poder Judiciário"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "CNJ-RES-396-2021 — texto oficial vigente",
+        "CNJ-PORT-162-2021 — norma correlata, reservada ao D2.AJTI.16.7",
+        "CNJ-PORT-172-2022 — CPTRIC-PJ",
+        "CNJ-RES-443-2022",
+        "CNJ-PORT-257-2022",
+        "SI-006 — fundamento técnico transversal, não substitutivo",
+        "AUDITORIA-1-1-D2.AJTI.16.3",
+        "CHECKPOINT-E36",
+        "E37"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E37",
+      "topicoId": "ARQ-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "arquitetura-judiciaria-pdpj-br/ARQ-007.json",
+      "materiaEditorial": "Arquitetura Judiciária / PDPJ-Br",
+      "classificacaoEditorial": "núcleo técnico-normativo — segurança cibernética do Poder Judiciário",
+      "documentoUrl": "https://docs.google.com/document/d/1jINYMqWikoOuFTtEAmcjl7BB_2XONUF1OLvItWTu7nw/edit?usp=drivesdk",
+      "caracteres": 34064,
+      "sha256Texto": "c72b070aa696491dd7602076ac0e9a99a95e32dca6c6e47408029cd31b65a1db",
+      "sha256Documento": "c9e06b74cb782f1b52a390b8ac7c35cb4dabfe2f9cef9d5984713b8e5ee125ef"
+    },
+    {
+      "id": "RLM-002",
+      "titulo": "RLM-002 — Lógica de argumentação e conclusões válidas",
+      "materiaId": "raciocinio-logico",
+      "cargoIds": [
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "AJADM.CG.03.04",
+        "C1.TJTI.RLM.04",
+        "D1.AJTI.RLM.04"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Raciocínio Lógico-Matemático item 4",
+        "Técnico Apoio Especializado Informática no PDF índice 48/página impressa 49",
+        "Analistas Área Administrativa e Apoio Especializado Informática no PDF índice 57/página impressa 58",
+        "CHECKPOINT — Produção intercalada de matérias",
+        "RLM-001 — Estruturas lógicas e relações entre elementos",
+        "MATRIZ_INICIAL_MATERIAS.md"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "RLM-002",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "raciocinio-logico-matematico/RLM-002.json",
+      "materiaEditorial": "Raciocínio Lógico-Matemático",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1Obbg5YIsI6my4cQbartBMKVmSk3dvI7AqwJ7jT3ppk0/edit?usp=drivesdk",
+      "caracteres": 34803,
+      "sha256Texto": "55c08fe06284932e7e539cf4d6519aa4c347d94b129115f90cbf6190d9037c9b",
+      "sha256Documento": "ded21790138645c60ad80f4869704a23fb5ce4a9479a6f1420f13bc279f66200"
+    },
+    {
+      "id": "RLM-009",
+      "titulo": "RLM-009 — Raciocínio verbal: interpretação de condições, relações, quantificadores, inferências e conclusões",
+      "materiaId": "raciocinio-logico",
+      "cargoIds": [
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "AJADM.CG.03.03 — componente interno raciocínio verbal",
+        "C1.TJTI.RLM.03 — componente interno raciocínio verbal",
+        "D1.AJTI.RLM.03 — componente interno raciocínio verbal"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Raciocínio Lógico item 3",
+        "Técnico Apoio Especializado Informática, página impressa 49/PDF 48",
+        "Analistas Área Administrativa e Apoio Especializado Informática, página impressa 58/PDF 57",
+        "AUDITORIA 1:1 DOS EDITAIS"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "RLM-009",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "raciocinio-logico-matematico/RLM-009.json",
+      "materiaEditorial": "Raciocínio Lógico-Matemático",
+      "classificacaoEditorial": "núcleo formal compartilhado — raciocínio verbal",
+      "documentoUrl": "https://docs.google.com/document/d/1zD-PP-0XLz2lfvGdavwwDMGcV9_q2itkdjlbF14LfrA/edit?usp=drivesdk",
+      "caracteres": 20364,
+      "sha256Texto": "728f7a68c02e213263775e5b4770fe97380238fb246f52285397b5e08d2659ec",
+      "sha256Documento": "0ad746f568c7c980f69c7796cee88e7f5bda7e34288035e000ad9e2682b5127d"
+    },
+    {
+      "id": "RLM-007",
+      "titulo": "RLM-007 — Orientação espacial e temporal: posições, deslocamentos, direções, referências, ordem cronológica e relações de tempo",
+      "materiaId": "raciocinio-logico",
+      "cargoIds": [
+        "trf3_tj_ti",
+        "trf3_aj_adm",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "C1.TJTI.RLM.03, AJADM.CG.03.03, D1.AJTI.RLM.03"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado",
+      "topicoId": "RLM-007",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "raciocinio-logico-matematico/RLM-007.json",
+      "materiaEditorial": "Raciocínio Lógico-Matemático",
+      "classificacaoEditorial": "núcleo formal consolidado — componente interno 03.d do item 3",
+      "documentoUrl": "https://docs.google.com/document/d/15-7_xlFXweJ8ExroaDyhVmEQS15bEXTqGtwCifOJ1w0/edit?usp=drivesdk",
+      "caracteres": 26159,
+      "sha256Texto": "b3b60965628eb799aa4a6ffcbdf689b89667a3f87b621ba159055874659ef455",
+      "sha256Documento": "bbf03fbbd612aa570e003cfdc6244889324730a133e6b11e640ce6959d8ae2c9"
     }
   ]
 }

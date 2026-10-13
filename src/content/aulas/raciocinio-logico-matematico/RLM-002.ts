@@ -5,17 +5,28 @@ export default {
   "id": "RLM-002",
   "titulo": "RLM-002 — Lógica de argumentação e conclusões válidas",
   "materiaId": "raciocinio-logico",
-  "cargoIds": [],
-  "editalRefs": [],
+  "cargoIds": [
+    "trf3_aj_adm",
+    "trf3_tj_ti",
+    "trf3_aj_ti"
+  ],
+  "editalRefs": [
+    "AJADM.CG.03.04",
+    "C1.TJTI.RLM.04",
+    "D1.AJTI.RLM.04"
+  ],
   "sourceRefs": [
+    "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, Raciocínio Lógico-Matemático item 4",
+    "Técnico Apoio Especializado Informática no PDF índice 48/página impressa 49",
+    "Analistas Área Administrativa e Apoio Especializado Informática no PDF índice 57/página impressa 58",
     "CHECKPOINT — Produção intercalada de matérias",
     "RLM-001 — Estruturas lógicas e relações entre elementos",
-    "MATRIZ_INICIAL_MATERIAS.md",
-    "Relatório consolidado dos editais judiciais de São Paulo e programa unificado de estudos.docx"
+    "MATRIZ_INICIAL_MATERIAS.md"
   ],
-  "status": "em_producao",
+  "status": "revisado",
+  "statusEditorialOriginal": "revisado",
   "topicoId": "RLM-002",
-  "tipo": "compartilhado",
+  "tipo": "oficial",
   "demonstracao": false,
   "secoes": [],
   "extensoes": [],
