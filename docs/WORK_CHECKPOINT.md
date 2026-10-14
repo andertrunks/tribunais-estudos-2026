@@ -146,3 +146,11 @@ arquivos afetados. Auditoria inicial concluída; não repetir sem mudança estru
   20 matérias, 39 cartões, desktop/mobile e zero erros locais.
   Publicado em 23/09: 0eac80199e27503a26e4ac8d91ed376744fec8ae; Actions 35902061209 OK.
   Público: 45 textos integrais, 20 matérias, desktop/mobile OK, zero erros.
+
+
+## Publicação editorial 2026-10-14
+Base main: 38e328ab8d0ab3a2f580bc1ca845b17d6c051710. CI anterior 38401972276 FAIL: inventário JSON truncado no transporte. Restaurado do snapshot completo preservado; nenhum conteúdo/progresso apagado.
+Integrados integralmente PW-004/PW-006 revisados e PW-007/PW-008/PW-009 novos, fontes nativas Google Drive e gate E63. Catálogo: 308 IDs canônicos.
+TypeScript/lint/18 testes/build/PWA PASS. Não executado Edge. Lote anterior de 39 aulas ainda aguardava deploy após primeiro lote de 10. Este commit recupera a publicação dessas 39 e acrescenta 5; não contar as 10 anteriores novamente.
+Arquivos: inventário e TS/JSON das cinco PW; este checkpoint. Push/deploy/verificação HTTP pendentes nesta entrada.
+Próxima ação exata: acompanhar Actions do novo commit; comparar SHA256 de dist/assets com os assets HTTP e registrar recibo em ESTADO_ATUAL da planilha canônica. Pendências editoriais: ES-003 preservar versão Word; ES-002/AGP-005/RLM-003 em produção; MC-014/015/016 vinculados à Central, pendentes de pacote próprio.

@@ -7,13 +7,17 @@ export default {
   "materiaId": "programacao-web",
   "cargoIds": [
     "tresp_aj_ti",
-    "tresp_tj_programacao"
+    "tresp_tj_programacao",
+    "trf3_aj_ti"
   ],
   "editalRefs": [
     "CPNUJE / Cebraspe — Edital nº 1/2024, versão atualizada até a Retificação nº 15 — Cargo 17: Analista Judiciário – Área: Apoio Especializado – Especialidade: Tecnologia da Informação — Desenvolvimento de Sistemas, item 1.1.1: “JavaScript, HTML5, CSS3, WebSocket, Single Page Application (SPA)” e item 1.2: frameworks JavaScript.",
-    "CPNUJE / Cebraspe — Edital nº 1/2024, versão atualizada até a Retificação nº 15 — Cargo 21: Técnico Judiciário – Área: Apoio Especializado – Especialidade: Programação de Sistemas — item 10: “Noções sobre linguagens e tecnologias de programação Java, Mobile nas plataformas Android, HTML, CSS, Javascript, DHTML, XML/XSD, JBossSeam, JPA, JSF, facelets, JNDI, JDBC, sites responsivos”."
+    "CPNUJE / Cebraspe — Edital nº 1/2024, versão atualizada até a Retificação nº 15 — Cargo 21: Técnico Judiciário – Área: Apoio Especializado – Especialidade: Programação de Sistemas — item 10: “Noções sobre linguagens e tecnologias de programação Java, Mobile nas plataformas Android, HTML, CSS, Javascript, DHTML, XML/XSD, JBossSeam, JPA, JSF, facelets, JNDI, JDBC, sites responsivos”.",
+    "TRF3 / VUNESP — Edital nº 01/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — D2.AJTI.05.1.6 — JavaScript."
   ],
   "sourceRefs": [
+    "SRC-TRF3-2023",
+    "E63.",
     "ECMA-262 — ECMAScript® 2026 Language Specification — TC39/Ecma International.",
     "MDN Web Docs — JavaScript Guide — Grammar and types",
     "Control flow",
@@ -27,7 +31,8 @@ export default {
     "PW-003 — CSS.",
     "CHECKPOINT — Produção intercalada de matérias."
   ],
-  "status": "em_producao",
+  "status": "concluido",
+  "statusEditorialOriginal": "concluido — gate editorial E63 — vínculo D2.AJTI.05.1.6 homologado",
   "topicoId": "PW-004",
   "tipo": "oficial",
   "demonstracao": false,
@@ -36,5 +41,5 @@ export default {
   "documentoArquivo": "programacao-web/PW-004.json",
   "materiaEditorial": "Programação e Web",
   "classificacaoEditorial": "núcleo técnico consolidado de TI — JavaScript",
-  "documentoUrl": "https://docs.google.com/document/d/1D64kzSum3mJ5o8WkvMlJIvAB18D8rez7D-gVoq4QEU4/edit?usp=drivesdk"
+  "documentoUrl": "https://docs.google.com/document/d/1D64kzSum3mJ5o8WkvMlJIvAB18D8rez7D-gVoq4QEU4"
 } satisfies Aula;
