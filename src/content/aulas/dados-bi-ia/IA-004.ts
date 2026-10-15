@@ -18,6 +18,8 @@ export default {
     "IA-001",
     "IA-002",
     "IA-003",
+    "PW-012",
+    "E66",
     "DOC-PYTHON3-VENV",
     "DOC-SCIKIT-GETTING-STARTED",
     "DOC-KERAS-GETTING-STARTED",
@@ -33,5 +35,5 @@ export default {
   "documentoArquivo": "dados-bi-ia/IA-004.json",
   "materiaEditorial": "Ciência de Dados, Inteligência Artificial e Aprendizado de Máquina",
   "classificacaoEditorial": "núcleo formal consolidado — subitem 15.4",
-  "documentoUrl": "https://docs.google.com/document/d/1KzsBxoAf8MykB9sMVvpGeQlljK34xAiATEv4E7gunqc/edit?usp=drivesdk"
+  "documentoUrl": "https://docs.google.com/document/d/1KzsBxoAf8MykB9sMVvpGeQlljK34xAiATEv4E7gunqc"
 } satisfies Aula;

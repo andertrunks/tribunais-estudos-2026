@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
-  "data": "2026-10-14",
-  "total": 308,
+  "data": "2026-10-15",
+  "total": 315,
   "materias": 40,
   "aulas": [
     {
@@ -7177,43 +7177,6 @@
       "sha256Documento": "fa45dcd366c13e2737c151be76baf919d9e35072ba2f0708dc96c6461243a6f7"
     },
     {
-      "id": "IA-004",
-      "titulo": "IA-004 — Ferramentas de aprendizado de máquina: Python 3, scikitlearn, Keras e PyTorch — TRF3 Analista TI 15.4",
-      "materiaId": "dados-bi",
-      "cargoIds": [
-        "trf3_aj_ti"
-      ],
-      "editalRefs": [
-        "D2.AJTI.15.4 — TRF3/Fundação VUNESP, Edital nº 01/2023, Anexo II, Analista Judiciário — Apoio Especializado — Informática, “Conhecimentos sobre ferramentas de desenvolvimento de aplicações de aprendizado de máquina (python 3, scikitlearn, keras e pytorch)”"
-      ],
-      "sourceRefs": [
-        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
-        "AUDITORIA-1-1-D2.AJTI.15.4",
-        "CHECKPOINT-E21",
-        "IA-001",
-        "IA-002",
-        "IA-003",
-        "DOC-PYTHON3-VENV",
-        "DOC-SCIKIT-GETTING-STARTED",
-        "DOC-KERAS-GETTING-STARTED",
-        "DOC-PYTORCH-BASICS"
-      ],
-      "status": "revisado",
-      "statusEditorialOriginal": "revisado — gate E22 restrito a D2.AJTI.15.4",
-      "topicoId": "IA-004",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "dados-bi-ia/IA-004.json",
-      "materiaEditorial": "Ciência de Dados, Inteligência Artificial e Aprendizado de Máquina",
-      "classificacaoEditorial": "núcleo formal consolidado — subitem 15.4",
-      "documentoUrl": "https://docs.google.com/document/d/1KzsBxoAf8MykB9sMVvpGeQlljK34xAiATEv4E7gunqc/edit?usp=drivesdk",
-      "caracteres": 48636,
-      "sha256Texto": "82d06151012c52947d4ae0ebf4101a86f0e7a91bd07201817b74b43c0144a51d",
-      "sha256Documento": "f9147af2e9df043a90728917422b7e671e52d379b4c59a385e663761a86ba282"
-    },
-    {
       "id": "IA-003",
       "titulo": "IA-003 — Avaliação de modelos: sobreajuste, métricas de classificação e regressão e análise ROC — TRF3 Analista TI 15.3",
       "materiaId": "dados-bi",
@@ -11447,6 +11410,304 @@
       "caracteres": 33149,
       "sha256Texto": "87296035b2e996516d6ffb9f64915b53af4869a2e774936d4ff521f00c67f08c",
       "sha256Documento": "f7288578700b7aa309a3401dc055adb77288e0780477db88b909053493aa9d75"
+    },
+    {
+      "id": "PW-010",
+      "titulo": "PW-010 — TypeScript: tipagem estática, inferência, unions, narrowing, interfaces, generics, classes e módulos",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.7 — Typescript"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "TypeScript Handbook",
+        "TSConfig Reference",
+        "PW-004",
+        "PW-005",
+        "PW-006",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "E64."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E64",
+      "topicoId": "PW-010",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-010.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "extensão formal específica de desenvolvimento Web",
+      "documentoUrl": "https://docs.google.com/document/d/1AWunOYMcm559iHKcmDKvcVPcdym2mTevgBE5Tujid44",
+      "caracteres": 33811,
+      "sha256Texto": "7a88c6b1c29bb82303c59ad6323e23c7e38f42c6bef0dcc720a278930fd7879b",
+      "sha256Documento": "b0108337168d1c71742f90bf08116c1a66250bddf728dcce298360223c3de4e1"
+    },
+    {
+      "id": "PW-011",
+      "titulo": "PW-011 — AngularJS 1.x: módulos, controllers, scopes, data binding, diretivas, DI, serviços, filtros, formulários e rotas",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.8 — Angular 1.x"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "AngularJS official docs",
+        "AngularJS 1.8.x archive",
+        "PW-004",
+        "PW-005",
+        "PW-006",
+        "PW-007",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "E65."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E65",
+      "topicoId": "PW-011",
+      "tipo": "especifico",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-011.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "extensão formal específica de desenvolvimento Web",
+      "documentoUrl": "https://docs.google.com/document/d/1G6Deynyaj1XS2fI-pKxoQHSqIJksOiyDBRh9FOBakR8",
+      "caracteres": 32276,
+      "sha256Texto": "7ffd0e3793a5b50eccb2dbc5d85494a7170832c09b1f66ef92c5d509964d78a1",
+      "sha256Documento": "17dbe535a027b9bf1f8ea0220909f6c6942c4e1210bdf12c5f271bbed6124f88"
+    },
+    {
+      "id": "PW-012",
+      "titulo": "PW-012 — Python: sintaxe, tipos, coleções, controle de fluxo, funções, módulos, exceções, classes e ambientes virtuais",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.9 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Aplicações web/mobile: Python"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "DOC-PYTHON-TUTORIAL-3.15.0-2026-10-14",
+        "DOC-PYTHON-REFERENCE-3.15.0-2026-10-14",
+        "IA-004",
+        "PRG-001",
+        "PRG-002",
+        "CHECKPOINT-E65",
+        "E66"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E66 — vínculo D2.AJTI.05.1.9 homologado",
+      "topicoId": "PW-012",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-012.json",
+      "materiaEditorial": "Programação e Desenvolvimento Web",
+      "classificacaoEditorial": "núcleo geral consolidado de linguagem Python",
+      "documentoUrl": "https://docs.google.com/document/d/1Ujf5CPAQ6wer5MWC0yXPmrBhqa7yqjCfiCrKyZ9rauc",
+      "caracteres": 33500,
+      "sha256Texto": "e2228f313476d8f446a19ca3f42d0d77e22313de884e0be4f767efe21be9ea2d",
+      "sha256Documento": "5311fcbef62ef2359ff6b36978c32eb5b2808782a94f77f3aab76b6eb13d9b9e"
+    },
+    {
+      "id": "PW-013",
+      "titulo": "PW-013 — PHP: sintaxe, tipos, arrays, funções, formulários, sessões, orientação a objetos, PDO e segurança web",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.10 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Aplicações web/mobile — PHP"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "PHP Manual oficial",
+        "PHP Releases/Downloads",
+        "prova oficial VUNESP TJ-SP 2025 Analista de Sistemas Judiciário, questão 26",
+        "gabarito oficial VUNESP TJ-SP 2025",
+        "PW-001",
+        "PW-002",
+        "PW-007",
+        "BD-006",
+        "BD-007",
+        "BD-008",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "E67"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E67 — vínculo D2.AJTI.05.1.10 homologado",
+      "topicoId": "PW-013",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-013.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "aula específica de tecnologia Web — PHP",
+      "documentoUrl": "https://docs.google.com/document/d/1uFvaSx3tfiShehr1Hoz-SGdm4BWD1BX4gyYmB5VTX8Q",
+      "caracteres": 26909,
+      "sha256Texto": "2bd2e1a9859a7dfc1d10e6c835c47245af4712025728e79b367799664f11f4e9",
+      "sha256Documento": "6ee1f6cce65455d19f516ad075bfd44eefb8b3fe0e2d67bdd2d15acdf182e91d"
+    },
+    {
+      "id": "PW-014",
+      "titulo": "PW-014 — React: componentes, JSX, props, estado, eventos, listas, formulários, Hooks, contexto e efeitos",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.11 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Aplicações web/mobile — React"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "React official docs",
+        "React 19.3 official release",
+        "PW-004",
+        "PW-005",
+        "PW-006",
+        "PW-007",
+        "PW-010",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "E68."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E68",
+      "topicoId": "PW-014",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-014.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "aula específica de tecnologia Web — React",
+      "documentoUrl": "https://docs.google.com/document/d/1ScVuGgWDawXDGivCXlBNfAv7nWDW1fUh6aiHiGf6L-c",
+      "caracteres": 31006,
+      "sha256Texto": "2fea1e0f364612e169b202e1c3b41d896e0ce5058b3514404ed4e32cc6dc8cb2",
+      "sha256Documento": "b99c63cfc2989e096e36be20b9901c301b6b0f7aa0eec596be0d6fc2dd16efa7"
+    },
+    {
+      "id": "PW-015",
+      "titulo": "PW-015 — React Native: componentes nativos, estilos, layout, interação, listas, plataforma, navegação e integração",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.12 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Aplicações web/mobile — ReactNative"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "React Native official docs",
+        "React Native Releases Overview",
+        "React Native 0.87 official release",
+        "PW-014",
+        "PW-010",
+        "PW-006",
+        "PW-007",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "E69"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E69",
+      "topicoId": "PW-015",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-015.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "aula específica de tecnologia mobile — React Native",
+      "documentoUrl": "https://docs.google.com/document/d/1r_Ug8fwwGomQ4eHTv5L_YweeVkRfjDdu3OGKUT6MaeU",
+      "caracteres": 33500,
+      "sha256Texto": "ee11c08297fe609aaf4e8215575b9f0c0efe100b9193d3097021594dafab8cae",
+      "sha256Documento": "3946b57ec3e423d2768e57efb16ff1b32a2eda3d6ebb0f00311e7a669ab64366"
+    },
+    {
+      "id": "PW-016",
+      "titulo": "PW-016 — Node.js: runtime JavaScript, módulos, eventos, I/O assíncrona, streams, HTTP, processos e ecossistema",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.13 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Aplicações web/mobile — Node.js"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "documentação oficial Node.js",
+        "Node.js Releases",
+        "Node.js 26.12.0 Current",
+        "Node.js 24.22.0 LTS",
+        "PW-004",
+        "PW-006",
+        "PW-007",
+        "PW-010",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "E70."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E70",
+      "topicoId": "PW-016",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-016.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "aula específica de tecnologia Web/servidor — Node.js",
+      "documentoUrl": "https://docs.google.com/document/d/13MDu2Ueu006AmrMIHemP-EW6EF-iLLPg5qP2oJXnhSE",
+      "caracteres": 36181,
+      "sha256Texto": "4ba5f9b23ef50293f6d1eca0aa88fe8c280f883c1a2b6f2d66d3a69e12118276",
+      "sha256Documento": "b54e0a29d9ab68af51e2dc6342e4aca6728711949ef5d7e7d9378153d61aab40"
+    },
+    {
+      "id": "IA-004",
+      "titulo": "IA-004 — Ferramentas de aprendizado de máquina: Python 3, scikitlearn, Keras e PyTorch — TRF3 Analista TI 15.4",
+      "materiaId": "dados-bi",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.15.4 — TRF3/Fundação VUNESP, Edital nº 01/2023, Anexo II, Analista Judiciário — Apoio Especializado — Informática, “Conhecimentos sobre ferramentas de desenvolvimento de aplicações de aprendizado de máquina (python 3, scikitlearn, keras e pytorch)”"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023-EDITAL-01-ANEXO-II",
+        "AUDITORIA-1-1-D2.AJTI.15.4",
+        "CHECKPOINT-E21",
+        "IA-001",
+        "IA-002",
+        "IA-003",
+        "PW-012",
+        "E66",
+        "DOC-PYTHON3-VENV",
+        "DOC-SCIKIT-GETTING-STARTED",
+        "DOC-KERAS-GETTING-STARTED",
+        "DOC-PYTORCH-BASICS"
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate E22 restrito a D2.AJTI.15.4",
+      "topicoId": "IA-004",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "dados-bi-ia/IA-004.json",
+      "materiaEditorial": "Ciência de Dados, Inteligência Artificial e Aprendizado de Máquina",
+      "classificacaoEditorial": "núcleo formal consolidado — subitem 15.4",
+      "documentoUrl": "https://docs.google.com/document/d/1KzsBxoAf8MykB9sMVvpGeQlljK34xAiATEv4E7gunqc",
+      "caracteres": 48980,
+      "sha256Texto": "e5c28f6a5d53c1a87277b584e406fea425672e10bdb063fe9a1a2f417cefb4d4",
+      "sha256Documento": "55410e1bc9b73c6719fc36f31d9f143339b495c5bee965eb04b1f8b2601e57a8"
     }
   ]
 }

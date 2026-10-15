@@ -1,5 +1,12 @@
 # Tribunais Estudos 2026 — checkpoint operacional
 
+## Publicação editorial 2026-10-15
+Base main: 2fa1e1d0afa19b299e5794e327fbb7dc7bda6af3. O lote anterior está comprovadamente publicado: run38567297310 SUCCESS e 45 hashes HTTP iguais, recibo ESTADO_ATUAL!261.
+Fonte atual: checkpoint canônico E70 PASS. Importados integralmente PW-010–PW-016 (sete novos) e IA-004 (revisão), preservando IDs, fontes, cargos, limites de edital e questões autorais/real separadas. Catálogo 315 aulas canônicas.
+Arquivos: oito pares TS/JSON, inventário e este checkpoint. TypeScript, lint, 18 testes e build/PWA aprovados localmente. Progresso do aluno não alterado. Sem teste Edge.
+Push/deploy/HTTP ainda pendentes nesta entrada. Próxima ação exata: enviar árvore validada com verificação de igualdade local/remota, acompanhar Actions e comparar nove assets HTTP (oito aulas + index); registrar recibo no controle canônico. ES-003 segue pendente de reimportação com preservação da versão Word; não recriar aula.
+
+
 Lote Excel — 09/10/2026: INF-006 e INF-007 homologadas em fonte primária
 TJSP2503, Edital 02/2025, Anexo VI, Informática, página impressa 44.
 INF-008 recuperada do novo documento revisado na mesma pasta canônica.
