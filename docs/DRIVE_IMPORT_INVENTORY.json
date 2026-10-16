@@ -1,7 +1,7 @@
 {
   "origem": "01_Materias_Consolidadas",
-  "data": "2026-10-15",
-  "total": 315,
+  "data": "2026-10-16",
+  "total": 316,
   "materias": 40,
   "aulas": [
     {
@@ -11708,6 +11708,43 @@
       "caracteres": 48980,
       "sha256Texto": "e5c28f6a5d53c1a87277b584e406fea425672e10bdb063fe9a1a2f417cefb4d4",
       "sha256Documento": "55410e1bc9b73c6719fc36f31d9f143339b495c5bee965eb04b1f8b2601e57a8"
+    },
+    {
+      "id": "PW-017",
+      "titulo": "PW-017 — JSP: ciclo de execução, diretivas, elementos de script, objetos implícitos, EL, ações, JSTL e integração com Servlets",
+      "materiaId": "programacao-web",
+      "cargoIds": [
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "D2.AJTI.05.1.14 — TRF3/2023 — Analista Judiciário – Apoio Especializado – Tecnologia da Informação — Aplicações web/mobile — JSP"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023",
+        "Jakarta Pages 4.0 Specification",
+        "Jakarta Pages project page",
+        "Jakarta Expression Language 6.0",
+        "Jakarta Servlet 6.1",
+        "PW-001",
+        "PW-002",
+        "PW-007",
+        "AUDITORIA-1-1-D2.AJTI.05",
+        "E71."
+      ],
+      "status": "revisado",
+      "statusEditorialOriginal": "revisado — gate editorial E71",
+      "topicoId": "PW-017",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "programacao-web/PW-017.json",
+      "materiaEditorial": "Programação e Web",
+      "classificacaoEditorial": "aula específica de tecnologia Web Java — JSP / JavaServer Pages / Jakarta Pages",
+      "documentoUrl": "https://docs.google.com/document/d/1OcOgE83FP7yoDoXNNKn6y17WINJc5pABcqYPkQDtMuo/edit",
+      "caracteres": 33294,
+      "sha256Texto": "ced258a85f9f37c32eb7313dd7abe306f93a6d012936f26c5c955443fe5ca6ce",
+      "sha256Documento": "9abd7b7775a9bb651a895d57bb3106515a3639190248d247da7fcda4c931a2e1"
     }
   ]
 }

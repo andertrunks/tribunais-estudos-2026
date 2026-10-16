@@ -1,5 +1,8 @@
 # Tribunais Estudos 2026 — checkpoint operacional
 
+## Publicação editorial 2026-10-16
+Base main 2335113be25936c56ed90447c11dcbcd4341f446; publicação anterior comprovada no controle ESTADO_ATUAL!271. Checkpoint canônico E71 PASS, PW-017 revisado e homologado. Importação integral: 33.294 caracteres, 30 flashcards, 20 questões autorais e 10 treinos; IDs/cargos/fontes e progresso preservados. Catálogo 316 canônicas. Arquivos PW-017.ts/JSON, inventário e este checkpoint. TypeScript/lint/18 testes aprovados; build em validação. Push/deploy ainda pendentes. Próxima ação exata: conferir build final, igualdade de árvores Git, enviar lote PW-017 e verificar Actions e hashes HTTP do index e asset PW-017; registrar recibo final no controle. E72 JSF é próximo editorial, não criar nesta rotina. ES-003 segue pendente de reimportação preservando versão Word.
+
 ## Publicação editorial 2026-10-15
 Base main: 2fa1e1d0afa19b299e5794e327fbb7dc7bda6af3. O lote anterior está comprovadamente publicado: run38567297310 SUCCESS e 45 hashes HTTP iguais, recibo ESTADO_ATUAL!261.
 Fonte atual: checkpoint canônico E70 PASS. Importados integralmente PW-010–PW-016 (sete novos) e IA-004 (revisão), preservando IDs, fontes, cargos, limites de edital e questões autorais/real separadas. Catálogo 315 aulas canônicas.
