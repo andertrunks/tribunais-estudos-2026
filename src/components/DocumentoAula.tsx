@@ -8,10 +8,10 @@ function Blocos({ blocos }: { blocos: BlocoDocumento[] }) {
     if (b.tipo === "tabela") return <div className="document-table" key={i} tabIndex={0} role="region" aria-label="Tabela da aula"><table><tbody>{b.linhas.map((row, r) => <tr key={r}>{row.map((c, j) => <td key={j} colSpan={c.colSpan} rowSpan={c.rowSpan}><Blocos blocos={c.blocos} /></td>)}</tr>)}</tbody></table></div>;
     const text = b.runs.map(r => r.texto).join("");
     if(!text.trim() && b.runs.some(r => r.separador)) return <hr key={i} />;
-    const content = b.runs.map((r, j) => <span key={j} style={{fontWeight:r.negrito ? 700:undefined,fontStyle:r.italico ? "italic":undefined,fontFamily:r.codigo ? "monospace":undefined}}>{r.url && seguro(r.url) ? <a href={r.url} target="_blank" rel="noreferrer">{r.texto}</a> : r.texto}</span>);
+    const content = b.runs.map((r, j) => r.imagem && /^content-images\/[A-Z0-9-]+\.(png|jpg|webp)$/.test(r.imagem) ? <img key={j} src={import.meta.env.BASE_URL + r.imagem} alt="Ilustração do documento canônico da aula" style={{maxWidth:"100%",height:"auto"}} /> : <span key={j} style={{fontWeight:r.negrito ? 700:undefined,fontStyle:r.italico ? "italic":undefined,fontFamily:r.codigo ? "monospace":undefined}}>{r.url && seguro(r.url) ? <a href={r.url} target="_blank" rel="noreferrer">{r.texto}</a> : r.texto}</span>);
     const heading = /HEADING|TITLE/.test(b.estilo) || (text.trim().length < 160 && /^\d+\.\s+\p{Lu}/u.test(text) && !/[;]$/.test(text.trim()));
     if (heading) return <h2 key={i}>{content}</h2>;
-    if (!text.trim()) return <div key={i} className="document-space" aria-hidden="true" />;
+    if (!text.trim() && !b.runs.some(r => r.imagem)) return <div key={i} className="document-space" aria-hidden="true" />;
     const question = /QUEST[ÃÕ]O(?:ES)?\s+(?:REAL|REAIS|IN[ÉE]DITA)/i.test(text);
     return <p key={i} className={question ? "document-question" : undefined} style={b.lista !== undefined ? {paddingLeft:`${b.lista + 1}em`}:undefined}>{b.lista !== undefined && <span aria-hidden="true">• </span>}{content}</p>;
   })}</>;

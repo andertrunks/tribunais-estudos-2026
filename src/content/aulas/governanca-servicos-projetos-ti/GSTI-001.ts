@@ -5,8 +5,13 @@ export default {
   "id": "GSTI-001",
   "titulo": "GSTI-001 — Fundamentos de Governança e Gestão de TI: governança x gestão, alinhamento estratégico, geração de valor, partes interessadas, riscos, recursos e desempenho — núcleo geral",
   "materiaId": "governanca-servicos-projetos-ti",
-  "cargoIds": [],
-  "editalRefs": [],
+  "cargoIds": [
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
+  ],
+  "editalRefs": [
+    "MATRIZ_EDITAIS:TI-GOV-001"
+  ],
   "sourceRefs": [
     "ISACA — COBIT, página institucional oficial",
     "ISO — ISO/IEC 38500:2024, página oficial da norma",
@@ -17,14 +22,15 @@ export default {
     "CHECKPOINT — Produção intercalada de matérias",
     "relatório consolidado dos editais, apenas como mapa secundário."
   ],
-  "status": "em_producao",
+  "status": "produzido — mídia concluída",
+  "statusEditorialOriginal": "produzido — mídia concluída",
   "topicoId": "GSTI-001",
-  "tipo": "compartilhado",
+  "tipo": "oficial",
   "demonstracao": false,
   "secoes": [],
   "extensoes": [],
   "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-001.json",
   "materiaEditorial": "Governança, Serviços e Projetos de TI",
   "classificacaoEditorial": "núcleo técnico consolidado de TI",
-  "documentoUrl": "https://docs.google.com/document/d/1sSoVSmC8lGC0jZkzqMfnlwi2szr3i_ndp7-cM1AEPUY/edit?usp=drivesdk"
+  "documentoUrl": "https://docs.google.com/document/d/1sSoVSmC8lGC0jZkzqMfnlwi2szr3i_ndp7-cM1AEPUY"
 } satisfies Aula;

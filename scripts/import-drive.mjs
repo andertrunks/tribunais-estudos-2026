@@ -15,6 +15,7 @@ function blocks(content = []) {
       const p = e.paragraph;
       const runs = (p.elements || []).map(r => {
         if (r.horizontalRule) return {texto:'', separador:true};
+        if (r.inlineObjectElement?.localImage) return {texto:'', imagem:r.inlineObjectElement.localImage};
         if (!r.textRun) throw new Error('Unsupported paragraph element: ' + JSON.stringify(r));
         const s = r.textRun.textStyle || {};
         return {texto:r.textRun.content, ...(s.bold ? {negrito:true}:{}), ...(s.italic ? {italico:true}:{}), ...(s.link?.url ? {url:s.link.url}:{}), ...(s.weightedFontFamily?.fontFamily?.match(/mono|courier|consolas/i) ? {codigo:true}:{})};
@@ -64,7 +65,7 @@ for(const f of inventory) {
   ids.add(id);
   const statusEditorialOriginal=field(text,'status');
   const status=statusEditorialOriginal.match(/^(nao_iniciado|em_producao|revisado|questoes_adicionadas|concluido)\b/)?.[1] || statusEditorialOriginal;
-  if(!['nao_iniciado','em_producao','revisado','questoes_adicionadas','concluido'].includes(status))throw new Error('Invalid status '+id+': '+status);
+  if(!['nao_iniciado','em_producao','revisado','questoes_adicionadas','concluido','produzido — mídia concluída'].includes(status))throw new Error('Invalid status '+id+': '+status);
   const materia=field(text,'matéria') || field(text,'materia') || text.match(/^([^|\n]+)\s*\|\s*Refação editorial/m)?.[1]?.trim() || previous.find(a=>a.id===id)?.materiaEditorial || '';  
   const classificacao=field(text,'tipo');
   const cargoIds=refs(field(text,'cargoIds'),'cargoIds');

@@ -1,6 +1,6 @@
 {
   "origem": "01_Materias_Consolidadas",
-  "data": "2026-10-16",
+  "data": "2026-10-17",
   "total": 316,
   "materias": 40,
   "aulas": [
@@ -415,36 +415,6 @@
       "sha256Documento": "587ed07bb43713d1d47d2c9a5c7650b2cc73900ce96a4bb7834b689c5e2736ff"
     },
     {
-      "id": "GSTI-001",
-      "titulo": "GSTI-001 — Fundamentos de Governança e Gestão de TI: governança x gestão, alinhamento estratégico, geração de valor, partes interessadas, riscos, recursos e desempenho — núcleo geral",
-      "materiaId": "governanca-servicos-projetos-ti",
-      "cargoIds": [],
-      "editalRefs": [],
-      "sourceRefs": [
-        "ISACA — COBIT, página institucional oficial",
-        "ISO — ISO/IEC 38500:2024, página oficial da norma",
-        "Governo Digital/SISP — Plano Diretor de TIC/PDTIC",
-        "PeopleCert — ITIL, páginas institucionais oficiais",
-        "PMI — Project Management e PMBOK Guide, páginas institucionais",
-        "MATRIZ_INICIAL_MATERIAS.md",
-        "CHECKPOINT — Produção intercalada de matérias",
-        "relatório consolidado dos editais, apenas como mapa secundário."
-      ],
-      "status": "em_producao",
-      "topicoId": "GSTI-001",
-      "tipo": "compartilhado",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-001.json",
-      "materiaEditorial": "Governança, Serviços e Projetos de TI",
-      "classificacaoEditorial": "núcleo técnico consolidado de TI",
-      "documentoUrl": "https://docs.google.com/document/d/1sSoVSmC8lGC0jZkzqMfnlwi2szr3i_ndp7-cM1AEPUY/edit?usp=drivesdk",
-      "caracteres": 28471,
-      "sha256Texto": "dca0dc925f2c763e44b8b544c9cbee0b4b3abd22fa64b1397b7a197e6ea9e136",
-      "sha256Documento": "8fe00a54e85cb121da8fb53f4e2208d625678af7584de5b399c6059214067c94"
-    },
-    {
       "id": "PTRAB-004",
       "titulo": "PTRAB-004 — Audiência trabalhista: comparecimento das partes, conciliação, defesa, instrução, arquivamento, revelia e confissão — fundamentos",
       "materiaId": "processo-trabalho",
@@ -856,37 +826,6 @@
       "caracteres": 33078,
       "sha256Texto": "d8224894188226b91d234524ae40e0197c4d995883c7503df0cff52c4a2dd10a",
       "sha256Documento": "13a73be3de74715462df976cc7f59953f878b3858ff00fea3b4e2d81339aec38"
-    },
-    {
-      "id": "RED-001",
-      "titulo": "RED-001 — Fundamentos de Redes de Computadores: comunicação, tipos de rede, modelos OSI e TCP/IP, encapsulamento e dispositivos — núcleo geral",
-      "materiaId": "redes",
-      "cargoIds": [],
-      "editalRefs": [],
-      "sourceRefs": [
-        "ISO/IEC 7498-1:1994 — Open Systems Interconnection — Basic Reference Model",
-        "IETF RFC 1122 — Requirements for Internet Hosts — Communication Layers",
-        "IETF RFC 1123 — Requirements for Internet Hosts — Application and Support",
-        "IETF RFC 1812 — Requirements for IP Version 4 Routers",
-        "IEEE 802-2024 — Overview and Architecture",
-        "NIST SP 800-41 Rev. 1 — Guidelines on Firewalls and Firewall Policy",
-        "MATRIZ_INICIAL_MATERIAS.md",
-        "CHECKPOINT — Produção intercalada de matérias",
-        "relatório consolidado dos editais, somente como mapa secundário."
-      ],
-      "status": "em_producao",
-      "topicoId": "RED-001",
-      "tipo": "compartilhado",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "redes/RED-001.json",
-      "materiaEditorial": "Redes",
-      "classificacaoEditorial": "núcleo técnico consolidado de TI",
-      "documentoUrl": "https://docs.google.com/document/d/1QbwltMKnr5snP4yj2K1JL2mlXkeH6vw4Y5qhDONyEEs/edit?usp=drivesdk",
-      "caracteres": 30436,
-      "sha256Texto": "d65d23590f4500041457be1c50b390900b56df3ea09b19e8ae05463ee1419cc0",
-      "sha256Documento": "4f0c38ad3e0ce8d4574839571e990f96bf09e4129597f9bb19292cb31e5368f2"
     },
     {
       "id": "SVC-004",
@@ -1592,33 +1531,6 @@
       "caracteres": 30569,
       "sha256Texto": "e3a2699229f9bab4a5b09fcbf437317e73f643a49b1d72c6d99ce906c41c9e4b",
       "sha256Documento": "f03d7e8c96a07040c68928e567e43ebe403a105fea8b96f1fce2bc5e7e650219"
-    },
-    {
-      "id": "SI-001",
-      "titulo": "SI-001 — Fundamentos de Segurança da Informação: confidencialidade, integridade, disponibilidade, autenticidade, não repúdio, ameaça, vulnerabilidade, risco e controles",
-      "materiaId": "seguranca",
-      "cargoIds": [],
-      "editalRefs": [],
-      "sourceRefs": [
-        "NIST CSRC Glossary — Information Security, Confidentiality, Integrity, Availability, Authenticity, Authentication, Non-repudiation, Asset, Threat, Vulnerability, Event, Incident, Impact, Risk e Security Control",
-        "NIST Cybersecurity Framework (CSF) 2.0",
-        "NIST SP 800-39 — Managing Information Security Risk",
-        "CHECKPOINT — Produção intercalada de matérias",
-        "MATRIZ_INICIAL_MATERIAS.md."
-      ],
-      "status": "em_producao",
-      "topicoId": "SI-001",
-      "tipo": "compartilhado",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "seguranca-informacao-cibernetica/SI-001.json",
-      "materiaEditorial": "Segurança da Informação e Cibernética",
-      "classificacaoEditorial": "núcleo técnico consolidado de TI",
-      "documentoUrl": "https://docs.google.com/document/d/1Ye84c36liZ7TOOiwkIuprBOy7IaDMmlspKLAJqDv3ec/edit?usp=drivesdk",
-      "caracteres": 32438,
-      "sha256Texto": "0b0fc327085e6c32d318e0a37a8cc8124e32de895ec4196c075fb9ee7ea80a4b",
-      "sha256Documento": "7a084ad1ad4ca2bc81cbf7316abff2197b426ef50bca1f529c35ed266d40158b"
     },
     {
       "id": "AGP-004",
@@ -3965,36 +3877,6 @@
       "caracteres": 29320,
       "sha256Texto": "73707817c0cd669bc9caf694ea85c2f2c3bd903d744bf5ec00bc42425bd1a9e7",
       "sha256Documento": "c3de33ecf7b6b1e650d87dcc9c134789e93955084befba50a19106201c09f36f"
-    },
-    {
-      "id": "LP-001",
-      "titulo": "LP-001 — Compreensão e interpretação de textos",
-      "materiaId": "portugues",
-      "cargoIds": [
-        "tj-sp-escrevente",
-        "trf3-analista-administrativa",
-        "trf3-tecnico-administrativa"
-      ],
-      "editalRefs": [
-        "TJ-SP/Língua Portuguesa/itens 1–7",
-        "TRF3/Língua Portuguesa/compreensão e interpretação de textos de gêneros variados e relação do texto com seu contexto histórico"
-      ],
-      "sourceRefs": [
-        "Editais-base-fornecidos-pelo-usuario.txt"
-      ],
-      "status": "em_producao",
-      "topicoId": "LP-001",
-      "tipo": "oficial",
-      "demonstracao": false,
-      "secoes": [],
-      "extensoes": [],
-      "documentoArquivo": "lingua-portuguesa/LP-001.json",
-      "materiaEditorial": "Língua Portuguesa",
-      "classificacaoEditorial": "",
-      "documentoUrl": "https://docs.google.com/document/d/1hR1Zh5G1BPDwk0HycguP3ENYdp6mlrSA4VCzIhzbkrc/edit?usp=drivesdk",
-      "caracteres": 20700,
-      "sha256Texto": "0c4d1d75f751e992f8b5c4e71a3784d68e49f6acbf4a80a2817afbe524407eac",
-      "sha256Documento": "b7131f2f1b07840c891d8c6642fb0d99c004de1aa09eed5016207bc10a2c8a55"
     },
     {
       "id": "MB-005",
@@ -11745,6 +11627,145 @@
       "caracteres": 33294,
       "sha256Texto": "ced258a85f9f37c32eb7313dd7abe306f93a6d012936f26c5c955443fe5ca6ce",
       "sha256Documento": "9abd7b7775a9bb651a895d57bb3106515a3639190248d247da7fcda4c931a2e1"
+    },
+    {
+      "id": "GSTI-001",
+      "titulo": "GSTI-001 — Fundamentos de Governança e Gestão de TI: governança x gestão, alinhamento estratégico, geração de valor, partes interessadas, riscos, recursos e desempenho — núcleo geral",
+      "materiaId": "governanca-servicos-projetos-ti",
+      "cargoIds": [
+        "CRBIO01-2026-ATI",
+        "SETEC-2026-ATI"
+      ],
+      "editalRefs": [
+        "MATRIZ_EDITAIS:TI-GOV-001"
+      ],
+      "sourceRefs": [
+        "ISACA — COBIT, página institucional oficial",
+        "ISO — ISO/IEC 38500:2024, página oficial da norma",
+        "Governo Digital/SISP — Plano Diretor de TIC/PDTIC",
+        "PeopleCert — ITIL, páginas institucionais oficiais",
+        "PMI — Project Management e PMBOK Guide, páginas institucionais",
+        "MATRIZ_INICIAL_MATERIAS.md",
+        "CHECKPOINT — Produção intercalada de matérias",
+        "relatório consolidado dos editais, apenas como mapa secundário."
+      ],
+      "status": "produzido — mídia concluída",
+      "statusEditorialOriginal": "produzido — mídia concluída",
+      "topicoId": "GSTI-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "governanca-servicos-projetos-ti/GSTI-001.json",
+      "materiaEditorial": "Governança, Serviços e Projetos de TI",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI",
+      "documentoUrl": "https://docs.google.com/document/d/1sSoVSmC8lGC0jZkzqMfnlwi2szr3i_ndp7-cM1AEPUY",
+      "caracteres": 47323,
+      "sha256Texto": "ce96a612e60b0a3cf1f3882f4784b4fe559185e6dd593c42d7652861d5bb2e13",
+      "sha256Documento": "342112574581d0b229bea7bcc1d848c41446d8244ab835b968939930ce885312"
+    },
+    {
+      "id": "SI-001",
+      "titulo": "SI-001 — Fundamentos de Segurança da Informação: confidencialidade, integridade, disponibilidade, autenticidade, não repúdio, ameaça, vulnerabilidade, risco e controles",
+      "materiaId": "seguranca",
+      "cargoIds": [
+        "CRBIO01-2026-ATI",
+        "SETEC-2026-ATI"
+      ],
+      "editalRefs": [
+        "MATRIZ_EDITAIS:TI-SEG-001"
+      ],
+      "sourceRefs": [
+        "NIST CSRC Glossary — Information Security, Confidentiality, Integrity, Availability, Authenticity, Authentication, Non-repudiation, Asset, Threat, Vulnerability, Event, Incident, Impact, Risk e Security Control",
+        "NIST Cybersecurity Framework (CSF) 2.0",
+        "NIST SP 800-39 — Managing Information Security Risk",
+        "CHECKPOINT — Produção intercalada de matérias",
+        "MATRIZ_INICIAL_MATERIAS.md."
+      ],
+      "status": "produzido — mídia concluída",
+      "statusEditorialOriginal": "produzido — mídia concluída",
+      "topicoId": "SI-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "seguranca-informacao-cibernetica/SI-001.json",
+      "materiaEditorial": "Segurança da Informação e Cibernética",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI",
+      "documentoUrl": "https://docs.google.com/document/d/1Ye84c36liZ7TOOiwkIuprBOy7IaDMmlspKLAJqDv3ec",
+      "caracteres": 57656,
+      "sha256Texto": "b0c3ad3b364b800e5a5033ce805add787e6bc96ae063386584aa619864944f2c",
+      "sha256Documento": "a2f5a9c4e8baa3d95ca3caaee52dd590f4915d4d03cc1415da8e35e15d78e10a"
+    },
+    {
+      "id": "LP-001",
+      "titulo": "LP-001 — Compreensão e interpretação de textos",
+      "materiaId": "portugues",
+      "cargoIds": [
+        "tjsp_escrevente",
+        "trf3_aj_adm",
+        "trf3_tj_ti",
+        "trf3_aj_ti"
+      ],
+      "editalRefs": [
+        "TRF3 — VUNESP — Edital nº 01/2023 — Analista Judiciário Área Administrativa — Anexo II, Conhecimentos Gerais, Língua Portuguesa, item 1",
+        "TRF3 — VUNESP — Edital nº 01/2023 — Técnico Judiciário Apoio Especializado Informática — Anexo II, Conhecimentos Gerais, Língua Portuguesa, item 1",
+        "TRF3 — VUNESP — Edital nº 01/2023 — Analista Judiciário Apoio Especializado Informática — Anexo II, Conhecimentos Gerais, Língua Portuguesa, item 1",
+        "TJ-SP — associação histórica do arquivo-base, validar item/referência da versão oficial antes de declarar homologação do cargo"
+      ],
+      "sourceRefs": [
+        "SRC-TRF3-2023 — Fundação VUNESP, Edital de Abertura nº 01/2023, Anexo II, item 1 de Português das seções Técnico Apoio Especializado p.49 impressa e Analistas p.58 impressa, https://documento.vunesp.com.br/documento/stream/NDQwMDU0OA%3D%3D",
+        "Editais-base-fornecidos-pelo-usuario.txt — histórico, fonte secundária para TJ-SP",
+        "LP-002 — extensão pedagógica do mesmo item"
+      ],
+      "status": "em_producao",
+      "statusEditorialOriginal": "em_producao",
+      "topicoId": "LP-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "lingua-portuguesa/LP-001.json",
+      "materiaEditorial": "Língua Portuguesa",
+      "classificacaoEditorial": "",
+      "documentoUrl": "https://docs.google.com/document/d/1hR1Zh5G1BPDwk0HycguP3ENYdp6mlrSA4VCzIhzbkrc",
+      "caracteres": 42643,
+      "sha256Texto": "04ca4c25bd890e5f797e517939e1acdaffe83a88996904e00b6014f69c8106ee",
+      "sha256Documento": "3523a1f9b5a544e6d67c30b66b7bc9ad17d2d4ff536d6363d04df4faaebdd234"
+    },
+    {
+      "id": "RED-001",
+      "titulo": "RED-001 — Fundamentos de Redes de Computadores: comunicação, tipos de rede, modelos OSI e TCP/IP, encapsulamento e dispositivos — núcleo geral",
+      "materiaId": "redes",
+      "cargoIds": [
+        "CRBIO01-2026-ATI",
+        "SETEC-2026-ATI"
+      ],
+      "editalRefs": [
+        "MATRIZ_EDITAIS:TI-RED-001"
+      ],
+      "sourceRefs": [
+        "SRC-ISO-OSI-RED-001",
+        "SRC-IETF-RFC1122-RED-001",
+        "SRC-IETF-RFC1123-RED-001",
+        "SRC-IETF-RFC1812-RED-001",
+        "SRC-IEEE802-RED-001",
+        "SRC-NIST-FW-RED-001."
+      ],
+      "status": "produzido — mídia concluída",
+      "statusEditorialOriginal": "produzido — mídia concluída",
+      "topicoId": "RED-001",
+      "tipo": "oficial",
+      "demonstracao": false,
+      "secoes": [],
+      "extensoes": [],
+      "documentoArquivo": "redes/RED-001.json",
+      "materiaEditorial": "Redes",
+      "classificacaoEditorial": "núcleo técnico consolidado de TI",
+      "documentoUrl": "https://docs.google.com/document/d/1QbwltMKnr5snP4yj2K1JL2mlXkeH6vw4Y5qhDONyEEs",
+      "caracteres": 64026,
+      "sha256Texto": "bc89b32764faf5247c172fcfa2f9ed1da9d5c8ef532010bd6d929297f74a49b7",
+      "sha256Documento": "e7f9b0864ee971454d49bcb1cd016d361ca76e74f8c79c556cbd7cf9c4ade2f0"
     }
   ]
 }

@@ -5,8 +5,13 @@ export default {
   "id": "SI-001",
   "titulo": "SI-001 — Fundamentos de Segurança da Informação: confidencialidade, integridade, disponibilidade, autenticidade, não repúdio, ameaça, vulnerabilidade, risco e controles",
   "materiaId": "seguranca",
-  "cargoIds": [],
-  "editalRefs": [],
+  "cargoIds": [
+    "CRBIO01-2026-ATI",
+    "SETEC-2026-ATI"
+  ],
+  "editalRefs": [
+    "MATRIZ_EDITAIS:TI-SEG-001"
+  ],
   "sourceRefs": [
     "NIST CSRC Glossary — Information Security, Confidentiality, Integrity, Availability, Authenticity, Authentication, Non-repudiation, Asset, Threat, Vulnerability, Event, Incident, Impact, Risk e Security Control",
     "NIST Cybersecurity Framework (CSF) 2.0",
@@ -14,14 +19,15 @@ export default {
     "CHECKPOINT — Produção intercalada de matérias",
     "MATRIZ_INICIAL_MATERIAS.md."
   ],
-  "status": "em_producao",
+  "status": "produzido — mídia concluída",
+  "statusEditorialOriginal": "produzido — mídia concluída",
   "topicoId": "SI-001",
-  "tipo": "compartilhado",
+  "tipo": "oficial",
   "demonstracao": false,
   "secoes": [],
   "extensoes": [],
   "documentoArquivo": "seguranca-informacao-cibernetica/SI-001.json",
   "materiaEditorial": "Segurança da Informação e Cibernética",
   "classificacaoEditorial": "núcleo técnico consolidado de TI",
-  "documentoUrl": "https://docs.google.com/document/d/1Ye84c36liZ7TOOiwkIuprBOy7IaDMmlspKLAJqDv3ec/edit?usp=drivesdk"
+  "documentoUrl": "https://docs.google.com/document/d/1Ye84c36liZ7TOOiwkIuprBOy7IaDMmlspKLAJqDv3ec"
 } satisfies Aula;

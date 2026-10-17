@@ -1,5 +1,11 @@
 # Tribunais Estudos 2026 — checkpoint operacional
 
+## Reconciliação 17/10/2026 — lote recuperado
+
+Base: 0d63dd70ebc9c369c137c112ccc012f70430f98d. Os 29 IDs novos do rascunho de 25/09 já estão na main; não foram duplicados. Quatro corpos integrais estavam mais completos na fonte atual: GSTI-001, SI-001, RED-001 e LP-001. Recuperados novamente dos Google Docs nativos, incluindo três imagens embutidas. Preservados IDs, arquitetura, progresso e status editorial (LP-001 permanece em produção; as outras três, produzido — mídia concluída).
+
+TypeScript, lint, 19 testes e build/PWA aprovados. Navegador local Edge conferiu 2.164 parágrafos não vazios dos quatro documentos, três imagens, desktop e 390 px, sem erro de execução ou asset. Inventário mantém 316 IDs únicos. Commit/push/deploy e verificação pública devem ser conferidos no recibo da execução; esta entrada registra o estado pré-envio. Rascunhos antigos e stash de outros projetos preservados.
+
 ## Publicação editorial 2026-10-16
 Base main 2335113be25936c56ed90447c11dcbcd4341f446; publicação anterior comprovada no controle ESTADO_ATUAL!271. Checkpoint canônico E71 PASS, PW-017 revisado e homologado. Importação integral: 33.294 caracteres, 30 flashcards, 20 questões autorais e 10 treinos; IDs/cargos/fontes e progresso preservados. Catálogo 316 canônicas. Arquivos PW-017.ts/JSON, inventário e este checkpoint. TypeScript/lint/18 testes aprovados; build em validação. Push/deploy ainda pendentes. Próxima ação exata: conferir build final, igualdade de árvores Git, enviar lote PW-017 e verificar Actions e hashes HTTP do index e asset PW-017; registrar recibo final no controle. E72 JSF é próximo editorial, não criar nesta rotina. ES-003 segue pendente de reimportação preservando versão Word.
 

@@ -25,3 +25,14 @@ test('different source versions of ES-003 remain within a single lesson', () => 
   assert.equal(body.versoes.length,1);
   assert.ok(text(body.versoes[0].blocos).length>30000);
 });
+
+test('canonical illustrations resolve to local files without losing surrounding text', () => {
+  for (const id of ['GSTI-001', 'SI-001', 'LP-001']) {
+    const a = inventory.aulas.find(a => a.id === id);
+    const body = JSON.parse(fs.readFileSync('src/content/aulas/' + a.documentoArquivo, 'utf8'));
+    const images = body.blocos.flatMap(b => b.tipo === 'paragrafo' ? b.runs.filter(r => r.imagem) : []);
+    assert.equal(images.length, 1, id);
+    assert.match(images[0].imagem, /^content-images\/[A-Z0-9-]+\.png$/);
+    assert.ok(fs.statSync('public/' + images[0].imagem).size > 1000);
+  }
+});

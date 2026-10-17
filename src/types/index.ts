@@ -3,13 +3,15 @@ export type Status =
   | "em_producao"
   | "revisado"
   | "questoes_adicionadas"
-  | "concluido";
+  | "concluido"
+  | "produzido — mídia concluída";
 export const statusLabels: Record<Status, string> = {
   nao_iniciado: "Não iniciado",
   em_producao: "Em produção",
   revisado: "Revisado",
   questoes_adicionadas: "Questões adicionadas",
   concluido: "Concluído",
+  "produzido — mídia concluída": "Produzido — mídia concluída",
 };
 export type Vinculo =
   | "oficial"
@@ -56,7 +58,7 @@ export interface Aula extends Conteudo {
 }
 export type BlocoDocumento = {
   tipo: "paragrafo";
-  runs: { texto: string; separador?: boolean; negrito?: boolean; italico?: boolean; codigo?: boolean; url?: string }[];
+  runs: { texto: string; imagem?: string; separador?: boolean; negrito?: boolean; italico?: boolean; codigo?: boolean; url?: string }[];
   estilo: string;
   lista?: number;
 } | {
