@@ -116,6 +116,7 @@ export interface CadernoErro {
   revisar: boolean;
 }
 export interface Progresso {
+  guided?: import("../services/guided").GuidedState;
   aulas: string[];
   respostas: Record<string, number>;
   erros: CadernoErro[];

@@ -8,7 +8,8 @@ function load(path, replacements = {}) {
   return 'data:text/javascript;base64,' + Buffer.from(js).toString('base64');
 }
 const storageUrl = load('src/services/storage.ts');
-const { mergeProgress, pullProgress, pushProgress } = await import(load('src/services/cloudSync.ts', { './storage': storageUrl }));
+const guidedUrl = load('src/services/guided.ts');
+const { mergeProgress, pullProgress, pushProgress } = await import(load('src/services/cloudSync.ts', { './storage': storageUrl, './guided': guidedUrl }));
 const { ler, salvar, progressKey } = await import(storageUrl);
 const empty = () => ({ aulas: [], respostas: {}, erros: [], revisoes: [] });
 const error = { id:'q', materiaId:'pt', topicoId:'t', questaoId:'q', erro:'a', correta:'b', explicacao:'x', observacao:'', revisar:true };

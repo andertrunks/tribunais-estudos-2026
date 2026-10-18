@@ -19,6 +19,7 @@ import {
   LogIn,
   UserRound,
 } from "lucide-react";
+import { GuidedStudy } from "./pages/GuidedStudy";
 import { aulas } from "./data/aulas";
 import { useProgresso } from "./hooks/useProgresso";
 import { Empty } from "./components/ui";
@@ -40,6 +41,7 @@ import {
 } from "./pages";
 const nav = [
   ["", "Início", House],
+  ["estudar", "Continuar estudando", BookOpen],
   ["materias", "Matérias", Library],
   ["cargos", "Cargos e Editais", BriefcaseBusiness],
   ["progresso", "Meu Progresso", ChartNoAxesCombined],
@@ -245,6 +247,8 @@ export default function App() {
           )}
           {page === "" ? (
             <Home s={store} />
+          ) : page === "estudar" ? (
+            <GuidedStudy s={store} />
           ) : page === "materias" ? (
             id ? (
               <Subject id={id} s={store} />

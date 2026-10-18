@@ -1,0 +1,466 @@
+[
+  {
+    "id": "LP-001-AUT-001",
+    "aulaId": "LP-001",
+    "enunciado": "Texto: “A empresa ampliou o horário de atendimento em duas unidades, mas manteve inalterado o funcionamento das demais.”\nÉ correto concluir que:",
+    "alternativas": [
+      "todas as unidades passaram a funcionar por mais tempo.",
+      "nenhuma unidade sofreu alteração.",
+      "apenas parte das unidades teve o horário ampliado.",
+      "as demais unidades serão fechadas.",
+      "o atendimento foi reduzido."
+    ],
+    "correta": 2,
+    "explicacao": "O texto afirma que duas unidades tiveram ampliação e que as demais permaneceram iguais. Logo, somente parte das unidades mudou.",
+    "fonte": "Aula canônica LP-001 · Questão 1",
+    "tipo": "inedita"
+  },
+  {
+    "id": "LP-001-AUT-002",
+    "aulaId": "LP-001",
+    "enunciado": "Texto: “Embora o relatório reconheça avanços, destaca que os resultados ainda estão abaixo da meta estabelecida.”\nA ideia central é:",
+    "alternativas": [
+      "o relatório nega qualquer avanço.",
+      "os resultados superaram a meta.",
+      "houve avanços, mas eles ainda são insuficientes para alcançar a meta.",
+      "a meta foi cancelada.",
+      "não há comparação entre resultado e meta."
+    ],
+    "correta": 2,
+    "explicacao": "O conectivo “embora” estabelece contraste: existem avanços, mas ainda não bastam para atingir a meta.",
+    "fonte": "Aula canônica LP-001 · Questão 2",
+    "tipo": "inedita"
+  },
+  {
+    "id": "LP-001-AUT-003",
+    "aulaId": "LP-001",
+    "enunciado": "Texto: “Depois de três adiamentos, o órgão finalmente publicou o cronograma.”\nO emprego de “finalmente” indica:",
+    "alternativas": [
+      "neutralidade absoluta em relação ao tempo.",
+      "ideia de que a publicação ocorreu após demora.",
+      "certeza de que não houve adiamento.",
+      "dúvida sobre a existência do cronograma.",
+      "indicação de lugar."
+    ],
+    "correta": 1,
+    "explicacao": "“Finalmente” sugere conclusão de algo esperado após demora, reforçada pela expressão “depois de três adiamentos”.",
+    "fonte": "Aula canônica LP-001 · Questão 3",
+    "tipo": "inedita"
+  },
+  {
+    "id": "LP-001-AUT-004",
+    "aulaId": "LP-001",
+    "enunciado": "Texto: “O acesso ao prédio será permitido mediante apresentação de documento oficial com foto.”\nA alternativa que extrapola o texto é:",
+    "alternativas": [
+      "exige-se documento oficial com foto para o acesso.",
+      "há uma condição para entrada no prédio.",
+      "qualquer pessoa sem documento será autorizada mediante identificação verbal.",
+      "a apresentação do documento está vinculada à permissão de acesso.",
+      "o enunciado estabelece uma regra de entrada."
+    ],
+    "correta": 2,
+    "explicacao": "A identificação verbal não foi mencionada. A alternativa inventa uma exceção e, portanto, extrapola.",
+    "fonte": "Aula canônica LP-001 · Questão 4",
+    "tipo": "inedita"
+  },
+  {
+    "id": "LP-001-AUT-005",
+    "aulaId": "LP-001",
+    "enunciado": "Texto: “A adoção de sistemas digitais pode reduzir etapas burocráticas, desde que os procedimentos sejam redesenhados e os usuários recebam orientação adequada.”\nÉ correto afirmar que o texto:",
+    "alternativas": [
+      "garante redução da burocracia em qualquer situação.",
+      "apresenta a digitalização como suficiente por si só.",
+      "condiciona o possível ganho de eficiência a outras medidas.",
+      "rejeita o uso de sistemas digitais.",
+      "afirma que orientação aos usuários é desnecessária."
+    ],
+    "correta": 2,
+    "explicacao": "O verbo “pode” expressa possibilidade, e “desde que” introduz condições. O texto não garante resultado automático.",
+    "fonte": "Aula canônica LP-001 · Questão 5",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-01",
+    "aulaId": "MC-001",
+    "enunciado": "O valor de -15 + 8 é:",
+    "alternativas": [
+      "-23",
+      "-7",
+      "7",
+      "23",
+      "0"
+    ],
+    "correta": 1,
+    "explicacao": "-15 + 8 possui sinais diferentes. Subtraímos 15 - 8 = 7 e mantemos o sinal do maior módulo, que é negativo. Resultado: -7.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-01",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-02",
+    "aulaId": "MC-001",
+    "enunciado": "O resultado de 12 - (-5) é:",
+    "alternativas": [
+      "7",
+      "-7",
+      "17",
+      "-17",
+      "60"
+    ],
+    "correta": 2,
+    "explicacao": "Subtrair -5 equivale a somar +5: 12 + 5 = 17.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-02",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-03",
+    "aulaId": "MC-001",
+    "enunciado": "O resultado de (-6)×(-4)÷8 é:",
+    "alternativas": [
+      "-3",
+      "3",
+      "-12",
+      "12",
+      "24"
+    ],
+    "correta": 1,
+    "explicacao": "(-6)×(-4) = 24. Depois, 24÷8 = 3.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-03",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-04",
+    "aulaId": "MC-001",
+    "enunciado": "Assinale a afirmação correta:",
+    "alternativas": [
+      "5÷0 = 0.",
+      "0÷5 não é definido.",
+      "0÷5 = 0.",
+      "5÷0 = 5.",
+      "0÷0 = 1 em qualquer contexto."
+    ],
+    "correta": 2,
+    "explicacao": "Zero dividido por um número não nulo é zero. Já divisão por zero não é definida.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-04",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-05",
+    "aulaId": "MC-001",
+    "enunciado": "O valor de 3/4 + 1/6 é:",
+    "alternativas": [
+      "4/10",
+      "5/10",
+      "7/12",
+      "11/12",
+      "4/6"
+    ],
+    "correta": 3,
+    "explicacao": "MMC operacional entre 4 e 6 pode ser 12. 3/4 = 9/12 e 1/6 = 2/12. Soma: 11/12.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-05",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-06",
+    "aulaId": "MC-001",
+    "enunciado": "O resultado de 2/3 ÷ 4/5 é:",
+    "alternativas": [
+      "8/15",
+      "5/6",
+      "6/20",
+      "12/10",
+      "3/10"
+    ],
+    "correta": 1,
+    "explicacao": "2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = 5/6.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-06",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-07",
+    "aulaId": "MC-001",
+    "enunciado": "O valor de 3,75 + 0,8 - 1,25 é:",
+    "alternativas": [
+      "2,30",
+      "3,30",
+      "3,55",
+      "4,30",
+      "5,80"
+    ],
+    "correta": 1,
+    "explicacao": "3,75 + 0,80 = 4,55. Depois, 4,55 - 1,25 = 3,30.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-07",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-08",
+    "aulaId": "MC-001",
+    "enunciado": "O valor de (-2)³ + 10 é:",
+    "alternativas": [
+      "-18",
+      "-2",
+      "2",
+      "8",
+      "18"
+    ],
+    "correta": 2,
+    "explicacao": "(-2)³ = -8. Então -8 + 10 = 2.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-08",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-09",
+    "aulaId": "MC-001",
+    "enunciado": "O valor de 20 - 2×(3² - 4) é:",
+    "alternativas": [
+      "5",
+      "10",
+      "12",
+      "14",
+      "18"
+    ],
+    "correta": 1,
+    "explicacao": "3² = 9. Dentro dos parênteses: 9 - 4 = 5. Multiplicação: 2×5 = 10. Finalmente: 20 - 10 = 10.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-09",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-10",
+    "aulaId": "MC-001",
+    "enunciado": "Uma conta tinha saldo de R$ 250,00. Foram debitados R$ 380,00 e depois creditados R$ 175,00. O saldo final é:",
+    "alternativas": [
+      "-R$ 305,00",
+      "-R$ 45,00",
+      "R$ 45,00",
+      "R$ 55,00",
+      "R$ 805,00"
+    ],
+    "correta": 2,
+    "explicacao": "250 - 380 = -130. Depois -130 + 175 = 45. Saldo final: R$ 45,00.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-10",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-11",
+    "aulaId": "MC-001",
+    "enunciado": "Qual número é maior?",
+    "alternativas": [
+      "-12",
+      "-9",
+      "-15",
+      "-20",
+      "-30"
+    ],
+    "correta": 1,
+    "explicacao": "Entre números negativos, o que está mais próximo de zero é maior. -9 > -12 > -15 > -20 > -30.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-11",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-MC-001-12",
+    "aulaId": "MC-001",
+    "enunciado": "A expressão 24÷6×2+3² possui valor igual a:",
+    "alternativas": [
+      "4",
+      "8",
+      "13",
+      "17",
+      "25"
+    ],
+    "correta": 3,
+    "explicacao": "24÷6×2 deve ser resolvido da esquerda para a direita: 24÷6 = 4 e 4×2 = 8. Depois 3² = 9. Soma: 8 + 9 = 17.",
+    "fonte": "Aula canônica MC-001 · Q-MC-001-12",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-01",
+    "aulaId": "RLM-001",
+    "enunciado": "Três pessoas — Ana, Bruno e Carla — ocupam as posições 1, 2 e 3. Ana está antes de Bruno e Carla ocupa a posição 1. Qual afirmação deve ser verdadeira?",
+    "alternativas": [
+      "Ana ocupa a posição 1.",
+      "Bruno ocupa a posição 2.",
+      "Ana ocupa a posição 2.",
+      "Carla ocupa a posição 3.",
+      "Bruno está antes de Ana."
+    ],
+    "correta": 2,
+    "explicacao": "Carla ocupa a primeira posição. Restam 2 e 3 para Ana e Bruno. Como Ana está antes de Bruno, Ana=2 e Bruno=3.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-01",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-02",
+    "aulaId": "RLM-001",
+    "enunciado": "Em uma fila, Pedro está imediatamente antes de Lucas. Isso significa necessariamente que:",
+    "alternativas": [
+      "Pedro é o primeiro.",
+      "Lucas é o último.",
+      "não existe pessoa entre Pedro e Lucas.",
+      "Pedro e Lucas ocupam as duas primeiras posições.",
+      "Lucas está antes de Pedro."
+    ],
+    "correta": 2,
+    "explicacao": "“Imediatamente antes” significa que Pedro vem antes de Lucas sem ninguém entre os dois. Não informa que o par esteja no início ou no fim da fila.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-02",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-03",
+    "aulaId": "RLM-001",
+    "enunciado": "Ana, Bruno e Carla trabalham, cada um, em um setor diferente: Arquivo, Protocolo e Atendimento. Carla está no Arquivo. Ana não está no Protocolo. Logo:",
+    "alternativas": [
+      "Ana está no Arquivo.",
+      "Bruno está no Arquivo.",
+      "Ana está no Atendimento.",
+      "Bruno está no Atendimento.",
+      "não é possível determinar nenhuma associação."
+    ],
+    "correta": 2,
+    "explicacao": "Carla ocupa Arquivo. Sobram Protocolo e Atendimento. Como Ana não está no Protocolo, Ana está no Atendimento e Bruno no Protocolo.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-03",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-04",
+    "aulaId": "RLM-001",
+    "enunciado": "Quatro pessoas A, B, C e D estão em uma fila. B é o último e A está antes de B. Qual alternativa pode ser verdadeira?",
+    "alternativas": [
+      "B é o primeiro.",
+      "A está depois de B.",
+      "A é o último.",
+      "C é o primeiro.",
+      "ninguém está antes de A."
+    ],
+    "correta": 3,
+    "explicacao": "B é o último. A precisa estar antes dele, mas não há posição fixa para A. C pode ocupar a primeira posição em uma configuração válida.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-04",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-05",
+    "aulaId": "RLM-001",
+    "enunciado": "Se uma tarefa deve ocorrer em exatamente um dos horários 8h, 9h ou 10h, e ela não pode ocorrer às 8h nem às 10h, então:",
+    "alternativas": [
+      "a tarefa pode ocorrer em qualquer horário.",
+      "a tarefa ocorre às 9h.",
+      "a tarefa ocorre às 8h.",
+      "a tarefa ocorre às 10h.",
+      "as condições são contraditórias."
+    ],
+    "correta": 1,
+    "explicacao": "Como 8h e 10h foram eliminados e exatamente um horário deve ser usado, resta 9h.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-05",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-06",
+    "aulaId": "RLM-001",
+    "enunciado": "Em uma fila de quatro pessoas, A está antes de B e B está antes de C. Qual afirmação deve ser verdadeira?",
+    "alternativas": [
+      "A é o primeiro.",
+      "B é o segundo.",
+      "C é o último.",
+      "A está antes de C.",
+      "D está depois de C."
+    ],
+    "correta": 3,
+    "explicacao": "De A antes de B e B antes de C, segue necessariamente A antes de C. As posições absolutas podem variar por causa de D.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-06",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-07",
+    "aulaId": "RLM-001",
+    "enunciado": "Três apresentações A, B e C ocorrem às 9h, 10h e 11h. A ocorre antes de B. B não ocorre às 10h. C não ocorre às 11h. Qual afirmação deve ser verdadeira?",
+    "alternativas": [
+      "A ocorre às 9h.",
+      "B ocorre às 11h.",
+      "C ocorre às 10h.",
+      "C ocorre às 9h.",
+      "A ocorre às 10h."
+    ],
+    "correta": 1,
+    "explicacao": "B não pode ser 10h. Como A ocorre antes de B, B também não pode ser 9h. Portanto B=11h. A e C podem ocupar 9h e 10h em duas ordens compatíveis com as demais condições.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-07",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-08",
+    "aulaId": "RLM-001",
+    "enunciado": "Cinco pessoas ocupam uma fila. Bruno está em uma das extremidades e Ana está antes de Bruno. É correto concluir que:",
+    "alternativas": [
+      "Bruno é necessariamente o primeiro.",
+      "Bruno é necessariamente o último.",
+      "Ana é necessariamente a primeira.",
+      "Ana está imediatamente antes de Bruno.",
+      "há exatamente uma pessoa entre Ana e Bruno."
+    ],
+    "correta": 1,
+    "explicacao": "Bruno está em uma extremidade. Como Ana precisa estar antes de Bruno, Bruno não pode ser o primeiro. Logo, Bruno é o último.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-08",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-09",
+    "aulaId": "RLM-001",
+    "enunciado": "Quatro servidores A, B, C e D são distribuídos, um por setor, entre Arquivo, Protocolo, Atendimento e Compras. A está no Arquivo. B não está no Protocolo nem no Atendimento. C está no Atendimento. Qual setor deve ser ocupado por B?",
+    "alternativas": [
+      "Arquivo.",
+      "Protocolo.",
+      "Atendimento.",
+      "Compras.",
+      "Não é possível determinar."
+    ],
+    "correta": 3,
+    "explicacao": "A ocupa Arquivo e C ocupa Atendimento. Restam Protocolo e Compras para B e D. Como B não pode Protocolo, B ocupa Compras.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-09",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-10",
+    "aulaId": "RLM-001",
+    "enunciado": "Em uma sequência de quatro posições, C está imediatamente depois de A. B está depois de C. D não está na primeira posição. Qual configuração é válida?",
+    "alternativas": [
+      "D, A, C, B.",
+      "A, B, C, D.",
+      "C, A, D, B.",
+      "A, C, D, B.",
+      "B, A, C, D."
+    ],
+    "correta": 3,
+    "explicacao": "A e C devem aparecer juntos como [A,C]. B vem depois de C e D não pode ser primeiro. A configuração A, C, D, B satisfaz todas as condições.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-10",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-11",
+    "aulaId": "RLM-001",
+    "enunciado": "Considere as condições:\nI. A está antes de B.\nII. C está depois de B.\nIII. D pode ocupar qualquer posição não determinada pelas condições anteriores.\nQual afirmação é necessariamente verdadeira?",
+    "alternativas": [
+      "D é o primeiro.",
+      "B é o segundo.",
+      "A está antes de C.",
+      "C é o último.",
+      "D está depois de B."
+    ],
+    "correta": 2,
+    "explicacao": "As condições I e II produzem A < B < C. Portanto A está necessariamente antes de C. Nada fixa posição absoluta de B, C ou D.",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-11",
+    "tipo": "inedita"
+  },
+  {
+    "id": "Q-RLM-001-12",
+    "aulaId": "RLM-001",
+    "enunciado": "Quatro pessoas — Ana, Bruno, Carla e Diego — ocupam quatro horários distintos. Sabe-se que Ana está antes de Bruno, Carla está imediatamente antes de Diego e Bruno é o último. Qual afirmação é correta?",
+    "alternativas": [
+      "Ana é necessariamente a primeira.",
+      "Carla é necessariamente a primeira.",
+      "Diego é necessariamente o segundo.",
+      "Existem pelo menos duas configurações válidas.",
+      "Não existe configuração válida."
+    ],
+    "correta": 3,
+    "explicacao": "O bloco [Carla, Diego] e a condição Bruno=último permitem, por exemplo, Ana-Carla-Diego-Bruno e Carla-Diego-Ana-Bruno. Portanto há pelo menos duas configurações válidas.\nTreino guiado para o caderno\nResolva sem consultar a teoria:",
+    "fonte": "Aula canônica RLM-001 · Q-RLM-001-12",
+    "tipo": "inedita"
+  }
+]

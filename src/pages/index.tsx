@@ -59,8 +59,8 @@ export function Home({ s }: { s: Store }) {
             <br />
             Matérias conectadas, estudo organizado e cada avanço no seu ritmo.
           </p>
-          <a href="#/aulas/interpretacao" className="button">
-            {done ? "Revisitar a primeira aula" : "Começar a estudar"}{" "}
+          <a href="#/estudar" className="button">
+            Continuar estudando{" "}
             <ArrowRight size={18} />
           </a>
           <a href="#/materias" className="hero-secondary">
@@ -754,6 +754,7 @@ export function Reviews({ s }: { s: Store }) {
       <Heading eyebrow="APRENDER TAMBÉM É RETOMAR" title="Revisões">
         Use “Revisar depois” ao final de uma aula para adicioná-la à sua lista.
       </Heading>
+      <section className="card"><h2>Revisões pela trilha automática</h2><p>Ao concluir uma leitura na trilha, suas revisões de 1, 7 e 21 dias são programadas. Dificuldades nas questões também entram no próximo passo.</p><a className="button" href="#/estudar">Continuar estudando</a></section>
       {["Revisar hoje", "Revisões pendentes", "Revisado recentemente"].map(
         (title, i) => {
           const list =

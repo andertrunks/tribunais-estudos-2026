@@ -2,12 +2,15 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 import type { Progresso } from "../types";
 import { vazio } from "./storage";
 
+import { mergeGuided, validGuided } from "./guided";
+
 export type RemoteRow = { data: Progresso; updated_at: string };
 
 function valid(value: unknown): value is Progresso {
   if (!value || typeof value !== "object") return false;
   const p = value as Partial<Progresso>;
   return (
+    (p.guided === undefined || validGuided(p.guided)) &&
     Array.isArray(p.aulas) && p.aulas.every(id => typeof id === "string") &&
     !!p.respostas &&
     typeof p.respostas === "object" && !Array.isArray(p.respostas) && Object.values(p.respostas).every(n => Number.isInteger(n)) &&
@@ -42,6 +45,7 @@ export function mergeProgress(local: Progresso, remote: Progresso, base?: Progre
     }
   }
   return {
+    ...(local.guided || remote.guided ? {guided: mergeGuided(local.guided, remote.guided)} : {}),
     aulas: base ? Object.keys(records(completed(local), completed(remote), completed(base))) : [...new Set([...remote.aulas, ...local.aulas])],
     respostas: records(local.respostas, remote.respostas, base?.respostas),
     erros: Object.values(erros),
